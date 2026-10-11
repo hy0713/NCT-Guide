@@ -1,0 +1,1911 @@
+{
+  "date": "2026-10-10T03:43:13.368Z",
+  "network": "Loopback/data/blob only",
+  "scenarios": [
+    {
+      "scope": "1976_Carter_Jackson",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 443,
+          "popular_votes": 42291186
+        },
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 95,
+          "popular_votes": 38163041
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 948000
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 941506
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Ford_Dole",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 286,
+          "popular_votes": 40133033
+        },
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 252,
+          "popular_votes": 39722450
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 898327
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 773853
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Ford_Baker",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 394,
+          "popular_votes": 41083261
+        },
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 144,
+          "popular_votes": 39610904
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 889163
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 760400
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Ford_Anderson",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 387,
+          "popular_votes": 41025121
+        },
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 151,
+          "popular_votes": 39351184
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 904500
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 779517
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Ford_Connally",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 278,
+          "popular_votes": 39729290
+        },
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 260,
+          "popular_votes": 40125193
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 899029
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 774155
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Nixon_Agnew",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 458,
+          "popular_votes": 34875476
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 9920951
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 35,
+          "popular_votes": 28629426
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Nixon_Reagan",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 458,
+          "popular_votes": 35330608
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 9881553
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 35,
+          "popular_votes": 28251324
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Nixon_Rockefeller",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 458,
+          "popular_votes": 34601206
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 9844140
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 35,
+          "popular_votes": 28159307
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Nixon_Romney",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 439,
+          "popular_votes": 34553843
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 54,
+          "popular_votes": 28897413
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 9898670
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Humphrey_Muskie",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 459,
+          "popular_votes": 35560329
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 40,
+          "popular_votes": 28231487
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 39,
+          "popular_votes": 8863426
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Humphrey_Kennedy",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 348,
+          "popular_votes": 35074507
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 145,
+          "popular_votes": 28963899
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 8969025
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Humphrey_Connally",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 433,
+          "popular_votes": 35383818
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 66,
+          "popular_votes": 28316959
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 39,
+          "popular_votes": 8954469
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Humphrey_Harris",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 351,
+          "popular_votes": 35231751
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 142,
+          "popular_votes": 29138823
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 8948617
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Wallace_LeMay",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "tie",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 253,
+          "popular_votes": 31574317
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 229,
+          "popular_votes": 32238654
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 56,
+          "popular_votes": 9650516
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Wallace_Thurmond",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 276,
+          "popular_votes": 31505436
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 217,
+          "popular_votes": 32121166
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 45,
+          "popular_votes": 9723324
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Wallace_Chandler",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "tie",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 250,
+          "popular_votes": 30995319
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 232,
+          "popular_votes": 31976073
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 56,
+          "popular_votes": 10036046
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1964_Johnson_Humphrey",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Lyndon B. Johnson",
+          "candidate_color": "#0000FF",
+          "candidate": 6970,
+          "electoral_votes": 491,
+          "popular_votes": 46252481
+        },
+        {
+          "candidate_name": "Barry Goldwater",
+          "candidate_color": "#FF0000",
+          "candidate": 6969,
+          "electoral_votes": 47,
+          "popular_votes": 24663448
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1964_Goldwater_Miller",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "Lyndon B. Johnson",
+          "candidate_color": "#0000FF",
+          "candidate": 6970,
+          "electoral_votes": 401,
+          "popular_votes": 39172057
+        },
+        {
+          "candidate_name": "Barry Goldwater",
+          "candidate_color": "#FF0000",
+          "candidate": 6969,
+          "electoral_votes": 137,
+          "popular_votes": 31071262
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Kennedy_Johnson",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 344,
+          "popular_votes": 33841212
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 179,
+          "popular_votes": 32547343
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 14,
+          "popular_votes": 380396
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Kennedy_Symington",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 298,
+          "popular_votes": 32889320
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 220,
+          "popular_votes": 32412245
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 19,
+          "popular_votes": 948373
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Kennedy_Humphrey",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 275,
+          "popular_votes": 31704285
+        },
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 213,
+          "popular_votes": 31390241
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 49,
+          "popular_votes": 3701931
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Nixon_Lodge",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 364,
+          "popular_votes": 33495986
+        },
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 159,
+          "popular_votes": 32406496
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 14,
+          "popular_votes": 365889
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Nixon_Dirksen",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 364,
+          "popular_votes": 33363632
+        },
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 159,
+          "popular_votes": 32793469
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 14,
+          "popular_votes": 353001
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Nixon_Rockefeller",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 377,
+          "popular_votes": 34082224
+        },
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 146,
+          "popular_votes": 32374390
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 14,
+          "popular_votes": 312336
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1960_Nixon_Goldwater",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 106,
+          "electoral_votes": 278,
+          "popular_votes": 33182493
+        },
+        {
+          "candidate_name": "John F. Kennedy",
+          "candidate_color": "#0000FF",
+          "candidate": 105,
+          "electoral_votes": 253,
+          "popular_votes": 33586460
+        },
+        {
+          "candidate_name": "Harry Byrd",
+          "candidate_color": "#FFFF00",
+          "candidate": 107,
+          "electoral_votes": 6,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1948_Truman_Barkley",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Harry Truman",
+          "candidate_color": "#0000FF",
+          "candidate": 116,
+          "electoral_votes": 352,
+          "popular_votes": 23938983
+        },
+        {
+          "candidate_name": "Thomas Dewey",
+          "candidate_color": "#FF0000",
+          "candidate": 117,
+          "electoral_votes": 151,
+          "popular_votes": 21398779
+        },
+        {
+          "candidate_name": "Strom Thurmond",
+          "candidate_color": "#FFFF00",
+          "candidate": 118,
+          "electoral_votes": 28,
+          "popular_votes": 1047065
+        },
+        {
+          "candidate_name": "Henry Wallace/Other",
+          "candidate_color": "#00C100",
+          "candidate": 119,
+          "electoral_votes": 0,
+          "popular_votes": 1956697
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1948_Dewey_Warren",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Thomas Dewey",
+          "candidate_color": "#FF0000",
+          "candidate": 117,
+          "electoral_votes": 305,
+          "popular_votes": 23264872
+        },
+        {
+          "candidate_name": "Harry Truman",
+          "candidate_color": "#0000FF",
+          "candidate": 116,
+          "electoral_votes": 188,
+          "popular_votes": 22601042
+        },
+        {
+          "candidate_name": "Strom Thurmond",
+          "candidate_color": "#FFFF00",
+          "candidate": 118,
+          "electoral_votes": 38,
+          "popular_votes": 1273282
+        },
+        {
+          "candidate_name": "Henry Wallace/Other",
+          "candidate_color": "#00C100",
+          "candidate": 119,
+          "electoral_votes": 0,
+          "popular_votes": 1861440
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1948_Dewey_Stassen",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Thomas Dewey",
+          "candidate_color": "#FF0000",
+          "candidate": 117,
+          "electoral_votes": 299,
+          "popular_votes": 22716839
+        },
+        {
+          "candidate_name": "Harry Truman",
+          "candidate_color": "#0000FF",
+          "candidate": 116,
+          "electoral_votes": 194,
+          "popular_votes": 22676932
+        },
+        {
+          "candidate_name": "Strom Thurmond",
+          "candidate_color": "#FFFF00",
+          "candidate": 118,
+          "electoral_votes": 38,
+          "popular_votes": 1296790
+        },
+        {
+          "candidate_name": "Henry Wallace/Other",
+          "candidate_color": "#00C100",
+          "candidate": 119,
+          "electoral_votes": 0,
+          "popular_votes": 1824354
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1948_Dewey_Bricker",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Thomas Dewey",
+          "candidate_color": "#FF0000",
+          "candidate": 117,
+          "electoral_votes": 305,
+          "popular_votes": 23193104
+        },
+        {
+          "candidate_name": "Harry Truman",
+          "candidate_color": "#0000FF",
+          "candidate": 116,
+          "electoral_votes": 188,
+          "popular_votes": 22707000
+        },
+        {
+          "candidate_name": "Strom Thurmond",
+          "candidate_color": "#FFFF00",
+          "candidate": 118,
+          "electoral_votes": 38,
+          "popular_votes": 1221205
+        },
+        {
+          "candidate_name": "Henry Wallace/Other",
+          "candidate_color": "#00C100",
+          "candidate": 119,
+          "electoral_votes": 0,
+          "popular_votes": 1879326
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1948_Dewey_Vandenberg",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Thomas Dewey",
+          "candidate_color": "#FF0000",
+          "candidate": 117,
+          "electoral_votes": 299,
+          "popular_votes": 22686009
+        },
+        {
+          "candidate_name": "Harry Truman",
+          "candidate_color": "#0000FF",
+          "candidate": 116,
+          "electoral_votes": 194,
+          "popular_votes": 22758467
+        },
+        {
+          "candidate_name": "Strom Thurmond",
+          "candidate_color": "#FFFF00",
+          "candidate": 118,
+          "electoral_votes": 38,
+          "popular_votes": 1244960
+        },
+        {
+          "candidate_name": "Henry Wallace/Other",
+          "candidate_color": "#00C100",
+          "candidate": 119,
+          "electoral_votes": 0,
+          "popular_votes": 1825478
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1916_Wilson_Marshall",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Woodrow Wilson",
+          "candidate_color": "#0000FF",
+          "candidate": 142,
+          "electoral_votes": 296,
+          "popular_votes": 9111881
+        },
+        {
+          "candidate_name": "Charles Evans Hughes",
+          "candidate_color": "#FF0000",
+          "candidate": 143,
+          "electoral_votes": 235,
+          "popular_votes": 8472329
+        },
+        {
+          "candidate_name": "Allan Benson/Other",
+          "candidate_color": "#00C100",
+          "candidate": 144,
+          "electoral_votes": 0,
+          "popular_votes": 638471
+        },
+        {
+          "candidate_name": "James Hanly",
+          "candidate_color": "#FFFF00",
+          "candidate": 145,
+          "electoral_votes": 0,
+          "popular_votes": 228560
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1916_Wilson_Baker",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Woodrow Wilson",
+          "candidate_color": "#0000FF",
+          "candidate": 142,
+          "electoral_votes": 356,
+          "popular_votes": 9268261
+        },
+        {
+          "candidate_name": "Charles Evans Hughes",
+          "candidate_color": "#FF0000",
+          "candidate": 143,
+          "electoral_votes": 175,
+          "popular_votes": 8492524
+        },
+        {
+          "candidate_name": "Allan Benson/Other",
+          "candidate_color": "#00C100",
+          "candidate": 144,
+          "electoral_votes": 0,
+          "popular_votes": 640765
+        },
+        {
+          "candidate_name": "James Hanly",
+          "candidate_color": "#FFFF00",
+          "candidate": 145,
+          "electoral_votes": 0,
+          "popular_votes": 224528
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1916_Hughes_Fairbanks",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Charles Evans Hughes",
+          "candidate_color": "#FF0000",
+          "candidate": 143,
+          "electoral_votes": 303,
+          "popular_votes": 8819989
+        },
+        {
+          "candidate_name": "Woodrow Wilson",
+          "candidate_color": "#0000FF",
+          "candidate": 142,
+          "electoral_votes": 228,
+          "popular_votes": 8942306
+        },
+        {
+          "candidate_name": "Allan Benson/Other",
+          "candidate_color": "#00C100",
+          "candidate": 144,
+          "electoral_votes": 0,
+          "popular_votes": 598290
+        },
+        {
+          "candidate_name": "James Hanly",
+          "candidate_color": "#FFFF00",
+          "candidate": 145,
+          "electoral_votes": 0,
+          "popular_votes": 221281
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1916_Hughes_Burkett",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Charles Evans Hughes",
+          "candidate_color": "#FF0000",
+          "candidate": 143,
+          "electoral_votes": 296,
+          "popular_votes": 8775285
+        },
+        {
+          "candidate_name": "Woodrow Wilson",
+          "candidate_color": "#0000FF",
+          "candidate": 142,
+          "electoral_votes": 235,
+          "popular_votes": 8984039
+        },
+        {
+          "candidate_name": "Allan Benson/Other",
+          "candidate_color": "#00C100",
+          "candidate": 144,
+          "electoral_votes": 0,
+          "popular_votes": 600108
+        },
+        {
+          "candidate_name": "James Hanly",
+          "candidate_color": "#FFFF00",
+          "candidate": 145,
+          "electoral_votes": 0,
+          "popular_votes": 222428
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_McKinley_Hobart",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 335,
+          "popular_votes": 7474486
+        },
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 112,
+          "popular_votes": 6342609
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 140108
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_McKinley_Reed",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 335,
+          "popular_votes": 7488791
+        },
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 112,
+          "popular_votes": 6374564
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 158628
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_McKinley_Quay",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 335,
+          "popular_votes": 7411167
+        },
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 112,
+          "popular_votes": 6269239
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 156364
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_McKinley_Gage",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 335,
+          "popular_votes": 7469804
+        },
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 112,
+          "popular_votes": 6333969
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 153425
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_Bryan_Sewall",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 318,
+          "popular_votes": 7463379
+        },
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 129,
+          "popular_votes": 6424701
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 128169
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_Bryan_Stevenson",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 318,
+          "popular_votes": 7359123
+        },
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 129,
+          "popular_votes": 6368127
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 127831
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_Bryan_Matthews",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 318,
+          "popular_votes": 7363007
+        },
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 129,
+          "popular_votes": 6363854
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 128225
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_Bryan_Boies",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 318,
+          "popular_votes": 7379915
+        },
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 129,
+          "popular_votes": 6450486
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 127159
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1896_Bryan_Teller",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "William Jennings Bryan",
+          "candidate_color": "#0000FF",
+          "candidate": 21,
+          "electoral_votes": 354,
+          "popular_votes": 7473654
+        },
+        {
+          "candidate_name": "William McKinley",
+          "candidate_color": "#FF0000",
+          "candidate": 20,
+          "electoral_votes": 93,
+          "popular_votes": 6348828
+        },
+        {
+          "candidate_name": "John Palmer",
+          "candidate_color": "#FFFF00",
+          "candidate": 22,
+          "electoral_votes": 0,
+          "popular_votes": 127072
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Lincoln_Hamlin",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 181,
+          "popular_votes": 1877719
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 87,
+          "popular_votes": 880379
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 24,
+          "popular_votes": 567364
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 11,
+          "popular_votes": 1325978
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Lincoln_Clay",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 178,
+          "popular_votes": 1840871
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 87,
+          "popular_votes": 886100
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 24,
+          "popular_votes": 577816
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 14,
+          "popular_votes": 1355793
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Lincoln_Chase",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 178,
+          "popular_votes": 1827026
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 64,
+          "popular_votes": 882095
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 56,
+          "popular_votes": 576292
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 5,
+          "popular_votes": 1338279
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Douglas_Johnson",
+      "zeroNoiseCases": 4,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "tie",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 128,
+          "popular_votes": 1786090
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 87,
+          "popular_votes": 876835
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 64,
+          "popular_votes": 1455804
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 24,
+          "popular_votes": 567749
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Douglas_Guthrie",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 163,
+          "popular_votes": 1787274
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 87,
+          "popular_votes": 882322
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 29,
+          "popular_votes": 1411590
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 24,
+          "popular_votes": 563073
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Douglas_Seymour",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 174,
+          "popular_votes": 1819522
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 72,
+          "popular_votes": 896160
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 48,
+          "popular_votes": 598054
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 9,
+          "popular_votes": 1359006
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Polk_Dallas",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 213,
+          "popular_votes": 1363449
+        },
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 62,
+          "popular_votes": 1280230
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 59236
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Polk_Woodbury",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 183,
+          "popular_votes": 1352176
+        },
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 92,
+          "popular_votes": 1304372
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 61452
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Clay_Frelinghuysen",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 142,
+          "popular_votes": 1296297
+        },
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 133,
+          "popular_votes": 1309626
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 91462
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Clay_Sergeant",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 183,
+          "popular_votes": 1310405
+        },
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 92,
+          "popular_votes": 1296803
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 95705
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Clay_Fillmore",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 195,
+          "popular_votes": 1325635
+        },
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 80,
+          "popular_votes": 1282414
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 94869
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    "Every visible answer ID included exactly once",
+    "Zero-noise projections exactly equal original calculator on current/answer/visit clones",
+    "Guide toggle and language toggle preserve entire game object and RNG count",
+    "All selected scenarios complete both languages using guide answers and visits",
+    "3 representative full games identical with guide hidden",
+    "390px and 80/100/125/150 percent CSS zoom guide layout",
+    "External network blocked; no JS errors or missing resources"
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "browser": "155.0.8059.39",
+  "requestFailures": [],
+  "status": "passed",
+  "summaryCorrection": "Corrected a hardcoded Five in the summary to the actual 3 continuation controls; scenario records and results unchanged."
+}

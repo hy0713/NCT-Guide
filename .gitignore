@@ -1,0 +1,7 @@
+node_modules/
+.test-artifacts/
+.tools/
+__pycache__/
+*.pyc
+.env
+.env.*

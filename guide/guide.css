@@ -1,0 +1,13 @@
+#language-controls { display:flex; flex-wrap:wrap; gap:6px; }
+.nct-guide-panel { position:relative; box-sizing:border-box; max-width:1000px; margin:12px 0; padding:14px; border:2px solid #777; background:#eee; color:#111; text-align:left; line-height:1.55; overflow-wrap:anywhere; }
+.nct-guide-panel[hidden] { display:none; }
+.nct-guide-panel h3,.nct-guide-panel h4 { margin:8px 0; }
+.nct-guide-answers { padding-left:26px; }
+.nct-guide-answers li { margin-bottom:14px; }
+.nct-guide-answers li:first-child { border-left:3px solid #34633a; padding-left:8px; }
+.nct-guide-panel small { display:block; }
+.nct-guide-table { overflow-x:auto; }
+.nct-guide-panel table { width:100%; border-collapse:collapse; }
+.nct-guide-panel th,.nct-guide-panel td { padding:5px; border:1px solid #aaa; text-align:left; }
+.nct-guide-panel details { border-top:1px solid #aaa; padding-top:8px; }
+@media(max-width:600px){ .nct-guide-panel { margin:8px; padding:10px; max-width:calc(100% - 16px); } }

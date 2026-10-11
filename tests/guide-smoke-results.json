@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-11T07:31:10.099Z",
+  "network": "Loopback/data/blob only",
+  "scenarios": [
+    {
+      "scope": "2020_Biden_Harris",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 350,
+          "popular_votes": 83791360
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 188,
+          "popular_votes": 71698264
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1831087
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1117008
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Nader_LaDuke",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 444,
+          "popular_votes": 55982378
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 94,
+          "popular_votes": 45992790
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 4697644
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 287363
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1968_Wallace_LeMay",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "tie",
+      "overall": [
+        {
+          "candidate_name": "Richard Nixon",
+          "candidate_color": "#FF0000",
+          "candidate": 23,
+          "electoral_votes": 253,
+          "popular_votes": 31574317
+        },
+        {
+          "candidate_name": "Hubert H. Humphrey",
+          "candidate_color": "#0000FF",
+          "candidate": 24,
+          "electoral_votes": 229,
+          "popular_votes": 32238654
+        },
+        {
+          "candidate_name": "George Wallace",
+          "candidate_color": "#FFFF00",
+          "candidate": 25,
+          "electoral_votes": 56,
+          "popular_votes": 9650516
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Lincoln_Hamlin",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Abraham Lincoln",
+          "candidate_color": "#FF0000",
+          "candidate": 67,
+          "electoral_votes": 181,
+          "popular_votes": 1877719
+        },
+        {
+          "candidate_name": "John C. Breckinridge",
+          "candidate_color": "#FFFF00",
+          "candidate": 69,
+          "electoral_votes": 87,
+          "popular_votes": 880379
+        },
+        {
+          "candidate_name": "John Bell",
+          "candidate_color": "#00C100",
+          "candidate": 70,
+          "electoral_votes": 24,
+          "popular_votes": 567364
+        },
+        {
+          "candidate_name": "Stephen A. Douglas",
+          "candidate_color": "#0000FF",
+          "candidate": 68,
+          "electoral_votes": 11,
+          "popular_votes": 1325978
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1844_Polk_Dallas",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 0,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "James K. Polk",
+          "candidate_color": "#0000FF",
+          "candidate": 131,
+          "electoral_votes": 213,
+          "popular_votes": 1363449
+        },
+        {
+          "candidate_name": "Henry Clay",
+          "candidate_color": "#F0C862",
+          "candidate": 132,
+          "electoral_votes": 62,
+          "popular_votes": 1280230
+        },
+        {
+          "candidate_name": "James Birney",
+          "candidate_color": "#FFFF00",
+          "candidate": 133,
+          "electoral_votes": 0,
+          "popular_votes": 59236
+        },
+        {
+          "candidate_name": "John Tyler",
+          "candidate_color": "#00C100",
+          "candidate": 134,
+          "electoral_votes": 0,
+          "popular_votes": 0
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    "Every visible answer ID included exactly once",
+    "Zero-noise projections exactly equal original calculator on current/answer/visit clones",
+    "Guide toggle and language toggle preserve entire game object and RNG count",
+    "All selected scenarios complete both languages using guide answers and visits",
+    "5 representative full games identical with guide hidden",
+    "390px and 80/100/125/150 percent CSS zoom guide layout",
+    "External network blocked; no JS errors or missing resources"
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "browser": "155.0.8059.39",
+  "requestFailures": [],
+  "status": "passed"
+}

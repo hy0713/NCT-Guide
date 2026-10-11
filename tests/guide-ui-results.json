@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-11T07:31:03.484Z",
+  "status": "passed",
+  "checks": [
+    "Guide defaults off in a new profile",
+    "Keyboard Enter toggle preserves game state and RNG",
+    "Persistent guide preference",
+    "No visit recommendation in a non-visiting scenario",
+    "Classic, proportional and advanced modes display advice",
+    "Feedback hides old-question advice; next question restores it"
+  ],
+  "cases": [
+    {
+      "scope": "2020_Biden_Harris",
+      "mode": "1",
+      "visitsEnabled": true,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Obama_Biden",
+      "mode": "2",
+      "visitsEnabled": true,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Harris",
+      "mode": "3",
+      "visitsEnabled": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1860_Lincoln_Hamlin",
+      "mode": "1",
+      "visitsEnabled": false,
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "requests": []
+}

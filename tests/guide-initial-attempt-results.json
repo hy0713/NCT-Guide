@@ -1,0 +1,2006 @@
+{
+  "date": "2026-10-10T03:24:06.076Z",
+  "network": "Loopback/data/blob only",
+  "scenarios": [
+    {
+      "scope": "2020_Biden_Harris",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 350,
+          "popular_votes": 83791360
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 188,
+          "popular_votes": 71698264
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1831087
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1117008
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Rice",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 388,
+          "popular_votes": 83809425
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 150,
+          "popular_votes": 69653000
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1850626
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1069457
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Duckworth",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 306,
+          "popular_votes": 83664091
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 232,
+          "popular_votes": 73391962
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1872885
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1092390
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Demings",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 350,
+          "popular_votes": 84179099
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 188,
+          "popular_votes": 71322824
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1823155
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1112648
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Bass",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 306,
+          "popular_votes": 82684156
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 232,
+          "popular_votes": 73511508
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1889611
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1111623
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Whitmer",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 321,
+          "popular_votes": 83794464
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 217,
+          "popular_votes": 73269167
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1868158
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1089537
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Biden_Warren",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 306,
+          "popular_votes": 81388800
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 232,
+          "popular_votes": 73302338
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1849386
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 1112683
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Trump_Pence",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 295,
+          "popular_votes": 76687792
+        },
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 243,
+          "popular_votes": 77884197
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1769554
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 901983
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2020_Trump_Haley",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 301,
+          "electoral_votes": 289,
+          "popular_votes": 77496936
+        },
+        {
+          "candidate_name": "Joe Biden",
+          "candidate_color": "#0000FF",
+          "candidate": 300,
+          "electoral_votes": 249,
+          "popular_votes": 79780058
+        },
+        {
+          "candidate_name": "Jo Jorgensen",
+          "candidate_color": "#FFFF00",
+          "candidate": 302,
+          "electoral_votes": 0,
+          "popular_votes": 1809352
+        },
+        {
+          "candidate_name": "Howie Hawkins/Other",
+          "candidate_color": "#00C100",
+          "candidate": 303,
+          "electoral_votes": 0,
+          "popular_votes": 934982
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Trump_Pence",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 325,
+          "popular_votes": 66426427
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 213,
+          "popular_votes": 63972249
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6425710
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1457665
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Trump_Christie",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 338,
+          "popular_votes": 67018976
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 200,
+          "popular_votes": 63416181
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6354226
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1492662
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Trump_Sessions",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 342,
+          "popular_votes": 66036490
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 196,
+          "popular_votes": 62855489
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6489031
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1510643
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Trump_Carson",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 351,
+          "popular_votes": 66827864
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 187,
+          "popular_votes": 62632789
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6362722
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1464563
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Trump_Palin",
+      "zeroNoiseCases": 6,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 329,
+          "popular_votes": 66541607
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 209,
+          "popular_votes": 63527570
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6687890
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1587899
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Clinton_Kaine",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 323,
+          "popular_votes": 67891018
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 215,
+          "popular_votes": 61186525
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6225314
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 1065116
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Clinton_Booker",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 323,
+          "popular_votes": 67809891
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 215,
+          "popular_votes": 60742435
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6490181
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 909460
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Clinton_Brown",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 341,
+          "popular_votes": 67563871
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 197,
+          "popular_votes": 60585648
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 7228507
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 732467
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Clinton_Sanders",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 341,
+          "popular_votes": 69816908
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 197,
+          "popular_votes": 59880970
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6958528
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 266177
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016_Clinton_Warren",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 201,
+          "electoral_votes": 308,
+          "popular_votes": 67653772
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 200,
+          "electoral_votes": 230,
+          "popular_votes": 61357484
+        },
+        {
+          "candidate_name": "Gary Johnson/Others",
+          "candidate_color": "#FFFF00",
+          "candidate": 202,
+          "electoral_votes": 0,
+          "popular_votes": 6828701
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 203,
+          "electoral_votes": 0,
+          "popular_votes": 528018
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Clinton_Booker",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 408,
+          "popular_votes": 73866885
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 130,
+          "popular_votes": 54979339
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2096328
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1157165
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Clinton_Castro",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 367,
+          "popular_votes": 70836193
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 171,
+          "popular_votes": 58244168
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2146085
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1298840
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Clinton_Warren",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 332,
+          "popular_votes": 67708691
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 206,
+          "popular_votes": 58540742
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2553933
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1285761
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Clinton_Brown",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 338,
+          "popular_votes": 70877493
+        },
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 200,
+          "popular_votes": 57618072
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2457864
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1146185
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Trump_Brown",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 322,
+          "popular_votes": 64325676
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 216,
+          "popular_votes": 62863772
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2599941
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1533842
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Trump_Christie",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 322,
+          "popular_votes": 64577431
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 216,
+          "popular_votes": 61818792
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2538979
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1544415
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2016a_Trump_Carson",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Donald Trump",
+          "candidate_color": "#FF0000",
+          "candidate": 166,
+          "electoral_votes": 322,
+          "popular_votes": 65338877
+        },
+        {
+          "candidate_name": "Hillary Clinton",
+          "candidate_color": "#0000FF",
+          "candidate": 165,
+          "electoral_votes": 216,
+          "popular_votes": 62974093
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 167,
+          "electoral_votes": 0,
+          "popular_votes": 2631167
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 168,
+          "electoral_votes": 0,
+          "popular_votes": 1581147
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Obama_Biden",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 347,
+          "popular_votes": 68061627
+        },
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 191,
+          "popular_votes": 60493633
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 871715
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 354261
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Obama_Clinton",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 347,
+          "popular_votes": 67614021
+        },
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 191,
+          "popular_votes": 60899500
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 860757
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 356336
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Romney_Ryan",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 321,
+          "popular_votes": 65456715
+        },
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 217,
+          "popular_votes": 62736775
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 887784
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 301477
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Romney_Portman",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 321,
+          "popular_votes": 66227034
+        },
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 217,
+          "popular_votes": 61864309
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 856453
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 289748
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Romney_Rubio",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 321,
+          "popular_votes": 66664088
+        },
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 217,
+          "popular_votes": 62163285
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 866046
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 294186
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2012_Romney_Pawlenty",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Mitt Romney",
+          "candidate_color": "#FF0000",
+          "candidate": 17,
+          "electoral_votes": 321,
+          "popular_votes": 65145248
+        },
+        {
+          "candidate_name": "Barack Obama",
+          "candidate_color": "#0000FF",
+          "candidate": 16,
+          "electoral_votes": 217,
+          "popular_votes": 63031731
+        },
+        {
+          "candidate_name": "Gary Johnson",
+          "candidate_color": "#FFFF00",
+          "candidate": 18,
+          "electoral_votes": 0,
+          "popular_votes": 902794
+        },
+        {
+          "candidate_name": "Jill Stein",
+          "candidate_color": "#00C100",
+          "candidate": 19,
+          "electoral_votes": 0,
+          "popular_votes": 302980
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Bush_Cheney",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 278,
+          "popular_votes": 50800064
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 260,
+          "popular_votes": 52388061
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2765029
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 565566
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Bush_Danforth",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 289,
+          "popular_votes": 51059452
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 249,
+          "popular_votes": 52147896
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2745995
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 565383
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Bush_Ridge",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 312,
+          "popular_votes": 51017269
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 226,
+          "popular_votes": 51660490
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2717766
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 1123198
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Bush_Powell",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 324,
+          "popular_votes": 50715939
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 214,
+          "popular_votes": 51181325
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2697551
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 1923904
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Gore_Lieberman",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 345,
+          "popular_votes": 52152389
+        },
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 193,
+          "popular_votes": 51293958
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2761868
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 310505
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Gore_Graham",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 340,
+          "popular_votes": 51722173
+        },
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 198,
+          "popular_votes": 51366468
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 3118764
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 311317
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Gore_Kerry",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 349,
+          "popular_votes": 53849912
+        },
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 189,
+          "popular_votes": 50303822
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 2697699
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 314652
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Gore_Bayh",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 349,
+          "popular_votes": 52459891
+        },
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 189,
+          "popular_votes": 50538235
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 3051109
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 306356
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "2000_Nader_LaDuke",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "loss",
+      "overall": [
+        {
+          "candidate_name": "George W. Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 77,
+          "electoral_votes": 444,
+          "popular_votes": 55982378
+        },
+        {
+          "candidate_name": "Al Gore",
+          "candidate_color": "#0000FF",
+          "candidate": 78,
+          "electoral_votes": 94,
+          "popular_votes": 45992790
+        },
+        {
+          "candidate_name": "Ralph Nader",
+          "candidate_color": "#00C100",
+          "candidate": 79,
+          "electoral_votes": 0,
+          "popular_votes": 4697644
+        },
+        {
+          "candidate_name": "Pat Buchanan",
+          "candidate_color": "#FFFF00",
+          "candidate": 80,
+          "electoral_votes": 0,
+          "popular_votes": 287363
+        }
+      ],
+      "guideVisibilityFullGame": true,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Bush_Quayle",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 489,
+          "popular_votes": 49766751
+        },
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 49,
+          "popular_votes": 40984838
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 465703
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 413590
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Bush_Dole",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 483,
+          "popular_votes": 49764856
+        },
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 55,
+          "popular_votes": 41317630
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 472366
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 409939
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Bush_Kemp",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 473,
+          "popular_votes": 49363058
+        },
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 65,
+          "popular_votes": 41365909
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 481304
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 415385
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Dukakis_Bentsen",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 434,
+          "popular_votes": 49304884
+        },
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 104,
+          "popular_votes": 41814176
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 725586
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 395548
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Dukakis_Glenn",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 400,
+          "popular_votes": 47860719
+        },
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 138,
+          "popular_votes": 42621344
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 655820
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 389081
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Dukakis_Gore",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 414,
+          "popular_votes": 47960891
+        },
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 124,
+          "popular_votes": 42466919
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 712810
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 386335
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1988_Dukakis_Jackson",
+      "zeroNoiseCases": 7,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Michael Dukakis",
+          "candidate_color": "#0000FF",
+          "candidate": 153,
+          "electoral_votes": 272,
+          "popular_votes": 45475652
+        },
+        {
+          "candidate_name": "George Bush",
+          "candidate_color": "#FF0000",
+          "candidate": 152,
+          "electoral_votes": 266,
+          "popular_votes": 45115243
+        },
+        {
+          "candidate_name": "Lenora Fulani/Other",
+          "candidate_color": "#00C100",
+          "candidate": 155,
+          "electoral_votes": 0,
+          "popular_votes": 670203
+        },
+        {
+          "candidate_name": "Ron Paul",
+          "candidate_color": "#FFFF00",
+          "candidate": 154,
+          "electoral_votes": 0,
+          "popular_votes": 408689
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Carter_Mondale",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 443,
+          "popular_votes": 42103769
+        },
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 95,
+          "popular_votes": 37952707
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 920667
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 872176
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Carter_Church",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 440,
+          "popular_votes": 42262731
+        },
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 98,
+          "popular_votes": 38042424
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 901008
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 900378
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    },
+    {
+      "scope": "1976_Carter_Glenn",
+      "zeroNoiseCases": 5,
+      "questions": 25,
+      "visits": 12,
+      "outcome": "win",
+      "overall": [
+        {
+          "candidate_name": "Jimmy Carter",
+          "candidate_color": "#0000FF",
+          "candidate": 91,
+          "electoral_votes": 443,
+          "popular_votes": 42478348
+        },
+        {
+          "candidate_name": "Gerald Ford",
+          "candidate_color": "#FF0000",
+          "candidate": 92,
+          "electoral_votes": 95,
+          "popular_votes": 38038406
+        },
+        {
+          "candidate_name": "Other Candidates",
+          "candidate_color": "#FFFF00",
+          "candidate": 94,
+          "electoral_votes": 0,
+          "popular_votes": 945543
+        },
+        {
+          "candidate_name": "Eugene McCarthy",
+          "candidate_color": "#00C100",
+          "candidate": 93,
+          "electoral_votes": 0,
+          "popular_votes": 881439
+        }
+      ],
+      "guideVisibilityFullGame": false,
+      "status": "passed"
+    }
+  ],
+  "checks": [],
+  "errors": [
+    "ReferenceError: jQuery is not defined\n    at http://localhost:8000/static/vendor/jquery.blockUI.js:617:9\n    at http://localhost:8000/static/vendor/jquery.blockUI.js:620:3",
+    "ReferenceError: $ is not defined\n    at http://localhost:8000/static/js/bigshot.js:228:1",
+    "ReferenceError: campaignTrail_temp is not defined\n    at http://localhost:8000/static/js/campaign_trail.js:11:1",
+    "ReferenceError: $ is not defined\n    at http://localhost:8000/static/js/campaign_trail_other.js:300:1"
+  ],
+  "external": [],
+  "missing": [],
+  "browser": "155.0.8059.39",
+  "failure": "page.waitForFunction: Timeout 15000ms exceeded.\n    at start (<PROJECT>\\tests\\stories-browser.cjs:7:13)\n    at async <PROJECT>\\tests\\guide.cjs:64:4"
+}
