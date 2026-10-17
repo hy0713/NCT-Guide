@@ -19,7 +19,7 @@
   const r=panel.getBoundingClientRect();panel.style.left=((innerWidth-width)/2-r.left)/scale+'px';
  }
  function summary(e,rows){
-  let electoral=0,score=0,popular=0,total=0;
+  let electoral=0,score=0,popular=0,total=0;const totals={},evTotals={};
   const states=rows.map(row=>{
    const state=e.states_json.find(s=>s.pk===row.state),own=row.result.find(c=>c.candidate===e.candidate_id);
    if(!state||!own||!Number.isFinite(own.percent))throw Error('Incomplete forecast');
@@ -29,9 +29,11 @@
    // A smooth closeness-weighted objective, not a calibrated win probability.
    score+=String(e.game_type_id)==='2'||!state.fields.winner_take_all_flg?ev*own.percent:ev/(1+Math.exp(-margin/0.02));
    popular+=own.votes;total+=row.result.reduce((s,c)=>s+c.votes,0);
-   return {id:row.state,name:state.fields.name,abbr:state.fields.abbr,ev,margin,share:own.percent};
+   for(const c of row.result){totals[c.candidate]=(totals[c.candidate]||0)+c.votes;evTotals[c.candidate]=(evTotals[c.candidate]||0)+c.electoral_votes;}
+   const ranked=[...row.result].sort((a,b)=>b.percent-a.percent);
+   return {id:row.state,name:state.fields.name,abbr:state.fields.abbr,ev,margin,share:own.percent,rank:ranked.findIndex(c=>c.candidate===e.candidate_id)+1,topMargin:ranked[0].percent-ranked[1].percent};
   });
-  return {electoral,score,popular:popular/total,states};
+  return {electoral,score,popular:popular/total,popularVotes:popular,popularLead:popular-Math.max(...Object.entries(totals).filter(([id])=>Number(id)!==e.candidate_id).map(([,n])=>n)),leaderEV:Math.max(...Object.values(evTotals)),states};
  }
  function analyze(e,ids){
   e=modelInput(e);
@@ -56,7 +58,7 @@
   answers.sort(compare);
   const visits=base.states.map((s,index)=>{
    const after=project(undefined,s.id),next=after.states.find(r=>r.id===s.id);
-   return {...s,index,score:after.score-base.score,gain:next.margin-s.margin};
+   return {...s,index,score:after.score-base.score,gain:next.margin-s.margin,forecast:after};
   }).sort((a,b)=>b.score-a.score||b.ev-a.ev||a.index-b.index);
   cachedKey=key;cachedResult={base,answers,visits};return cachedResult;
  }
@@ -66,21 +68,24 @@
   const e=window.campaignTrail_temp;
   const ids=[...document.querySelectorAll('.game_answers')].map(n=>Number(n.value));
   const visiting=!!document.querySelector('.visit_text');
-  const active=enabled&&native()&&e?.questions_json&&(ids.length||visiting)&&!document.getElementById('overall_results_button')&&!document.getElementById('feedback_window')&&!document.getElementById('ok_button');
+  const active=enabled&&native()&&e?.questions_json&&(ids.length||visiting||document.getElementById('overall_results_button'))&&!document.getElementById('feedback_window')&&!document.getElementById('ok_button');
   panel.hidden=!active;if(!active){last='';result=null;return;}place();
-  const fingerprint=JSON.stringify([NCTI18n.language,NCTStory.active,ids,visiting,modelInput(e)]);
+  const fingerprint=JSON.stringify([NCTI18n.language,NCTStory.active,ids,visiting,NCTAchievements.selected,e.bigshot_mode,e.final_outcome,localStorage.getItem('achievements'),modelInput(e)]);
   if(fingerprint===last)return;last=fingerprint;
   try{
    result=analyze(e,ids);
+   const achievement=NCTAchievements.plan(e,result,ids);
+   const answers=achievement?.answers||result.answers,visits=achievement?.visits||result.visits;
    const base=result.base;
    const total=e.states_json.reduce((s,r)=>s+r.fields.electoral_votes,0),target=Math.floor(total/2)+1;
    let html=`<h3>${h('title')}</h3><p>${h('limits')}</p><p>${h('baseline',{votes:base.electoral,target,popular:(base.popular*100).toFixed(2)})}</p>`;
+   html+=NCTAchievements.render(e,achievement,ids);
    if(String(e.game_type_id)==='3')html+=`<p>${h('advanced')}</p>`;
    if(e.primary_states)html+=`<p>${h('locked')}</p>`;
    html+=`<p>${h('method')}</p>`;
    if(result.answers.length){
     html+=`<h4>${h('answers')}</h4><ol class="nct-guide-answers">`;
-    for(const [rank,a]of result.answers.entries()){
+   for(const [rank,a]of answers.entries()){
      const row=e.answers_json.find(r=>r.pk===a.id);
      html+=`<li data-guide-answer="${a.id}"><strong>${h(rank===0?'recommended':'alternative',{position:a.index+1})}</strong><div>${NCTStory.html('answers_json',row.pk,'description',row.fields.description)}</div><small>${h('effect',{votes:a.electoral,score:signed(a.score-base.score),popular:signed((a.popular-base.popular)*100)})}</small></li>`;
     }html+='</ol>';
@@ -88,7 +93,7 @@
    const hasVisits=e.election_json.find(r=>Number(r.pk)===Number(e.election_id))?.fields.has_visits===1;
    html+=`<h4>${h('visits')}</h4>`;
    if(hasVisits){html+=`<p>${h(visiting?'visit_now':'visit_later')}</p><div class="nct-guide-table"><table><thead><tr><th>${h('state')}</th><th>${h('ev')}</th><th>${h('margin')}</th><th>${h('visit_effect')}</th></tr></thead><tbody>`;
-   for(const s of result.visits.slice(0,5))html+=`<tr data-guide-state="${s.id}"><td>${NCTI18n.termHtml(s.name)}</td><td>${s.ev}</td><td>${signed(s.margin*100)}</td><td>${h('gain',{margin:signed(s.gain*100),score:signed(s.score)})}</td></tr>`;
+   for(const s of visits.slice(0,5))html+=`<tr data-guide-state="${s.id}"><td>${NCTI18n.termHtml(s.name)}</td><td>${s.ev}</td><td>${signed(s.margin*100)}</td><td>${h('gain',{margin:signed(s.gain*100),score:signed(s.score)})}</td></tr>`;
    html+='</tbody></table></div>';
    }else html+=`<p>${h('no_visits')}</p>`;
    html+=`<p>${h('history')}</p><details><summary>${h('technical')}</summary><p>${h('formula')}</p><p>${h('future')}</p></details>`;
@@ -97,10 +102,12 @@
  }
  function schedule(){if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;render();});}
  function setEnabled(value){enabled=!!value;try{localStorage.setItem('nct.guide',enabled?'on':'off');}catch(_){}last='';render();}
- window.NCTGuide={analyze,summary,render,setEnabled,get enabled(){return enabled;},get result(){return result;}};
+ function predict(e,answers,visit){const input=modelInput(e);input.player_answers=[...answers];input.player_visits=[...input.player_visits];if(visit!==undefined)input.player_visits.push(visit);return summary(input,NCTGuideModel.project(input));}
+ window.NCTGuide={analyze,summary,predict,render,setEnabled,get enabled(){return enabled;},get result(){return result;}};
  document.addEventListener('DOMContentLoaded',()=>{
   const controls=document.getElementById('language-controls'),button=document.createElement('button');button.id='guide-toggle';button.type='button';button.setAttribute('aria-controls','nct-guide-panel');button.addEventListener('click',event=>{event.stopPropagation();setEnabled(!enabled);});controls.append(button);
   panel=document.createElement('aside');panel.id='nct-guide-panel';panel.className='nct-guide-panel';panel.hidden=true;panel.setAttribute('aria-label',t('title'));document.getElementById('game_window').after(panel);
+  panel.addEventListener('change',event=>{if(event.target.id==='achievement-target'){NCTAchievements.select(event.target.value);last='';render();document.getElementById('achievement-target')?.focus();}});
   // Keep native button activation and focus navigation, but contain keys here:
   // original body/document shortcuts can submit answers, consume RNG or trigger
   // the spacebar anti-cheat ending while a visit confirmation is open.

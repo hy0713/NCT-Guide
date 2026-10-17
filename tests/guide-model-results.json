@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T03:37:03.590Z",
+  "date": "2026-10-17T09:38:55.292Z",
   "status": "passed",
   "scenarios": [
     {
@@ -1167,6 +1167,6 @@
     "Mouse toggles and language changes preserve entire game object and RNG count",
     "External network blocked"
   ],
-  "browser": "155.0.8059.39",
+  "browser": "155.0.8059.80",
   "requestFailures": []
 }

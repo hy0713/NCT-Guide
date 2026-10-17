@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17T09:46:13.670Z",
+  "status": "passed",
+  "rules": 31,
+  "pairings": 105,
+  "compatiblePairs": 263,
+  "cases": [
+    "Incompatible Kaine pairing recommends Sanders without mutating game/RNG",
+    "Sanders pairing accepted for >=351 EV target; full planning preserves game state and RNG",
+    "Required answers 729 then 330 ranked first; wrong second answer marks run irreparable",
+    "Loss objective minimizes EV; bilingual switching preserves complete state and RNG",
+    "Exact269 ranks distance-to-target rather than normal victory score",
+    "Normal JFK difficulty and advanced mode are rejected for incompatible targets",
+    "Actual full objective run follows required 729/330/168 answers and reaches final results",
+    "Actual completion achievement unlocks and live coach remains on result screen",
+    "Actual Sanders objective run records real electoral votes and unlock status without assuming success",
+    "Objective selector fits 390px and four CSS zoom levels"
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "objectiveRun": {
+    "answers": [
+      729,
+      330,
+      395,
+      26,
+      87,
+      99,
+      168,
+      170,
+      132,
+      46,
+      35,
+      305,
+      19,
+      112,
+      349,
+      294,
+      200,
+      71,
+      241,
+      297,
+      212,
+      237,
+      205,
+      248,
+      225
+    ],
+    "outcome": "loss",
+    "unlocked": false
+  },
+  "sandersRun": {
+    "outcome": "win",
+    "votes": 342,
+    "unlocked": false
+  }
+}

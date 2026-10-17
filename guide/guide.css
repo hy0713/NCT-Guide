@@ -10,4 +10,8 @@
 .nct-guide-panel table { width:100%; border-collapse:collapse; }
 .nct-guide-panel th,.nct-guide-panel td { padding:5px; border:1px solid #aaa; text-align:left; }
 .nct-guide-panel details { border-top:1px solid #aaa; padding-top:8px; }
+.nct-achievements { padding:10px; border:1px solid #999; background:#fff; margin:10px 0; }
+.nct-achievements select { max-width:100%; font:inherit; }
+.nct-achievements strong[data-achievement-status] { display:block; color:#804900; }
+.nct-required-answer { border-left:3px solid #34633a; padding-left:8px; }
 @media(max-width:600px){ .nct-guide-panel { margin:8px; padding:10px; max-width:calc(100% - 16px); } }
