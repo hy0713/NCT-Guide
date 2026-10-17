@@ -1,0 +1,18 @@
+{
+  "zh-CN": {
+    "guide.limits": [
+      "以下是消除随机波动后的模型推演，不是实测民调，也不是胜率或必胜路线。只分析当前可见选项；请自行作答和选择访问州。"
+    ],
+    "guide.achievement_evidence": [
+      "先筛选源码允许的组合，再参考已有单种子普通胜选路线的结果。不是成就成功率；无合规数据时不声称哪个组合最强。"
+    ]
+  },
+  "en-US": {
+    "guide.limits": [
+      "These projections remove random noise. They are neither measured polls nor win probabilities or guaranteed routes. Only currently visible answers are analyzed; choose your own answers and visits."
+    ],
+    "guide.achievement_evidence": [
+      "Filter source-compatible pairings first, then consult one-seed ordinary winning-guide results. These are not achievement success rates; no strongest-pairing claim without qualifying data."
+    ]
+  }
+}

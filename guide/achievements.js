@@ -7,6 +7,7 @@
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  let selected='';try{selected=localStorage.getItem('nct.guide.achievement')||'';}catch(_){}
  let enabled=true;try{enabled=localStorage.getItem('nct.guide.achievement.enabled')!=='off';}catch(_){}
+ let selectedRoute='';try{selectedRoute=localStorage.getItem('nct.guide.route')||'';}catch(_){}
  const rule=id=>data.rules.find(r=>r.id===id);
  const name=r=>NCTI18n.language==='zh-CN'?r.name:r.english;
  function match(r,s){return !!s&&(!r.year||r.year===Number(s.election))&&(!r.years||r.years.includes(Number(s.election)))&&(!r.candidate||s.candidateName.split(' ').at(-1)===r.candidate)&&(!r.mate||s.runningMateName.split(' ').at(-1)===r.mate)&&[...(r.required||[]),...Object.values(r.slots||{})].every(id=>s.answerIds.includes(id));}
@@ -49,17 +50,39 @@
   return data.scenarios.filter(s=>match(r,s)&&(r.id!=='destiny'||!save().threeosix?.[s.year])).map(s=>{
    const b=s.baseline;let score=0;const comparable=!!b&&(r.special?false:b.mode!=='3')&&(r.maxDifficulty==null||.97<=r.maxDifficulty)&&(r.difficulty==null||r.difficulty===.97);
    if(comparable){if(r.goal==='exact')score=-Math.min(...(r.targets||[r.target]).map(n=>Math.abs(b.ev-n)));else if(r.goal==='max')score=-b.ev;else if(r.goal==='votes'||r.goal==='popularLead')score=b.pv/1000000;else score=b.ev;}
-   return {...s,comparable,rank:score};
-  }).sort((a,b)=>Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
+   const verified=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s.scope&&x.replays?.success>0).sort((a,b)=>b.replays.success-a.replays.success)[0];
+   return {...s,comparable,rank:score,verified};
+  }).sort((a,b)=>Number(!!b.verified)-Number(!!a.verified)||Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
+ }
+ function fingerprint(text){let h=2166136261;for(let i=0;i<text.length;i++)h=Math.imul(h^text.charCodeAt(i),16777619);return(h>>>0).toString(16);}
+ function routeInfo(e,r,ids){
+  const s=current(e),available=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s?.scope);
+  available.sort((a,b)=>Number((b.replays?.success||0)>0)-Number((a.replays?.success||0)>0)||Number(String(e.game_type_id)===b.mode&&e.difficulty_level_multiplier===b.difficulty)-Number(String(e.game_type_id)===a.mode&&e.difficulty_level_multiplier===a.difficulty)||b.mappedQuestions-a.mappedQuestions);
+  const route=available.find(x=>x.id===selectedRoute)||available[0];
+  if(!route)return null;
+  const settings=String(e.game_type_id)===route.mode&&Math.abs(e.difficulty_level_multiplier-route.difficulty)<1e-9;
+  const sourceMatches=Object.entries(route.fingerprints||{}).every(([id,hash])=>{const a=e.answers_json.find(a=>a.pk===+id);return a&&fingerprint(a.fields.description)===hash;});
+  const deviated=e.player_answers.some(id=>{const a=e.answers_json.find(a=>a.pk===id),allowed=route.answers[a?.fields.question];return allowed&&!allowed.includes(id);});
+  const sequence=route.visits.sequence;
+  const visitDeviation=sequence&&e.player_visits.some((id,i)=>e.states_json.find(s=>s.pk===id)?.fields.abbr!==sequence[Math.min(i,sequence.length-1)]);
+  const active=settings&&sourceMatches&&!deviated&&!visitDeviation;
+  const q=e.answers_json.find(a=>a.pk===ids[0])?.fields.question;
+  const answer=active?(route.answers[q]||[]).find(id=>ids.includes(id)):undefined;
+  return {route,settings,sourceMatches,deviated:!!(deviated||visitDeviation),active,answer};
  }
  function plan(e,forecast,ids){
   if(!enabled)return null;
   const r=rule(selected);if(!r)return null;
   const state=status(e,r,ids),valid=['open','unlocked'].includes(state.kind);
-  const planning=valid&&['win','min'].includes(r.goal)&&e.player_answers.length<e.questions_json.length?lookAhead(e,r,ids,forecast):null;
-  const answers=valid?[...forecast.answers].sort((a,b)=>Number(state.forced.includes(b.id))-Number(state.forced.includes(a.id))||(planning?planning.answers[a.id]-planning.answers[b.id]:cost(r,a,e)-cost(r,b,e))||a.index-b.index):forecast.answers;
+  const route=routeInfo(e,r,ids);
+  const planning=valid&&(ids.length?route?.answer===undefined:!route?.active)&&['win','min'].includes(r.goal)&&e.player_answers.length<e.questions_json.length?lookAhead(e,r,ids,forecast):null;
+  const answers=valid?[...forecast.answers].sort((a,b)=>Number(state.forced.includes(b.id))-Number(state.forced.includes(a.id))||Number(b.id===route?.answer)-Number(a.id===route?.answer)||(planning?planning.answers[a.id]-planning.answers[b.id]:cost(r,a,e)-cost(r,b,e))||a.index-b.index):forecast.answers;
   const visits=valid?[...forecast.visits].sort((a,b)=>(planning?planning.visits[a.id]-planning.visits[b.id]:cost(r,a.forecast,e)-cost(r,b.forecast,e))||b.ev-a.ev||a.index-b.index):forecast.visits;
-  return {rule:r,status:state,valid,answers,visits,planning,recommendations:suggestions(r).slice(0,3)};
+  if(valid&&route?.active){const policy=route.route.visits,sequence=policy.sequence;
+   if(sequence){const abbr=sequence[Math.min(e.player_visits.length,sequence.length-1)];visits.sort((a,b)=>Number(b.abbr===abbr)-Number(a.abbr===abbr));}
+   else{const pool=policy.weakest||policy.lowestShare||[];visits.sort((a,b)=>Number(pool.includes(b.abbr))-Number(pool.includes(a.abbr))||(pool.includes(a.abbr)&&pool.includes(b.abbr)?a.share-b.share:0));}
+  }
+  return {rule:r,status:state,valid,answers,visits,planning,route,recommendations:suggestions(r).slice(0,3)};
  }
  function lookAhead(e,r,ids,forecast){
   const key=JSON.stringify([r.id,ids,e.player_answers,e.player_visits,e.difficulty_level_multiplier,e.game_type_id,e.candidate_id,e.running_mate_id,e.answers_json,e.questions_json,e.shining_data]);
@@ -100,14 +123,27 @@
   if(p.rule.special)html+=`<p>${esc(t('special'))}</p>`;
   if(p.rule.id==='what')html+=`<p>${esc(t('counter',{count:save().tsatrolling||0}))}</p>`;
   if(p.rule.id==='destiny')html+=`<p>${esc(t('years',{years:Object.entries(save().threeosix||{}).filter(([,v])=>v).map(([k])=>k).join(', ')||'—'}))}</p>`;
+  const procedure={destiny:'destiny',what:'what',yourchance:'whychance',stillAlive:'stillAlive'}[p.rule.id];
+  if(procedure)html+=`<details open><summary>${esc(t('procedure_title'))}</summary><p>${esc(t('procedure_'+procedure))}</p></details>`;
   const required=[...Object.values(p.rule.slots||{}),...(p.rule.required||[])];
   for(const id of required){const row=e.answers_json.find(a=>a.pk===id),done=e.player_answers.includes(id);html+=`<p>${esc(t(done?'answer_done':p.status.forced.includes(id)?'answer_now':'answer_pending',{id}))}</p>`;if(row)html+=`<div class="nct-required-answer">${NCTStory.html('answers_json',row.pk,'description',row.fields.description)}</div>`;}
   if(!p.valid)html+=`<p>${esc(t('blocked'))}</p>`;
+  if(p.route){const info=p.route,r=info.route,stats=r.replays;
+   html+=`<details open class="nct-community-route"><summary>${esc(t('route_title'))}</summary><p>${esc(t('route_coverage',{count:r.mappedQuestions,total:r.totalQuestions}))}</p><p>${esc(stats?t(p.rule.id==='destiny'?'route_year_tested':'route_tested',{success:stats.success,total:stats.total}):t('route_unverified'))}</p>`;
+   const alternatives=(data.routes||[]).filter(x=>x.achievement===p.rule.id&&x.scope===r.scope);
+   if(alternatives.length>1){html+=`<label for="achievement-route">${esc(t('route_choose'))}</label> <select id="achievement-route">`;for(const [i,x] of alternatives.entries())html+=`<option value="${esc(x.id)}"${x.id===r.id?' selected':''}>${esc(t(x.origin==='model-search'?'route_model':x.origin==='baseline-replay'?'route_baseline':'route_community'))} · ${esc(t('route_candidate',{index:i+1,success:x.replays?.success??0,total:x.replays?.total??0}))}</option>`;html+='</select>';}
+   if(!info.sourceMatches)html+=`<p>${esc(t('route_source_changed'))}</p>`;
+   else if(!info.settings)html+=`<p>${esc(t('route_settings',{mode:r.mode==='2'?NCTI18n.language==='zh-CN'?'比例分配':'Proportional':NCTI18n.language==='zh-CN'?'默认':'Default',difficulty:r.difficulty}))}</p>`;
+   else if(info.deviated)html+=`<p>${esc(t('route_deviated'))}</p>`;
+   else if(ids.length)html+=`<p>${esc(t(info.answer===undefined?'route_gap':'route_step'))}</p>`;
+   if(r.notes?.[NCTI18n.language])html+=`<p>${esc(r.notes[NCTI18n.language])}</p>`;
+   html+=`<a href="${esc(r.source)}" target="_blank" rel="noopener noreferrer">${esc(t('route_source'))}</a><p>${esc(t('route_rng'))}</p></details>`;
+  }else html+=`<p>${esc(t('route_none'))}</p>`;
   html+=`<p>${esc(t('ranking'))}</p>`;
   if(p.planning)html+=`<p>${esc(t('planning'))}</p>`;
   html+=`<details${p.valid?'':' open'}><summary>${esc(t('combinations'))}</summary><p>${esc(t('evidence'))}</p><ol>`;
-  for(const s of p.recommendations)html+=`<li>${esc(s.year+' · '+NCTStory.term(s.candidateName)+' / '+NCTStory.term(s.runningMateName))}<br><small>${esc(s.comparable?t('baseline',{ev:s.baseline.ev}):t('untested'))}</small></li>`;
+  for(const s of p.recommendations)html+=`<li>${esc(s.year+' · '+NCTStory.term(s.candidateName)+' / '+NCTStory.term(s.runningMateName))}<br><small>${esc(s.verified?t(p.rule.id==='destiny'?'verified_year_pair':'verified_pair',{success:s.verified.replays.success,total:s.verified.replays.total,mode:s.verified.mode,difficulty:s.verified.difficulty,route:s.verified.id}):s.comparable?t('baseline',{ev:s.baseline.ev}):t('untested'))}</small></li>`;
   return html+`</ol></details><p>${esc(t('uncertainty'))}</p></section>`;
  }
- window.NCTAchievements={match,status,plan,render,cost,suggestions,get enabled(){return enabled;},setEnabled(value){enabled=!!value;try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;},select(id){selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}};
+ window.NCTAchievements={match,status,plan,render,cost,suggestions,routeInfo,get selectedRoute(){return selectedRoute;},selectRoute(id){selectedRoute=(data.routes||[]).some(r=>r.id===id)?id:'';try{localStorage.setItem('nct.guide.route',selectedRoute);}catch(_){}},get enabled(){return enabled;},setEnabled(value){enabled=!!value;try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;},select(id){selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}};
 })();

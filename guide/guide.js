@@ -70,7 +70,7 @@
   const visiting=!!document.querySelector('.visit_text');
   const active=enabled&&native()&&e?.questions_json&&(ids.length||visiting||document.getElementById('overall_results_button'))&&!document.getElementById('feedback_window')&&!document.getElementById('ok_button');
   panel.hidden=!active;if(!active){last='';result=null;return;}place();
-  const fingerprint=JSON.stringify([NCTI18n.language,NCTStory.active,ids,visiting,NCTAchievements.enabled,NCTAchievements.selected,e.bigshot_mode,e.final_outcome,localStorage.getItem('achievements'),modelInput(e)]);
+  const fingerprint=JSON.stringify([NCTI18n.language,NCTStory.active,ids,visiting,NCTAchievements.enabled,NCTAchievements.selected,NCTAchievements.selectedRoute,e.bigshot_mode,e.final_outcome,localStorage.getItem('achievements'),modelInput(e)]);
   if(fingerprint===last)return;last=fingerprint;
   try{
    result=analyze(e,ids);
@@ -107,7 +107,7 @@
  document.addEventListener('DOMContentLoaded',()=>{
   const controls=document.getElementById('language-controls'),button=document.createElement('button');button.id='guide-toggle';button.type='button';button.setAttribute('aria-controls','nct-guide-panel');button.addEventListener('click',event=>{event.stopPropagation();setEnabled(!enabled);});controls.append(button);
   panel=document.createElement('aside');panel.id='nct-guide-panel';panel.className='nct-guide-panel';panel.hidden=true;panel.setAttribute('aria-label',t('title'));document.getElementById('game_window').after(panel);
-  panel.addEventListener('change',event=>{if(event.target.id==='achievement-target'||event.target.id==='achievement-enabled'){if(event.target.id==='achievement-enabled')NCTAchievements.setEnabled(event.target.checked);else NCTAchievements.select(event.target.value);const id=event.target.id;last='';render();document.getElementById(id)?.focus();}});
+  panel.addEventListener('change',event=>{if(['achievement-target','achievement-enabled','achievement-route'].includes(event.target.id)){if(event.target.id==='achievement-enabled')NCTAchievements.setEnabled(event.target.checked);else if(event.target.id==='achievement-route')NCTAchievements.selectRoute(event.target.value);else NCTAchievements.select(event.target.value);const id=event.target.id;last='';render();document.getElementById(id)?.focus();}});
   // Keep native button activation and focus navigation, but contain keys here:
   // original body/document shortcuts can submit answers, consume RNG or trigger
   // the spacebar anti-cheat ending while a visit confirmation is open.

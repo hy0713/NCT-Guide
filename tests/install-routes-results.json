@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "Fresh installation",
+    "Published aedd7ed file and message upgrade",
+    "No writes without explicit upgrade",
+    "Unknown script customization rejected before writes",
+    "Unknown translation customization rejected before writes"
+  ]
+}

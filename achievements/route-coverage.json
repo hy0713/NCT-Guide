@@ -1,0 +1,605 @@
+{
+  "date": "2026-10-17T15:02:59.740Z",
+  "method": "Actual native achievement storage, offline browser replays; independent Chinese seed fixtures counted once, English duplicates excluded. These are not success probabilities. Candidate search and synthetic predicate tests are excluded from unlock coverage.",
+  "actualUnlocks": 31,
+  "total": 31,
+  "actualGames": 613,
+  "rows": [
+    {
+      "id": "destiny",
+      "name": "殊途同归",
+      "actualUnlock": true,
+      "routes": 9,
+      "testedRoutes": 9,
+      "verifiedRoutes": [
+        {
+          "id": "destiny-destiny2016-community",
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.9,
+          "success": 1,
+          "total": 4
+        },
+        {
+          "id": "destiny-destiny1976-community",
+          "scope": "1976_Carter_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        },
+        {
+          "id": "destiny-2012_Obama_Biden-2-0.97-search",
+          "scope": "2012_Obama_Biden",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 12
+        },
+        {
+          "id": "destiny-2000_Gore_Graham-2-0.97-search",
+          "scope": "2000_Gore_Graham",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 10
+        },
+        {
+          "id": "destiny-1964_Johnson_Humphrey-2-0.97-search",
+          "scope": "1964_Johnson_Humphrey",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 31
+        },
+        {
+          "id": "destiny-2020-Bass-community",
+          "scope": "2020_Biden_Bass",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        },
+        {
+          "id": "destiny-1988-Jackson-community",
+          "scope": "1988_Dukakis_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        }
+      ],
+      "procedureEvidence": "tests/procedural-achievement-results.json"
+    },
+    {
+      "id": "ridingBiden",
+      "name": "黑暗布兰登崛起",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "ridingBiden-community",
+          "scope": "2020_Biden_Demings",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "magaa",
+      "name": "让美国再次伟大……再来一次",
+      "actualUnlock": true,
+      "routes": 3,
+      "testedRoutes": 3,
+      "verifiedRoutes": [
+        {
+          "id": "magaa-community",
+          "scope": "2020_Trump_Haley",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 16
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "nmpr",
+      "name": "他不是我的总统！",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "nmpr-community",
+          "scope": "2020_Trump_Pence",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "nomalarkey",
+      "name": "文明获胜……？",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "nomalarkey-community",
+          "scope": "2020_Biden_Bass",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "whatbelt",
+      "name": "我依然屹立",
+      "actualUnlock": true,
+      "routes": 54,
+      "testedRoutes": 17,
+      "verifiedRoutes": [
+        {
+          "id": "whatbelt-Kaine-FL6-NH6",
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.9,
+          "success": 1,
+          "total": 1
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "thebern",
+      "name": "伯尼之火",
+      "actualUnlock": true,
+      "routes": 2,
+      "testedRoutes": 2,
+      "verifiedRoutes": [
+        {
+          "id": "thebern-2016_Clinton_Sanders-1-0.97-search",
+          "scope": "2016_Clinton_Sanders",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "moscow",
+      "name": "莫斯科的火枪手",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "moscow-community",
+          "scope": "2016_Trump_Palin",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "why",
+      "name": "为什么？",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "why-2016a_Clinton_Booker-1-0.97-search",
+          "scope": "2016a_Clinton_Booker",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "what",
+      "name": "到底为什么？！",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [],
+      "procedureEvidence": "tests/procedural-achievement-results.json"
+    },
+    {
+      "id": "realdebate",
+      "name": "真正的辩论",
+      "actualUnlock": true,
+      "routes": 4,
+      "testedRoutes": 4,
+      "verifiedRoutes": [
+        {
+          "id": "realdebate-2012_Obama_Biden-1-0.97-search",
+          "scope": "2012_Obama_Biden",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        },
+        {
+          "id": "realdebate-community-Ohio",
+          "scope": "2012_Obama_Biden",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "karmic",
+      "name": "因果报应",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "karmic-2012_Obama_Clinton-1-0.97-search",
+          "scope": "2012_Obama_Clinton",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "raiders",
+      "name": "纳德的突击队",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "raiders-community",
+          "scope": "2000_Nader_LaDuke",
+          "mode": "1",
+          "difficulty": 1.33,
+          "success": 3,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "master",
+      "name": "自己掌舵",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "master-2000_Gore_Graham-1-0.97-search",
+          "scope": "2000_Gore_Graham",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "swap",
+      "name": "胜负对调",
+      "actualUnlock": true,
+      "routes": 2,
+      "testedRoutes": 2,
+      "verifiedRoutes": [
+        {
+          "id": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+          "scope": "2000_Gore_Graham",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "florida2000",
+      "name": "艺术模仿生活",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "florida2000-2000_Bush_Cheney-1-0.97-search",
+          "scope": "2000_Bush_Cheney",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "tanks",
+      "name": "坦克与税收",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "tanks-community",
+          "scope": "1988_Dukakis_Bentsen",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "Rainbow",
+      "name": "彩虹联盟",
+      "actualUnlock": true,
+      "routes": 2,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "Rainbow-1988_Dukakis_Jackson-1-0.97-search",
+          "scope": "1988_Dukakis_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "Kinder",
+      "name": "更仁慈、更温和的大胜",
+      "actualUnlock": true,
+      "routes": 9,
+      "testedRoutes": 6,
+      "verifiedRoutes": [
+        {
+          "id": "Kinder-Dole-MA",
+          "scope": "1988_Bush_Dole",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "georgia",
+      "name": "激进自由派吉米·卡特",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "georgia-community",
+          "scope": "1976_Carter_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "georgenixon",
+      "name": "魔鬼来到佐治亚",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "georgenixon-1968_Nixon_Agnew-1-0.97-search",
+          "scope": "1968_Nixon_Agnew",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "ratio",
+      "name": "休伯特的压倒性胜利",
+      "actualUnlock": true,
+      "routes": 5,
+      "testedRoutes": 2,
+      "verifiedRoutes": [
+        {
+          "id": "ratio-1968_Humphrey_Connally-baseline",
+          "scope": "1968_Humphrey_Connally",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "BCitsHard",
+      "name": "正因为困难",
+      "actualUnlock": true,
+      "routes": 4,
+      "testedRoutes": 3,
+      "verifiedRoutes": [
+        {
+          "id": "BCitsHard-community",
+          "scope": "1960_Kennedy_Johnson",
+          "mode": "1",
+          "difficulty": 0.9,
+          "success": 1,
+          "total": 6
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "BCitsEasy",
+      "name": "正因为容易",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+          "scope": "1960_Kennedy_Humphrey",
+          "mode": "1",
+          "difficulty": 1.33,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "Vice",
+      "name": "无懈可击的副总统",
+      "actualUnlock": true,
+      "routes": 2,
+      "testedRoutes": 2,
+      "verifiedRoutes": [
+        {
+          "id": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+          "scope": "1960_Nixon_Goldwater",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "dixieDewey",
+      "name": "南方击败杜威",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "dixieDewey-community",
+          "scope": "1948_Truman_Barkley",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "Dewey",
+      "name": "大局已定",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "Dewey-community",
+          "scope": "1948_Dewey_Bricker",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 3
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "California",
+      "name": "加州在哪里？",
+      "actualUnlock": true,
+      "routes": 33,
+      "testedRoutes": 8,
+      "verifiedRoutes": [
+        {
+          "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1",
+          "scope": "1916_Hughes_Fairbanks",
+          "mode": "1",
+          "difficulty": 0.95,
+          "success": 1,
+          "total": 1
+        },
+        {
+          "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-5",
+          "scope": "1916_Hughes_Fairbanks",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 1,
+          "total": 1
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "Commoner",
+      "name": "伟大的平民",
+      "actualUnlock": true,
+      "routes": 1,
+      "testedRoutes": 1,
+      "verifiedRoutes": [
+        {
+          "id": "Commoner-1896_Bryan_Teller-1-0.97-search",
+          "scope": "1896_Bryan_Teller",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 2
+        }
+      ],
+      "procedureEvidence": null
+    },
+    {
+      "id": "stillAlive",
+      "name": "依然在场",
+      "actualUnlock": true,
+      "routes": 0,
+      "testedRoutes": 0,
+      "verifiedRoutes": [],
+      "procedureEvidence": "tests/procedural-achievement-results.json"
+    },
+    {
+      "id": "yourchance",
+      "name": "你的机会来了",
+      "actualUnlock": true,
+      "routes": 0,
+      "testedRoutes": 0,
+      "verifiedRoutes": [],
+      "procedureEvidence": "tests/procedural-achievement-results.json"
+    }
+  ],
+  "remaining": []
+}

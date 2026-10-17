@@ -1,0 +1,1183 @@
+{
+  "status": "passed",
+  "checks": "Original snapshot SHA256, unique route IDs, question/answer associations, state abbreviations and source-text fingerprints",
+  "routes": [
+    {
+      "id": "realdebate-community",
+      "scope": "2012_Obama_Biden",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zhhtdm/a_real_debate_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ridingBiden-community",
+      "scope": "2020_Biden_Demings",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/za4pre/the_dark_brandon_rises_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "magaa-community",
+      "scope": "2020_Trump_Haley",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zkkmo4/maga_again_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "tanks-community",
+      "scope": "1988_Dukakis_Bentsen",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zjdcxu/tanks_and_taxes_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "thebern-community",
+      "scope": "2016_Clinton_Sanders",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/p2emej/how_to_win_a_relatively_big_victory_as/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "nmpr-community",
+      "scope": "2020_Trump_Pence",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/10qlu1y/not_my_president_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "nomalarkey-community",
+      "scope": "2020_Biden_Bass",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/1440vhx/civility_prevails_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "georgia-community",
+      "scope": "1976_Carter_Jackson",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/11z3m69/radical_liberal_jimmy_carter_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "raiders-community",
+      "scope": "2000_Nader_LaDuke",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/z867af/the_naders_raiders_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "moscow-community",
+      "scope": "2016_Trump_Palin",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zb1nno/moscows_musketeers_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Vice-community",
+      "scope": "1960_Nixon_Goldwater",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/145lds2/the_vice_with_no_vice_achievement_guide/",
+      "mapped": 23,
+      "total": 25,
+      "unmapped": [
+        471,
+        495
+      ]
+    },
+    {
+      "id": "dixieDewey-community",
+      "scope": "1948_Truman_Barkley",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/z7g8bl/dixie_defeats_dewey_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Dewey-community",
+      "scope": "1948_Dewey_Bricker",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zxz8k9/dewey_or_dont_we_or_how_i_learned_to_stop/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-community",
+      "scope": "1988_Bush_Kemp",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/uyfrv1/1988_bush_guide_how_to_outperform_reagan/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsHard-community",
+      "scope": "1960_Kennedy_Johnson",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/10lbu98/not_because_it_is_easy_but_because_it_is_hard_is/",
+      "mapped": 24,
+      "total": 25,
+      "unmapped": [
+        495
+      ]
+    },
+    {
+      "id": "destiny-destiny2016-community",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/12kgd86/2016_306232_guide_destiny_arrives_all_the_same/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-destiny1976-community",
+      "scope": "1976_Carter_Jackson",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/12feumf/1976_306232_guide_destiny_arrives_all_the_same/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-ratio2-community",
+      "scope": "1968_Humphrey_Harris",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/uif3mg/maximum_result_for_humphreyharris_in_1968/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Rainbow-Rainbow2-community",
+      "scope": "1988_Dukakis_Jackson",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/obwekg/the_dukakis_1988_guide_or_how_i_learned_to_stop/",
+      "mapped": 22,
+      "total": 25,
+      "unmapped": [
+        756,
+        739,
+        750
+      ]
+    },
+    {
+      "id": "karmic-2012_Obama_Clinton-1-0.97-search",
+      "scope": "2012_Obama_Clinton",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "master-2000_Gore_Graham-1-0.97-search",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "swap-2000_Gore_Graham-1-0.97-search",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "florida2000-2000_Bush_Cheney-1-0.97-search",
+      "scope": "2000_Bush_Cheney",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "scope": "1896_Bryan_Teller",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Harris-1-0.97-search",
+      "scope": "1968_Humphrey_Harris",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Rainbow-1988_Dukakis_Jackson-1-0.97-search",
+      "scope": "1988_Dukakis_Jackson",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-search",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "georgenixon-1968_Nixon_Agnew-1-0.97-search",
+      "scope": "1968_Nixon_Agnew",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "scope": "1960_Kennedy_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-search",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "why-2016a_Clinton_Booker-1-0.97-search",
+      "scope": "2016a_Clinton_Booker",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "what-2016a_Clinton_Booker-1-0.97-search",
+      "scope": "2016a_Clinton_Booker",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2012_Obama_Biden-2-0.97-search",
+      "scope": "2012_Obama_Biden",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2000_Gore_Graham-2-0.97-search",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-1964_Johnson_Humphrey-2-0.97-search",
+      "scope": "1964_Johnson_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "realdebate-2012_Obama_Biden-1-0.97-search",
+      "scope": "2012_Obama_Biden",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-search",
+      "scope": "2020_Trump_Haley",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "thebern-2016_Clinton_Sanders-1-0.97-search",
+      "scope": "2016_Clinton_Sanders",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "scope": "1960_Nixon_Goldwater",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Kemp-1-0.97-search",
+      "scope": "1988_Bush_Kemp",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Johnson-1-0.9-search",
+      "scope": "1960_Kennedy_Johnson",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-search",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-1976_Carter_Jackson-1-0.97-search",
+      "scope": "1976_Carter_Jackson",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Connally-baseline",
+      "scope": "1968_Humphrey_Connally",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Quayle-baseline",
+      "scope": "1988_Bush_Quayle",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Dole-baseline",
+      "scope": "1988_Bush_Dole",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Johnson-baseline",
+      "scope": "1960_Kennedy_Johnson",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-baseline",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-baseline",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "magaa-2020_Trump_Pence-baseline",
+      "scope": "2020_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-Fairbanks-avoid-CA",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-Burkett-avoid-CA",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-Quayle-MA",
+      "scope": "1988_Bush_Quayle",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-Dole-MA",
+      "scope": "1988_Bush_Dole",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "realdebate-community-revised",
+      "scope": "2012_Obama_Biden",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zhhtdm/a_real_debate_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "realdebate-community-Ohio",
+      "scope": "2012_Obama_Biden",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zscyed/achievements/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Palin-MN",
+      "scope": "2016_Trump_Palin",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zb1nno/moscows_musketeers_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Harris-1-0.97-baseline-search",
+      "scope": "1968_Humphrey_Harris",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-baseline-search",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-baseline-search",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Kemp-1-0.97-baseline-search",
+      "scope": "1988_Bush_Kemp",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Johnson-1-0.9-baseline-search",
+      "scope": "1960_Kennedy_Johnson",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Connally-1-0.97-baseline-search",
+      "scope": "1968_Humphrey_Connally",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Quayle-1-0.97-baseline-search",
+      "scope": "1988_Bush_Quayle",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Kinder-1988_Bush_Dole-1-0.97-baseline-search",
+      "scope": "1988_Bush_Dole",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-baseline-search",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-baseline-search",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2020-Bass-community",
+      "scope": "2020_Biden_Bass",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/1440vhx/civility_prevails_achievement_guide/",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-1988-Jackson-community",
+      "scope": "1988_Dukakis_Jackson",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/1ocr7vi",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-0.97-starting-point",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-0.97-starting-point",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-0.97-starting-point",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-0.95-starting-point",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-0.95-starting-point",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-margin-search",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-margin-search",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-margin-search",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-margin-search",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-margin-search",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-margin-search",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-margin-search",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-margin-search",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-margin-search",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-1",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-1",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-1",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-1",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-1",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-1",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-2",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-2",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-2",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-2",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-2",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-2",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-2",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-2",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-2",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-3",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-3",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-3",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-3",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-3",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-3",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-3",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-3",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-3",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-4",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-4",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-4",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-4",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-4",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-4",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-4",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-4",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-4",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-5",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-5",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-5",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-5",
+      "scope": "2016_Trump_Palin",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-5",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-5",
+      "scope": "2016_Trump_Pence",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-5",
+      "scope": "2016_Trump_Christie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-5",
+      "scope": "1916_Hughes_Fairbanks",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-5",
+      "scope": "1916_Hughes_Burkett",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-2",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-2",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-3",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-3",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-4",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-4",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-source-adapted-5185",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-source-adapted-5184",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-neighbor-5196",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-neighbor-5225",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-neighbor-5206",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-neighbor-5155",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-neighbor-5143",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-FL5-NH7",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "whatbelt-Kaine-FL6-NH6",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://www.reddit.com/r/thecampaigntrail/comments/zx2q01",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    }
+  ]
+}

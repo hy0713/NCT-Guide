@@ -1,0 +1,439 @@
+{
+  "method": "Coordinate search of answer IDs and all future visits using the zero-noise original formula on independent copies; no game edits or RNG calls. Generated candidates require real browser replays.",
+  "candidates": [
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-margin-search",
+      "evaluations": 1285,
+      "predictedEV": 249,
+      "predictedPV": 8455568,
+      "cost": -238.82214592361285
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-margin-search",
+      "evaluations": 2062,
+      "predictedEV": 261,
+      "predictedPV": 65041206,
+      "cost": -252.0992244147388
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-margin-search",
+      "evaluations": 1285,
+      "predictedEV": 234,
+      "predictedPV": 8390723,
+      "cost": -225.36197641934137
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-margin-search",
+      "evaluations": 2065,
+      "predictedEV": 259,
+      "predictedPV": 60883166,
+      "cost": -251.19198540540086
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-margin-search",
+      "evaluations": 2062,
+      "predictedEV": 258,
+      "predictedPV": 65083121,
+      "cost": -251.81759806021245
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-margin-search",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 61120464,
+      "cost": -247.7305448531002
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-margin-search",
+      "evaluations": 1375,
+      "predictedEV": 259,
+      "predictedPV": 60726528,
+      "cost": -243.4299839088873
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-margin-search",
+      "evaluations": 1927,
+      "predictedEV": 249,
+      "predictedPV": 8446516,
+      "cost": -231.46506553902546
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-margin-search",
+      "evaluations": 1927,
+      "predictedEV": 221,
+      "predictedPV": 8350931,
+      "cost": -212.0441831104232
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-1",
+      "evaluations": 2569,
+      "predictedEV": 249,
+      "predictedPV": 8601046,
+      "cost": -257.53425173896466
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-1",
+      "evaluations": 1375,
+      "predictedEV": 261,
+      "predictedPV": 65293113,
+      "cost": -252.99446635928496
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-1",
+      "evaluations": 1927,
+      "predictedEV": 216,
+      "predictedPV": 8419304,
+      "cost": -212.7199884747617
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-1",
+      "evaluations": 1377,
+      "predictedEV": 259,
+      "predictedPV": 61886191,
+      "cost": -264.29717546395796
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-1",
+      "evaluations": 1375,
+      "predictedEV": 258,
+      "predictedPV": 65673093,
+      "cost": -269.9392730357054
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-1",
+      "evaluations": 1375,
+      "predictedEV": 259,
+      "predictedPV": 62254765,
+      "cost": -261.3936542691379
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-1",
+      "evaluations": 1375,
+      "predictedEV": 259,
+      "predictedPV": 61671957,
+      "cost": -261.9960790689254
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1",
+      "evaluations": 1927,
+      "predictedEV": 278,
+      "predictedPV": 8616842,
+      "cost": -256.18224432499653
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-1",
+      "evaluations": 1927,
+      "predictedEV": 216,
+      "predictedPV": 8418191,
+      "cost": -211.19365763170336
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-2",
+      "evaluations": 1927,
+      "predictedEV": 265,
+      "predictedPV": 8596703,
+      "cost": -257.3103762368838
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-2",
+      "evaluations": 1375,
+      "predictedEV": 254,
+      "predictedPV": 64743407,
+      "cost": -250.8615793490025
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-2",
+      "evaluations": 1285,
+      "predictedEV": 221,
+      "predictedPV": 8398936,
+      "cost": -223.76138767468962
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-2",
+      "evaluations": 2065,
+      "predictedEV": 259,
+      "predictedPV": 61782570,
+      "cost": -261.9343705975844
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-2",
+      "evaluations": 1375,
+      "predictedEV": 229,
+      "predictedPV": 65221463,
+      "cost": -251.05220798152834
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-2",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 62300969,
+      "cost": -265.07720414361756
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-2",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 61509556,
+      "cost": -253.9401544844625
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-2",
+      "evaluations": 2569,
+      "predictedEV": 249,
+      "predictedPV": 8555824,
+      "cost": -248.88385147940042
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-2",
+      "evaluations": 1285,
+      "predictedEV": 221,
+      "predictedPV": 8408752,
+      "cost": -224.99479020252718
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-3",
+      "evaluations": 1285,
+      "predictedEV": 249,
+      "predictedPV": 8550248,
+      "cost": -246.21011433537535
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-3",
+      "evaluations": 1375,
+      "predictedEV": 262,
+      "predictedPV": 65533884,
+      "cost": -253.95816249597908
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-3",
+      "evaluations": 1927,
+      "predictedEV": 221,
+      "predictedPV": 8378786,
+      "cost": -219.94748836065784
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-3",
+      "evaluations": 2065,
+      "predictedEV": 259,
+      "predictedPV": 61676658,
+      "cost": -262.56465116961374
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-3",
+      "evaluations": 2062,
+      "predictedEV": 262,
+      "predictedPV": 65648168,
+      "cost": -271.41082233749216
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-3",
+      "evaluations": 2749,
+      "predictedEV": 259,
+      "predictedPV": 61372523,
+      "cost": -261.7407904245453
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-3",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 61297977,
+      "cost": -258.73552393989684
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-3",
+      "evaluations": 1285,
+      "predictedEV": 249,
+      "predictedPV": 8573778,
+      "cost": -254.07919460964996
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-3",
+      "evaluations": 1927,
+      "predictedEV": 221,
+      "predictedPV": 8388713,
+      "cost": -221.40446685284542
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-4",
+      "evaluations": 1927,
+      "predictedEV": 249,
+      "predictedPV": 8428369,
+      "cost": -235.71813688906482
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-4",
+      "evaluations": 1375,
+      "predictedEV": 263,
+      "predictedPV": 65637159,
+      "cost": -254.34995849344622
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-4",
+      "evaluations": 1927,
+      "predictedEV": 221,
+      "predictedPV": 8440857,
+      "cost": -221.92972331291966
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-4",
+      "evaluations": 2065,
+      "predictedEV": 259,
+      "predictedPV": 61893460,
+      "cost": -263.37587327908045
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-4",
+      "evaluations": 2062,
+      "predictedEV": 262,
+      "predictedPV": 66036415,
+      "cost": -272.61662650870096
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-4",
+      "evaluations": 1375,
+      "predictedEV": 259,
+      "predictedPV": 62030747,
+      "cost": -260.67008943593675
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-4",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 61868138,
+      "cost": -261.4131551383763
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-4",
+      "evaluations": 1927,
+      "predictedEV": 249,
+      "predictedPV": 8550939,
+      "cost": -243.52879794227792
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-4",
+      "evaluations": 1927,
+      "predictedEV": 221,
+      "predictedPV": 8435482,
+      "cost": -221.2758524913547
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-5",
+      "evaluations": 1927,
+      "predictedEV": 273,
+      "predictedPV": 8683079,
+      "cost": -264.1044458647033
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-multistart-5",
+      "evaluations": 1375,
+      "predictedEV": 261,
+      "predictedPV": 65293113,
+      "cost": -252.99446635928496
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.97-multistart-5",
+      "evaluations": 1927,
+      "predictedEV": 234,
+      "predictedPV": 8465321,
+      "cost": -227.82044860278353
+    },
+    {
+      "id": "whatbelt-2016_Trump_Palin-1-0.97-multistart-5",
+      "evaluations": 1377,
+      "predictedEV": 259,
+      "predictedPV": 62070835,
+      "cost": -261.1399047843268
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-multistart-5",
+      "evaluations": 1375,
+      "predictedEV": 262,
+      "predictedPV": 65781680,
+      "cost": -264.8331501849611
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-1-0.97-multistart-5",
+      "evaluations": 2062,
+      "predictedEV": 259,
+      "predictedPV": 61751234,
+      "cost": -262.0565108260926
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-1-0.97-multistart-5",
+      "evaluations": 1375,
+      "predictedEV": 259,
+      "predictedPV": 61692378,
+      "cost": -262.37251460447624
+    },
+    {
+      "id": "California-1916_Hughes_Fairbanks-1-0.95-multistart-5",
+      "evaluations": 1927,
+      "predictedEV": 252,
+      "predictedPV": 8582498,
+      "cost": -253.383953046286
+    },
+    {
+      "id": "California-1916_Hughes_Burkett-1-0.95-multistart-5",
+      "evaluations": 2569,
+      "predictedEV": 237,
+      "predictedPV": 8518324,
+      "cost": -233.1542332234922
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-1",
+      "evaluations": 1375,
+      "predictedEV": 262,
+      "predictedPV": 65192215,
+      "cost": -259794.65186310443
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-1",
+      "evaluations": 2062,
+      "predictedEV": 262,
+      "predictedPV": 65131479,
+      "cost": -262262.0494065855
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-2",
+      "evaluations": 1375,
+      "predictedEV": 255,
+      "predictedPV": 64729912,
+      "cost": -255250.81032241002
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-2",
+      "evaluations": 2062,
+      "predictedEV": 258,
+      "predictedPV": 65104553,
+      "cost": -252704.12069940026
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-3",
+      "evaluations": 2062,
+      "predictedEV": 264,
+      "predictedPV": 65588945,
+      "cost": -264254.2432225314
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-3",
+      "evaluations": 2062,
+      "predictedEV": 262,
+      "predictedPV": 65328252,
+      "cost": -262262.69933676015
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-electoral-search-4",
+      "evaluations": 2749,
+      "predictedEV": 264,
+      "predictedPV": 65622162,
+      "cost": -264254.34188617015
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-electoral-search-4",
+      "evaluations": 1375,
+      "predictedEV": 262,
+      "predictedPV": 65496500,
+      "cost": -262263.20232182025
+    }
+  ]
+}

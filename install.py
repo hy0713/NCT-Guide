@@ -14,6 +14,7 @@ if not entry.is_file() or not (game/'localization/i18n.js').is_file():
 baseline=json.loads((SOURCE/'tests/original-algorithm-sha256.json').read_text(encoding='utf8')) if (SOURCE/'tests/original-algorithm-sha256.json').exists() else None
 previous=json.loads((SOURCE/'previous-versions.json').read_text(encoding='utf8'))
 messages=json.loads((SOURCE/'guide/messages.json').read_text(encoding='utf8'))
+previous_messages=json.loads((SOURCE/'previous-messages.json').read_text(encoding='utf8')) if (SOURCE/'previous-messages.json').exists() else {}
 copies=[(p,game/'localization/guide'/p.name) for p in (SOURCE/'guide').iterdir() if p.is_file() and (p.suffix in ['.js','.css'] or p.name=='messages.json')]
 if args.dev_tools:
  copies += [(p,game/'tests'/p.name) for p in (SOURCE/'tests').glob('guide*.cjs')]
@@ -28,7 +29,7 @@ updates=[]
 for language,additions in messages.items():
  target=game/'localization'/(language+'.json');data=json.loads(target.read_text(encoding='utf8'))
  for key,value in additions.items():
-  if key in data and data[key]!=value:parser.error('Existing translation conflicts: '+key)
+  if key in data and data[key]!=value and not (args.upgrade and data[key] in previous_messages.get(language,{}).get(key,[])):parser.error('Existing translation conflicts: '+key)
  data.update(additions);updates.append((target,json.dumps(data,ensure_ascii=False,indent=2)+'\n'))
 text=entry.read_text(encoding='utf8')
 anchor='<script src="/localization/stories.js"></script>'

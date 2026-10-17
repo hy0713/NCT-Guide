@@ -1,0 +1,7199 @@
+{
+  "date": "2026-10-17T14:54:48.957Z",
+  "status": "passed",
+  "network": "All non-loopback requests blocked",
+  "runs": [
+    {
+      "route": "whatbelt-Kaine-neighbor-5196",
+      "routeSHA256": "8ae4a245be0eb917eeb139a06c24fba1e594a3745129c0ed6012fe8e392cd528",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 268,
+      "popular": 65575607,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2689724602227496
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15934007746533918
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.056163618824143224
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2734975902575444
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2927015045282229
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.04358675715967475
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1323272037725206
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11168429006702574
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.0067396089999610664
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060508164891025396
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2962393292297755
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31615137893314255
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1804191444089111
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958756846322015
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10219289856640457
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20879401680838505
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.3000723943774359
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19748869916759493
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.02234901557531338
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2799995351584402
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25310556698302117
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.0008192142239835665
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008291823144879196
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.1736862116414709
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17960458639831978
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21425840300456633
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26856137683377945
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010457445860771242
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.001109392819488686
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14164144894805925
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06985570488297
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23971366157483465
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04767933177384953
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.36501552967013656
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060929900951175675
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3507366730693484
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11226465181042883
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.012669968816180988
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14718813048638268
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15162749007248633
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30715881977449766
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.25921731240774565
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.0962704734473524
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18706675128601719
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2678226858650908
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05885995148489748
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.1556174107111472
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710072599835375
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4215117475973105
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.013177854832141345
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4720855562795688
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5196,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5196,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5196",
+      "routeSHA256": "8ae4a245be0eb917eeb139a06c24fba1e594a3745129c0ed6012fe8e392cd528",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 268,
+      "popular": 65575607,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2689724602227496
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15934007746533918
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.056163618824143224
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2734975902575444
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2927015045282229
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.04358675715967475
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1323272037725206
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11168429006702574
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.0067396089999610664
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060508164891025396
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2962393292297755
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31615137893314255
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1804191444089111
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958756846322015
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10219289856640457
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20879401680838505
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.3000723943774359
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19748869916759493
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.02234901557531338
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2799995351584402
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25310556698302117
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.0008192142239835665
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008291823144879196
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.1736862116414709
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17960458639831978
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21425840300456633
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26856137683377945
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010457445860771242
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.001109392819488686
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14164144894805925
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06985570488297
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23971366157483465
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04767933177384953
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.36501552967013656
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060929900951175675
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3507366730693484
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11226465181042883
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.012669968816180988
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14718813048638268
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15162749007248633
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30715881977449766
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.25921731240774565
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.0962704734473524
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18706675128601719
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2678226858650908
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05885995148489748
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.1556174107111472
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710072599835375
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4215117475973105
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.013177854832141345
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4720855562795688
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5196,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5196,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5225",
+      "routeSHA256": "426a68dfab16aab58ddbf625ebe198fce4a4eb85e2a970d89bb183c55dfe9512",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 268,
+      "popular": 65560395,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2695929374609172
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15955867410633895
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.0561905372429774
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27399188709746486
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.29255566081494794
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.043567702767322025
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1318636569998936
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11121322403514289
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.006384342054237213
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06124796249928788
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.29619074897410397
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31587159784207536
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1801284967083766
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.19617316194854484
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10205005582520604
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20898707007706413
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30031976482290795
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19834052097874333
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.02252590618065997
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2794200738568787
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.252879735328723
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.0005579709350286288
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008168821180536578
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.1745626348650599
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17996392441057096
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.2140633464770375
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26872019730243735
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010271183478108514
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0007747938099739171
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14090606763219105
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06981385817459246
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23919274777084448
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04818130107009416
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3648055220825337
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.06124717033501492
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3511384301960008
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11248118847970112
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01196614207722907
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14687553098470296
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15221114113220485
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30690586568663164
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2596409178717043
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09661601971715056
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18685535690308192
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.26794583703962666
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05854670859083294
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15558940690678585
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710130460744933
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42160140303907956
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.012170973957482067
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.47187283163545846
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5225,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5225,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5225",
+      "routeSHA256": "426a68dfab16aab58ddbf625ebe198fce4a4eb85e2a970d89bb183c55dfe9512",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 268,
+      "popular": 65560395,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2695929374609172
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15955867410633895
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.0561905372429774
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27399188709746486
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.29255566081494794
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.043567702767322025
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1318636569998936
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11121322403514289
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.006384342054237213
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06124796249928788
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.29619074897410397
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31587159784207536
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1801284967083766
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.19617316194854484
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10205005582520604
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20898707007706413
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30031976482290795
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19834052097874333
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.02252590618065997
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2794200738568787
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.252879735328723
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.0005579709350286288
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008168821180536578
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.1745626348650599
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17996392441057096
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.2140633464770375
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26872019730243735
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010271183478108514
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0007747938099739171
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14090606763219105
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06981385817459246
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23919274777084448
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04818130107009416
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3648055220825337
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.06124717033501492
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3511384301960008
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11248118847970112
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01196614207722907
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14687553098470296
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15221114113220485
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30690586568663164
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2596409178717043
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09661601971715056
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18685535690308192
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.26794583703962666
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05854670859083294
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15558940690678585
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710130460744933
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42160140303907956
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.012170973957482067
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.47187283163545846
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5225,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5225,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5206",
+      "routeSHA256": "81baa5145d31bf429271493f96a14164e0180795cba0cce4e45dfc11e95b8503",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 268,
+      "popular": 65521964,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2704539679471357
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1602380297362841
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05693583691213738
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27476536499831883
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2927464546034542
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.04374766023382237
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.13204324998556405
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11138185932845801
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.005649838020667264
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06199142360382337
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2963828198728565
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31649622032948743
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1794589789084718
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.196902109380579
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10276697029537363
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20971330011261713
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.3010373268704652
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19916982129496896
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.021809255439056652
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.27874605732346097
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25309816633628945
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.001336444373069956
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.007470104486780649
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17547740393138622
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.18071564130679346
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21478050950629562
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26942120292331245
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010478864351194439
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0005388249765705955
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14022957244516504
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06916199800190165
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23854933509596532
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04891672397458302
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3654045223680979
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.062014902783797676
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3518380232220743
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11265993420270892
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.012690067064118127
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14706674357636934
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15304556779843226
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30758948166175004
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2604483382480179
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09737608333389064
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.1874463504465511
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2681798396977241
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05783355628825343
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15493951232329606
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710737365123005
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42232178926221997
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01289052303448357
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4725525716276112
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5206,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5206,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5206",
+      "routeSHA256": "81baa5145d31bf429271493f96a14164e0180795cba0cce4e45dfc11e95b8503",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 268,
+      "popular": 65521964,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2704539679471357
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1602380297362841
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05693583691213738
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27476536499831883
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2927464546034542
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.04374766023382237
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.13204324998556405
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11138185932845801
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.005649838020667264
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06199142360382337
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2963828198728565
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31649622032948743
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1794589789084718
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.196902109380579
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10276697029537363
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20971330011261713
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.3010373268704652
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19916982129496896
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.021809255439056652
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.27874605732346097
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25309816633628945
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.001336444373069956
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.007470104486780649
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17547740393138622
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.18071564130679346
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21478050950629562
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26942120292331245
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.010478864351194439
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0005388249765705955
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14022957244516504
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06916199800190165
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.23854933509596532
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04891672397458302
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3654045223680979
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.062014902783797676
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.3518380232220743
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11265993420270892
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.012690067064118127
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14706674357636934
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.15304556779843226
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30758948166175004
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2604483382480179
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09737608333389064
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.1874463504465511
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2681798396977241
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05783355628825343
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15493951232329606
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8710737365123005
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42232178926221997
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01289052303448357
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4725525716276112
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5206,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5206,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5155",
+      "routeSHA256": "0a7d4a547e5f1a8856a4b5385864faecf4b7d34b86ae937843228f49aa5ac003",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 268,
+      "popular": 65571399,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2691614855443242
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1591210729547884
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05590884977890015
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2736366231458236
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2918949473168883
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.042349029229157564
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1311755549194748
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11000014057828367
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.006638050648020033
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060978422965672574
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2955326650337473
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31560679283604026
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.18049626542634822
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958894317919172
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10178786437451515
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20869295499957735
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30002152040019825
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.1979614862387737
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022953619946840864
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2803981166247724
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25218358233250704
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00005179128444188219
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008581974885555566
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17410891716012233
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17966163964105297
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21358931874547116
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.2684307134284791
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.008975493557224545
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0021440644424284283
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14183044722076849
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.07018026713492004
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.24006056848307922
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04792013938524109
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645719082985869
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060950640037603865
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.350830509694935
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11128327074405492
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01153977637371223
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14618748006824034
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1518317136298467
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30662631437468924
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2592633533878294
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09632253245912281
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18658113178764213
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.267257562902219
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.058791084109909686
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15595116800858277
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8708246632998256
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4212504614622436
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01174054646375966
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4715013613162149
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5155",
+      "routeSHA256": "0a7d4a547e5f1a8856a4b5385864faecf4b7d34b86ae937843228f49aa5ac003",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 268,
+      "popular": 65571399,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2691614855443242
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1591210729547884
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05590884977890015
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2736366231458236
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2918949473168883
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.042349029229157564
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1311755549194748
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11000014057828367
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.006638050648020033
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060978422965672574
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2955326650337473
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31560679283604026
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.18049626542634822
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958894317919172
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10178786437451515
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20869295499957735
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30002152040019825
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.1979614862387737
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022953619946840864
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2803981166247724
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25218358233250704
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00005179128444188219
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008581974885555566
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17410891716012233
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17966163964105297
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21358931874547116
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.2684307134284791
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.008975493557224545
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.0021440644424284283
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14183044722076849
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.07018026713492004
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.24006056848307922
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04792013938524109
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645719082985869
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060950640037603865
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.350830509694935
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11128327074405492
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01153977637371223
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14618748006824034
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1518317136298467
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30662631437468924
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2592633533878294
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09632253245912281
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18658113178764213
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.267257562902219
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.058791084109909686
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15595116800858277
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8708246632998256
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4212504614622436
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01174054646375966
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4715013613162149
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5143",
+      "routeSHA256": "0c4700f62b02d7c46bdafa3633294a83da6246be2501a79e6181bd8ccf128824",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 268,
+      "popular": 65538924,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2688247759353983
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15925143818634996
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05588568886520717
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27342868885174243
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.29016215949722524
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.041330041747591195
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.12935113707536244
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.10895659492247439
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.00659103419557816
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06098880198451845
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2938089752792763
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.3155035942259239
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1802211249048265
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.19584282658008528
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10179129021683014
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20861307426672865
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.29992030251164187
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19774390149223997
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022737839450002018
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2793844922818669
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.2503767139242141
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00018978984046147396
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008362603601692609
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17376469314849263
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.1795852046493407
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21369898171055762
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26833732736650107
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.007937385142551878
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.003195456854228118
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14075393741997683
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06993149917594449
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.2390253571813522
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04794639124296968
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645324184165675
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060908142041649405
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.35068172532506486
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11028668473501507
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.011770943607931683
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14437570060820715
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1516184568712734
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30654333145329155
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2590266430303673
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09628072876897215
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.1864142421949882
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2654906481970561
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05873971449059012
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15569506097209884
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8703365518876617
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42099825778386746
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.011954957082551287
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.47114555127143176
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5143,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5143,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-neighbor-5143",
+      "routeSHA256": "0c4700f62b02d7c46bdafa3633294a83da6246be2501a79e6181bd8ccf128824",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 268,
+      "popular": 65538924,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2688247759353983
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.15925143818634996
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05588568886520717
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.27342868885174243
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.29016215949722524
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.041330041747591195
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.12935113707536244
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.10895659492247439
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.00659103419557816
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.06098880198451845
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2938089752792763
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.3155035942259239
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.1802211249048265
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.19584282658008528
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10179129021683014
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20861307426672865
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.29992030251164187
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.19774390149223997
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022737839450002018
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2793844922818669
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.2503767139242141
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00018978984046147396
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008362603601692609
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17376469314849263
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.1795852046493407
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21369898171055762
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.26833732736650107
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.007937385142551878
+        },
+        {
+          "state": 1028,
+          "rank": 2,
+          "margin": -0.003195456854228118
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14075393741997683
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.06993149917594449
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.2390253571813522
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04794639124296968
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645324184165675
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060908142041649405
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.35068172532506486
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11028668473501507
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.011770943607931683
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14437570060820715
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1516184568712734
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30654333145329155
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2590266430303673
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09628072876897215
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.1864142421949882
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.2654906481970561
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.05873971449059012
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15569506097209884
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8703365518876617
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.42099825778386746
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.011954957082551287
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.47114555127143176
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5143,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5157,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5143,
+        5152,
+        5157,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-FL5-NH7",
+      "routeSHA256": "f8169cd4108fbe67b851093d154a34500b664bb3dd4a4e616ecea711afa263cd",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 269,
+      "popular": 65551322,
+      "outcome": "tie",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2691614855443242
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1591210729547884
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05590884977890015
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2736366231458236
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2918949473168883
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.042349029229157564
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1311755549194748
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11000014057828367
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.001978702055837722
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060978422965672574
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2955326650337473
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31560679283604026
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.18049626542634822
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958894317919172
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10178786437451515
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20869295499957735
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30002152040019825
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.1979614862387737
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022953619946840864
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2803981166247724
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25218358233250704
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00005179128444188219
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008581974885555566
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17410891716012233
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17966163964105297
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21358931874547116
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.2684307134284791
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.008975493557224545
+        },
+        {
+          "state": 1028,
+          "rank": 1,
+          "margin": 0.0023996891097919915
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14183044722076849
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.07018026713492004
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.24006056848307922
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04792013938524109
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645719082985869
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060950640037603865
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.350830509694935
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11128327074405492
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01153977637371223
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14618748006824034
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1518317136298467
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30662631437468924
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2592633533878294
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09632253245912281
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18658113178764213
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.267257562902219
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.058791084109909686
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15595116800858277
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8708246632998256
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4212504614622436
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01174054646375966
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4715013613162149
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-FL6-NH6",
+      "routeSHA256": "011c46a43b9f150f740a084fa0e580b8f6dff8442c9314be71ddb09e8ba92378",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "zh-CN",
+      "electoral": 270,
+      "popular": 65561388,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2691614855443242
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1591210729547884
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05590884977890015
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2736366231458236
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2918949473168883
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.042349029229157564
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1311755549194748
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11000014057828367
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.004313827218639876
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060978422965672574
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2955326650337473
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31560679283604026
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.18049626542634822
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958894317919172
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10178786437451515
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20869295499957735
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30002152040019825
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.1979614862387737
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022953619946840864
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2803981166247724
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25218358233250704
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00005179128444188219
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008581974885555566
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17410891716012233
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17966163964105297
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21358931874547116
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.2684307134284791
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.008975493557224545
+        },
+        {
+          "state": 1028,
+          "rank": 1,
+          "margin": 0.0001329744175455616
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14183044722076849
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.07018026713492004
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.24006056848307922
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04792013938524109
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645719082985869
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060950640037603865
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.350830509694935
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11128327074405492
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01153977637371223
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14618748006824034
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1518317136298467
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30662631437468924
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2592633533878294
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09632253245912281
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18658113178764213
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.267257562902219
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.058791084109909686
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15595116800858277
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8708246632998256
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4212504614622436
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01174054646375966
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4715013613162149
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    },
+    {
+      "route": "whatbelt-Kaine-FL6-NH6",
+      "routeSHA256": "011c46a43b9f150f740a084fa0e580b8f6dff8442c9314be71ddb09e8ba92378",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 18,
+      "language": "en-US",
+      "electoral": 270,
+      "popular": 65561388,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.2691614855443242
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.1591210729547884
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.05590884977890015
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.2736366231458236
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.2918949473168883
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.042349029229157564
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.1311755549194748
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.11000014057828367
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.004313827218639876
+        },
+        {
+          "state": 1009,
+          "rank": 2,
+          "margin": -0.060978422965672574
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.2955326650337473
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.31560679283604026
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.18049626542634822
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.1958894317919172
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.10178786437451515
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.20869295499957735
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.30002152040019825
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.1979614862387737
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.022953619946840864
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.2803981166247724
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.25218358233250704
+        },
+        {
+          "state": 1021,
+          "rank": 2,
+          "margin": -0.00005179128444188219
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.008581974885555566
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.17410891716012233
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.17966163964105297
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.21358931874547116
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.2684307134284791
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.008975493557224545
+        },
+        {
+          "state": 1028,
+          "rank": 1,
+          "margin": 0.0001329744175455616
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.14183044722076849
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.07018026713492004
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.24006056848307922
+        },
+        {
+          "state": 1032,
+          "rank": 2,
+          "margin": -0.04792013938524109
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3645719082985869
+        },
+        {
+          "state": 1034,
+          "rank": 2,
+          "margin": -0.060950640037603865
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.350830509694935
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.11128327074405492
+        },
+        {
+          "state": 1037,
+          "rank": 2,
+          "margin": -0.01153977637371223
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.14618748006824034
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.1518317136298467
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.30662631437468924
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.2592633533878294
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.09632253245912281
+        },
+        {
+          "state": 1043,
+          "rank": 2,
+          "margin": -0.18658113178764213
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.267257562902219
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.058791084109909686
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.15595116800858277
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8708246632998256
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.4212504614622436
+        },
+        {
+          "state": 1049,
+          "rank": 2,
+          "margin": -0.01174054646375966
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4715013613162149
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61747
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "checks": [
+    "Every recorded run played 25 questions to actual results",
+    "Actual achievement storage recorded, including failures",
+    "Read-only planning and language switching preserve game/RNG",
+    "No external requests, missing core resources or script errors",
+    "Recorded English replays match the same-seed Chinese choices, visits, votes, state results and RNG"
+  ],
+  "attempts": [
+    {
+      "failure": "AssertionError [ERR_ASSERTION]: Known-success fixture failed actual unlock: whatbelt-Kaine-FL5-NH7\n    at run (E:\\nct\\.publish\\NCT-Guide\\tests\\community-routes.cjs:66:82)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:472:9)",
+      "context": "An unverified candidate was mistakenly tested with the known-success assertion. The real 269 EV failure remains in runs; retry without that assertion."
+    }
+  ]
+}
