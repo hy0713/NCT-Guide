@@ -1,0 +1,368 @@
+{
+  "baseCommit": "d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf",
+  "source": "static/js/campaign_trail.js",
+  "sourceSHA256": "a6d5f67ef062b8525105e45c5a09a42efb7923f03dfe8fba457c591c0766dd9f",
+  "qualification": "bigshot_mode != true && dirtyhacker3 == null && game_type_id !== \"3\"",
+  "achievements": [
+    {
+      "id": "destiny",
+      "name": "殊途同归",
+      "menuDescription": "在所有适用的内置剧本中取得306比232的选举人票结果（1964及1976—2020，不含2016a）。",
+      "condition": "!run.achievements[\"destiny\"] && run.threeosix[\"2020\"] && run.threeosix[\"2016\"] && run.threeosix[\"2012\"] && run.threeosix[\"2000\"] && run.threeosix[\"1988\"] && run.threeosix[\"1976\"] && run.threeosix[\"1964\"]",
+      "line": 2876,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "ridingBiden",
+      "name": "黑暗布兰登崛起",
+      "menuDescription": "在2020剧本中使用乔·拜登取得至少406张选举人票。",
+      "condition": "!modded&&  !run.achievements[\"ridingBiden\"] && e.candidate_last_name == \"Biden\" && e.election_id == 21 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes > 405",
+      "line": 2883,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "magaa",
+      "name": "让美国再次伟大……再来一次",
+      "menuDescription": "在2020剧本中使用唐纳德·特朗普取得至少322张选举人票。",
+      "condition": "!modded && !run.achievements[\"magaa\"] && e.candidate_last_name == \"Trump\" && e.election_id == 21 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes > 321",
+      "line": 2887,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "nmpr",
+      "name": "他不是我的总统！",
+      "menuDescription": "在2020剧本中使用特朗普让选举陷入僵局。",
+      "condition": "!modded && !run.achievements[\"nmpr\"] && e.candidate_last_name == \"Trump\" && e.election_id == 21 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes == 269",
+      "line": 2891,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "nomalarkey",
+      "name": "文明获胜……？",
+      "menuDescription": "在2020剧本中重现现实的选举结果。",
+      "condition": "!modded && !run.achievements[\"nomalarkey\"] && e.candidate_last_name == \"Biden\" && e.election_id == 21 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes == 306",
+      "line": 2895,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "whatbelt",
+      "name": "我依然屹立",
+      "menuDescription": "在2016剧本中使用任一候选人，在未赢下威斯康星、密歇根和宾夕法尼亚的情况下获胜。",
+      "condition": "!modded && !run.achievements[\"whatbelt\"] && e.election_id == 20 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.candidate_id == e.final_state_results[37].result[1].candidate && e.candidate_id == e.final_state_results[21].result[1].candidate && e.candidate_id == e.final_state_results[49].result[1].candidate && e.final_overall_results[n].electoral_votes > 269",
+      "line": 2902,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "thebern",
+      "name": "伯尼之火",
+      "menuDescription": "使用希拉里·克林顿，选择伯尼·桑德斯为搭档，取得至少350张选举人票。",
+      "condition": "!modded && !run.achievements[\"thebern\"] && e.candidate_last_name == \"Clinton\" && e.election_id == 20 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes > 350 && e.running_mate_last_name == \"Sanders\"",
+      "line": 2906,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "moscow",
+      "name": "莫斯科的火枪手",
+      "menuDescription": "使用特朗普，选择佩林为搭档，赢得普选票。",
+      "condition": "!modded && !run.achievements[\"moscow\"] && e.candidate_last_name == \"Trump\" && e.election_id == 20 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && ((e.final_outcome == \"win\" && e.final_overall_results[0].popular_votes > e.final_overall_results[1].popular_votes)||(e.final_outcome==\"loss\" && e.final_overall_results[1].popular_votes > e.final_overall_results[0].popular_votes)) && e.running_mate_last_name == \"Palin\"",
+      "line": 2910,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "why",
+      "name": "为什么？",
+      "menuDescription": "游玩2016a剧本。",
+      "condition": "!modded && !run.achievements[\"why\"] && e.election_id == 16",
+      "line": 2917,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "what",
+      "name": "到底为什么？！",
+      "menuDescription": "游玩2016a剧本100次。",
+      "condition": "!modded && !run.achievements[\"what\"] && e.election_id == 16 && run.tsatrolling > 99",
+      "line": 2921,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "realdebate",
+      "name": "真正的辩论",
+      "menuDescription": "使用奥巴马，坚定支持自由派传统和扩大奥巴马医改，并赢得选举。",
+      "condition": "!modded && !run.achievements[\"realdebate\"] && e.election_id == 3 && campaignTrail_temp.player_answers[0]==729 && campaignTrail_temp.player_answers[1]==330 && containsObject(168,e.player_answers)  && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_outcome == \"win\"",
+      "line": 2927,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "karmic",
+      "name": "因果报应",
+      "menuDescription": "使用奥巴马，放弃拜登后只赢下哥伦比亚特区。",
+      "condition": "!modded && !run.achievements[\"karmic\"] && e.election_id == 3 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes <= 4 && e.running_mate_last_name==\"Clinton\"",
+      "line": 2931,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "raiders",
+      "name": "纳德的突击队",
+      "menuDescription": "使用拉尔夫·纳德取得5%的普选票（任何难度均可）。",
+      "condition": "!modded && !run.achievements[\"raiders\"] && e.election_id == 9 && e.candidate_last_name == \"Nader\" && e.difficulty_level_multiplier <= 1.33 && e.final_overall_results[n].popular_votes >= 5300000",
+      "line": 2937,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "master",
+      "name": "自己掌舵",
+      "menuDescription": "使用阿尔·戈尔，在表示克林顿应遭弹劾后赢得选举。",
+      "condition": "!modded && !run.achievements[\"master\"] && e.election_id == 9 && e.candidate_last_name == \"Gore\" && e.difficulty_level_multiplier <= 0.97 && e.final_outcome == \"win\" && containsObject(3326,e.player_answers)",
+      "line": 2941,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "swap",
+      "name": "胜负对调",
+      "menuDescription": "使用阿尔·戈尔，在输掉普选票的情况下赢得选举。",
+      "condition": "!modded && !run.achievements[\"swap\"] && e.election_id == 9 && e.candidate_last_name == \"Gore\" && e.difficulty_level_multiplier <= 0.97 && e.final_outcome == \"win\" && e.final_overall_results[0].popular_votes < e.final_overall_results[1].popular_votes",
+      "line": 2945,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "florida2000",
+      "name": "艺术模仿生活",
+      "menuDescription": "佛罗里达州的胜负差距低于0.5%，且翻转该州会改变最终胜者。",
+      "condition": "!modded && !run.achievements[\"florida2000\"] && e.final_state_results[8].result[0].percent - e.final_state_results[8].result[1].percent < 0.005 && e.final_overall_results[0].electoral_votes <= 294",
+      "line": 2950,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "tanks",
+      "name": "坦克与税收",
+      "menuDescription": "使用杜卡基斯，在乘坐坦克和承诺加税后仍赢得选举。",
+      "condition": "!modded && !run.achievements[\"tanks\"] && e.election_id == 15 && containsObject(4439,e.player_answers) && containsObject(4484,e.player_answers)  && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_outcome == \"win\"",
+      "line": 2957,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "Rainbow",
+      "name": "彩虹联盟",
+      "menuDescription": "使用迈克尔·杜卡基斯，选择杰西·杰克逊为搭档并赢得选举。",
+      "condition": "!modded && !run.achievements[\"Rainbow\"] && e.election_id == 15 && campaignTrail_temp.running_mate_last_name==\"Jackson\" && campaignTrail_temp.final_outcome==\"win\" && campaignTrail_temp.difficulty_level_multiplier <= 0.97",
+      "line": 2961,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "Kinder",
+      "name": "更仁慈、更温和的大胜",
+      "menuDescription": "在普通难度使用老布什取得超过500张选举人票。",
+      "condition": "!modded && !run.achievements[\"Kinder\"] && e.election_id == 15 && campaignTrail_temp.candidate_last_name==\"Bush\" && campaignTrail_temp.final_outcome==\"win\" && campaignTrail_temp.final_overall_results[0].electoral_votes>500 && campaignTrail_temp.difficulty_level_multiplier <= 0.97",
+      "line": 2965,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "georgia",
+      "name": "激进自由派吉米·卡特",
+      "menuDescription": "使用吉米·卡特，坚定支持堕胎选择权和全民医保，并取得超过400张选举人票。",
+      "condition": "!modded && !run.achievements[\"georgia\"] && e.election_id == 10 && containsObject(3610,e.player_answers) && containsObject(3647,e.player_answers)  && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes > 400",
+      "line": 2972,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "georgenixon",
+      "name": "魔鬼来到佐治亚",
+      "menuDescription": "在1968剧本中使用尼克松赢下佐治亚州。",
+      "condition": "!modded && !run.achievements[\"georgenixon\"] && e.candidate_last_name == \"Nixon\" && e.election_id == 4 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && 23 == campaignTrail_temp.final_state_results[8].result[0].candidate",
+      "line": 2979,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "ratio",
+      "name": "休伯特的压倒性胜利",
+      "menuDescription": "使用休伯特·汉弗莱取得至少430张选举人票。",
+      "condition": "!modded && !run.achievements[\"ratio\"] && e.candidate_last_name == \"Humphrey\" && e.election_id == 4 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.final_overall_results[n].electoral_votes > 430",
+      "line": 2983,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "BCitsHard",
+      "name": "正因为困难",
+      "menuDescription": "在极难难度使用约翰·肯尼迪获胜。",
+      "condition": "!modded && !run.achievements[\"BCitsHard\"] && e.candidate_last_name == \"Kennedy\" && e.election_id == 11 && campaignTrail_temp.difficulty_level_multiplier <= 0.9 && campaignTrail_temp.final_outcome==\"win\"",
+      "line": 2990,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "BCitsEasy",
+      "name": "正因为容易",
+      "menuDescription": "在轻而易举难度使用约翰·肯尼迪，取得不足100张选举人票。",
+      "condition": "!modded && !run.achievements[\"BCitsEasy\"] && e.candidate_last_name ==\"Kennedy\" &&  campaignTrail_temp.election_id == 11 && campaignTrail_temp.difficulty_level_multiplier == 1.33 && campaignTrail_temp.final_overall_results[n].electoral_votes<100",
+      "line": 2994,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "Vice",
+      "name": "无懈可击的副总统",
+      "menuDescription": "使用尼克松与戈德华特的组合获胜。",
+      "condition": "!modded && !run.achievements[\"Vice\"] && e.election_id == 11 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && campaignTrail_temp.final_outcome==\"win\" && campaignTrail_temp.running_mate_last_name==\"Goldwater\"",
+      "line": 2998,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "dixieDewey",
+      "name": "南方击败杜威",
+      "menuDescription": "使用杜鲁门，阻止南方退党并赢得选举。",
+      "condition": "!modded && !run.achievements[\"dixieDewey\"] && e.candidate_last_name == \"Truman\" && e.election_id == 12 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && campaignTrail_temp.player_answers[2]==3809 && e.final_outcome==\"win\"",
+      "line": 3004,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "Dewey",
+      "name": "大局已定",
+      "menuDescription": "使用托马斯·杜威赢得普选票。",
+      "condition": "!modded && !run.achievements[\"Dewey\"] && e.candidate_last_name == \"Dewey\" && e.election_id == 12 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && ((e.final_outcome == \"win\" && e.final_overall_results[0].popular_votes > e.final_overall_results[1].popular_votes)||(e.final_outcome==\"loss\" && e.final_overall_results[1].popular_votes > e.final_overall_results[0].popular_votes)) && e.final_outcome==\"win\"",
+      "line": 3009,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "California",
+      "name": "加州在哪里？",
+      "menuDescription": "使用查尔斯·埃文斯·休斯，在未赢下加利福尼亚的情况下赢得选举。",
+      "condition": "!modded && !run.achievements[\"California\"] && e.candidate_last_name == \"Hughes\" && e.election_id == 14 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && e.candidate_id == e.final_state_results[3].result[1].candidate && e.final_outcome==\"win\"",
+      "line": 3015,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "Commoner",
+      "name": "伟大的平民",
+      "menuDescription": "使用布赖恩取得超过330张选举人票。",
+      "condition": "!modded && !run.achievements[\"Commoner\"] && e.candidate_last_name == \"Bryan\" && e.election_id == 5 && campaignTrail_temp.difficulty_level_multiplier <= 0.97 && campaignTrail_temp.final_overall_results[0].electoral_votes>330 && e.final_outcome==\"win\"",
+      "line": 3021,
+      "qualification": "legitimate branch"
+    },
+    {
+      "id": "stillAlive",
+      "name": "依然在场",
+      "menuDescription": "实现竞选之路社区玩家的梦想。",
+      "condition": "!modded && e.candidate_last_name == \"Wallace\" && e.election_id == 4 && e.final_overall_results[n].electoral_votes == 535 && !run.achievements[\"stillAlive\"]",
+      "line": 3096,
+      "qualification": "non-legitimate branch"
+    },
+    {
+      "id": "yourchance",
+      "name": "你的机会来了",
+      "menuDescription": "成为 [[Big Shot]]。",
+      "condition": "!modded && !run.achievements[\"yourchance\"] && campaignTrail_temp.bigshot_mode",
+      "line": 3100,
+      "qualification": "non-legitimate branch"
+    }
+  ],
+  "requiredAnswers": [
+    {
+      "id": 729,
+      "english": "I will pledge a new commitment to liberalism and economic revival. Our social programs and unions need to be protected. In those areas where Republicans continue to stand in the way of progress, we will look for other ways to get things done.",
+      "chinese": "我会承诺重新致力于自由主义和经济振兴。我们的社会福利计划和工会需要保护。在共和党继续阻碍进步的领域，我们会寻找其他办法把事情办成。",
+      "scopes": [
+        "2012_Obama_Biden",
+        "2012_Obama_Clinton"
+      ]
+    },
+    {
+      "id": 330,
+      "english": "I will talk at great length about how we've drifted from the tradition of liberalism that was built by the likes of Roosevelt, Johnson, and Humphrey. I will reaffirm my commitment to this vision in my second term.",
+      "chinese": "我会详细谈谈，我们如何偏离了罗斯福、约翰逊和汉弗莱等人建立的自由主义传统。我会重申，第二任期将致力于实现这一愿景。",
+      "scopes": [
+        "2012_Obama_Biden",
+        "2012_Obama_Clinton"
+      ]
+    },
+    {
+      "id": 168,
+      "english": "There should be a public insurance company offering health care to all Americans. Private insurers are simply too greedy and too likely to turn down people with pre-existing health conditions.",
+      "chinese": "应该设立一家公共保险机构，为所有美国人提供医疗保障。私人保险公司实在太贪婪，也太容易拒绝有既往病史的人。",
+      "scopes": [
+        "2012_Obama_Biden",
+        "2012_Obama_Clinton",
+        "2012_Romney_Ryan",
+        "2012_Romney_Portman",
+        "2012_Romney_Rubio",
+        "2012_Romney_Pawlenty"
+      ]
+    },
+    {
+      "id": 3326,
+      "english": "Bill Clinton was an embarrassment to the United States, and his impeachment was well-deserved. I believe that he should have been removed from office.",
+      "chinese": "比尔·克林顿让美国蒙羞，他遭到弹劾是罪有应得。我认为他应当被免职。",
+      "scopes": [
+        "2000_Bush_Cheney",
+        "2000_Bush_Danforth",
+        "2000_Bush_Ridge",
+        "2000_Bush_Powell",
+        "2000_Gore_Lieberman",
+        "2000_Gore_Graham",
+        "2000_Gore_Kerry",
+        "2000_Gore_Bayh",
+        "2000_Nader_LaDuke"
+      ]
+    },
+    {
+      "id": 4439,
+      "english": "We need to change the imagery on this issue. Let's do a photo-op of me riding in a tank.",
+      "chinese": "我们得改变公众在这个问题上对我的印象。安排我乘坐坦克拍一组宣传照吧。",
+      "scopes": [
+        "1988_Dukakis_Bentsen",
+        "1988_Dukakis_Glenn",
+        "1988_Dukakis_Gore",
+        "1988_Dukakis_Jackson"
+      ]
+    },
+    {
+      "id": 4484,
+      "english": "My opponent will raise taxes, and so will I. He won't tell you. I just did.",
+      "chinese": "我的对手会加税，我也会。他不会告诉你，而我刚刚说了。",
+      "scopes": [
+        "1988_Bush_Quayle",
+        "1988_Bush_Dole",
+        "1988_Bush_Kemp",
+        "1988_Dukakis_Bentsen",
+        "1988_Dukakis_Glenn",
+        "1988_Dukakis_Gore",
+        "1988_Dukakis_Jackson"
+      ]
+    },
+    {
+      "id": 3610,
+      "english": "I am a pro-choice candidate, and I support the <em>Roe v. Wave</em> decision.",
+      "chinese": "我是支持妇女自主选择权的候选人，支持<em>罗诉韦德案</em>判决。",
+      "scopes": [
+        "1976_Carter_Mondale",
+        "1976_Carter_Church",
+        "1976_Carter_Glenn",
+        "1976_Carter_Jackson",
+        "1976_Ford_Dole",
+        "1976_Ford_Baker",
+        "1976_Ford_Anderson",
+        "1976_Ford_Connally"
+      ]
+    },
+    {
+      "id": 3647,
+      "english": "I would absolutely support a law like this as President. It is past time that our nation had health coverage for all.",
+      "chinese": "担任总统后，我绝对会支持这样的法律。我国早就应该让所有人都享有医疗保障了。",
+      "scopes": [
+        "1976_Carter_Mondale",
+        "1976_Carter_Church",
+        "1976_Carter_Glenn",
+        "1976_Carter_Jackson",
+        "1976_Ford_Dole",
+        "1976_Ford_Baker",
+        "1976_Ford_Anderson",
+        "1976_Ford_Connally"
+      ]
+    },
+    {
+      "id": 3809,
+      "english": "Our chances are bad enough without instigating a Southern walkout from our convention. This kind of thing will have to wait until our position is a little stronger.",
+      "chinese": "我们的胜算已经够低了，不能再引发南方代表退出党代会。这类事情得等我们的地位更稳固一些再说。",
+      "scopes": [
+        "1948_Truman_Barkley"
+      ]
+    }
+  ]
+}

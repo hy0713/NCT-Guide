@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-17T09:27:23.649Z",
+  "checks": [
+    "Actual 25-question classic 2016a run unlocks why and increments counter to 1",
+    "Achievement survives reload in the same origin",
+    "Actual BIGSHOT keyboard activation and full run unlock yourchance; ordinary 2016a counter does not advance"
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "status": "passed"
+}

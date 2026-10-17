@@ -1,0 +1,242 @@
+{
+  "status": "passed",
+  "sourceSHA256": "a6d5f67ef062b8525105e45c5a09a42efb7923f03dfe8fba457c591c0766dd9f",
+  "tests": [
+    {
+      "id": "destiny",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "ridingBiden",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "magaa",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "nmpr",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "nomalarkey",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "whatbelt",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "thebern",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "moscow",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "why",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "what",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "realdebate",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "karmic",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "raiders",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "master",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "swap",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "florida2000",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "tanks",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "Rainbow",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "Kinder",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "georgia",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "georgenixon",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "ratio",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "BCitsHard",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "BCitsEasy",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "Vice",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "dixieDewey",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "Dewey",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "California",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "Commoner",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "stillAlive",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "yourchance",
+      "type": "synthetic positive",
+      "passed": true
+    },
+    {
+      "id": "ridingBiden",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "magaa",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "nmpr",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "nomalarkey",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "thebern",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "ratio",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "raiders",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "raiders",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "Kinder",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "georgia",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "BCitsHard",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "BCitsEasy",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "BCitsEasy",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "Commoner",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "what",
+      "type": "synthetic negative boundary",
+      "passed": true
+    },
+    {
+      "id": "Dewey",
+      "type": "synthetic negative boundary",
+      "passed": true
+    }
+  ],
+  "limits": "Synthetic isolated predicates; does not prove reachability, actual unlock, else-if priority or a winning route."
+}
