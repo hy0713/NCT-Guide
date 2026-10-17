@@ -84,5 +84,5 @@ python tools/build-achievement-guide.py
 
 不要修改游戏计算、成就条件或基线来让验证通过。若更新上游，应重新提取与人工校订本攻略。历史／政治梗的有来源解释继续使用中文版内置旁注；这里专注游戏真实判定，不把架空结局写成历史事实。
 ''')
-(ROOT/'achievements/README_ZH.md').write_text(''.join(parts),encoding='utf8')
+(ROOT/'achievements/README_ZH.md').write_text(''.join(parts),encoding='utf8',newline='\n')
 print('Rendered all',len(notes),'native achievement strategies')
