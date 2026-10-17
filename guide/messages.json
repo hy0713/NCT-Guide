@@ -67,7 +67,9 @@
     "guide.achievement_uncertainty": "无波动局部预测不能保证最终达标。精确票数、第二名、普选逆转、随机分支与单局成就优先级须以最终结算和实际存档为准。",
     "guide.achievement_recorded": "此年份的306／232已经记账；请改玩尚未记录的年份。",
     "guide.achievement_ended": "本局已经结束，存档尚未解锁此项。请核对结局条件和成就优先级，再决定重开或换搭档；当前策略不保证成功。",
-    "guide.achievement_planning": "胜选／高票目标还对已载入的剩余题目做有限整局规划，假定后续选项可用；遇到分支会按实际可见选项重算。显示的票数仍是当前局势预测，不是最终保证。"
+    "guide.achievement_planning": "胜选／高票目标还对已载入的剩余题目做有限整局规划，假定后续选项可用；遇到分支会按实际可见选项重算。显示的票数仍是当前局势预测，不是最终保证。",
+    "guide.achievement_enabled": "启用成就引导",
+    "guide.achievement_disabled": "成就引导已关闭。下方保留普通胜选建议，不再按成就目标规划；重新开启可恢复之前的目标。"
   },
   "en-US": {
     "guide.show": "Guide (spoilers)",
@@ -137,6 +139,8 @@
     "guide.achievement_uncertainty": "Local zero-noise forecasts do not guarantee success. Exact votes, second place, popular-vote inversions, random branches and unlock priority must be confirmed by final results and the actual save.",
     "guide.achievement_recorded": "306/232 already recorded for this year; play a missing year instead.",
     "guide.achievement_ended": "This run ended without this unlock in the save. Check final conditions and achievement priority before retrying or changing mates; this strategy is not guaranteed.",
-    "guide.achievement_planning": "Win/high-EV objectives also use bounded planning over loaded future questions, assuming their options remain available. Branches trigger replanning with visible choices. Displayed votes remain current-state forecasts, not final guarantees."
+    "guide.achievement_planning": "Win/high-EV objectives also use bounded planning over loaded future questions, assuming their options remain available. Branches trigger replanning with visible choices. Displayed votes remain current-state forecasts, not final guarantees.",
+    "guide.achievement_enabled": "Enable achievement coaching",
+    "guide.achievement_disabled": "Achievement coaching is off. Advice below uses ordinary victory ranking, with no achievement planning. Re-enable to restore the previous objective."
   }
 }

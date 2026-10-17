@@ -1,0 +1,18 @@
+/* Actual independent achievement toggle: ordinary guide stays active. */
+const fs=require('fs'),assert=require('assert'),{chromium}=require('./runtime.cjs'),{start}=require('./stories-browser.cjs');
+const scenario=require('../localization/stories/catalogue.json').scenarios.find(s=>s.scope==='2012_Obama_Clinton');
+const report={date:new Date().toISOString(),status:'running',checks:[],errors:[],external:[]};
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:process.env.NCT_BROWSER||'C:/Program Files/Google/Chrome/Application/chrome.exe'});try{
+ const context=await browser.newContext();await context.route('**/*',r=>{const u=new URL(r.request().url());if(['localhost','127.0.0.1'].includes(u.hostname)||['data:','blob:'].includes(u.protocol))return r.continue();report.external.push(u.href);return r.abort();});const page=await context.newPage();page.on('pageerror',e=>report.errors.push(e.message));
+ await start(page,scenario,'zh-CN','1');await page.evaluate(()=>NCTGuide.setEnabled(true));await page.locator('#achievement-target').selectOption('karmic');assert.equal(await page.locator('#achievement-enabled').isChecked(),true);
+ const before=await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]);
+ await page.locator('#achievement-enabled').uncheck();assert.equal(await page.locator('#achievement-target').count(),0);assert.equal(await page.evaluate(()=>NCTGuide.enabled),true);
+ assert(await page.evaluate(()=>NCTAchievements.plan(campaignTrail_temp,new Proxy({},{get(){throw Error('Disabled planner read forecasts');}}),[])===null));
+ assert.deepEqual(await page.locator('[data-guide-answer]').evaluateAll(nodes=>nodes.map(n=>+n.dataset.guideAnswer)),await page.evaluate(()=>NCTGuide.result.answers.map(a=>a.id)));
+ assert.deepEqual(await page.locator('[data-guide-state]').evaluateAll(nodes=>nodes.map(n=>+n.dataset.guideState)),await page.evaluate(()=>NCTGuide.result.visits.slice(0,5).map(s=>s.id)));
+ assert.deepEqual(await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]),before);report.checks.push('Off hides achievement UI, bypasses planning, restores ordinary answer/visit order and preserves game/RNG');
+ await page.evaluate(()=>NCTI18n.setLanguage('en-US'));assert.match(await page.locator('.nct-achievements').innerText(),/coaching is off/);assert.equal(await page.locator('#achievement-enabled').isChecked(),false);
+ await start(page,scenario,'zh-CN','1');assert.equal(await page.locator('#achievement-enabled').isChecked(),false);assert.equal(await page.evaluate(()=>NCTAchievements.selected),'karmic');report.checks.push('Off preference survives language changes and reload; selected objective is retained');
+ const unchanged=await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]);await page.locator('#achievement-enabled').focus();await page.keyboard.press('Space');assert.equal(await page.locator('#achievement-enabled').isChecked(),true);assert.equal(await page.locator('#achievement-target').inputValue(),'karmic');assert.equal(await page.locator('[data-achievement-status]').getAttribute('data-achievement-status'),'open');assert.deepEqual(await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]),unchanged);report.checks.push('Keyboard Space re-enables prior objective without game shortcuts or RNG changes');
+ assert.deepEqual(report.errors,[]);assert.deepEqual(report.external,[]);report.status='passed';console.log('PASS independent achievement toggle',report.checks);
+}catch(e){report.status='failed';report.failure=e.message;throw e;}finally{fs.writeFileSync('tests/guide-achievement-toggle-results.json',JSON.stringify(report,null,2)+'\n');await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

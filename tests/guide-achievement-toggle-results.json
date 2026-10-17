@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-17T10:48:22.028Z",
+  "status": "passed",
+  "checks": [
+    "Off hides achievement UI, bypasses planning, restores ordinary answer/visit order and preserves game/RNG",
+    "Off preference survives language changes and reload; selected objective is retained",
+    "Keyboard Space re-enables prior objective without game shortcuts or RNG changes"
+  ],
+  "errors": [],
+  "external": []
+}

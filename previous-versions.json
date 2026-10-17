@@ -6,13 +6,16 @@
     "91e490498ab68ec71bc3d952b91e7d59ce2966efea87e957c606c046a09d9156"
   ],
   "localization/guide/guide.css": [
-    "4ac173f8c9a994f3f0d1c0f4a6d838d371cd3be1207dcf749044342f1bfa4f63"
+    "4ac173f8c9a994f3f0d1c0f4a6d838d371cd3be1207dcf749044342f1bfa4f63",
+    "3d533a5f745224e3c1415f94cbc07e31c541672d74b243e3b08490e66caebf45"
   ],
   "localization/guide/guide.js": [
-    "091dc1105121bc1dfde46d26b49a4a3a583b53c4ed4554daea0a8e1e12b5a591"
+    "091dc1105121bc1dfde46d26b49a4a3a583b53c4ed4554daea0a8e1e12b5a591",
+    "ad225590da13e171bda466f01edbc6d7b0c4d89e86d96acf7c018c5559bf9c35"
   ],
   "localization/guide/messages.json": [
-    "4a235fc268d62a14ff12921f7f363e567d98ca1d6f8f104e77ca934482e83361"
+    "4a235fc268d62a14ff12921f7f363e567d98ca1d6f8f104e77ca934482e83361",
+    "c7087213a43da8f86661d5f84616137086e381907853395abd031b3cf0b5ee2e"
   ],
   "localization/guide/model.js": [
     "4c786038322017a1aaa3efffecfdf34372513cb2ef0c8f645757cc14214e41b4"
@@ -46,5 +49,11 @@
   ],
   "tools/build-guide.cjs": [
     "0d17eb7f83c024d5073d4e30a7e0212bbfcd6b711ac898f82aa8096ca6703c67"
+  ],
+  "localization/guide/achievement-data.js": [
+    "6fd44456a0f0a48f0432f73632eb787a734eecd3e44e9f2f802a2c277a7f0ea7"
+  ],
+  "localization/guide/achievements.js": [
+    "afd5f23858387a2d0db6e86bbd7ec0bb4b0ab53c45c1aa23d31b0204cbee3bc5"
   ]
 }

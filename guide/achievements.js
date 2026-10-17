@@ -6,6 +6,7 @@
  const t=(key,params={})=>NCTI18n.text('guide.achievement_'+key,params);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  let selected='';try{selected=localStorage.getItem('nct.guide.achievement')||'';}catch(_){}
+ let enabled=true;try{enabled=localStorage.getItem('nct.guide.achievement.enabled')!=='off';}catch(_){}
  const rule=id=>data.rules.find(r=>r.id===id);
  const name=r=>NCTI18n.language==='zh-CN'?r.name:r.english;
  function match(r,s){return !!s&&(!r.year||r.year===Number(s.election))&&(!r.years||r.years.includes(Number(s.election)))&&(!r.candidate||s.candidateName.split(' ').at(-1)===r.candidate)&&(!r.mate||s.runningMateName.split(' ').at(-1)===r.mate)&&[...(r.required||[]),...Object.values(r.slots||{})].every(id=>s.answerIds.includes(id));}
@@ -52,6 +53,7 @@
   }).sort((a,b)=>Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
  }
  function plan(e,forecast,ids){
+  if(!enabled)return null;
   const r=rule(selected);if(!r)return null;
   const state=status(e,r,ids),valid=['open','unlocked'].includes(state.kind);
   const planning=valid&&['win','min'].includes(r.goal)&&e.player_answers.length<e.questions_json.length?lookAhead(e,r,ids,forecast):null;
@@ -83,8 +85,10 @@
   planningKey=key;planningCache={answers,visits,evaluations};return planningCache;
  }
  function render(e,p,ids){
+  const toggle=`<section class="nct-achievements"><h4>${esc(t('title'))}</h4><label><input type="checkbox" id="achievement-enabled"${enabled?' checked':''}> ${esc(t('enabled'))}</label>`;
+  if(!enabled)return toggle+`<p>${esc(t('disabled'))}</p></section>`;
   const compatible=data.rules.filter(r=>match(r,current(e)));
-  let html=`<section class="nct-achievements"><h4>${esc(t('title'))}</h4><label for="achievement-target">${esc(t('choose'))}</label> <select id="achievement-target"><option value="">${esc(t('general'))}</option>`;
+  let html=toggle+`<br><label for="achievement-target">${esc(t('choose'))}</label> <select id="achievement-target"><option value="">${esc(t('general'))}</option>`;
   for(const r of data.rules)html+=`<option value="${r.id}"${r.id===selected?' selected':''}>${esc(name(r))}${match(r,current(e))?' ✓':''}</option>`;
   html+=`</select><p>${esc(t('compatible',{names:compatible.map(name).join(' / ')||t('none')}))}</p>`;
   if(!p)return html+`<p>${esc(t('select_hint'))}</p></section>`;
@@ -105,5 +109,5 @@
   for(const s of p.recommendations)html+=`<li>${esc(s.year+' · '+NCTStory.term(s.candidateName)+' / '+NCTStory.term(s.runningMateName))}<br><small>${esc(s.comparable?t('baseline',{ev:s.baseline.ev}):t('untested'))}</small></li>`;
   return html+`</ol></details><p>${esc(t('uncertainty'))}</p></section>`;
  }
- window.NCTAchievements={match,status,plan,render,cost,suggestions,get selected(){return selected;},select(id){selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}};
+ window.NCTAchievements={match,status,plan,render,cost,suggestions,get enabled(){return enabled;},setEnabled(value){enabled=!!value;try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;},select(id){selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}};
 })();

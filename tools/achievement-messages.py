@@ -3,6 +3,8 @@ from pathlib import Path
 p=Path(__file__).resolve().parents[1]/'guide/messages.json'
 data=json.loads(p.read_text(encoding='utf8'))
 messages={
+'enabled':('启用成就引导','Enable achievement coaching'),
+'disabled':('成就引导已关闭。下方保留普通胜选建议，不再按成就目标规划；重新开启可恢复之前的目标。','Achievement coaching is off. Advice below uses ordinary victory ranking, with no achievement planning. Re-enable to restore the previous objective.'),
 'title':('成就实时引导','Live achievement coach'),
 'choose':('本局目标：','Run objective:'),
 'general':('常规胜选（选择成就可改为专项引导）','General victory (select an achievement for objective advice)'),
