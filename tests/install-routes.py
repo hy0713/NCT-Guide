@@ -11,17 +11,18 @@ def snapshot():return {p.relative_to(target).as_posix():hashlib.sha256(p.read_by
 def check(result):assert result.returncode==0,result.stderr.decode('utf8',errors='replace')
 check(install());fresh=snapshot()
 git=['git','-c','safe.directory='+ROOT.as_posix(),'-C',str(ROOT)]
-ref='aedd7ed3132ffc984bacf48375240c7a2b1c17fc'
-for name in ['guide.js','achievements.js','achievement-data.js','messages.json']:
- (target/'localization/guide'/name).write_bytes(subprocess.check_output(git+['show',ref+':guide/'+name]))
-old=json.loads(subprocess.check_output(git+['show',ref+':guide/messages.json']))
-for lang,entries in old.items():
- p=target/'localization'/(lang+'.json');data=json.loads(p.read_text(encoding='utf8'));data.update(entries);p.write_text(json.dumps(data,ensure_ascii=False),encoding='utf8')
-before=snapshot();assert install().returncode!=0;assert snapshot()==before
-check(install('--upgrade'))
-for name in ['guide.js','achievements.js','achievement-data.js','messages.json']:assert (target/'localization/guide'/name).read_bytes()==(ROOT/'guide'/name).read_bytes()
+for ref in ['aedd7ed3132ffc984bacf48375240c7a2b1c17fc','0db149e066d0ad3bfb0e75ebeca2a8435557b670']:
+ (target/'localization/guide/planner-worker.js').unlink(missing_ok=True)
+ for name in ['guide.js','achievements.js','achievement-data.js','messages.json','guide.css']:
+  (target/'localization/guide'/name).write_bytes(subprocess.check_output(git+['show',ref+':guide/'+name]))
+ old=json.loads(subprocess.check_output(git+['show',ref+':guide/messages.json']))
+ for lang,entries in old.items():
+  p=target/'localization'/(lang+'.json');data=json.loads(p.read_text(encoding='utf8'));data.update(entries);p.write_text(json.dumps(data,ensure_ascii=False),encoding='utf8')
+ before=snapshot();assert install().returncode!=0;assert snapshot()==before
+ check(install('--upgrade'))
+ for name in ['guide.js','achievements.js','achievement-data.js','messages.json','guide.css','planner-worker.js']:assert (target/'localization/guide'/name).read_bytes()==(ROOT/'guide'/name).read_bytes()
 p=target/'localization/guide/achievements.js';p.write_bytes(p.read_bytes()+b'\n// personal edit\n');before=snapshot();assert install('--upgrade').returncode!=0;assert snapshot()==before
 p.write_bytes((ROOT/'guide/achievements.js').read_bytes())
 p=target/'localization/zh-CN.json';data=json.loads(p.read_text(encoding='utf8'));data['guide.limits']='personal translation';p.write_text(json.dumps(data,ensure_ascii=False),encoding='utf8');before=snapshot();assert install('--upgrade').returncode!=0;assert snapshot()==before
-report={'status':'passed','checks':['Fresh installation','Published aedd7ed file and message upgrade','No writes without explicit upgrade','Unknown script customization rejected before writes','Unknown translation customization rejected before writes']}
+report={'status':'passed','checks':['Fresh installation','Published aedd7ed and 0db149e file/message/CSS upgrade, including new planner worker','No writes without explicit upgrade','Unknown script customization rejected before writes','Unknown translation customization rejected before writes']}
 (ROOT/'tests/install-routes-results.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8');print('PASS route installation and published-version upgrade')

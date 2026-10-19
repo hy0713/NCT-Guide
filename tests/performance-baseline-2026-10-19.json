@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "version": "0db149e",
+  "method": "Original implementation measured in Chrome at 1440x1000 before edits; values retained from the initial profiling command output. All three cases use native default mode at 0.97.",
+  "cases": [
+    {
+      "scope": "2020_Biden_Harris",
+      "analysisMs": 11.8,
+      "planningMs": 17192.9,
+      "modelCalls": 258,
+      "planningEvaluations": 198,
+      "initialPanelHeightPx": 1041.9375
+    },
+    {
+      "scope": "2020_Biden_Demings",
+      "analysisMs": 11.1,
+      "planningMs": 0.2,
+      "modelCalls": 0,
+      "planningEvaluations": 0,
+      "initialPanelHeightPx": 1041.9375
+    },
+    {
+      "scope": "2016_Clinton_Kaine",
+      "analysisMs": 2.4,
+      "planningMs": 727.9,
+      "modelCalls": 239,
+      "planningEvaluations": 184,
+      "initialPanelHeightPx": 1116.8125
+    }
+  ]
+}

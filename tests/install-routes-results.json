@@ -2,7 +2,7 @@
   "status": "passed",
   "checks": [
     "Fresh installation",
-    "Published aedd7ed file and message upgrade",
+    "Published aedd7ed and 0db149e file/message/CSS upgrade, including new planner worker",
     "No writes without explicit upgrade",
     "Unknown script customization rejected before writes",
     "Unknown translation customization rejected before writes"

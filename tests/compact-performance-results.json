@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19T03:46:28.747Z",
+  "status": "passed",
+  "errors": [],
+  "external": [],
+  "checks": [
+    "Expensive 2020 search runs in worker; page timers continue; off cancels it without changing game/RNG",
+    "Completed worker planning exactly matches synchronous read-only calculation",
+    "Expanded comparison survives bilingual rerender; full game and RNG unchanged",
+    "Compact panel fits desktop/mobile at four CSS zoom levels"
+  ],
+  "timings": {
+    "targetChangeMainThreadMs": 15.400000005960464,
+    "compactPanelHeight": 395.421875
+  }
+}

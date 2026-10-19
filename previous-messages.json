@@ -1,18 +1,200 @@
 {
   "zh-CN": {
     "guide.limits": [
-      "以下是消除随机波动后的模型推演，不是实测民调，也不是胜率或必胜路线。只分析当前可见选项；请自行作答和选择访问州。"
+      "以下是消除随机波动后的模型推演，不是实测民调，也不是胜率或必胜路线。只分析当前可见选项；请自行作答和选择访问州。",
+      "以下包含无随机波动的模型推演和有出处的逐题路线。实测记录不代表成功概率；请按当前可见选项和本局设置自行作答、访问。"
     ],
     "guide.achievement_evidence": [
       "先筛选源码允许的组合，再参考已有单种子普通胜选路线的结果。不是成就成功率；无合规数据时不声称哪个组合最强。"
+    ],
+    "guide.title": [
+      "竞选攻略：当前局势推演"
+    ],
+    "guide.history": [
+      "历史解读：选项旁的“典故”沿用已校订、有来源的离线说明。游戏加分不等于历史上正确、可行或符合该人物立场；本面板按游戏效果排序，不替历史人物作价值判断。"
+    ],
+    "guide.technical": [
+      "推演依据与局限"
+    ],
+    "guide.achievement_general": [
+      "常规胜选（选择成就可改为专项引导）"
+    ],
+    "guide.achievement_open": [
+      "未发现硬性阻碍，继续按目标推进；不代表必然可达。"
+    ],
+    "guide.achievement_unlocked": [
+      "当前浏览器存档已解锁此成就。"
+    ],
+    "guide.achievement_disabled": [
+      "成就引导已关闭。下方保留普通胜选建议，不再按成就目标规划；重新开启可恢复之前的目标。"
+    ],
+    "guide.achievement_combination": [
+      "此年份／总统／搭档不符合目标；请查看下方替代组合。"
+    ],
+    "guide.achievement_settings": [
+      "当前模式、难度或 BIG SHOT 状态不符合条件；需要按要求重新开局。"
+    ],
+    "guide.achievement_missed": [
+      "本局已错过必要回答；继续赢选举也不能补回此条件，需要重新开局。"
+    ],
+    "guide.achievement_goal_win": [
+      "目标：获胜，并满足下面列出的附加条件。"
+    ],
+    "guide.achievement_goal_exact": [
+      "目标：本人恰好 {target} 张选举人票；不要盲目追求更多票。"
+    ],
+    "guide.achievement_goal_max": [
+      "目标：本人最多 {target} 张选举人票；本目标需要压低己方结果。"
+    ],
+    "guide.achievement_goal_finish": [
+      "目标：按资格完成整局并进入最终结算，无需保证胜选。"
+    ],
+    "guide.achievement_route_title": [
+      "逐题路线与实测记录"
+    ],
+    "guide.achievement_route_tested": [
+      "本地测试记录：{success}/{total} 局解锁；这是已测样本，不是成功率保证。"
+    ],
+    "guide.achievement_route_unverified": [
+      "社区来源已核对，尚无本地完整通关验证。"
+    ],
+    "guide.achievement_route_deviated": [
+      "此前答案或访问已偏离这条路线，当前使用一般推演，不能沿用路线测试成绩。"
+    ],
+    "guide.achievement_route_gap": [
+      "原帖未明确本题答案，当前建议来自一般推演。"
+    ],
+    "guide.achievement_route_source_changed": [
+      "当前英文数据与路线记录不一致，已停用固定路线。"
+    ],
+    "guide.achievement_route_settings": [
+      "该路线的测试设置：{mode}模式，难度系数 {difficulty}。当前设置不同，使用一般推演。"
+    ],
+    "guide.achievement_route_source": [
+      "查看作者原帖"
+    ],
+    "guide.achievement_combinations": [
+      "建议优先尝试的总统／搭档组合"
+    ],
+    "guide.achievement_baseline": [
+      "单种子参考：本人 {ev} 张选举人票；不是已验证的本成就路线。"
+    ],
+    "guide.achievement_untested": [
+      "仅确认组合兼容；缺少此模式／难度的合规成就对照数据。"
+    ],
+    "guide.achievement_verified_pair": [
+      "实际解锁 {success}/{total} 局；模式 {mode}，难度系数 {difficulty}。{route}"
+    ],
+    "guide.achievement_route_year_tested": [
+      "此年份达标记录：{success}/{total}局；须集齐七年才解锁整项成就。不是成功概率。"
+    ],
+    "guide.achievement_verified_year_pair": [
+      "此年份实际达标{success}/{total}局；模式{mode}，系数{difficulty}。{route}"
+    ],
+    "guide.achievement_ended": [
+      "本局已经结束，存档尚未解锁此项。请核对结局条件和成就优先级，再决定重开或换搭档；当前策略不保证成功。"
+    ],
+    "guide.achievement_procedure_stillAlive": [
+      "这是原版作弊彩蛋。菜单开启BIGSHOT后，选择1968华莱士／勒梅；用原版作弊面板将难度系数设为41，依本目标建议作答，争取535票。华盛顿特区没有该候选人的选票，不能取得538票。系数41也不能保证乱选答案成功；已有一次527票的失败记录。"
     ]
   },
   "en-US": {
     "guide.limits": [
-      "These projections remove random noise. They are neither measured polls nor win probabilities or guaranteed routes. Only currently visible answers are analyzed; choose your own answers and visits."
+      "These projections remove random noise. They are neither measured polls nor win probabilities or guaranteed routes. Only currently visible answers are analyzed; choose your own answers and visits.",
+      "Includes zero-noise projections and sourced answer routes. Replay records are not success probabilities. Choose answers and visits yourself using the current visible options and settings."
     ],
     "guide.achievement_evidence": [
       "Filter source-compatible pairings first, then consult one-seed ordinary winning-guide results. These are not achievement success rates; no strongest-pairing claim without qualifying data."
+    ],
+    "guide.title": [
+      "Campaign guide: current-state forecasts"
+    ],
+    "guide.history": [
+      "Historical context: Chinese “典故” buttons retain the reviewed, sourced offline notes. A gameplay bonus does not establish historical correctness, feasibility, or fidelity to a candidate’s beliefs. This panel ranks game effects, not historical judgments."
+    ],
+    "guide.technical": [
+      "Projection method and limits"
+    ],
+    "guide.achievement_general": [
+      "General victory (select an achievement for objective advice)"
+    ],
+    "guide.achievement_open": [
+      "No hard blocker found; continue toward the objective. Reachability is not guaranteed."
+    ],
+    "guide.achievement_unlocked": [
+      "Already unlocked in this browser save."
+    ],
+    "guide.achievement_disabled": [
+      "Achievement coaching is off. Advice below uses ordinary victory ranking, with no achievement planning. Re-enable to restore the previous objective."
+    ],
+    "guide.achievement_combination": [
+      "This year/president/mate does not fit. See alternative pairings below."
+    ],
+    "guide.achievement_settings": [
+      "Mode, difficulty or BIG SHOT status does not qualify; restart with the required settings."
+    ],
+    "guide.achievement_missed": [
+      "A required answer was missed. Winning later cannot repair it; restart this objective."
+    ],
+    "guide.achievement_goal_win": [
+      "Target: win and satisfy all additional conditions below."
+    ],
+    "guide.achievement_goal_exact": [
+      "Target: exactly {target} electoral votes. More is not always better."
+    ],
+    "guide.achievement_goal_max": [
+      "Target: at most {target} electoral votes. Reduce your result for this objective."
+    ],
+    "guide.achievement_goal_finish": [
+      "Target: complete a qualifying run and reach final results; victory is not required."
+    ],
+    "guide.achievement_route_title": [
+      "Answer route and replay evidence"
+    ],
+    "guide.achievement_route_tested": [
+      "Local record: unlocked in {success}/{total} tested games; not a success guarantee."
+    ],
+    "guide.achievement_route_unverified": [
+      "Community source checked; no local full-game verification yet."
+    ],
+    "guide.achievement_route_deviated": [
+      "Earlier choices/visits diverged; general forecasting resumes and route test results no longer apply."
+    ],
+    "guide.achievement_route_gap": [
+      "The source does not specify this question; suggestions use general forecasting."
+    ],
+    "guide.achievement_route_source_changed": [
+      "Current English data differs from the route; fixed recommendations are disabled."
+    ],
+    "guide.achievement_route_settings": [
+      "Route settings: {mode}, difficulty multiplier {difficulty}. Current settings differ; using general forecasting."
+    ],
+    "guide.achievement_route_source": [
+      "Read the original author post"
+    ],
+    "guide.achievement_combinations": [
+      "Suggested president / running-mate pairings"
+    ],
+    "guide.achievement_baseline": [
+      "One-seed reference: {ev} EV for this candidate; not a verified achievement route."
+    ],
+    "guide.achievement_untested": [
+      "Pairing compatibility only; no qualifying achievement comparison for this mode/difficulty."
+    ],
+    "guide.achievement_verified_pair": [
+      "Actual unlocks in {success}/{total} games; mode {mode}, difficulty {difficulty}. {route}"
+    ],
+    "guide.achievement_route_year_tested": [
+      "This year was recorded in {success}/{total} games; all seven years are required for the achievement. Not a success probability."
+    ],
+    "guide.achievement_verified_year_pair": [
+      "Year recorded in {success}/{total} games; mode {mode}, difficulty {difficulty}. {route}"
+    ],
+    "guide.achievement_ended": [
+      "This run ended without this unlock in the save. Check final conditions and achievement priority before retrying or changing mates; this strategy is not guaranteed."
+    ],
+    "guide.achievement_procedure_stillAlive": [
+      "Native cheat easter egg: enable BIGSHOT at the menu, choose Wallace/LeMay in 1968, set the multiplier to 41 using the native cheat panel, then follow the objective advice for 535 votes. Wallace is absent from the DC ballot, so 538 is impossible. Multiplier 41 alone is insufficient: an arbitrary-answer replay earned only 527."
     ]
   }
 }

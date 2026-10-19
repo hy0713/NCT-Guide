@@ -13,5 +13,18 @@
 .nct-achievements { padding:10px; border:1px solid #999; background:#fff; margin:10px 0; }
 .nct-achievements select { max-width:100%; font:inherit; }
 .nct-achievements strong[data-achievement-status] { display:block; color:#804900; }
+.nct-guide-panel p { margin:6px 0; }
+.nct-guide-panel details { margin-top:8px; padding-top:6px; }
+.nct-guide-panel summary { cursor:pointer; }
+.nct-achievements { padding:8px 10px; margin:8px 0; }
+.nct-achievement-controls { display:flex; gap:6px 16px; flex-wrap:wrap; align-items:center; }
+.nct-target-label { flex:1; min-width:0; }
+.nct-target-label select { margin-left:5px; max-width:100%; }
+.nct-achievement-goal { display:flex; gap:10px; align-items:baseline; margin:6px 0; }
+.nct-achievement-goal strong[data-achievement-status] { white-space:nowrap; }
+.nct-guide-working { color:#555; }
+.nct-guide-next { margin:6px 0; }
+.nct-guide-next li { margin-bottom:6px; }
+.nct-guide-action { color:#804900; }
 .nct-required-answer { border-left:3px solid #34633a; padding-left:8px; }
 @media(max-width:600px){ .nct-guide-panel { margin:8px; padding:10px; max-width:calc(100% - 16px); } }
