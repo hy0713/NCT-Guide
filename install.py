@@ -49,5 +49,5 @@ for source,target in copies:
  target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
 for target,text in updates:target.write_text(text,encoding='utf8')
 print('Installed guide into',game)
-print('Start the game server and reload; enable 攻略（含剧透） at the top.')
+print('Start the game server, choose English at the top, then enable Guide (spoilers).')
 print('Optional validation from the game directory: node tools/build-guide.cjs --check')

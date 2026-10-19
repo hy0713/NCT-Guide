@@ -1,66 +1,74 @@
 # NCT-Guide
 
-《The New Campaign Trail》离线竞选攻略插件：比较当前对话选项、预测选举人票与普选票，并推荐值得访问的州。
+English · [简体中文](README_ZH.md)
 
-## 成就攻略
+An offline campaign and achievement guide for **The New Campaign Trail**. Read the walkthroughs on GitHub, or install the optional live coach to get advice beside the game.
 
-[31 项原生成就条件与攻略（含剧透）](achievements/README_ZH.md)：配置、真实触发条件、指定答案中英对照、访问与控票建议，以及菜单描述与源码的差异。可以直接阅读，无需安装插件；不包含社区 MOD 成就。
+## Start reading
 
-现在也支持**游戏内实时成就引导**：进入竞选后开启攻略，在“本局目标”下拉框选择成就。它会按当前总统与搭档检查资格、提示必选答案、发现漏选、按成就目标重排答案与访问州；组合不合适时自动展开可替代的组合建议。结算后读取真实成就存档显示是否解锁。
+- **[All 31 native achievements](achievements/README.md)** — exact unlock conditions, tested candidate/running-mate setups and special procedures.
+- **34 complete English walkthroughs**, linked from each achievement: original question and answer text, with visits recorded in a successful game.
+- [Live coach controls](achievements/LIVE_COACH.md) · [Unlock evidence](achievements/COVERAGE.md) · [How the advice works](guide/README.md) · [Sources](achievements/SOURCES.md).
 
-替代组合先按源码条件筛选，优先推荐已有实际解锁记录的组合，再参考普通胜选单种子结果；明确列出配置与实测次数，不伪称最高成功率。详见 [实时引导与实际验证](achievements/LIVE_COACH_ZH.md)。
+The existing evidence includes actual native unlocks for **31/31 achievements**, including 100 real 2016a completions and the seven-year cumulative achievement. Original game randomness remains active; a recorded success can require retries in normal play.
 
-[路线与实际解锁覆盖](achievements/COVERAGE_ZH.md) · [社区来源和缺口](achievements/WEB_RESEARCH_ZH.md)。逐题路线已接入游戏，显示当前答案和下一次访问；设置不符、原文变化或偏离路线时会警告并停用固定路线。未通过实际解锁的候选有明确标记。
+## Install and play in English
 
-本轮已记录613局实际浏览器游戏，**31／31项原生成就均有实际解锁证据**，包括真实100局2016a和同存档七年累计。成功记录不等于每局必得。详见 [本轮测试报告](achievements/TEST_REPORT_2026-10-17_ZH.md)。
+The plugin uses the bilingual [NCT-Chinese-Version game build](https://github.com/hy0713/NCT-Chinese-Version). **That build preserves the original English game and has an English language switch.** This repository contains the guide, not the game itself.
 
-## 面板使用
+1. Download and extract the game build above, then download and extract this repository. You do not need Git to play.
+2. Install Python 3. Open a terminal in this repository's folder and run:
 
-默认显示本题建议，其他选项、成就条件、路线来源与预测数据可以展开。进入访问环节时，优先显示推荐州。后续整局推演在后台运行，可继续操作游戏。
+   ```powershell
+   python install.py "D:\Games\NCT-Chinese-Version"
+   ```
 
-[本次界面与响应测试](guide/COMPACT_UI_TEST_REPORT_ZH.md)
+   On Windows, `py -3` can replace `python` if that is how Python is installed.
+3. Double-click **`start.bat` in the game folder**. The game runs through a local HTTP server, normally at `http://localhost:8000/campaign-trail/index.html`. Use the address printed by the launcher if it selects another port.
+4. Click **English** at the top of the page. The language choice is saved, and switching languages does not restart your campaign.
+5. Start a native scenario and click **Guide (spoilers)**. The guide is off by default.
 
-## 安装
+The supported installation target is this bilingual build. The standalone written walkthroughs describe the pinned original game; this installer expects its localization layer and is not an installer for an arbitrary upstream checkout.
 
-1. 下载并解压 [NCT-Chinese-Version](https://github.com/hy0713/NCT-Chinese-Version)。
-2. 下载本仓库，安装 Python 3，在本仓库目录运行：
+### Achievement coaching
 
-```powershell
-python install.py "D:\Games\NCT-Chinese-Version"
-```
+Leave **Enable achievement coaching** checked, then select a **Run objective**. The coach checks your current year, candidate, running mate, mode and difficulty. It shows the next answer and visit; when a pairing is unsuitable, open **Requirements, routes and pairings** for compatible setups, prioritizing combinations with recorded unlocks.
 
-3. 在中文版目录双击 `start.bat`，刷新游戏，点击顶部 **攻略（含剧透）**。默认关闭，记住选择。
+For an ordinary campaign, uncheck **Enable achievement coaching**. General election advice stays available. Both switches remember your choice and leave campaign progress intact. Native achievements can still unlock with the coach off.
 
-本局不打成就时，取消勾选面板中的 **“启用成就引导”**：成就提示和专项规划关闭，普通胜选攻略保留。开关会记住选择，再开启可恢复上次目标；不影响游戏进度，也不阻止游戏自然解锁成就。
+Only the current recommendation is expanded initially. Other answers, requirements, route sources and forecast data are expandable. Remaining-route planning runs in a background worker.
 
-已安装旧版攻略时，使用 `python install.py "D:\Games\NCT-Chinese-Version" --upgrade`。只更新哈希匹配已发布版本的文件，拒绝覆盖未知的个人修改，并在本地保留备份。默认仅安装运行时文件；开发测试脚本可另外加 `--dev-tools`。
-
-这是独立插件仓库，不含游戏本体或社区 MOD。支持中文与英文。安装器保留本地备份，遇到已有不同攻略文件或翻译键时退出，避免覆盖修改。
-
-## 建议如何产生
-
-从原游戏计算函数生成独立只读预测器。在当前状态的副本上比较全部可见答案和访问州，随机项归零；不替玩家作答，不改变原始数值、进度或随机流。历史解释沿用中文版的有来源离线旁注。
-
-预测不是胜率：这是逐题动态推荐，未证明全局最优或所有人物必胜。搭档、难度、随机波动会影响结果；高级模式不预测未来广告、筹款和对手行为。
-
-## 测试与维护
-
-历史实际回归覆盖 105 组合、210 局双语通关，另有 5 局隐藏攻略对照。种子 1776 下为 **95 胜、7 负、3 僵局**；这是一组路径的结果，不是胜率或人物胜选上限。
-
-- [机制与历史依据](guide/README_ZH.md)
-- [原交付实测报告](guide/TEST_REPORT_ZH.md)
-- [独立安装验证](PUBLICATION_TEST_REPORT_ZH.md)
-- [原作来源与权利](NOTICE.md)
-
-安装后，在游戏目录执行 `npm install`，保持 `python server.py` 运行，再按顺序运行：
+### Update or uninstall
 
 ```powershell
-node tools/build-guide.cjs --check
-node tests/guide-model.cjs
-node tests/guide-ui.cjs
-node tests/guide.cjs --smoke
+python install.py "D:\Games\NCT-Chinese-Version" --upgrade
 ```
 
-源码更新后重新生成预测器：在游戏目录运行 `node tools/build-guide.cjs`，再将生成的 `localization/guide/model.js` 同步到本仓库 `guide/model.js`。旧版本的预测器不能自动保证兼容未来改动。
+The installer recognizes published guide versions, backs up replaced files locally, and stops before overwriting unknown personal changes. Playing needs no Node.js, translation service or internet connection after installation.
 
-卸载：移除 `campaign-trail/index.html` 中全部五条 `/localization/guide/` 引用。正文、原始数据与计算函数未被安装器改写。
+To uninstall, remove the five `/localization/guide/` script/style references from `campaign-trail/index.html`. The worker is loaded by the guide itself. Original scenario and calculation files are not rewritten by installation.
+
+## How recommendations work
+
+The coach compares answers and visits using an independent copy of the original vote calculator on cloned campaign data. General advice ranks competitive-state gains; achievement objectives add required answers, exact vote targets and state constraints. Where a matching route exists, it supplies the recorded answers and visits.
+
+Forecasts remove random noise for comparison. They are projections, not success probabilities. The plugin does not choose answers for you, change game values or consume the game's random sequence. [Mechanics and supported modes](guide/README.md).
+
+## Evidence and development
+
+- [Achievement coverage](achievements/COVERAGE.md): the existing 613-game snapshot and native unlock records.
+- [English edition checks](ENGLISH_EDITION_TEST_REPORT.md): document validation and actual release regression.
+- [Compact interface regression](guide/COMPACT_UI_TEST_REPORT_ZH.md): background planning, layout and eight additional actual games; report in Chinese.
+- Earlier campaign regression covered all 105 native pairings in both languages, plus five guide-hidden controls. Historical reports remain in [tests](tests/) and [the original test report](guide/TEST_REPORT_ZH.md).
+
+Regenerate or verify the English walkthroughs against the preserved game snapshot:
+
+```powershell
+python tools/build-english-guide.py "D:\Games\NCT-Chinese-Version"
+python tools/build-english-guide.py "D:\Games\NCT-Chinese-Version" --check
+node tests/english-guide.cjs "D:\Games\NCT-Chinese-Version"
+```
+
+The last command needs the game's development dependencies (`npm install` in the game folder). Original-game updates require rebuilding and retesting the predictor; see [maintenance](guide/README.md#maintenance).
+
+[Source and rights notice](NOTICE.md). Native scenarios and achievements only; no community MOD walkthroughs are included.

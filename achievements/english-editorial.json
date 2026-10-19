@@ -1,0 +1,126 @@
+{
+  "destiny": {
+    "goal": "Record exactly 232 or 306 of your own electoral votes in each of 1964, 1976, 1988, 2000, 2012, 2016 and 2020, using the same browser save. The entire state map need not match history.",
+    "tip": "Use the seven year-specific walkthroughs below. Proportional mode is allowed. Once a year is recorded, keep that progress and move to another year; 1968 and 2016a do not count."
+  },
+  "ridingBiden": {
+    "goal": "Win at least 406 electoral votes as Joe Biden in 2020.",
+    "tip": "Choose Val Demings and visit Ohio throughout the recorded route. A normal Biden victory is not enough: aim to expand the map."
+  },
+  "magaa": {
+    "goal": "Win at least 322 electoral votes as Donald Trump in 2020.",
+    "tip": "Choose Nikki Haley and concentrate visits in Minnesota. The route needs the extra electoral votes beyond the usual Trump coalition; 321 does not qualify."
+  },
+  "nmpr": {
+    "goal": "Finish with exactly 269 electoral votes as Donald Trump in 2020.",
+    "tip": "Use Trump/Pence and the recorded visits. Balance the map rather than maximizing votes: winning another state can spoil the target."
+  },
+  "nomalarkey": {
+    "goal": "Finish with exactly 306 electoral votes as Joe Biden in 2020.",
+    "tip": "Use Biden/Bass. The predicate checks the electoral-vote total, not an exact reconstruction of the historical map."
+  },
+  "whatbelt": {
+    "goal": "Win at least 270 electoral votes in 2016 while finishing second in Wisconsin, Michigan and Pennsylvania.",
+    "tip": "Use Clinton/Kaine, Proportional mode and Impossible difficulty. Visit Florida six times, then New Hampshire six times. In the game's proportional formula, each candidate's share is rounded down and all leftover electors go to the state leader. The walkthrough combines a partial community route with source-model work."
+  },
+  "thebern": {
+    "goal": "Win at least 351 electoral votes as Hillary Clinton with Bernie Sanders in 2016.",
+    "tip": "Use the source-model route below. The menu's wording suggests 350, but the code requires more than 350."
+  },
+  "moscow": {
+    "goal": "As Trump/Palin in 2016, beat the main opponent in popular votes and finish with either a win or a loss, rather than a deadlock.",
+    "tip": "Follow the recorded Pennsylvania, Nevada and Minnesota visits. Watch popular votes as well as the electoral map: a national electoral victory is not required."
+  },
+  "why": {
+    "goal": "Complete one eligible game of 2016a.",
+    "tip": "Choose the separate 2016a scenario, not 2016. Any result counts. The Clinton/Booker walkthrough is one tested way to finish. This predicate adds no difficulty cap."
+  },
+  "what": {
+    "goal": "Complete 100 eligible 2016a games in the same browser save.",
+    "tip": "Winning is unnecessary. Keep the same browser profile and local server address, including the port; do not clear site data. The live coach displays the saved completion counter. The ordinary eligibility rules still apply."
+  },
+  "realdebate": {
+    "goal": "Win as Obama in 2012 with answer 729 as your first answer, 330 as your second, and answer 168 later in the campaign.",
+    "tip": "Choose Biden and use the walkthrough's liberal nomination speech, liberal-tradition message and health-care expansion answer. These are specific answer IDs, not interchangeable statements of similar views."
+  },
+  "karmic": {
+    "goal": "As Obama/Clinton in 2012, finish with no more than four electoral votes.",
+    "tip": "Follow the deliberately losing route. The menu mentions winning only DC, but the predicate checks the total of four or fewer, rather than a particular state."
+  },
+  "raiders": {
+    "goal": "As Ralph Nader in 2000, receive at least 5,300,000 popular votes. Difficulty may be as easy as Cakewalk (1.33).",
+    "tip": "Choose Winona LaDuke, Cakewalk and repeated California visits. The native threshold is an absolute vote count, not a fixed five-percent share."
+  },
+  "master": {
+    "goal": "Win as Al Gore in 2000 after choosing answer 3326, supporting Clinton's impeachment.",
+    "tip": "Use Gore/Graham. Keep the required impeachment answer even if ordinary victory advice favors another option."
+  },
+  "swap": {
+    "goal": "Win the election as Al Gore in 2000 while losing the popular-vote comparison with the main opponent.",
+    "tip": "Use Gore/Graham and preserve the narrow electoral coalition. The native unlock popup has a title mismatch; the saved achievement ID, swap, identifies this goal."
+  },
+  "florida2000": {
+    "goal": "In 2000, make Florida's top-two margin less than 0.5 percentage points while the national electoral-vote leader has no more than 294 votes.",
+    "tip": "The recorded Bush/Cheney run unlocks this even with a national loss. The predicate uses these numeric conditions and adds no difficulty cap."
+  },
+  "tanks": {
+    "goal": "Win as Dukakis in 1988 after choosing both the tank answer (4439) and the tax-increase answer (4484).",
+    "tip": "Choose Bentsen and focus visits on Ohio. The challenge is to win despite taking the two specified answers, rather than avoiding those campaign liabilities."
+  },
+  "Rainbow": {
+    "goal": "Win as Michael Dukakis with Jesse Jackson in 1988.",
+    "tip": "Use the Jackson-specific source-model walkthrough. Bentsen's answers cannot be transferred wholesale to this pairing."
+  },
+  "Kinder": {
+    "goal": "Win at least 501 electoral votes as George H. W. Bush in 1988.",
+    "tip": "Choose Bob Dole and visit Massachusetts throughout. A 499- or 500-vote landslide falls short."
+  },
+  "georgia": {
+    "goal": "Win at least 401 electoral votes as Carter in 1976 after choosing answers 3610 and 3647, the specified abortion-rights and universal-health-care positions.",
+    "tip": "Choose Jackson. The live source route targets the weakest of Washington, California and Nevada; the walkthrough records the particular visits made in a successful game."
+  },
+  "georgenixon": {
+    "goal": "Win Georgia as Richard Nixon in 1968.",
+    "tip": "Use Nixon/Agnew and concentrate on Georgia. Winning the national election is not part of this predicate."
+  },
+  "ratio": {
+    "goal": "Win at least 431 electoral votes as Hubert Humphrey in 1968.",
+    "tip": "Use Humphrey/Connally and the original-game route below. This route was tested without a best-RNG mod; exactly 430 votes does not qualify."
+  },
+  "BCitsHard": {
+    "goal": "Win as John F. Kennedy in 1960 on Impossible (0.90) or a harder difficulty.",
+    "tip": "Choose Lyndon Johnson. The setting named Hard (0.95) is not hard enough for this achievement. The community route leaves one question open; the walkthrough includes the actual answer used in the successful replay."
+  },
+  "BCitsEasy": {
+    "goal": "As Kennedy in 1960, receive fewer than 100 electoral votes on exactly Cakewalk (1.33).",
+    "tip": "Choose Humphrey and follow the deliberately losing answers. Easier conditions alone do not satisfy the achievement: the difficulty multiplier must be exactly 1.33."
+  },
+  "Vice": {
+    "goal": "Win as Richard Nixon with Barry Goldwater in 1960.",
+    "tip": "Use Proportional mode on Normal. There are 537 electoral votes in this scenario, so 269 wins a majority. The complete source-model route supplies all 25 answers."
+  },
+  "dixieDewey": {
+    "goal": "Win as Truman in 1948, with answer 3809 as your third answer.",
+    "tip": "Choose Barkley and the specified answer on the Southern party split. Preserve its third-answer slot, then follow the recorded New York visits."
+  },
+  "Dewey": {
+    "goal": "Win both the election and the popular-vote comparison with the main opponent as Thomas Dewey in 1948.",
+    "tip": "Choose John Bricker. An electoral victory alone does not meet both checks."
+  },
+  "California": {
+    "goal": "Win as Charles Evans Hughes in 1916 while finishing second in California.",
+    "tip": "Choose Fairbanks and use the tested Hard (0.95) route. The 1916 majority threshold is 266, not today's 270."
+  },
+  "Commoner": {
+    "goal": "Win at least 331 electoral votes as William Jennings Bryan in 1896.",
+    "tip": "Choose Henry Teller and follow the expansion route below. A victory or exactly 330 electoral votes is insufficient."
+  },
+  "stillAlive": {
+    "goal": "Finish with exactly 535 electoral votes as George Wallace in 1968, in the native special cheat branch.",
+    "tip": "At the starting menu, type BIGSHOT and press Enter; repeat once and accept the prompts. Choose Wallace/LeMay, Default mode, then set the native BIGSHOT difficulty-multiplier field to 41. Enable the guide, select Still Alive and follow its objective advice. Wallace is absent from the DC ballot, accounting for the remaining three electors. The recorded run reached 535; arbitrary answers in an earlier attempt reached only 527."
+  },
+  "yourchance": {
+    "goal": "Complete a game with native BIGSHOT mode enabled, in the special cheat branch.",
+    "tip": "At the starting menu, type BIGSHOT and press Enter; repeat once and accept the prompts. Finish the game. Wallace/LeMay on Default and Normal was tested. Still Alive takes priority when its 535-vote condition is also met. Turning off the guide does not turn off BIGSHOT."
+  }
+}

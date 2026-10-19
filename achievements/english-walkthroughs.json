@@ -1,0 +1,8344 @@
+{
+  "schema": 1,
+  "sourceCommit": "d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf",
+  "walkthroughs": [
+    {
+      "achievement": "destiny",
+      "route": "destiny-destiny2016-community",
+      "scope": "2016_Clinton_Kaine",
+      "page": "achievements/walkthroughs/destiny-destiny2016-community.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 4,
+      "electoral": 232,
+      "scenarioSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5139,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5148,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5143,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5151,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5172,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5184,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5173,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5263,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5221,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5178,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5181,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5204,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5235,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5231,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5230,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5246,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5250,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5253,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1050,
+          "abbr": "WY"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5260,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-destiny1976-community",
+      "scope": "1976_Carter_Jackson",
+      "page": "achievements/walkthroughs/destiny-destiny1976-community.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 1,
+      "electoral": 306,
+      "scenarioSHA256": "ae1ec924c6fed69adb4c26edc4f3fe22ee95c9ab3efd66396dab066d2163a77a",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 426,
+          "id": 3542,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 415,
+          "id": 3509,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 416,
+          "id": 3513,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 429,
+          "id": 3589,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 433,
+          "id": 3605,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 432,
+          "id": 3601,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 434,
+          "id": 3607,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 445,
+          "id": 3648,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 430,
+          "id": 3594,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 431,
+          "id": 3596,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 444,
+          "id": 3643,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 419,
+          "id": 3524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 427,
+          "id": 3544,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 420,
+          "id": 3527,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 417,
+          "id": 3517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 418,
+          "id": 3520,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 435,
+          "id": 3613,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 446,
+          "id": 3653,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 436,
+          "id": 3615,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 438,
+          "id": 3624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 442,
+          "id": 3636,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 428,
+          "id": 3584,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 441,
+          "id": 3633,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 421,
+          "id": 3528,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 447,
+          "id": 3655,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-2012_Obama_Biden-2-0.97-search",
+      "scope": "2012_Obama_Biden",
+      "page": "achievements/walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 10,
+      "electoral": 232,
+      "scenarioSHA256": "adc262f66a603f8b7d613f9379a71a5aaa3aee2f780c52ea37c6fc11373bd0ca",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 130,
+          "id": 728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 93,
+          "id": 333,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 114,
+          "id": 396,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 7,
+          "id": 25,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 22,
+          "id": 85,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 25,
+          "id": 97,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 42,
+          "id": 166,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 43,
+          "id": 169,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 33,
+          "id": 129,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 12,
+          "id": 45,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 9,
+          "id": 33,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 85,
+          "id": 304,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 5,
+          "id": 17,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 28,
+          "id": 109,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 99,
+          "id": 349,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 82,
+          "id": 293,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 52,
+          "id": 199,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 18,
+          "id": 69,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 66,
+          "id": 239,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 83,
+          "id": 297,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 56,
+          "id": 209,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 65,
+          "id": 236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 54,
+          "id": 205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 68,
+          "id": 246,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 18,
+          "abbr": "LA"
+        },
+        {
+          "type": "answer",
+          "question": 60,
+          "id": 224,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-2000_Gore_Graham-2-0.97-search",
+      "scope": "2000_Gore_Graham",
+      "page": "achievements/walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 8,
+      "electoral": 232,
+      "scenarioSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 398,
+          "id": 3504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 370,
+          "id": 3411,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 367,
+          "id": 3398,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3321,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3332,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3334,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3342,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3329,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3371,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 375,
+          "id": 3431,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 392,
+          "id": 3490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 390,
+          "id": 3486,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3385,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3388,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 376,
+          "id": 3435,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3381,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 377,
+          "id": 3439,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 391,
+          "id": 3487,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 385,
+          "id": 3468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 228,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 382,
+          "id": 3460,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-1964_Johnson_Humphrey-2-0.97-search",
+      "scope": "1964_Johnson_Humphrey",
+      "page": "achievements/walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 29,
+      "electoral": 306,
+      "scenarioSHA256": "1c05cb7953b019cb4c1cdf46523d096a26c35f949813f4f0b4e22d75ac42f6f1",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 322,
+          "id": 3232,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 321,
+          "id": 3229,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3292,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 255,
+          "id": 1665,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 326,
+          "id": 3247,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1669,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 254,
+          "id": 1661,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 266,
+          "id": 1707,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 263,
+          "id": 1694,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 272,
+          "id": 1727,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 271,
+          "id": 1726,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 274,
+          "id": 1735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 287,
+          "id": 1780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 291,
+          "id": 1792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 273,
+          "id": 1731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 278,
+          "id": 1748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 286,
+          "id": 1777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 289,
+          "id": 1787,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 269,
+          "id": 1716,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 270,
+          "id": 1723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 261,
+          "id": 1689,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 324,
+          "id": 3239,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 282,
+          "id": 1764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 268,
+          "id": 1712,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 325,
+          "id": 3243,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-2020-Bass-community",
+      "scope": "2020_Biden_Bass",
+      "page": "achievements/walkthroughs/destiny-2020-Bass-community.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 1,
+      "electoral": 306,
+      "scenarioSHA256": "3f8cd5623088f9e96924d47e646008d1ef077214cb8d5700c0d74720f6a579b5",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1227,
+          "id": 6096,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6024,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6030,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6038,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6053,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6044,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6048,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "destiny",
+      "route": "destiny-1988-Jackson-community",
+      "scope": "1988_Dukakis_Jackson",
+      "page": "achievements/walkthroughs/destiny-1988-Jackson-community.md",
+      "report": "tests/procedural-achievement-results.json",
+      "seed": 1,
+      "electoral": 232,
+      "scenarioSHA256": "c211d65094ef9a9a87335b96752686708518f644b09121a767ce7d1938260069",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 717,
+          "id": 4414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 718,
+          "id": 4417,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 738,
+          "id": 4468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4525,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 732,
+          "id": 4458,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 719,
+          "id": 4418,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 729,
+          "id": 4449,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 722,
+          "id": 4428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 720,
+          "id": 4424,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 727,
+          "id": 4444,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 723,
+          "id": 4432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 480,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 721,
+          "id": 4427,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 725,
+          "id": 4437,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4511,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 726,
+          "id": 4441,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 728,
+          "id": 4448,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 724,
+          "id": 4434,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 739,
+          "id": 4471,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4481,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 750,
+          "id": 4504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 475,
+          "abbr": "MD"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4518,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "ridingBiden",
+      "route": "ridingBiden-community",
+      "scope": "2020_Biden_Demings",
+      "page": "achievements/walkthroughs/ridingBiden-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 406,
+      "scenarioSHA256": "27b27b98cae128f4857f3313176453445869655eb6d27e2c11724c4828370ed3",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1230,
+          "id": 6102,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6032,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6040,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6042,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6051,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6049,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "magaa",
+      "route": "magaa-community",
+      "scope": "2020_Trump_Haley",
+      "page": "achievements/walkthroughs/magaa-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 13,
+      "electoral": 322,
+      "scenarioSHA256": "37f9503188761e944a6c87df84be9fd15827af1b9c05db4734de3ffe1115c2e7",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6128,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6179,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6186,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6183,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6195,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "nmpr",
+      "route": "nmpr-community",
+      "scope": "2020_Trump_Pence",
+      "page": "achievements/walkthroughs/nmpr-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 269,
+      "scenarioSHA256": "067627bcfe993c2ecdac8aa1446b411706a4850a6a37e86b9baf5bffa8112c35",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6112,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6130,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6119,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6134,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6145,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1325,
+          "id": 6209,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6138,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6186,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6172,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6198,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6193,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6166,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6201,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6207,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "nomalarkey",
+      "route": "nomalarkey-community",
+      "scope": "2020_Biden_Bass",
+      "page": "achievements/walkthroughs/nomalarkey-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 306,
+      "scenarioSHA256": "3f8cd5623088f9e96924d47e646008d1ef077214cb8d5700c0d74720f6a579b5",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1227,
+          "id": 6096,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6024,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6030,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6038,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6053,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6044,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6048,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "whatbelt",
+      "route": "whatbelt-Kaine-FL6-NH6",
+      "scope": "2016_Clinton_Kaine",
+      "page": "achievements/walkthroughs/whatbelt-Kaine-FL6-NH6.md",
+      "report": "tests/whatbelt-neighbor-results.json",
+      "seed": 18,
+      "electoral": 270,
+      "scenarioSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "thebern",
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-search",
+      "scope": "2016_Clinton_Sanders",
+      "page": "achievements/walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 368,
+      "scenarioSHA256": "655b94ece7cb7bccba7ca62dfea9387c15e65d705997b1a6509dd0f6b70e37b8",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1034,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5153,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1047,
+          "id": 5160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1078,
+          "id": 5265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1058,
+          "id": 5192,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5207,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1070,
+          "id": 5238,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1064,
+          "id": 5219,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1063,
+          "id": 5212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1056,
+          "id": 5187,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5226,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1034,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5257,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5259,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "moscow",
+      "route": "moscow-community",
+      "scope": "2016_Trump_Palin",
+      "page": "achievements/walkthroughs/moscow-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 325,
+      "scenarioSHA256": "735875d9618cd77c3c0157766e6089dd7a87815aed9d336619a1a87f7067c910",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1005,
+          "id": 5012,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5023,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5032,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1041,
+          "id": 5136,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5077,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1022,
+          "id": 5072,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1017,
+          "id": 5054,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1010,
+          "id": 5028,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5041,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1028,
+          "id": 5093,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1015,
+          "id": 5045,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1013,
+          "id": 5036,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1027,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 1024,
+          "id": 5082,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1027,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5085,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5089,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5113,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5115,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5121,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5124,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "why",
+      "route": "why-2016a_Clinton_Booker-1-0.97-search",
+      "scope": "2016a_Clinton_Booker",
+      "page": "achievements/walkthroughs/why-2016a_Clinton_Booker-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 408,
+      "scenarioSHA256": "277d7d3185d1be5a5f3ca02e3dd9bbcdfb50429ea657f38af0aaae1779b67f56",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 787,
+          "id": 4595,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 804,
+          "id": 4641,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 789,
+          "id": 4600,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 788,
+          "id": 4597,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 790,
+          "id": 4603,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 797,
+          "id": 4623,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 842,
+          "id": 4736,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 803,
+          "id": 4640,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 793,
+          "id": 4611,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 791,
+          "id": 4605,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 801,
+          "id": 4634,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 795,
+          "id": 4617,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 792,
+          "id": 4609,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 829,
+          "id": 4706,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 819,
+          "id": 4675,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 815,
+          "id": 4662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 832,
+          "id": 4715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 820,
+          "id": 4679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 825,
+          "id": 4695,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 827,
+          "id": 4701,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 821,
+          "id": 4682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 823,
+          "id": 4687,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 830,
+          "id": 4708,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 822,
+          "id": 4684,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 834,
+          "id": 4721,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "realdebate",
+      "route": "realdebate-2012_Obama_Biden-1-0.97-search",
+      "scope": "2012_Obama_Biden",
+      "page": "achievements/walkthroughs/realdebate-2012_Obama_Biden-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 292,
+      "scenarioSHA256": "adc262f66a603f8b7d613f9379a71a5aaa3aee2f780c52ea37c6fc11373bd0ca",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 130,
+          "id": 729,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 93,
+          "id": 330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 114,
+          "id": 395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 7,
+          "id": 26,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 22,
+          "id": 88,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 25,
+          "id": 99,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 42,
+          "id": 168,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 43,
+          "id": 170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 33,
+          "id": 132,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 12,
+          "id": 46,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 9,
+          "id": 35,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 85,
+          "id": 305,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 5,
+          "id": 19,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 28,
+          "id": 112,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 99,
+          "id": 349,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 82,
+          "id": 294,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 52,
+          "id": 200,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 18,
+          "id": 71,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 66,
+          "id": 241,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 83,
+          "id": 297,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 56,
+          "id": 212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 65,
+          "id": 237,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 54,
+          "id": 205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 68,
+          "id": 248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 60,
+          "id": 225,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "karmic",
+      "route": "karmic-2012_Obama_Clinton-1-0.97-search",
+      "scope": "2012_Obama_Clinton",
+      "page": "achievements/walkthroughs/karmic-2012_Obama_Clinton-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 4,
+      "scenarioSHA256": "af8f658f52ba9a1598402f469e3cc30a7701aa89b717722b06dc3f8de240dea0",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 130,
+          "id": 727,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 93,
+          "id": 333,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 42,
+          "id": 165,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 114,
+          "id": 398,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 25,
+          "id": 100,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 22,
+          "id": 88,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 7,
+          "id": 28,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 63,
+          "id": 231,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 38,
+          "id": 152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 39,
+          "id": 156,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 19,
+          "id": 76,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 4,
+          "id": 16,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 82,
+          "id": 293,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 68,
+          "id": 246,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 98,
+          "id": 346,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 86,
+          "id": 307,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 66,
+          "id": 242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 6,
+          "id": 24,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 5,
+          "id": 20,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 91,
+          "id": 324,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 96,
+          "id": 341,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 57,
+          "id": 213,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 10,
+          "id": 40,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 29,
+          "id": 116,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 40,
+          "id": 160,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "raiders",
+      "route": "raiders-community",
+      "scope": "2000_Nader_LaDuke",
+      "page": "achievements/walkthroughs/raiders-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 0,
+      "scenarioSHA256": "a0e3d24f6a7b1377f0c048c091134d555cc5fe9d4c4e9cb2e2ab2a01e80e83c9",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 371,
+          "id": 3414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 368,
+          "id": 3401,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3333,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3343,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3331,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3321,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3313,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3327,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3340,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 355,
+          "id": 3358,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 361,
+          "id": 3380,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 356,
+          "id": 3362,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 365,
+          "id": 3392,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 354,
+          "id": 3354,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 378,
+          "id": 3443,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 358,
+          "id": 3369,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 379,
+          "id": 3447,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3387,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 360,
+          "id": 3376,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3346,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 386,
+          "id": 3473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 383,
+          "id": 3463,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "master",
+      "route": "master-2000_Gore_Graham-1-0.97-search",
+      "scope": "2000_Gore_Graham",
+      "page": "achievements/walkthroughs/master-2000_Gore_Graham-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 301,
+      "scenarioSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 398,
+          "id": 3503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 370,
+          "id": 3410,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 367,
+          "id": 3397,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3319,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3335,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3324,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3342,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3326,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3373,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 375,
+          "id": 3432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 392,
+          "id": 3490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 390,
+          "id": 3485,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3387,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 376,
+          "id": 3436,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3383,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 377,
+          "id": 3440,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 391,
+          "id": 3488,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 385,
+          "id": 3470,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 382,
+          "id": 3458,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "swap",
+      "route": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "scope": "2000_Gore_Graham",
+      "page": "achievements/walkthroughs/swap-2000_Gore_Graham-1-0.97-baseline-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1,
+      "electoral": 281,
+      "scenarioSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 398,
+          "id": 3504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 370,
+          "id": 3411,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 367,
+          "id": 3399,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3319,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3334,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 230,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3343,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 195,
+          "abbr": "IA"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3329,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3373,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 375,
+          "id": 3432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 392,
+          "id": 3490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 390,
+          "id": 3485,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3386,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 376,
+          "id": 3436,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3383,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 377,
+          "id": 3440,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 391,
+          "id": 3489,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 385,
+          "id": 3469,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 382,
+          "id": 3457,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "florida2000",
+      "route": "florida2000-2000_Bush_Cheney-1-0.97-search",
+      "scope": "2000_Bush_Cheney",
+      "page": "achievements/walkthroughs/florida2000-2000_Bush_Cheney-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 260,
+      "scenarioSHA256": "11f7ca51bdbf9a338a3213ee3ecfd7a13e39869d447804e7fad5fb2866ea0bc3",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 393,
+          "id": 3493,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 366,
+          "id": 3395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 369,
+          "id": 3407,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3332,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3328,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3316,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3320,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3335,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3342,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 388,
+          "id": 3479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 374,
+          "id": 3428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3381,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 365,
+          "id": 3391,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3370,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 358,
+          "id": 3367,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 372,
+          "id": 3420,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 355,
+          "id": 3355,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3388,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 389,
+          "id": 3482,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 384,
+          "id": 3466,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 381,
+          "id": 3453,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "tanks",
+      "route": "tanks-community",
+      "scope": "1988_Dukakis_Bentsen",
+      "page": "achievements/walkthroughs/tanks-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 303,
+      "scenarioSHA256": "d7d95ea3c84337634079e07932d52713adb4761521eddd1456fb56d5be3c4246",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 717,
+          "id": 4414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 718,
+          "id": 4417,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 734,
+          "id": 4463,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 729,
+          "id": 4450,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 732,
+          "id": 4458,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 719,
+          "id": 4418,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 725,
+          "id": 4439,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 724,
+          "id": 4434,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 726,
+          "id": 4441,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 728,
+          "id": 4446,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 727,
+          "id": 4444,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 735,
+          "id": 4464,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 723,
+          "id": 4432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4511,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 722,
+          "id": 4428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 721,
+          "id": 4427,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 720,
+          "id": 4424,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4484,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 730,
+          "id": 4452,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4518,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "Rainbow",
+      "route": "Rainbow-1988_Dukakis_Jackson-1-0.97-search",
+      "scope": "1988_Dukakis_Jackson",
+      "page": "achievements/walkthroughs/Rainbow-1988_Dukakis_Jackson-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 292,
+      "scenarioSHA256": "c211d65094ef9a9a87335b96752686708518f644b09121a767ce7d1938260069",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 717,
+          "id": 4414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 718,
+          "id": 4417,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 738,
+          "id": 4468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 732,
+          "id": 4458,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 719,
+          "id": 4418,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 729,
+          "id": 4450,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 722,
+          "id": 4428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 720,
+          "id": 4424,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 727,
+          "id": 4444,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 723,
+          "id": 4432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 721,
+          "id": 4427,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 725,
+          "id": 4438,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4511,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 726,
+          "id": 4441,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 728,
+          "id": 4448,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 724,
+          "id": 4434,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 739,
+          "id": 4471,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4481,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 750,
+          "id": 4504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4518,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "Kinder",
+      "route": "Kinder-Dole-MA",
+      "scope": "1988_Bush_Dole",
+      "page": "achievements/walkthroughs/Kinder-Dole-MA.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 42,
+      "electoral": 502,
+      "scenarioSHA256": "8bd17954a5dbd21cf447362d0842568664c362624d055c717ab14eb0037d35e1",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 698,
+          "id": 4366,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 715,
+          "id": 4409,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 699,
+          "id": 4371,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 700,
+          "id": 4374,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4525,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4489,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4502,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 704,
+          "id": 4385,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 708,
+          "id": 4395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 706,
+          "id": 4392,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 703,
+          "id": 4382,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4516,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 705,
+          "id": 4388,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4512,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4482,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 707,
+          "id": 4393,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 701,
+          "id": 4378,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 709,
+          "id": 4397,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 744,
+          "id": 4487,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 750,
+          "id": 4504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 741,
+          "id": 4476,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 746,
+          "id": 4493,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 751,
+          "id": 4507,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4521,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "georgia",
+      "route": "georgia-community",
+      "scope": "1976_Carter_Jackson",
+      "page": "achievements/walkthroughs/georgia-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 443,
+      "scenarioSHA256": "ae1ec924c6fed69adb4c26edc4f3fe22ee95c9ab3efd66396dab066d2163a77a",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 426,
+          "id": 3541,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 415,
+          "id": 3509,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 416,
+          "id": 3513,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 429,
+          "id": 3589,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 433,
+          "id": 3605,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 432,
+          "id": 3601,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 434,
+          "id": 3610,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 445,
+          "id": 3647,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 430,
+          "id": 3592,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 431,
+          "id": 3597,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 444,
+          "id": 3645,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 419,
+          "id": 3524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 427,
+          "id": 3544,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 420,
+          "id": 3527,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 417,
+          "id": 3518,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 418,
+          "id": 3520,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 435,
+          "id": 3614,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 446,
+          "id": 3653,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 436,
+          "id": 3615,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 438,
+          "id": 3624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 442,
+          "id": 3636,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 428,
+          "id": 3584,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 441,
+          "id": 3633,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 421,
+          "id": 3528,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 447,
+          "id": 3655,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "georgenixon",
+      "route": "georgenixon-1968_Nixon_Agnew-1-0.97-search",
+      "scope": "1968_Nixon_Agnew",
+      "page": "achievements/walkthroughs/georgenixon-1968_Nixon_Agnew-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 349,
+      "scenarioSHA256": "7fa186f38104096603b95d0d0eb3d020120274ba6e0360427688139dfc661b59",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 321,
+          "id": 3227,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 322,
+          "id": 3233,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3292,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1669,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 326,
+          "id": 3249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 255,
+          "id": 1665,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 254,
+          "id": 1662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 257,
+          "id": 1674,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 285,
+          "id": 1775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 290,
+          "id": 1788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 287,
+          "id": 1779,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 260,
+          "id": 1685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 329,
+          "id": 3260,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 323,
+          "id": 3235,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 280,
+          "id": 1757,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 324,
+          "id": 3239,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 286,
+          "id": 1777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 277,
+          "id": 1746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 258,
+          "id": 1679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 291,
+          "id": 1793,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 281,
+          "id": 1761,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 269,
+          "id": 1716,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 270,
+          "id": 1721,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 292,
+          "id": 1797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 325,
+          "id": 3245,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "ratio",
+      "route": "ratio-1968_Humphrey_Connally-baseline",
+      "scope": "1968_Humphrey_Connally",
+      "page": "achievements/walkthroughs/ratio-1968_Humphrey_Connally-baseline.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 433,
+      "scenarioSHA256": "54bfaa06b9ce457495620a88f7da98216c8f96ac6783447479b849d279dfa288",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 328,
+          "id": 3258,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 327,
+          "id": 3252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 252,
+          "id": 1655,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3293,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1671,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 255,
+          "id": 1668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 253,
+          "id": 1659,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 330,
+          "id": 3265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 254,
+          "id": 1663,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 274,
+          "id": 1737,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 336,
+          "id": 3287,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 277,
+          "id": 1746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 275,
+          "id": 1740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 272,
+          "id": 1729,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 276,
+          "id": 1744,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 271,
+          "id": 1726,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 278,
+          "id": 1750,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 289,
+          "id": 1787,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 265,
+          "id": 1701,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 332,
+          "id": 3274,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 283,
+          "id": 1769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 291,
+          "id": 1794,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 105,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 264,
+          "id": 1698,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 279,
+          "id": 1755,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 105,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 333,
+          "id": 3277,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsHard",
+      "route": "BCitsHard-community",
+      "scope": "1960_Kennedy_Johnson",
+      "page": "achievements/walkthroughs/BCitsHard-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 3,
+      "electoral": 272,
+      "scenarioSHA256": "1afc66be3e3773874c6721e05a4bfc1744fc645140bebb676f980d5a6a39ab58",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3659,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 449,
+          "id": 3664,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3798,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3737,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3768,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3750,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 304,
+          "abbr": "MI"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3753,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3688,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 304,
+          "abbr": "MI"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3783,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3683,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3680,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3675,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3795,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 477,
+          "id": 3742,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3758,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3760,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3779,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 320,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3771,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 450,
+          "id": 3665,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": false
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsEasy",
+      "route": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "scope": "1960_Kennedy_Humphrey",
+      "page": "achievements/walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 20,
+      "scenarioSHA256": "8f51d67124849cdc14784aeb4fca94e84486bb80157b87093afac699d5d350c1",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "Vice",
+      "route": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "scope": "1960_Nixon_Goldwater",
+      "page": "achievements/walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 269,
+      "scenarioSHA256": "68a2948b7c8e6a0c09640182eec3d4fdb7f1c70c696e2a1a1245ce78c382d55a",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "dixieDewey",
+      "route": "dixieDewey-community",
+      "scope": "1948_Truman_Barkley",
+      "page": "achievements/walkthroughs/dixieDewey-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 294,
+      "scenarioSHA256": "87371bde73ca69af02abea237a465c7bca6a941c81c1d4207b252f4b65de31f0",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 496,
+          "id": 3806,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 497,
+          "id": 3807,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 498,
+          "id": 3809,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 499,
+          "id": 3814,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 500,
+          "id": 3817,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 501,
+          "id": 3820,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 502,
+          "id": 3822,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 521,
+          "id": 3896,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 503,
+          "id": 3828,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 522,
+          "id": 3899,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 523,
+          "id": 3903,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 524,
+          "id": 3906,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 520,
+          "id": 3893,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 504,
+          "id": 3829,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 525,
+          "id": 3910,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 527,
+          "id": 3918,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 529,
+          "id": 3924,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 528,
+          "id": 3921,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 526,
+          "id": 3913,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 505,
+          "id": 3834,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 537,
+          "id": 3948,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 532,
+          "id": 3933,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 534,
+          "id": 3939,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 506,
+          "id": 3839,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 507,
+          "id": 3845,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "Dewey",
+      "route": "Dewey-community",
+      "scope": "1948_Dewey_Bricker",
+      "page": "achievements/walkthroughs/Dewey-community.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 305,
+      "scenarioSHA256": "94262cd48ac21fe646fef845c5515bba93e8a4226b54c259819df39a17e9e3a0",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 542,
+          "id": 3959,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 508,
+          "id": 3848,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 337,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 509,
+          "id": 3850,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 511,
+          "id": 3856,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 510,
+          "id": 3853,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 512,
+          "id": 3860,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 513,
+          "id": 3862,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 514,
+          "id": 3869,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 524,
+          "id": 3906,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 521,
+          "id": 3896,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 522,
+          "id": 3900,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 515,
+          "id": 3871,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 520,
+          "id": 3893,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 523,
+          "id": 3904,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 516,
+          "id": 3878,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 526,
+          "id": 3913,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 527,
+          "id": 3917,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 525,
+          "id": 3909,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 528,
+          "id": 3922,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 529,
+          "id": 3924,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 517,
+          "id": 3883,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 532,
+          "id": 3934,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 530,
+          "id": 3927,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 518,
+          "id": 3884,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 519,
+          "id": 3892,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "California",
+      "route": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1",
+      "scope": "1916_Hughes_Fairbanks",
+      "page": "achievements/walkthroughs/California-1916_Hughes_Fairbanks-1-0.95-multistart-1.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 21,
+      "electoral": 278,
+      "scenarioSHA256": "58095bb6c293039a76f7d6f43be7a2fc07b67565a8f6cd5b50fdbf044d903956",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 666,
+          "id": 4274,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 669,
+          "id": 4283,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 667,
+          "id": 4278,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 684,
+          "id": 4322,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 690,
+          "id": 4341,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 673,
+          "id": 4295,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 675,
+          "id": 4299,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 670,
+          "id": 4286,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 687,
+          "id": 4331,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 671,
+          "id": 4288,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 686,
+          "id": 4329,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 688,
+          "id": 4336,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 668,
+          "id": 4280,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 672,
+          "id": 4290,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 678,
+          "id": 4305,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 676,
+          "id": 4303,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 674,
+          "id": 4297,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 689,
+          "id": 4339,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 681,
+          "id": 4313,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 683,
+          "id": 4320,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 682,
+          "id": 4317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 691,
+          "id": 4344,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 694,
+          "id": 4354,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 693,
+          "id": 4351,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 697,
+          "id": 4363,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    },
+    {
+      "achievement": "Commoner",
+      "route": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "scope": "1896_Bryan_Teller",
+      "page": "achievements/walkthroughs/Commoner-1896_Bryan_Teller-1-0.97-search.md",
+      "report": "tests/verified-route-results.json",
+      "seed": 1776,
+      "electoral": 354,
+      "scenarioSHA256": "4014d643f22436a8e51bba1c0ae08faa8b0178bbe2887d22abaaf2db120fb919",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "status": "blocked",
+  "stage": "browser-launch",
+  "completedGames": 0,
+  "attempts": [
+    {
+      "executed": true,
+      "result": "Chrome launch timed out after 180000ms before a game page opened."
+    },
+    {
+      "executed": false,
+      "result": "Automatic approval review failed because the selected model was at capacity. The bounded retry was not executed."
+    }
+  ],
+  "claimedNewUnlocks": 0,
+  "runtimeChanged": false
+}

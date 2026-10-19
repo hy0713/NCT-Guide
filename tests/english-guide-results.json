@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "achievements": 31,
+  "walkthroughs": 34,
+  "originalEnglishAnswers": 850,
+  "recordedVisits": 396,
+  "sourceRouteGapsExplicitlyLabeled": 1,
+  "scenarioArraysChecked": 27,
+  "localLinksChecked": 303,
+  "englishUIKeys": 103,
+  "checks": [
+    "Original literal question/answer associations",
+    "Original English text",
+    "State ID and abbreviation",
+    "25 distinct questions per walkthrough",
+    "Source links and local document links",
+    "English prose and UI coverage"
+  ]
+}
