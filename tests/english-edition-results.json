@@ -1,18 +1,4071 @@
 {
-  "date": "2026-10-19",
-  "status": "blocked",
-  "stage": "browser-launch",
-  "completedGames": 0,
-  "attempts": [
+  "date": "2026-10-19T10:34:29.976Z",
+  "status": "passed",
+  "network": "All non-loopback requests blocked",
+  "checks": [
+    "English achievement labels and current recommendation",
+    "Independent achievement toggle and persistence across language switches",
+    "Incompatible objective displays English alternative-pairing advice",
+    "UI actions preserve campaign values and RNG count",
+    "Panel fits 390px and 1440px",
+    "Two full English native achievement unlocks with external network requests blocked"
+  ],
+  "runs": [
     {
-      "executed": true,
-      "result": "Chrome launch timed out after 180000ms before a game page opened."
+      "route": "ridingBiden-community",
+      "scope": "2020_Biden_Demings",
+      "language": "en-US",
+      "seed": 1776,
+      "unlocked": true,
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1230,
+          "id": 6102,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6032,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6040,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6042,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6051,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6049,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "result": {
+        "answers": [
+          6001,
+          6004,
+          6014,
+          6010,
+          6102,
+          6017,
+          6020,
+          6025,
+          6032,
+          6063,
+          6040,
+          6037,
+          6070,
+          6074,
+          6078,
+          6081,
+          6042,
+          6056,
+          6051,
+          6059,
+          6049,
+          6067,
+          6084,
+          6086,
+          6088
+        ],
+        "visits": [
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134,
+          1134
+        ],
+        "overall": [
+          {
+            "candidate_name": "Joe Biden",
+            "candidate_color": "#0000FF",
+            "candidate": 300,
+            "electoral_votes": 406,
+            "popular_votes": 84358326
+          },
+          {
+            "candidate_name": "Donald Trump",
+            "candidate_color": "#FF0000",
+            "candidate": 301,
+            "electoral_votes": 132,
+            "popular_votes": 70237271
+          },
+          {
+            "candidate_name": "Jo Jorgensen",
+            "candidate_color": "#FFFF00",
+            "candidate": 302,
+            "electoral_votes": 0,
+            "popular_votes": 1713502
+          },
+          {
+            "candidate_name": "Howie Hawkins/Other",
+            "candidate_color": "#00C100",
+            "candidate": 303,
+            "electoral_votes": 0,
+            "popular_votes": 1118581
+          }
+        ],
+        "states": [
+          {
+            "state": 1100,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.747228806508123,
+                "percent": 0.5965184827042294,
+                "votes": 1445586,
+                "electoral_votes": 9
+              },
+              {
+                "candidate": 300,
+                "result": 3.104853445944842,
+                "percent": 0.39014392229313033,
+                "votes": 945463,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.0788379874252163,
+                "percent": 0.009906477769487868,
+                "votes": 24007,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.02730560584457867,
+                "percent": 0.00343111723315246,
+                "votes": 8314,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AL",
+            "result_time": 130
+          },
+          {
+            "state": 1101,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.25318076857899,
+                "percent": 0.5092047951848371,
+                "votes": 183637,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 300,
+                "result": 3.7293543553830926,
+                "percent": 0.4464905735335099,
+                "votes": 161020,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.19633398192329526,
+                "percent": 0.02350575028262365,
+                "votes": 8476,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.1737246025755204,
+                "percent": 0.020798880999029462,
+                "votes": 7500,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AK",
+            "result_time": 420
+          },
+          {
+            "state": 1102,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.440911455022446,
+                "percent": 0.5331963905511353,
+                "votes": 1734834,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 301,
+                "result": 3.764144767398956,
+                "percent": 0.4519406486295102,
+                "votes": 1470456,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.11858643060427616,
+                "percent": 0.014238035909280059,
+                "votes": 46325,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.00520490431079245,
+                "percent": 0.0006249249100744685,
+                "votes": 2033,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AZ",
+            "result_time": 260
+          },
+          {
+            "state": 1103,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.668201853724121,
+                "percent": 0.594401304081134,
+                "votes": 704950,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 300,
+                "result": 2.958903366778692,
+                "percent": 0.37675663456159786,
+                "votes": 446827,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.14882773391350737,
+                "percent": 0.01895020864426758,
+                "votes": 22474,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07768685037287885,
+                "percent": 0.009891852713000545,
+                "votes": 11731,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AR",
+            "result_time": 160
+          },
+          {
+            "state": 1104,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.35451667530969,
+                "percent": 0.6461619982201385,
+                "votes": 10902174,
+                "electoral_votes": 55
+              },
+              {
+                "candidate": 301,
+                "result": 2.7506488658419452,
+                "percent": 0.3319374792033104,
+                "votes": 5600515,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.1007737615450372,
+                "percent": 0.01216098092071678,
+                "votes": 205182,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08070814803360052,
+                "percent": 0.00973954165583429,
+                "votes": 164327,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CA",
+            "result_time": 300
+          },
+          {
+            "state": 1105,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.859660227074529,
+                "percent": 0.5753015255125052,
+                "votes": 1960686,
+                "electoral_votes": 9
+              },
+              {
+                "candidate": 301,
+                "result": 3.3619724691846633,
+                "percent": 0.3980006419949488,
+                "votes": 1356427,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.12319652099181337,
+                "percent": 0.014584383095253926,
+                "votes": 49705,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.10232416504763926,
+                "percent": 0.01211344939729208,
+                "votes": 41283,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CO",
+            "result_time": 200
+          },
+          {
+            "state": 1106,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.0806704632121,
+                "percent": 0.6077648830022067,
+                "votes": 1055629,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 301,
+                "result": 3.1535445063206113,
+                "percent": 0.3772363552810463,
+                "votes": 655223,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08426892272372578,
+                "percent": 0.010080498692199695,
+                "votes": 17508,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.041114704679367904,
+                "percent": 0.004918263024547426,
+                "votes": 8542,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CT",
+            "result_time": 130
+          },
+          {
+            "state": 1107,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.059640585986175,
+                "percent": 0.5998430295449464,
+                "votes": 303008,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 301,
+                "result": 3.253567138440931,
+                "percent": 0.3857249415216907,
+                "votes": 194847,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07788768753824424,
+                "percent": 0.009233933846327608,
+                "votes": 4664,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.043845625566627244,
+                "percent": 0.005198095087035281,
+                "votes": 2625,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "DE",
+            "result_time": 130
+          },
+          {
+            "state": 1108,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.087048346310629,
+                "percent": 0.5120963987812267,
+                "votes": 5507970,
+                "electoral_votes": 29
+              },
+              {
+                "candidate": 301,
+                "result": 3.8211246253918105,
+                "percent": 0.47877685658497177,
+                "votes": 5149594,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.04779066113287678,
+                "percent": 0.005988044032709389,
+                "votes": 64405,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.025050012325390787,
+                "percent": 0.003138700601092178,
+                "votes": 33759,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "FL",
+            "result_time": 240
+          },
+          {
+            "state": 1109,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.3396570921224935,
+                "percent": 0.5195209175901586,
+                "votes": 2680969,
+                "electoral_votes": 16
+              },
+              {
+                "candidate": 301,
+                "result": 3.9168736836146114,
+                "percent": 0.4689075120451405,
+                "votes": 2419780,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.09665952938546332,
+                "percent": 0.011571570364700917,
+                "votes": 59714,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "GA",
+            "result_time": 150
+          },
+          {
+            "state": 1110,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.4280467986843925,
+                "percent": 0.6580152311284043,
+                "votes": 381875,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 301,
+                "result": 2.654606090842057,
+                "percent": 0.32180474951757504,
+                "votes": 186757,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.09441231372540282,
+                "percent": 0.011445137218132619,
+                "votes": 6642,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07205509351703815,
+                "percent": 0.008734882135888055,
+                "votes": 5069,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "HI",
+            "result_time": 360
+          },
+          {
+            "state": 1111,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.490269390989151,
+                "percent": 0.6057359167571954,
+                "votes": 545875,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 300,
+                "result": 2.691582262578556,
+                "percent": 0.36309359358754945,
+                "votes": 327211,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.1324812594236746,
+                "percent": 0.01787167987987233,
+                "votes": 16105,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.09858295804989385,
+                "percent": 0.013298809775382777,
+                "votes": 11984,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ID",
+            "result_time": 300
+          },
+          {
+            "state": 1112,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.058255537843816,
+                "percent": 0.5910826118563105,
+                "votes": 3446378,
+                "electoral_votes": 20
+              },
+              {
+                "candidate": 301,
+                "result": 3.339836392967077,
+                "percent": 0.3902766879921704,
+                "votes": 2275555,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08480144017980831,
+                "percent": 0.009909474991060737,
+                "votes": 57778,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.0747184355184272,
+                "percent": 0.008731225160458263,
+                "votes": 50908,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IL",
+            "result_time": 130
+          },
+          {
+            "state": 1113,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.397610519965793,
+                "percent": 0.5417441467775017,
+                "votes": 1569350,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 300,
+                "result": 3.5660458692701313,
+                "percent": 0.439303223431485,
+                "votes": 1272595,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.14787447299290876,
+                "percent": 0.018216740622664148,
+                "votes": 52771,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.005973583595708834,
+                "percent": 0.0007358891683492097,
+                "votes": 2131,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IN",
+            "result_time": 60
+          },
+          {
+            "state": 1114,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.19341677314943,
+                "percent": 0.5072206436727484,
+                "votes": 845189,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 300,
+                "result": 3.90848412373357,
+                "percent": 0.47275621295708875,
+                "votes": 787760,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08796508822160552,
+                "percent": 0.010639941384834761,
+                "votes": 17729,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.07757506931541637,
+                "percent": 0.009383201985328025,
+                "votes": 15635,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IA",
+            "result_time": 360
+          },
+          {
+            "state": 1115,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.356091870416671,
+                "percent": 0.536945973080492,
+                "votes": 761846,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 300,
+                "result": 3.5916801443243545,
+                "percent": 0.4427221113460246,
+                "votes": 628156,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.1649471205297069,
+                "percent": 0.020331915573483288,
+                "votes": 28847,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "KS",
+            "result_time": 310
+          },
+          {
+            "state": 1116,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.545975731643669,
+                "percent": 0.5852759524881731,
+                "votes": 1191273,
+                "electoral_votes": 8
+              },
+              {
+                "candidate": 300,
+                "result": 3.0873940385129397,
+                "percent": 0.39748947052641376,
+                "votes": 809052,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08964987823770806,
+                "percent": 0.011542058509197543,
+                "votes": 23492,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.04421512747071571,
+                "percent": 0.005692518476215559,
+                "votes": 11586,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "KY",
+            "result_time": 20
+          },
+          {
+            "state": 1117,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.653984695835694,
+                "percent": 0.5706872734013982,
+                "votes": 1223930,
+                "electoral_votes": 8
+              },
+              {
+                "candidate": 300,
+                "result": 3.368369893112313,
+                "percent": 0.4130408576176999,
+                "votes": 885832,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07411556596371141,
+                "percent": 0.009088300246083404,
+                "votes": 19491,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.058582380423637316,
+                "percent": 0.0071835687348184895,
+                "votes": 15406,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "LA",
+            "result_time": 210
+          },
+          {
+            "state": 1118,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.717835446976878,
+                "percent": 0.5591566814034685,
+                "votes": 448214,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 301,
+                "result": 3.4762113030078696,
+                "percent": 0.4119996972960625,
+                "votes": 330255,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.13469996571287904,
+                "percent": 0.015964606366556805,
+                "votes": 12797,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.10866555868535335,
+                "percent": 0.012879014933912303,
+                "votes": 10323,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ME",
+            "result_time": 160
+          },
+          {
+            "state": 1119,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.109856485271536,
+                "percent": 0.6479943050505194,
+                "votes": 1974902,
+                "electoral_votes": 10
+              },
+              {
+                "candidate": 301,
+                "result": 2.5693313482113407,
+                "percent": 0.3258236481254618,
+                "votes": 993017,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.12296389719184694,
+                "percent": 0.015593374361256688,
+                "votes": 47524,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08349856817035275,
+                "percent": 0.010588672462762122,
+                "votes": 32271,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MD",
+            "result_time": 120
+          },
+          {
+            "state": 1120,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.259993809724918,
+                "percent": 0.6610234350808458,
+                "votes": 2461152,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 301,
+                "result": 2.5122955579797983,
+                "percent": 0.31572018898649723,
+                "votes": 1175503,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.0984541627525446,
+                "percent": 0.012372734876678344,
+                "votes": 46066,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.08660492433935278,
+                "percent": 0.010883641055978662,
+                "votes": 40522,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MA",
+            "result_time": 120
+          },
+          {
+            "state": 1121,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.460588567650583,
+                "percent": 0.5259098029043712,
+                "votes": 3008363,
+                "electoral_votes": 16
+              },
+              {
+                "candidate": 301,
+                "result": 3.898445267075448,
+                "percent": 0.45963229985163045,
+                "votes": 2629236,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08212988673795808,
+                "percent": 0.009683231683855527,
+                "votes": 55391,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.040497093787394474,
+                "percent": 0.004774665560142917,
+                "votes": 27312,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MI",
+            "result_time": 260
+          },
+          {
+            "state": 1122,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.611250167722926,
+                "percent": 0.5430907620620533,
+                "votes": 1756124,
+                "electoral_votes": 10
+              },
+              {
+                "candidate": 301,
+                "result": 3.679858230360952,
+                "percent": 0.43339592039395314,
+                "votes": 1401418,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.1154318307004337,
+                "percent": 0.013595003224965624,
+                "votes": 43960,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08421396893862147,
+                "percent": 0.009918314319027881,
+                "votes": 32071,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MN",
+            "result_time": 240
+          },
+          {
+            "state": 1123,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.683707682466725,
+                "percent": 0.5676502256467999,
+                "votes": 774197,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 300,
+                "result": 3.4565307075082905,
+                "percent": 0.4189203445418295,
+                "votes": 571349,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.0652910874819788,
+                "percent": 0.007913068674335128,
+                "votes": 10792,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.045515745206221425,
+                "percent": 0.005516361137035457,
+                "votes": 7523,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MS",
+            "result_time": 160
+          },
+          {
+            "state": 1124,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.455747266108078,
+                "percent": 0.5399614294988181,
+                "votes": 1583608,
+                "electoral_votes": 10
+              },
+              {
+                "candidate": 300,
+                "result": 3.654394588373514,
+                "percent": 0.4428509985070246,
+                "votes": 1298801,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.10362045759135696,
+                "percent": 0.01255705206440531,
+                "votes": 36827,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.03821092654118287,
+                "percent": 0.004630519929751996,
+                "votes": 13580,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MO",
+            "result_time": 190
+          },
+          {
+            "state": 1125,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.287530830643975,
+                "percent": 0.5334445197707532,
+                "votes": 310552,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 300,
+                "result": 3.5584878186300517,
+                "percent": 0.4427386998483858,
+                "votes": 257746,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.1908188724878854,
+                "percent": 0.023741236114262033,
+                "votes": 13821,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.0006071828655399648,
+                "percent": 0.00007554426659885914,
+                "votes": 43,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MT",
+            "result_time": 310
+          },
+          {
+            "state": 1126,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.466813494977963,
+                "percent": 0.5538381633982415,
+                "votes": 555061,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 300,
+                "result": 3.3949618962386823,
+                "percent": 0.4209397736291919,
+                "votes": 421869,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.159617058320512,
+                "percent": 0.01979084609792926,
+                "votes": 19834,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.04380383013139897,
+                "percent": 0.0054312168746374415,
+                "votes": 5443,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NE",
+            "result_time": 230
+          },
+          {
+            "state": 1127,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.313936254953422,
+                "percent": 0.5266630221459444,
+                "votes": 704986,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 301,
+                "result": 3.6826188699434614,
+                "percent": 0.4495892078213027,
+                "votes": 601816,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.11166925286808649,
+                "percent": 0.013633040156482586,
+                "votes": 18249,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.0828505098848791,
+                "percent": 0.010114729876270273,
+                "votes": 13539,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NV",
+            "result_time": 320
+          },
+          {
+            "state": 1128,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.671564019558316,
+                "percent": 0.5555891937275018,
+                "votes": 428763,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 301,
+                "result": 3.585907601037888,
+                "percent": 0.4264720561466963,
+                "votes": 329120,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.12342641850639031,
+                "percent": 0.01467910619559959,
+                "votes": 11328,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.027408084017510267,
+                "percent": 0.0032596439302021787,
+                "votes": 2515,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NH",
+            "result_time": 170
+          },
+          {
+            "state": 1129,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.994496692910703,
+                "percent": 0.591728953705678,
+                "votes": 2720009,
+                "electoral_votes": 14
+              },
+              {
+                "candidate": 301,
+                "result": 3.338478093693241,
+                "percent": 0.3955301746729473,
+                "votes": 1818139,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.05468675225267981,
+                "percent": 0.006479078209816811,
+                "votes": 29782,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.05285275680674387,
+                "percent": 0.006261793411557749,
+                "votes": 28783,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NJ",
+            "result_time": 140
+          },
+          {
+            "state": 1130,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.864062621330727,
+                "percent": 0.5725817427209847,
+                "votes": 510115,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 301,
+                "result": 3.449177318732017,
+                "percent": 0.4060260144374872,
+                "votes": 361730,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.10262530756361171,
+                "percent": 0.012080719765892674,
+                "votes": 10762,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.07910107493931698,
+                "percent": 0.009311523075635533,
+                "votes": 8295,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NM",
+            "result_time": 210
+          },
+          {
+            "state": 1131,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.193997394048986,
+                "percent": 0.6217919934313011,
+                "votes": 5373949,
+                "electoral_votes": 29
+              },
+              {
+                "candidate": 301,
+                "result": 3.043076075070433,
+                "percent": 0.36429751409753963,
+                "votes": 3148506,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.062341438830226824,
+                "percent": 0.007463116475190259,
+                "votes": 64501,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.05385668274163235,
+                "percent": 0.006447375995968954,
+                "votes": 55722,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NY",
+            "result_time": 180
+          },
+          {
+            "state": 1132,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.253266116160636,
+                "percent": 0.5046325862691479,
+                "votes": 2661584,
+                "electoral_votes": 15
+              },
+              {
+                "candidate": 301,
+                "result": 4.052556267461001,
+                "percent": 0.48081918563236514,
+                "votes": 2535985,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.06798137434959409,
+                "percent": 0.008065711342589111,
+                "votes": 42540,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.05463751175711336,
+                "percent": 0.006482516755897661,
+                "votes": 34190,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NC",
+            "result_time": 240
+          },
+          {
+            "state": 1133,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.636232134473476,
+                "percent": 0.6176102207932362,
+                "votes": 223458,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 300,
+                "result": 2.646217801945979,
+                "percent": 0.3525127977899353,
+                "votes": 127543,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.18060255147621504,
+                "percent": 0.02405875686501071,
+                "votes": 8704,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.043675831008876544,
+                "percent": 0.00581822455181782,
+                "votes": 2105,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ND",
+            "result_time": 300
+          },
+          {
+            "state": 1134,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.354152534606471,
+                "percent": 0.49774083094047455,
+                "votes": 3056778,
+                "electoral_votes": 18
+              },
+              {
+                "candidate": 301,
+                "result": 4.27342555643706,
+                "percent": 0.48851260274359815,
+                "votes": 3000105,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08820804648721325,
+                "percent": 0.010083419449647198,
+                "votes": 61925,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.0320445887115837,
+                "percent": 0.00366314686628014,
+                "votes": 22496,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OH",
+            "result_time": 330
+          },
+          {
+            "state": 1135,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.714165789373303,
+                "percent": 0.6239032020993004,
+                "votes": 933908,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 300,
+                "result": 2.6703703013914204,
+                "percent": 0.35341408348102765,
+                "votes": 529018,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.11023167037741916,
+                "percent": 0.014588772477255017,
+                "votes": 21837,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.06115721810326977,
+                "percent": 0.00809394194241687,
+                "votes": 12115,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OK",
+            "result_time": 120
+          },
+          {
+            "state": 1136,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.018300608315809,
+                "percent": 0.5865603982569775,
+                "votes": 1340077,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 301,
+                "result": 3.2662835799140413,
+                "percent": 0.3817771686056073,
+                "votes": 872222,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.13873090313418313,
+                "percent": 0.016215460201425946,
+                "votes": 37046,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.13215613244887317,
+                "percent": 0.015446972935989293,
+                "votes": 35290,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OR",
+            "result_time": 310
+          },
+          {
+            "state": 1137,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.373454248270436,
+                "percent": 0.5243663849146506,
+                "votes": 3736275,
+                "electoral_votes": 20
+              },
+              {
+                "candidate": 301,
+                "result": 3.878866167475541,
+                "percent": 0.46506649306123576,
+                "votes": 3313745,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.0881346059509031,
+                "percent": 0.010567122024113735,
+                "votes": 75294,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "PA",
+            "result_time": 210
+          },
+          {
+            "state": 1138,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.14877645209126,
+                "percent": 0.6169233100768272,
+                "votes": 304175,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 301,
+                "result": 3.0263023450927795,
+                "percent": 0.36260973406013597,
+                "votes": 178785,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.09576656078186757,
+                "percent": 0.011474691943214363,
+                "votes": 5657,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07504848003815306,
+                "percent": 0.008992263919822528,
+                "votes": 4433,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "RI",
+            "result_time": 120
+          },
+          {
+            "state": 1139,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.418240768470322,
+                "percent": 0.533847929967506,
+                "votes": 1291425,
+                "electoral_votes": 9
+              },
+              {
+                "candidate": 300,
+                "result": 3.7405926402364997,
+                "percent": 0.45196894929139636,
+                "votes": 1093352,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08501865110930559,
+                "percent": 0.010272647707935173,
+                "votes": 24850,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.03236391940336706,
+                "percent": 0.00391047303316258,
+                "votes": 9459,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "SC",
+            "result_time": 140
+          },
+          {
+            "state": 1140,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.476630826130954,
+                "percent": 0.5779240383393512,
+                "votes": 233413,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 300,
+                "result": 3.0783796565721113,
+                "percent": 0.39741262386058035,
+                "votes": 160507,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.191043547155995,
+                "percent": 0.024663337800068387,
+                "votes": 9961,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "SD",
+            "result_time": 200
+          },
+          {
+            "state": 1141,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.6520014064646045,
+                "percent": 0.5793919254745878,
+                "votes": 1819711,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 300,
+                "result": 3.227155206420032,
+                "percent": 0.401931879524953,
+                "votes": 1262358,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.07837239299388528,
+                "percent": 0.009761031374082794,
+                "votes": 30656,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07158082794266317,
+                "percent": 0.008915163626376336,
+                "votes": 28000,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "TN",
+            "result_time": 140
+          },
+          {
+            "state": 1142,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 3.8442191325647737,
+                "percent": 0.4987912711434399,
+                "votes": 5580368,
+                "electoral_votes": 38
+              },
+              {
+                "candidate": 301,
+                "result": 3.749375803655303,
+                "percent": 0.48648525451044217,
+                "votes": 5442690,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08299479154400677,
+                "percent": 0.010768657078323416,
+                "votes": 120477,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.030480052651685886,
+                "percent": 0.003954817267794557,
+                "votes": 44245,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "TX",
+            "result_time": 360
+          },
+          {
+            "state": 1143,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.354736822835095,
+                "percent": 0.5470133582643714,
+                "votes": 796681,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 300,
+                "result": 3.266278883049524,
+                "percent": 0.4102884407333055,
+                "votes": 597552,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.19475312104018652,
+                "percent": 0.024463604370769616,
+                "votes": 35629,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.1451644063189282,
+                "percent": 0.01823459663155346,
+                "votes": 26557,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "UT",
+            "result_time": 280
+          },
+          {
+            "state": 1144,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.279736721679259,
+                "percent": 0.6755814772316153,
+                "votes": 249409,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 301,
+                "result": 2.265734395914262,
+                "percent": 0.28991752257665454,
+                "votes": 107031,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.19704720064304948,
+                "percent": 0.02521365096637728,
+                "votes": 9308,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.07258156181707245,
+                "percent": 0.009287349225352992,
+                "votes": 3428,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "VT",
+            "result_time": 60
+          },
+          {
+            "state": 1145,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.7614764718894875,
+                "percent": 0.5639940707588318,
+                "votes": 2501071,
+                "electoral_votes": 13
+              },
+              {
+                "candidate": 301,
+                "result": 3.5252839786143557,
+                "percent": 0.41756780137792254,
+                "votes": 1851733,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.1131688606912771,
+                "percent": 0.013404784587559736,
+                "votes": 59444,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.042493612654254574,
+                "percent": 0.005033343275685998,
+                "votes": 22320,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "VA",
+            "result_time": 100
+          },
+          {
+            "state": 1146,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.146242820493699,
+                "percent": 0.6005307087722926,
+                "votes": 2561207,
+                "electoral_votes": 12
+              },
+              {
+                "candidate": 301,
+                "result": 3.1467826514131776,
+                "percent": 0.3672076273742987,
+                "votes": 1566106,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.15323327577809792,
+                "percent": 0.017881256466186993,
+                "votes": 76261,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.12323277925879496,
+                "percent": 0.014380407387221584,
+                "votes": 61331,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WA",
+            "result_time": 310
+          },
+          {
+            "state": 1147,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 3.201738539164499,
+                "percent": 0.8962939775517837,
+                "votes": 305295,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 301,
+                "result": 0.27308357865476995,
+                "percent": 0.07644695652769656,
+                "votes": 26039,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.07413559175371648,
+                "percent": 0.020753501136427377,
+                "votes": 7069,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.02323915814446734,
+                "percent": 0.00650556478409226,
+                "votes": 2215,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "DC",
+            "result_time": 120
+          },
+          {
+            "state": 1148,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.557539296658561,
+                "percent": 0.6447888535927251,
+                "votes": 501848,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 300,
+                "result": 2.398091765281587,
+                "percent": 0.3392758108042509,
+                "votes": 264063,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.08606842819766858,
+                "percent": 0.012176738265052443,
+                "votes": 9477,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.026566766737165296,
+                "percent": 0.0037585973379716717,
+                "votes": 2925,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WV",
+            "result_time": 90
+          },
+          {
+            "state": 1149,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.386114420487824,
+                "percent": 0.5216669685806995,
+                "votes": 1768507,
+                "electoral_votes": 10
+              },
+              {
+                "candidate": 301,
+                "result": 3.8794227830229664,
+                "percent": 0.46140308460931756,
+                "votes": 1564206,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.09100805415193944,
+                "percent": 0.010824135253769808,
+                "votes": 36694,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.05133694431209678,
+                "percent": 0.006105811556213152,
+                "votes": 20699,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WI",
+            "result_time": 270
+          },
+          {
+            "state": 1150,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.292134326778333,
+                "percent": 0.6632446482611176,
+                "votes": 182655,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 300,
+                "result": 1.9538511726740126,
+                "percent": 0.301920032113122,
+                "votes": 83147,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.12501569513385977,
+                "percent": 0.019318125769938913,
+                "votes": 5320,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.10041827035990594,
+                "percent": 0.015517193855821575,
+                "votes": 4273,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WY",
+            "result_time": 180
+          },
+          {
+            "state": 1151,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 5.025553722471979,
+                "percent": 0.6048182661341387,
+                "votes": 630,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 301,
+                "result": 3.0354580467748726,
+                "percent": 0.36531307277922237,
+                "votes": 381,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.132327084410543,
+                "percent": 0.015925377018236958,
+                "votes": 16,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.11585748492903529,
+                "percent": 0.013943284068401866,
+                "votes": 14,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "M1",
+            "result_time": 130
+          },
+          {
+            "state": 1152,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.367567453955583,
+                "percent": 0.5148383963736016,
+                "votes": 501,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 300,
+                "result": 3.868963524668904,
+                "percent": 0.4560641587491675,
+                "votes": 444,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.14404538988265658,
+                "percent": 0.016979725742995094,
+                "votes": 16,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.10279916198879838,
+                "percent": 0.012117719134235792,
+                "votes": 11,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "M2",
+            "result_time": 210
+          },
+          {
+            "state": 1153,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.504812311621854,
+                "percent": 0.5461400648020877,
+                "votes": 527,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 300,
+                "result": 3.505185114245943,
+                "percent": 0.42495045143143484,
+                "votes": 410,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.18344689069402464,
+                "percent": 0.02224014894314339,
+                "votes": 21,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.05501171505037171,
+                "percent": 0.006669334823334138,
+                "votes": 6,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "N1",
+            "result_time": 230
+          },
+          {
+            "state": 1154,
+            "result": [
+              {
+                "candidate": 300,
+                "result": 4.522451380959275,
+                "percent": 0.537447691672654,
+                "votes": 510,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 301,
+                "result": 3.6709705684945613,
+                "percent": 0.4362577929620907,
+                "votes": 414,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.16120432382176447,
+                "percent": 0.019157506499778234,
+                "votes": 18,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.06005565955477771,
+                "percent": 0.00713700886547678,
+                "votes": 6,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "N2",
+            "result_time": 240
+          },
+          {
+            "state": 1155,
+            "result": [
+              {
+                "candidate": 301,
+                "result": 4.1004889650696486,
+                "percent": 0.7237075863879017,
+                "votes": 754,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 300,
+                "result": 1.4448994761904141,
+                "percent": 0.2550146388381139,
+                "votes": 265,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 302,
+                "result": 0.10227707175822119,
+                "percent": 0.018051186913438565,
+                "votes": 18,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 303,
+                "result": 0.018281676419935344,
+                "percent": 0.0032265878605458693,
+                "votes": 3,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "N3",
+            "result_time": 180
+          }
+        ],
+        "outcome": "win",
+        "rngCalls": 67358,
+        "achievements": {
+          "achievements": {
+            "ridingBiden": true
+          },
+          "threeosix": {
+            "1964": false,
+            "1976": false,
+            "1988": false,
+            "2000": false,
+            "2012": false,
+            "2016": false,
+            "2020": false
+          },
+          "tsatrolling": 0
+        }
+      }
     },
     {
-      "executed": false,
-      "result": "Automatic approval review failed because the selected model was at capacity. The bounded retry was not executed."
+      "route": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "scope": "1960_Nixon_Goldwater",
+      "language": "en-US",
+      "seed": 1776,
+      "unlocked": true,
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "result": {
+        "answers": [
+          3690,
+          3715,
+          3769,
+          3799,
+          3740,
+          3749,
+          3751,
+          3719,
+          3735,
+          3731,
+          3784,
+          3717,
+          3782,
+          3733,
+          3728,
+          3792,
+          3746,
+          3796,
+          3772,
+          3775,
+          3759,
+          3788,
+          3764,
+          3723,
+          3801
+        ],
+        "visits": [
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314,
+          314
+        ],
+        "overall": [
+          {
+            "candidate_name": "Richard Nixon",
+            "candidate_color": "#FF0000",
+            "candidate": 106,
+            "electoral_votes": 269,
+            "popular_votes": 33280213
+          },
+          {
+            "candidate_name": "John F. Kennedy",
+            "candidate_color": "#0000FF",
+            "candidate": 105,
+            "electoral_votes": 262,
+            "popular_votes": 33488740
+          },
+          {
+            "candidate_name": "Harry Byrd",
+            "candidate_color": "#FFFF00",
+            "candidate": 107,
+            "electoral_votes": 6,
+            "popular_votes": 0
+          }
+        ],
+        "states": [
+          {
+            "state": 283,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 3.2214942971151572,
+                "percent": 0.502191089447072,
+                "votes": 295402,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 106,
+                "result": 3.193383156529275,
+                "percent": 0.49780891055292786,
+                "votes": 292824,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AL",
+            "result_time": 460
+          },
+          {
+            "state": 284,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.960032576621417,
+                "percent": 0.5207455831223724,
+                "votes": 32787,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 105,
+                "result": 4.564834723992512,
+                "percent": 0.4792544168776276,
+                "votes": 30174,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AK",
+            "result_time": 420
+          },
+          {
+            "state": 285,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.601187648936413,
+                "percent": 0.5518781219009593,
+                "votes": 214235,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.54813233070505,
+                "percent": 0.4481218780990407,
+                "votes": 173957,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AZ",
+            "result_time": 240
+          },
+          {
+            "state": 286,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 3.691732760271535,
+                "percent": 0.5131468539107861,
+                "votes": 222135,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 106,
+                "result": 3.502567920198712,
+                "percent": 0.4868531460892138,
+                "votes": 210752,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "AR",
+            "result_time": 300
+          },
+          {
+            "state": 287,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.848152556597166,
+                "percent": 0.5038308245689898,
+                "votes": 3182423,
+                "electoral_votes": 17
+              },
+              {
+                "candidate": 106,
+                "result": 4.7744277226951874,
+                "percent": 0.49616917543101025,
+                "votes": 3134029,
+                "electoral_votes": 15
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CA",
+            "result_time": 440
+          },
+          {
+            "state": 288,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.436688871358827,
+                "percent": 0.5453461934572632,
+                "votes": 410142,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 105,
+                "result": 4.532554403069348,
+                "percent": 0.45465380654273685,
+                "votes": 341934,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CO",
+            "result_time": 250
+          },
+          {
+            "state": 289,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.795376213473812,
+                "percent": 0.5547940715195063,
+                "votes": 697193,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 106,
+                "result": 3.8481484015962844,
+                "percent": 0.4452059284804938,
+                "votes": 559476,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "CT",
+            "result_time": 180
+          },
+          {
+            "state": 290,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.701315300940829,
+                "percent": 0.5163431030971481,
+                "votes": 105583,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 106,
+                "result": 4.403706675224296,
+                "percent": 0.4836568969028518,
+                "votes": 98899,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "DE",
+            "result_time": 240
+          },
+          {
+            "state": 291,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.652821591054181,
+                "percent": 0.5260936287033672,
+                "votes": 787281,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 105,
+                "result": 4.1912725724157776,
+                "percent": 0.4739063712966329,
+                "votes": 709184,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "FL",
+            "result_time": 210
+          },
+          {
+            "state": 292,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 2.4975963098105387,
+                "percent": 0.5311123896388695,
+                "votes": 406792,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 106,
+                "result": 2.204979564024343,
+                "percent": 0.4688876103611306,
+                "votes": 359133,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "GA",
+            "result_time": 150
+          },
+          {
+            "state": 293,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.767777466902498,
+                "percent": 0.5037895211001739,
+                "votes": 96469,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 105,
+                "result": 4.696050713744533,
+                "percent": 0.4962104788998261,
+                "votes": 95018,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "HI",
+            "result_time": 440
+          },
+          {
+            "state": 294,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.196778672854391,
+                "percent": 0.5270371773234803,
+                "votes": 162919,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.663585825995293,
+                "percent": 0.4729628226765197,
+                "votes": 146203,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ID",
+            "result_time": 390
+          },
+          {
+            "state": 295,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.9070051850043965,
+                "percent": 0.5265942313016351,
+                "votes": 1423438,
+                "electoral_votes": 15
+              },
+              {
+                "candidate": 106,
+                "result": 4.411374875626474,
+                "percent": 0.473405768698365,
+                "votes": 1279665,
+                "electoral_votes": 12
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IL",
+            "result_time": 210
+          },
+          {
+            "state": 296,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.443467952326768,
+                "percent": 0.5577370490730317,
+                "votes": 1164794,
+                "electoral_votes": 8
+              },
+              {
+                "candidate": 105,
+                "result": 4.316450205116605,
+                "percent": 0.44226295092696827,
+                "votes": 923634,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IN",
+            "result_time": 60
+          },
+          {
+            "state": 297,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.636126574751674,
+                "percent": 0.5661869112479331,
+                "votes": 755385,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 105,
+                "result": 4.318406924316825,
+                "percent": 0.4338130887520668,
+                "votes": 578777,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "IA",
+            "result_time": 290
+          },
+          {
+            "state": 298,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.597531442312763,
+                "percent": 0.597790904434872,
+                "votes": 532497,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 105,
+                "result": 3.766163121766377,
+                "percent": 0.40220909556512807,
+                "votes": 358278,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "KS",
+            "result_time": 260
+          },
+          {
+            "state": 299,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.2414565859185505,
+                "percent": 0.53276340572461,
+                "votes": 574883,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 105,
+                "result": 4.596787800986477,
+                "percent": 0.46723659427538994,
+                "votes": 504175,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "KY",
+            "result_time": 90
+          },
+          {
+            "state": 300,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.556194853471243,
+                "percent": 0.5549813938421714,
+                "votes": 456845,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 106,
+                "result": 3.6534404676850523,
+                "percent": 0.4450186061578286,
+                "votes": 366326,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "LA",
+            "result_time": 240
+          },
+          {
+            "state": 301,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.536877422268179,
+                "percent": 0.5632549193952174,
+                "votes": 235909,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.293267387142947,
+                "percent": 0.4367450806047825,
+                "votes": 182923,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ME",
+            "result_time": 170
+          },
+          {
+            "state": 302,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.904054580411943,
+                "percent": 0.539096159380922,
+                "votes": 570483,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 106,
+                "result": 4.192754022423545,
+                "percent": 0.46090384061907796,
+                "votes": 487738,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MD",
+            "result_time": 200
+          },
+          {
+            "state": 303,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.602526448006328,
+                "percent": 0.616412305309293,
+                "votes": 1595894,
+                "electoral_votes": 10
+              },
+              {
+                "candidate": 106,
+                "result": 2.8641097764229517,
+                "percent": 0.38358769469070697,
+                "votes": 993110,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MA",
+            "result_time": 130
+          },
+          {
+            "state": 304,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.766610738175289,
+                "percent": 0.5085352628704559,
+                "votes": 1620415,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 106,
+                "result": 4.60660501734555,
+                "percent": 0.4914647371295441,
+                "votes": 1566020,
+                "electoral_votes": 9
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MI",
+            "result_time": 330
+          },
+          {
+            "state": 305,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.7457416304540665,
+                "percent": 0.5123007733489856,
+                "votes": 762953,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 106,
+                "result": 4.51784311768218,
+                "percent": 0.48769922665101445,
+                "votes": 726315,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MN",
+            "result_time": 330
+          },
+          {
+            "state": 306,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 2.894219921890339,
+                "percent": 0.5142356400868718,
+                "votes": 158611,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 106,
+                "result": 2.7339779241426716,
+                "percent": 0.48576435991312805,
+                "votes": 149829,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MS",
+            "result_time": 270
+          },
+          {
+            "state": 307,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.717132242638064,
+                "percent": 0.5000924738218396,
+                "votes": 975594,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 106,
+                "result": 4.715387720296961,
+                "percent": 0.49990752617816037,
+                "votes": 975233,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MO",
+            "result_time": 480
+          },
+          {
+            "state": 308,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.931632570600823,
+                "percent": 0.5120726056745138,
+                "votes": 141911,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.699096579818701,
+                "percent": 0.48792739432548615,
+                "votes": 135219,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "MT",
+            "result_time": 390
+          },
+          {
+            "state": 309,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.542198689231839,
+                "percent": 0.6084366785241017,
+                "votes": 362223,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 105,
+                "result": 3.5667174640080894,
+                "percent": 0.39156332147589834,
+                "votes": 233110,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NE",
+            "result_time": 190
+          },
+          {
+            "state": 310,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.78026935003989,
+                "percent": 0.5020776495973528,
+                "votes": 52190,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 105,
+                "result": 4.740706845322489,
+                "percent": 0.4979223504026471,
+                "votes": 51759,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NV",
+            "result_time": 460
+          },
+          {
+            "state": 311,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.088028784533639,
+                "percent": 0.525486330208388,
+                "votes": 150506,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.594485282989144,
+                "percent": 0.47451366979161197,
+                "votes": 135906,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NH",
+            "result_time": 210
+          },
+          {
+            "state": 312,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.844211469604983,
+                "percent": 0.5281882634560483,
+                "votes": 1526454,
+                "electoral_votes": 9
+              },
+              {
+                "candidate": 106,
+                "result": 4.327161324459535,
+                "percent": 0.4718117365439518,
+                "votes": 1363526,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NJ",
+            "result_time": 210
+          },
+          {
+            "state": 313,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.946232570879268,
+                "percent": 0.5217366226069056,
+                "votes": 158689,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 106,
+                "result": 4.534092092099069,
+                "percent": 0.47826337739309444,
+                "votes": 145466,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NM",
+            "result_time": 300
+          },
+          {
+            "state": 314,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 5.205979518428456,
+                "percent": 0.5344417965570831,
+                "votes": 3939182,
+                "electoral_votes": 25
+              },
+              {
+                "candidate": 106,
+                "result": 4.534986760716986,
+                "percent": 0.46555820344291676,
+                "votes": 3431465,
+                "electoral_votes": 20
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NY",
+            "result_time": 260
+          },
+          {
+            "state": 315,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.102906696651087,
+                "percent": 0.503857536624194,
+                "votes": 660553,
+                "electoral_votes": 8
+              },
+              {
+                "candidate": 106,
+                "result": 4.04008293518064,
+                "percent": 0.4961424633758059,
+                "votes": 650439,
+                "electoral_votes": 6
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "NC",
+            "result_time": 330
+          },
+          {
+            "state": 316,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.611324168472391,
+                "percent": 0.5542992055255808,
+                "votes": 157784,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.511952416692098,
+                "percent": 0.4457007944744191,
+                "votes": 126870,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "ND",
+            "result_time": 360
+          },
+          {
+            "state": 317,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.0963249036506335,
+                "percent": 0.5283524524015873,
+                "votes": 2212399,
+                "electoral_votes": 14
+              },
+              {
+                "candidate": 105,
+                "result": 4.5493668698722525,
+                "percent": 0.47164754759841265,
+                "votes": 1974955,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OH",
+            "result_time": 180
+          },
+          {
+            "state": 318,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.076299362018397,
+                "percent": 0.6113259866453974,
+                "votes": 563805,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 105,
+                "result": 2.5916641321997442,
+                "percent": 0.38867401335460255,
+                "votes": 358461,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OK",
+            "result_time": 130
+          },
+          {
+            "state": 319,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.035511319591021,
+                "percent": 0.5127226612739771,
+                "votes": 411104,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 105,
+                "result": 4.785609726783518,
+                "percent": 0.4872773387260228,
+                "votes": 390702,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "OR",
+            "result_time": 420
+          },
+          {
+            "state": 320,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.708538427212659,
+                "percent": 0.5065761002238697,
+                "votes": 2585988,
+                "electoral_votes": 17
+              },
+              {
+                "candidate": 106,
+                "result": 4.586290967880848,
+                "percent": 0.4934238997761302,
+                "votes": 2518849,
+                "electoral_votes": 15
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "PA",
+            "result_time": 300
+          },
+          {
+            "state": 321,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 3.9835690205854415,
+                "percent": 0.6455456955498814,
+                "votes": 265789,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 106,
+                "result": 2.1872861923707894,
+                "percent": 0.3544543044501186,
+                "votes": 145938,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "RI",
+            "result_time": 120
+          },
+          {
+            "state": 322,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.175618006894533,
+                "percent": 0.5614077110253379,
+                "votes": 225071,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 105,
+                "result": 3.262145894260852,
+                "percent": 0.43859228897466196,
+                "votes": 175833,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "SC",
+            "result_time": 110
+          },
+          {
+            "state": 323,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.70461474588529,
+                "percent": 0.578668804421807,
+                "votes": 180024,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 4.153554041328346,
+                "percent": 0.421331195578193,
+                "votes": 131076,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "SD",
+            "result_time": 220
+          },
+          {
+            "state": 324,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.16592663680759,
+                "percent": 0.5517305503366939,
+                "votes": 555414,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 105,
+                "result": 3.384727635038206,
+                "percent": 0.44826944966330606,
+                "votes": 451262,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "TN",
+            "result_time": 180
+          },
+          {
+            "state": 325,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.7060649952920794,
+                "percent": 0.5261905427664006,
+                "votes": 1190329,
+                "electoral_votes": 13
+              },
+              {
+                "candidate": 105,
+                "result": 4.237586805347201,
+                "percent": 0.47380945723359935,
+                "votes": 1071835,
+                "electoral_votes": 11
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "TX",
+            "result_time": 270
+          },
+          {
+            "state": 326,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.667237368830053,
+                "percent": 0.5433619540456117,
+                "votes": 203236,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 105,
+                "result": 3.9223175937138812,
+                "percent": 0.45663804595438834,
+                "votes": 170799,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "UT",
+            "result_time": 310
+          },
+          {
+            "state": 327,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.7525447441574515,
+                "percent": 0.5793414822855562,
+                "votes": 97257,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 105,
+                "result": 4.176909507009108,
+                "percent": 0.42065851771444385,
+                "votes": 70618,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "VT",
+            "result_time": 100
+          },
+          {
+            "state": 328,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.808731132165213,
+                "percent": 0.5374370070495136,
+                "votes": 426182,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 105,
+                "result": 4.138794008622475,
+                "percent": 0.4625629929504864,
+                "votes": 366808,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "VA",
+            "result_time": 140
+          },
+          {
+            "state": 329,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 4.834852909965559,
+                "percent": 0.5112330413361073,
+                "votes": 612564,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 105,
+                "result": 4.622385803185049,
+                "percent": 0.4887669586638927,
+                "votes": 585645,
+                "electoral_votes": 4
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WA",
+            "result_time": 420
+          },
+          {
+            "state": 330,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.612553428735427,
+                "percent": 0.5258539236849323,
+                "votes": 427024,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 106,
+                "result": 4.158995514767481,
+                "percent": 0.4741460763150677,
+                "votes": 385035,
+                "electoral_votes": 3
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WV",
+            "result_time": 180
+          },
+          {
+            "state": 331,
+            "result": [
+              {
+                "candidate": 105,
+                "result": 4.9064953998386,
+                "percent": 0.5163231658393279,
+                "votes": 915375,
+                "electoral_votes": 7
+              },
+              {
+                "candidate": 106,
+                "result": 4.5962651277907725,
+                "percent": 0.48367683416067203,
+                "votes": 857498,
+                "electoral_votes": 5
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WI",
+            "result_time": 300
+          },
+          {
+            "state": 332,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 5.456797550472101,
+                "percent": 0.5467257087445951,
+                "votes": 73348,
+                "electoral_votes": 2
+              },
+              {
+                "candidate": 105,
+                "result": 4.524071216431382,
+                "percent": 0.45327429125540475,
+                "votes": 60810,
+                "electoral_votes": 1
+              },
+              {
+                "candidate": 107,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              }
+            ],
+            "abbr": "WY",
+            "result_time": 250
+          },
+          {
+            "state": 333,
+            "result": [
+              {
+                "candidate": 106,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 105,
+                "result": 0,
+                "percent": 0,
+                "votes": 0,
+                "electoral_votes": 0
+              },
+              {
+                "candidate": 107,
+                "result": 4.061990630061149,
+                "percent": 1,
+                "votes": 0,
+                "electoral_votes": 6
+              }
+            ],
+            "abbr": "AA",
+            "result_time": 120
+          }
+        ],
+        "outcome": "win",
+        "rngCalls": 48820,
+        "achievements": {
+          "achievements": {
+            "Vice": true
+          },
+          "threeosix": {
+            "1964": false,
+            "1976": false,
+            "1988": false,
+            "2000": false,
+            "2012": false,
+            "2016": false,
+            "2020": false
+          },
+          "tsatrolling": 0
+        }
+      }
     }
   ],
-  "claimedNewUnlocks": 0,
-  "runtimeChanged": false
+  "errors": [],
+  "external": [],
+  "missing": []
 }

@@ -31,20 +31,27 @@ node tests/english-guide.cjs E:/nct
 python tests/install-routes.py E:/nct
 ```
 
-## Additional browser smoke: not completed
+## Additional browser smoke: passed
 
-The new `tests/english-edition.cjs` smoke test was attempted against a temporary local server. Chrome launch timed out after 180 seconds before a game page opened. The bounded retry and process diagnostics were not executed because the automatic approval service reported model capacity exhaustion. No new completed games or unlocks are claimed for this release.
+The resumed `tests/english-edition.cjs` run completed two full English games against the local server, with all non-loopback requests blocked. Both actual native achievement unlocks were read from the saved results:
 
-The test now has a 30-second browser-launch limit and writes a result report even if launch fails. It can be rerun with the local game server on port 18081:
+| Scenario and pairing | Mode / difficulty | Actual result |
+| --- | --- | --- |
+| 2020 Biden / Demings | Default / Normal (0.97) | 406 electoral votes; The Dark Brandon Rises unlocked; all 25 questions completed |
+| 1960 Nixon / Goldwater | Proportional / Normal (0.97) | 269 electoral votes; The Vice With No Vice unlocked; all 25 questions completed |
+
+The same run verified English recommendation labels, independent achievement coaching on/off, persistence across language changes, alternative-pairing advice, and panel bounds at 390px and 1440px. These UI actions preserved campaign values and the game's random-call count. There were no script errors, missing resources or external requests.
+
+An earlier attempt timed out while launching Chrome, and its retry was blocked by approval-service capacity. Those issues were resolved before the successful run above. The test has a 30-second browser-launch limit and writes a report on failure as well as success. Rerun with the local game server on port 18081:
 
 ```powershell
 node tests/english-edition.cjs E:/nct
 ```
 
-[Browser attempt record](tests/english-edition-results.json)
+[Actual browser results](tests/english-edition-results.json)
 
 ## Existing actual gameplay evidence
 
-The English walkthroughs reuse earlier actual native-game records: the 613-game coverage snapshot, successful bilingual achievement replays, the 100-game 2016a counter and the two same-save seven-year sequences. Eight additional compact-interface regression games were recorded later. These are existing evidence, not additional games run during document generation.
+The English walkthroughs reuse earlier actual native-game records: the 613-game coverage snapshot, successful bilingual achievement replays, the 100-game 2016a counter and the two same-save seven-year sequences. Eight additional compact-interface regression games were recorded later. The two English smoke games above are separate new runs; the historical 613-game snapshot is unchanged.
 
-The runtime is unchanged, but the new release smoke did not complete. The historical records verify the documented successful games; they do not guarantee the same outcome under every random sequence. [Coverage and original reports](achievements/COVERAGE.md).
+The runtime is unchanged. These records verify the documented successful games; they do not guarantee the same outcome under every random sequence. [Coverage and original reports](achievements/COVERAGE.md).
