@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-16T12:26:20.750Z",
+  "status": "passed",
+  "cases": [
+    {
+      "scope": "2020_Biden_Harris",
+      "options": [
+        "destiny",
+        "ridingBiden",
+        "nomalarkey"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2020_Trump_Pence",
+      "options": [
+        "destiny",
+        "magaa",
+        "nmpr"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2016_Clinton_Kaine",
+      "options": [
+        "destiny",
+        "whatbelt"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2016_Clinton_Sanders",
+      "options": [
+        "destiny",
+        "whatbelt",
+        "thebern"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2016_Trump_Palin",
+      "options": [
+        "destiny",
+        "whatbelt",
+        "moscow"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2012_Obama_Biden",
+      "options": [
+        "destiny",
+        "realdebate"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2012_Obama_Clinton",
+      "options": [
+        "destiny",
+        "realdebate",
+        "karmic"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2016a_Clinton_Booker",
+      "options": [
+        "why",
+        "what"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "1960_Nixon_Goldwater",
+      "options": [
+        "Vice"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "1960_Kennedy_Johnson",
+      "options": [
+        "BCitsHard",
+        "BCitsEasy"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "1968_Wallace_LeMay",
+      "options": [],
+      "bilingual": true
+    },
+    {
+      "scope": "1860_Lincoln_Hamlin",
+      "options": [],
+      "bilingual": true
+    },
+    {
+      "scope": "2020_Biden_Harris",
+      "mode": "3",
+      "options": [],
+      "bilingual": true
+    },
+    {
+      "scope": "1968_Wallace_LeMay",
+      "bigshot": true,
+      "options": [
+        "stillAlive",
+        "yourchance"
+      ],
+      "bilingual": true
+    },
+    {
+      "scope": "2020_Biden_Harris",
+      "bigshot": true,
+      "options": [
+        "yourchance"
+      ],
+      "bilingual": true
+    }
+  ],
+  "checks": [
+    "Exact objective lists from native menus for 15 scenario/settings cases",
+    "Running-mate-only goals appear only for the correct mate",
+    "No-goal scenarios retain ordinary victory advice",
+    "Difficulty-specific goals remain visible with requirements",
+    "Special achievements follow the native BIGSHOT branch",
+    "Incompatible saved goal and route are cleared across games, including coaching off",
+    "Language switches preserve filtered options, campaign data and RNG count"
+  ],
+  "errors": [],
+  "external": [],
+  "missing": []
+}

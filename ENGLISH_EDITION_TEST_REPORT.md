@@ -1,6 +1,8 @@
 # English edition verification
 
-Date: 2026-10-19. This release adds English documentation and walkthroughs, preserves the Chinese documentation, and changes the installer's completion message to English. Guide runtime files and game calculation data are unchanged.
+Initial English edition: 2026-10-19. That release added English documentation and walkthroughs, preserved the Chinese documentation, and changed the installer's completion message to English without changing the runtime or game calculations.
+
+Latest browser rerun: 2026-11-16, after filtering the objective selector to the current scenario and pairing. Both full English achievement games below passed again. The latest selector and upgrade checks are documented in the [filter regression report](guide/ACHIEVEMENT_FILTER_TEST_REPORT_ZH.md) (Chinese). Game calculations remain unchanged.
 
 ## Passed in this release
 
@@ -40,7 +42,7 @@ The resumed `tests/english-edition.cjs` run completed two full English games aga
 | 2020 Biden / Demings | Default / Normal (0.97) | 406 electoral votes; The Dark Brandon Rises unlocked; all 25 questions completed |
 | 1960 Nixon / Goldwater | Proportional / Normal (0.97) | 269 electoral votes; The Vice With No Vice unlocked; all 25 questions completed |
 
-The same run verified English recommendation labels, independent achievement coaching on/off, persistence across language changes, alternative-pairing advice, and panel bounds at 390px and 1440px. These UI actions preserved campaign values and the game's random-call count. There were no script errors, missing resources or external requests.
+The latest run verified English recommendation labels, independent achievement coaching on/off, persistence across language changes, the absence of unrelated achievements from the selector, and panel bounds at 390px and 1440px. These UI actions preserved campaign values and the game's random-call count. There were no script errors, missing resources or external requests.
 
 An earlier attempt timed out while launching Chrome, and its retry was blocked by approval-service capacity. Those issues were resolved before the successful run above. The test has a 30-second browser-launch limit and writes a report on failure as well as success. Rerun with the local game server on port 18081:
 
@@ -54,4 +56,4 @@ node tests/english-edition.cjs E:/nct
 
 The English walkthroughs reuse earlier actual native-game records: the 613-game coverage snapshot, successful bilingual achievement replays, the 100-game 2016a counter and the two same-save seven-year sequences. Eight additional compact-interface regression games were recorded later. The two English smoke games above are separate new runs; the historical 613-game snapshot is unchanged.
 
-The runtime is unchanged. These records verify the documented successful games; they do not guarantee the same outcome under every random sequence. [Coverage and original reports](achievements/COVERAGE.md).
+The selector update changes only guide eligibility display and saved guide targets. These records verify the documented successful games; they do not guarantee the same outcome under every random sequence. [Coverage and original reports](achievements/COVERAGE.md).

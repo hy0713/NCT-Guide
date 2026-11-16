@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-19T03:49:56.140Z",
+  "date": "2026-11-16T12:25:02.786Z",
   "status": "passed",
   "checks": [
     "Fixed route active; source change, setting mismatch, answer/visit deviation stop fixed advice using copies only",
     "Actual route selector and keyboard do not submit a game answer or consume RNG",
     "Independent off switch hides routes, bypasses target planning, restores ordinary advice and survives language change",
-    "Incompatible target recommends an actually unlocked alternative pairing and explicit settings",
+    "Unrelated target is hidden; source-based alternative-pairing recommendations retain actual unlock evidence",
     "Verified route takes priority over failed matching-setting candidates and explicitly requests its actual mode/difficulty",
     "Panel and both selectors fit 390px/1440px at CSS zoom 80/100/125/150%"
   ],

@@ -60,6 +60,10 @@
   "localization/guide/achievements.js": [
     "afd5f23858387a2d0db6e86bbd7ec0bb4b0ab53c45c1aa23d31b0204cbee3bc5",
     "c75400ff796ce933470bbdc5ab5ef39cee7ddca98e5590e40bb03997923d1be8",
-    "05841bae8e6e092c71aa0c1dfb204c78c07f6ae39becd0beaea200cc4c3d9f81"
+    "05841bae8e6e092c71aa0c1dfb204c78c07f6ae39becd0beaea200cc4c3d9f81",
+    "c3e2ee07557c3154c7305a3625d4b69c2d7c93f69d2547fe65142df74162dee4"
+  ],
+  "tests/guide-achievements.cjs": [
+    "62c1cfc4e7decc97c82c27a3f63bf5b3d90eeb73dc09f7ff35e9aa22153fa542"
   ]
 }

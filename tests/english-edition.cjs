@@ -21,8 +21,7 @@ const report={date:new Date().toISOString(),status:'running',network:'All non-lo
    await page.locator('#language-toggle').click();await page.locator('#language-toggle').click();
    assert.equal(await page.locator('#achievement-enabled').isChecked(),false);
    await page.locator('#achievement-enabled').check();
-   await page.locator('#achievement-target').selectOption(id.startsWith('riding')?'Vice':'ridingBiden');
-   assert.match(await page.locator('.nct-achievements').innerText(),/compatible pairings|compatible pairing|Choose one of/i);
+   assert.equal(await page.locator(`#achievement-target option[value="${id.startsWith('riding')?'Vice':'ridingBiden'}"]`).count(),0);
    await page.locator('#achievement-target').selectOption(route.achievement);
    assert.deepEqual(await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]),original);
    if(id.startsWith('riding')){
@@ -39,7 +38,7 @@ const report={date:new Date().toISOString(),status:'running',network:'All non-lo
    console.log('English offline unlock',route.achievement);await context.close();
   }
   assert.deepEqual(report.errors,[]);assert.deepEqual(report.external,[]);assert.deepEqual(report.missing,[]);
-  report.checks=['English achievement labels and current recommendation','Independent achievement toggle and persistence across language switches','Incompatible objective displays English alternative-pairing advice','UI actions preserve campaign values and RNG count','Panel fits 390px and 1440px','Two full English native achievement unlocks with external network requests blocked'];report.status='passed';
+  report.checks=['English achievement labels and current recommendation','Independent achievement toggle and persistence across language switches','Unrelated achievements are absent from the current pairing selector','UI actions preserve campaign values and RNG count','Panel fits 390px and 1440px','Two full English native achievement unlocks with external network requests blocked'];report.status='passed';
  }catch(e){report.status='failed';report.failure=e.stack;throw e;}
  finally{fs.writeFileSync(path.join(root,'tests/english-edition-results.json'),JSON.stringify(report,null,2)+'\n');if(browser)await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

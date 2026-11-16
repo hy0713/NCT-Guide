@@ -14,12 +14,16 @@
  const name=r=>NCTI18n.language==='zh-CN'?r.name:r.english;
  function match(r,s){return !!s&&(!r.year||r.year===Number(s.election))&&(!r.years||r.years.includes(Number(s.election)))&&(!r.candidate||s.candidateName.split(' ').at(-1)===r.candidate)&&(!r.mate||s.runningMateName.split(' ').at(-1)===r.mate)&&[...(r.required||[]),...Object.values(r.slots||{})].every(id=>s.answerIds.includes(id));}
  function current(e){return data.scenarios.find(s=>s.election===Number(e.election_id)&&s.candidate===Number(e.candidate_id)&&s.runningMate===Number(e.running_mate_id));}
+ function legitimate(e){return e.bigshot_mode!==true&&(typeof dirtyhacker3==='undefined'||dirtyhacker3==null)&&String(e.game_type_id)!=='3';}
+ function available(e){const s=current(e),legit=legitimate(e);return data.rules.filter(r=>match(r,s)&&(r.special?!legit&&(!r.bigshot||e.bigshot_mode):legit));}
+ function select(id){if(id!==selected)cancelPlanning();selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}
+ function selectRoute(id){cancelPlanning();selectedRoute=(data.routes||[]).some(r=>r.id===id)?id:'';try{localStorage.setItem('nct.guide.route',selectedRoute);}catch(_){}}
  function save(){try{return JSON.parse(localStorage.getItem('achievements'))||{};}catch(_){return {};}}
  function status(e,r,ids=[]){
   const s=current(e),answers=e.player_answers||[],stored=save();
   if(!match(r,s))return {kind:'combination',forced:[]};
   if(r.id==='destiny'&&stored.threeosix?.[s.year]&&!stored.achievements?.destiny)return {kind:'recorded',forced:[]};
-  const legit=e.bigshot_mode!==true&&(typeof dirtyhacker3==='undefined'||dirtyhacker3==null)&&String(e.game_type_id)!=='3';
+  const legit=legitimate(e);
   if((r.special?legit:!legit)||(r.bigshot&&!e.bigshot_mode)||(r.maxDifficulty!=null&&e.difficulty_level_multiplier>r.maxDifficulty)||(r.difficulty!=null&&e.difficulty_level_multiplier!==r.difficulty))return {kind:'settings',forced:[]};
   if(e.final_overall_results&&e.player_answers.length>=e.global_parameter_json?.[0]?.fields.question_count&&!stored.achievements?.[r.id])return {kind:'ended',forced:[]};
   for(const [index,id]of Object.entries(r.slots||{})){
@@ -73,8 +77,9 @@
   return {route,settings,sourceMatches,deviated:!!(deviated||visitDeviation),active,answer};
  }
  function plan(e,forecast,ids){
-  if(!enabled)return null;
-  const r=rule(selected);if(!r)return null;
+  const r=available(e).find(r=>r.id===selected);
+  if(selected&&!r){select('');selectRoute('');}
+  if(!enabled||!r)return null;
   const state=status(e,r,ids),valid=['open','unlocked'].includes(state.kind);
   const route=routeInfo(e,r,ids);
   const planning=valid&&(ids.length?route?.answer===undefined:!route?.active)&&['win','min'].includes(r.goal)&&e.player_answers.length<e.questions_json.length?lookAhead(e,r,ids,forecast):null;
@@ -125,7 +130,7 @@
   let html=`<section class="nct-achievements"><div class="nct-achievement-controls"><label><input type="checkbox" id="achievement-enabled"${enabled?' checked':''}> ${esc(t('enabled'))}</label>`;
   if(!enabled)return html+`</div><small>${esc(t('disabled'))}</small></section>`;
   html+=`<label for="achievement-target" class="nct-target-label">${esc(t('choose'))}<select id="achievement-target"><option value="">${esc(t('general'))}</option>`;
-  for(const r of data.rules)html+=`<option value="${r.id}"${r.id===selected?' selected':''}>${esc(name(r))}${match(r,current(e))?' ✓':''}</option>`;
+  for(const r of available(e))html+=`<option value="${r.id}"${r.id===selected?' selected':''}>${esc(name(r))}</option>`;
   html+='</select></label></div>';
   if(!p)return html+'</section>';
   html+=`<div class="nct-achievement-goal"><strong data-achievement-status="${p.status.kind}">${esc(t(p.status.kind))}</strong><span>${esc(t('goal_'+p.rule.goal,{target:p.rule.target??(p.rule.targets||[]).join('/')}))}</span></div>`;
@@ -158,5 +163,5 @@
   extra+=fold('combinations',t('combinations'),combinations+'</ol>',p.status.kind==='combination');
   return html+fold('achievement-details',t('details'),extra,['combination','settings','missed'].includes(p.status.kind))+'</section>';
  }
- window.NCTAchievements={match,status,plan,render,cost,suggestions,routeInfo,cancelPlanning,get planningPending(){return !!pendingKey;},get selectedRoute(){return selectedRoute;},selectRoute(id){cancelPlanning();selectedRoute=(data.routes||[]).some(r=>r.id===id)?id:'';try{localStorage.setItem('nct.guide.route',selectedRoute);}catch(_){}},get enabled(){return enabled;},setEnabled(value){enabled=!!value;if(!enabled)cancelPlanning();try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;},select(id){if(id!==selected)cancelPlanning();selected=rule(id)?id:'';try{localStorage.setItem('nct.guide.achievement',selected);}catch(_){}}};
+ window.NCTAchievements={match,available,status,plan,render,cost,suggestions,routeInfo,cancelPlanning,selectRoute,select,get planningPending(){return !!pendingKey;},get selectedRoute(){return selectedRoute;},get enabled(){return enabled;},setEnabled(value){enabled=!!value;if(!enabled)cancelPlanning();try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;}};
 })();

@@ -11,7 +11,9 @@
 
 The recommendation follows the current question, even when option order changes. Match the answer text; a static “A/B/C” sequence will not work reliably. You still make every choice in the game.
 
-Open **Requirements, routes and pairings** for required answers, progress, the route selector and its source, or alternative pairings. If your combination cannot attempt the selected achievement, this section opens to show suitable configurations. Pairings with actual unlock evidence are listed first; a compatible but untested pairing is labeled separately.
+The objective list contains only achievements for the current year and candidate/running-mate pairing. Native special-branch achievements appear only in that branch. Switching to an incompatible pairing resets the objective to **Win the election**. Difficulty requirements remain visible rather than removing an objective from the list.
+
+Open **Requirements, routes and pairings** for required answers, progress, the route selector and its source, or other tested setups for the same achievement. Pairings with actual unlock evidence are listed first; a compatible but untested pairing is labeled separately.
 
 ## Switches and compact layout
 

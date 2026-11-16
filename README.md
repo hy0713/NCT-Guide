@@ -32,7 +32,7 @@ The supported installation target is this bilingual build. The standalone writte
 
 ### Achievement coaching
 
-Leave **Enable achievement coaching** checked, then select a **Run objective**. The coach checks your current year, candidate, running mate, mode and difficulty. It shows the next answer and visit; when a pairing is unsuitable, open **Requirements, routes and pairings** for compatible setups, prioritizing combinations with recorded unlocks.
+Leave **Enable achievement coaching** checked, then select a **Run objective**. The list shows only achievements for the current year and candidate/running-mate pairing. BIGSHOT achievements appear only in the native special branch. Difficulty requirements remain visible inside each objective. Switching to a pairing where the selected goal is unavailable restores **Win the election**. Open **Requirements, routes and pairings** for tested setups and sources.
 
 For an ordinary campaign, uncheck **Enable achievement coaching**. General election advice stays available. Both switches remember your choice and leave campaign progress intact. Native achievements can still unlock with the coach off.
 

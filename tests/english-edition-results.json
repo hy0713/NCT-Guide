@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-19T10:34:29.976Z",
+  "date": "2026-11-16T12:25:08.657Z",
   "status": "passed",
   "network": "All non-loopback requests blocked",
   "checks": [
     "English achievement labels and current recommendation",
     "Independent achievement toggle and persistence across language switches",
-    "Incompatible objective displays English alternative-pairing advice",
+    "Unrelated achievements are absent from the current pairing selector",
     "UI actions preserve campaign values and RNG count",
     "Panel fits 390px and 1440px",
     "Two full English native achievement unlocks with external network requests blocked"
