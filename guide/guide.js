@@ -78,6 +78,8 @@
   try{
    result=analyze(e,ids);
    const achievement=NCTAchievements.plan(e,result,ids);
+   const advice=NCTAchievements.adviceKind(achievement,ids),ended=!!document.getElementById('overall_results_button');
+   const waiting=NCTAchievements.planningPending;
    const answers=achievement?.answers||result.answers,visits=achievement?.visits||result.visits;
    const base=result.base;
    const total=e.states_json.reduce((s,r)=>s+r.fields.electoral_votes,0),target=Math.floor(total/2)+1;
@@ -85,16 +87,16 @@
    html+=NCTAchievements.render(e,achievement,ids,expanded);
    if(NCTAchievements.planningPending)html+=`<small class="nct-guide-working" role="status">${h('working')}</small>`;
    const answerHTML=(a,rank)=>{const row=e.answers_json.find(r=>r.pk===a.id);return `<li data-guide-answer="${a.id}"><strong>${h(rank===0?'recommended':'alternative',{position:a.index+1})}</strong><div>${NCTStory.html('answers_json',row.pk,'description',row.fields.description)}</div>${rank?`<small>${h('effect',{votes:a.electoral,score:signed(a.score-base.score),popular:signed((a.popular-base.popular)*100)})}</small>`:''}</li>`;};
-   if(answers.length){
-    html+=`<h4>${h('next_answer')}</h4><ol class="nct-guide-answers nct-guide-next">${answerHTML(answers[0],0)}</ol>`;
+   if(answers.length&&!waiting&&!ended){
+    html+=`<h4>${h(['fixed','model','ordinary'].includes(advice)?'achievement_next_'+advice:'next_answer')}</h4><ol class="nct-guide-answers nct-guide-next">${answerHTML(answers[0],0)}</ol>`;
     html+=details('answers',h('more_answers'),`<ol class="nct-guide-answers">${answers.slice(1).map((a,i)=>answerHTML(a,i+1)).join('')}</ol>`);
    }
    const hasVisits=e.election_json.find(r=>Number(r.pk)===Number(e.election_id))?.fields.has_visits===1;
-   if(hasVisits&&visits.length){
+   if(hasVisits&&visits.length&&!waiting&&!ended){
     let table=`<div class="nct-guide-table"><table><thead><tr><th>${h('state')}</th><th>${h('ev')}</th><th>${h('margin')}</th><th>${h('visit_effect')}</th></tr></thead><tbody>`;
     for(const v of visits.slice(0,5))table+=`<tr data-guide-state="${v.id}"><td>${NCTI18n.termHtml(v.name)}</td><td>${v.ev}</td><td>${signed(v.margin*100)}</td><td>${h('gain',{margin:signed(v.gain*100),score:signed(v.score)})}</td></tr>`;
     table+='</tbody></table></div>';
-    const title=h(visiting?'visit_now_short':'visit_next',{state:NCTI18n.term(visits[0].name)});
+    const title=h(['fixed','model'].includes(advice)?'achievement_visit_'+advice:visiting?'visit_now_short':'visit_next',{state:NCTI18n.term(visits[0].name)});
     html+=details('visits',title,table,visiting);
    }
    let evidence=`<p>${h('baseline',{votes:base.electoral,target,popular:(base.popular*100).toFixed(2)})}</p><p>${h('method')}</p>`;

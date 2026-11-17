@@ -434,6 +434,13 @@
       "predictedEV": 262,
       "predictedPV": 65496500,
       "cost": -262263.20232182025
+    },
+    {
+      "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "evaluations": 2068,
+      "predictedEV": 357,
+      "predictedPV": 69592399,
+      "cost": -12551.93281337992
     }
   ]
 }

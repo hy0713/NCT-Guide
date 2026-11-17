@@ -4,6 +4,8 @@ English · [简体中文](README_ZH.md)
 
 An offline campaign and achievement guide for **The New Campaign Trail**. Read the walkthroughs on GitHub, or install the optional live coach to get advice beside the game.
 
+**Reliability review, 2026-11-17:** a fresh 27-objective check unlocked 18 and missed 9. The revised **The Flame Berns Bright** route unlocked in all eight tested seed fixtures. [Results and remaining failures](ACHIEVEMENT_RELIABILITY_REVIEW.md).
+
 ## Start reading
 
 - **[All 31 native achievements](achievements/README.md)** — exact unlock conditions, tested candidate/running-mate setups and special procedures.

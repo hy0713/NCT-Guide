@@ -1,16 +1,17 @@
 /* Rebuild evidence from real browser reports. Counts are fixtures, not probabilities. */
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert');
 const root=path.resolve(__dirname,'..'),file=path.join(root,'achievements/community-routes.json');
-const data=JSON.parse(fs.readFileSync(file,'utf8')),files=['community-route-results.json','remaining-route-results.json','baseline-route-results.json','whatbelt-source-results.json','whatbelt-neighbor-results.json','verified-route-results.json'];
+const data=JSON.parse(fs.readFileSync(file,'utf8')),files=['community-route-results.json','remaining-route-results.json','baseline-route-results.json','whatbelt-source-results.json','whatbelt-neighbor-results.json','verified-route-results.json','reliability-before-results.json','bern-margin-candidate-results.json','all-objective-coach-review-results.json','bern-coach-review-results.json'];
 const reports=files.filter(f=>fs.existsSync(path.join(root,'tests',f))).map(f=>({file:f,...JSON.parse(fs.readFileSync(path.join(root,'tests',f),'utf8'))}));
 for(const r of reports)assert.equal(r.status,'passed',r.file+' must finish before publishing evidence');
 const hash=r=>crypto.createHash('sha256').update(JSON.stringify([r.scope,r.answers,r.visits,r.difficulty,r.mode])).digest('hex');
-const runs=reports.flatMap(r=>r.runs.map(x=>({...x,achievement:x.achievement||data.routes.find(route=>route.id===x.route)?.achievement,report:r.file}))),rules=JSON.parse(fs.readFileSync(path.join(root,'achievements/source-audit.json'),'utf8')).achievements;
+const runs=reports.flatMap(r=>r.runs.map(x=>({...x,route:x.coachingRoute||x.route,achievement:x.achievement||data.routes.find(route=>route.id===x.route)?.achievement,report:r.file}))),rules=JSON.parse(fs.readFileSync(path.join(root,'achievements/source-audit.json'),'utf8')).achievements;
 for(const route of data.routes){const compatible=runs.filter(x=>x.route===route.id&&x.scope===route.scope&&(!x.routeSHA256||x.routeSHA256===hash(route)));const seen=new Set(),samples=[];
  for(const run of compatible){if(run.language&&run.language!=='zh-CN')continue;const key=run.seed+':'+hash(route);if(seen.has(key))continue;
   // Older reports lack a route hash. Check the recorded choices against the
   // current mapping and label that limitation instead of inventing a hash.
   if(!run.routeSHA256&&run.steps?.some(s=>s.type==='answer'&&route.answers[s.question]&&!route.answers[s.question].includes(s.id)))continue;
+  if(!run.routeSHA256&&route.visits.sequence&&run.steps?.filter(s=>s.type==='visit').some((s,i)=>s.abbr!==route.visits.sequence[Math.min(i,route.visits.sequence.length-1)]))continue;
   seen.add(key);samples.push({seed:run.seed,electoral:run.electoral,unlocked:!!run.unlocked,yearRecorded:!!run.progress?.yearRecorded,report:run.report,identity:run.routeSHA256?'SHA256':'legacy-route-id-without-hash'});
  }
  route.replays={total:samples.length,success:samples.filter(x=>x.unlocked||(route.achievement==='destiny'&&x.yearRecorded)).length,samples};

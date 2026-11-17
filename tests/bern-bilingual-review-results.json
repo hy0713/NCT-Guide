@@ -1,0 +1,1121 @@
+{
+  "date": "2026-11-17T05:20:04.851Z",
+  "status": "passed",
+  "network": "All non-loopback requests blocked",
+  "runs": [
+    {
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "routeSHA256": "f15214d6195f31c55cf310e0fa7aeccc90bfd737a91b9f930bad1f83a0155940",
+      "achievement": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "seed": 3,
+      "language": "zh-CN",
+      "electoral": 357,
+      "popular": 69091287,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.229382649495792
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.10923935860807671
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.013148775783040467
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.21175427842702832
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.3212147580718821
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.08767743641310488
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.14617575050945314
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.15502233491981
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.03320985516870373
+        },
+        {
+          "state": 1009,
+          "rank": 1,
+          "margin": 0.0009321473167792083
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.32369713982355885
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.28637950825730124
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.22967391549146676
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.13843850662459833
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.05838838522432882
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.1569114371222609
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.24269488844029857
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.14791173928581036
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.07917982792857664
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.315596249560538
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.2758040519466688
+        },
+        {
+          "state": 1021,
+          "rank": 1,
+          "margin": 0.08051564178869386
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.07066192346463807
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.12200914098692878
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.1431987127621841
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.1614400485157787
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.20340801581333062
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.06309018677425865
+        },
+        {
+          "state": 1028,
+          "rank": 1,
+          "margin": 0.05699632721533826
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.19325948936410497
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.13505831174555732
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.25655424712649627
+        },
+        {
+          "state": 1032,
+          "rank": 1,
+          "margin": 0.00027110188105805566
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3215826301118121
+        },
+        {
+          "state": 1034,
+          "rank": 1,
+          "margin": 0.00600119545173694
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.32264986111593363
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.14298064723751863
+        },
+        {
+          "state": 1037,
+          "rank": 1,
+          "margin": 0.05545631763831327
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.19367998399002567
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.09794358973039147
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.25231025428691933
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.20335663255626701
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.04857246041627866
+        },
+        {
+          "state": 1043,
+          "rank": 3,
+          "margin": -0.15684154301879238
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.3290338943223805
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.10159368576842931
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.21766006303561297
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8731260447999274
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.36388065590241897
+        },
+        {
+          "state": 1049,
+          "rank": 1,
+          "margin": 0.06351352705203417
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4364644464444409
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5153,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1047,
+          "id": 5160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1078,
+          "id": 5265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1058,
+          "id": 5192,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5207,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1070,
+          "id": 5238,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1064,
+          "id": 5219,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1063,
+          "id": 5212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1056,
+          "id": 5187,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5196,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5226,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5257,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5259,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5142,
+        5144,
+        5150,
+        5153,
+        5160,
+        5185,
+        5175,
+        5265,
+        5192,
+        5207,
+        5238,
+        5219,
+        5212,
+        5187,
+        5222,
+        5234,
+        5196,
+        5226,
+        5228,
+        5245,
+        5248,
+        5255,
+        5252,
+        5257,
+        5259
+      ],
+      "visits": [
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1032,
+        1009,
+        1032,
+        1009,
+        1032
+      ],
+      "rngCalls": 61723
+    },
+    {
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "routeSHA256": "f15214d6195f31c55cf310e0fa7aeccc90bfd737a91b9f930bad1f83a0155940",
+      "achievement": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "seed": 3,
+      "language": "en-US",
+      "electoral": 357,
+      "popular": 69091287,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false,
+        "counter": 0
+      },
+      "states": [
+        {
+          "state": 1000,
+          "rank": 2,
+          "margin": -0.229382649495792
+        },
+        {
+          "state": 1001,
+          "rank": 2,
+          "margin": -0.10923935860807671
+        },
+        {
+          "state": 1002,
+          "rank": 2,
+          "margin": -0.013148775783040467
+        },
+        {
+          "state": 1003,
+          "rank": 2,
+          "margin": -0.21175427842702832
+        },
+        {
+          "state": 1004,
+          "rank": 1,
+          "margin": 0.3212147580718821
+        },
+        {
+          "state": 1005,
+          "rank": 1,
+          "margin": 0.08767743641310488
+        },
+        {
+          "state": 1006,
+          "rank": 1,
+          "margin": 0.14617575050945314
+        },
+        {
+          "state": 1007,
+          "rank": 1,
+          "margin": 0.15502233491981
+        },
+        {
+          "state": 1008,
+          "rank": 1,
+          "margin": 0.03320985516870373
+        },
+        {
+          "state": 1009,
+          "rank": 1,
+          "margin": 0.0009321473167792083
+        },
+        {
+          "state": 1010,
+          "rank": 1,
+          "margin": 0.32369713982355885
+        },
+        {
+          "state": 1011,
+          "rank": 2,
+          "margin": -0.28637950825730124
+        },
+        {
+          "state": 1012,
+          "rank": 1,
+          "margin": 0.22967391549146676
+        },
+        {
+          "state": 1013,
+          "rank": 2,
+          "margin": -0.13843850662459833
+        },
+        {
+          "state": 1014,
+          "rank": 2,
+          "margin": -0.05838838522432882
+        },
+        {
+          "state": 1015,
+          "rank": 2,
+          "margin": -0.1569114371222609
+        },
+        {
+          "state": 1016,
+          "rank": 2,
+          "margin": -0.24269488844029857
+        },
+        {
+          "state": 1017,
+          "rank": 2,
+          "margin": -0.14791173928581036
+        },
+        {
+          "state": 1018,
+          "rank": 1,
+          "margin": 0.07917982792857664
+        },
+        {
+          "state": 1019,
+          "rank": 1,
+          "margin": 0.315596249560538
+        },
+        {
+          "state": 1020,
+          "rank": 1,
+          "margin": 0.2758040519466688
+        },
+        {
+          "state": 1021,
+          "rank": 1,
+          "margin": 0.08051564178869386
+        },
+        {
+          "state": 1022,
+          "rank": 1,
+          "margin": 0.07066192346463807
+        },
+        {
+          "state": 1023,
+          "rank": 2,
+          "margin": -0.12200914098692878
+        },
+        {
+          "state": 1024,
+          "rank": 2,
+          "margin": -0.1431987127621841
+        },
+        {
+          "state": 1025,
+          "rank": 2,
+          "margin": -0.1614400485157787
+        },
+        {
+          "state": 1026,
+          "rank": 2,
+          "margin": -0.20340801581333062
+        },
+        {
+          "state": 1027,
+          "rank": 1,
+          "margin": 0.06309018677425865
+        },
+        {
+          "state": 1028,
+          "rank": 1,
+          "margin": 0.05699632721533826
+        },
+        {
+          "state": 1029,
+          "rank": 1,
+          "margin": 0.19325948936410497
+        },
+        {
+          "state": 1030,
+          "rank": 1,
+          "margin": 0.13505831174555732
+        },
+        {
+          "state": 1031,
+          "rank": 1,
+          "margin": 0.25655424712649627
+        },
+        {
+          "state": 1032,
+          "rank": 1,
+          "margin": 0.00027110188105805566
+        },
+        {
+          "state": 1033,
+          "rank": 2,
+          "margin": -0.3215826301118121
+        },
+        {
+          "state": 1034,
+          "rank": 1,
+          "margin": 0.00600119545173694
+        },
+        {
+          "state": 1035,
+          "rank": 2,
+          "margin": -0.32264986111593363
+        },
+        {
+          "state": 1036,
+          "rank": 1,
+          "margin": 0.14298064723751863
+        },
+        {
+          "state": 1037,
+          "rank": 1,
+          "margin": 0.05545631763831327
+        },
+        {
+          "state": 1038,
+          "rank": 1,
+          "margin": 0.19367998399002567
+        },
+        {
+          "state": 1039,
+          "rank": 2,
+          "margin": -0.09794358973039147
+        },
+        {
+          "state": 1040,
+          "rank": 2,
+          "margin": -0.25231025428691933
+        },
+        {
+          "state": 1041,
+          "rank": 2,
+          "margin": -0.20335663255626701
+        },
+        {
+          "state": 1042,
+          "rank": 2,
+          "margin": -0.04857246041627866
+        },
+        {
+          "state": 1043,
+          "rank": 3,
+          "margin": -0.15684154301879238
+        },
+        {
+          "state": 1044,
+          "rank": 1,
+          "margin": 0.3290338943223805
+        },
+        {
+          "state": 1045,
+          "rank": 1,
+          "margin": 0.10159368576842931
+        },
+        {
+          "state": 1046,
+          "rank": 1,
+          "margin": 0.21766006303561297
+        },
+        {
+          "state": 1047,
+          "rank": 1,
+          "margin": 0.8731260447999274
+        },
+        {
+          "state": 1048,
+          "rank": 2,
+          "margin": -0.36388065590241897
+        },
+        {
+          "state": 1049,
+          "rank": 1,
+          "margin": 0.06351352705203417
+        },
+        {
+          "state": 1050,
+          "rank": 2,
+          "margin": -0.4364644464444409
+        }
+      ],
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5153,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1047,
+          "id": 5160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1078,
+          "id": 5265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1058,
+          "id": 5192,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5207,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1070,
+          "id": 5238,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1064,
+          "id": 5219,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1063,
+          "id": 5212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1056,
+          "id": 5187,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5196,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5226,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5257,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5259,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5142,
+        5144,
+        5150,
+        5153,
+        5160,
+        5185,
+        5175,
+        5265,
+        5192,
+        5207,
+        5238,
+        5219,
+        5212,
+        5187,
+        5222,
+        5234,
+        5196,
+        5226,
+        5228,
+        5245,
+        5248,
+        5255,
+        5252,
+        5257,
+        5259
+      ],
+      "visits": [
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1032,
+        1009,
+        1032,
+        1009,
+        1032
+      ],
+      "rngCalls": 61723
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "checks": [
+    "Every recorded run played 25 questions to actual results",
+    "Actual achievement storage recorded, including failures",
+    "Read-only planning and language switching preserve game/RNG",
+    "No external requests, missing core resources or script errors",
+    "Recorded English replays match the same-seed Chinese choices, visits, votes, state results and RNG"
+  ]
+}

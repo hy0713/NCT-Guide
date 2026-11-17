@@ -15,7 +15,7 @@ const report={date:new Date().toISOString(),status:'running',network:'All non-lo
    await start(page,route,1776,'en-US');
    const original=await page.evaluate(()=>[JSON.stringify(campaignTrail_temp),__rngCalls]);
    assert.match(await page.locator('#nct-guide-panel').innerText(),/Enable achievement coaching/);
-   assert.match(await page.locator('#nct-guide-panel').innerText(),/Choose next/);
+   assert.match(await page.locator('#nct-guide-panel h4').innerText(),/Follow the fixed answer route/);
    await page.locator('#achievement-enabled').uncheck();
    assert.match(await page.locator('#nct-guide-panel').innerText(),/Showing ordinary campaign advice/);
    await page.locator('#language-toggle').click();await page.locator('#language-toggle').click();

@@ -28,17 +28,18 @@ async function play(page,options={}){
  const steps=[];
  let waitingForVisit=false;
  for(let i=0;i<230;i++){
-  const action=await page.evaluate(({waitingForVisit,nativeFallback})=>{
+  const action=await page.evaluate(({waitingForVisit,nativeFallback,fixedRoute})=>{
    const click=id=>{const n=document.getElementById(id);if(!n)return false;n.click();return true;};
    if(document.getElementById('overall_results_button'))return {type:'done'};
    if(click('ok_button')||click('final_result_button'))return {type:'transition'};
    if(waitingForVisit&&click('confirm_visit_button'))return {type:'confirmedVisit'};
-   if(document.querySelector('.visit_text')){const first=nativeFallback?null:document.querySelector('[data-guide-state]'),id=first?+first.dataset.guideState:nativeFallback?campaignTrail_temp.states_json[0].pk:null;if(id==null)return {type:'wait'};const s=campaignTrail_temp.states_json.find(s=>s.pk===id);jQuery('#map_container').usmap('trigger',s.fields.abbr,'click',{});return {type:'visit',id,abbr:s.fields.abbr};}
+   if(document.querySelector('.visit_text')){const first=nativeFallback?null:document.querySelector('[data-guide-state]'),sequence=fixedRoute?.visits.sequence,abbr=sequence?.[Math.min(campaignTrail_temp.player_visits.length,sequence.length-1)],id=abbr?campaignTrail_temp.states_json.find(s=>s.fields.abbr===abbr).pk:first?+first.dataset.guideState:nativeFallback?campaignTrail_temp.states_json[0].pk:null;if(id==null)return {type:'wait'};const s=campaignTrail_temp.states_json.find(s=>s.pk===id);jQuery('#map_container').usmap('trigger',s.fields.abbr,'click',{});return {type:'visit',id,abbr:s.fields.abbr};}
+   if(fixedRoute&&document.querySelector('.game_answers')){const e=campaignTrail_temp,ids=[...document.querySelectorAll('.game_answers')].map(a=>+a.value),q=e.answers_json.find(a=>a.pk===ids[0]).fields.question,id=fixedRoute.answers[q]?.find(id=>ids.includes(id));if(id==null)throw Error('Candidate lacks visible answer '+q);document.querySelector(`.game_answers[value="${id}"]`).click();click('answer_select_button');return {type:'answer',question:q,id,fixtureRoute:true};}
    const first=nativeFallback?null:document.querySelector('[data-guide-answer]');
    if(first){const id=+first.dataset.guideAnswer,a=document.querySelector(`.game_answers[value="${id}"]`),e=campaignTrail_temp,q=e.answers_json.find(a=>a.pk===id).fields.question,p=NCTAchievements.plan(e,NCTGuide.result,[...document.querySelectorAll('.game_answers')].map(n=>+n.value));a.click();click('answer_select_button');return {type:'answer',question:q,id,routeActive:p?.route?.active??false,fromRoute:p?.route?.answer===id};}
    if(nativeFallback){const a=document.querySelector('.game_answers');if(a){const id=+a.value,q=campaignTrail_temp.answers_json.find(a=>a.pk===id).fields.question;a.click();click('answer_select_button');return {type:'answer',question:q,id,nativeFallback:true};}}
    return {type:'wait'};
-  },{waitingForVisit,nativeFallback:!!options.nativeFallback});
+  },{waitingForVisit,nativeFallback:!!options.nativeFallback,fixedRoute:options.fixedRoute});
   if(action.type==='done')return {steps,result:await page.evaluate(()=>{const e=campaignTrail_temp;return {answers:e.player_answers,visits:e.player_visits,overall:e.final_overall_results,states:e.final_state_results,outcome:e.final_outcome,rngCalls:__rngCalls,achievements:JSON.parse(localStorage.getItem('achievements'))};})};
   if(action.type==='visit')waitingForVisit=true;
   if(action.type==='confirmedVisit')waitingForVisit=false;

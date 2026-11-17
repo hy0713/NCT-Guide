@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17T05:18:20.603Z",
+  "status": "passed",
+  "checks": [
+    "Automatic selection prefers the revised tested route; zero-unlock community route cannot override it",
+    "One actual coached Bern completion; all 31 generated final-condition checks equal the audited original expressions and preserve game/RNG",
+    "No tested route for Duckworth: show model label and tested alternative pairing; hide provisional advice while worker is running",
+    "Ineligible difficulty labels the remaining advice as ordinary victory advice",
+    "Actually missing a mandatory answer stays visibly blocked in both languages; guide interactions preserve game and RNG"
+  ],
+  "errors": [],
+  "external": []
+}

@@ -7,7 +7,7 @@
 1. Choose **English** at the top of the game page.
 2. Start your chosen year, candidate and running mate. Set the mode and difficulty listed in the achievement walkthrough.
 3. Turn on **Guide (spoilers)** and leave **Enable achievement coaching** checked.
-4. Select the achievement under **Run objective**. Follow **Choose next** and the recommended visit when a visit becomes available.
+4. Select the achievement under **Run objective**. Check whether the heading says **Follow the fixed answer route**, **Model forecast**, or **Ordinary victory advice**, then match the displayed answer text and visit.
 
 The recommendation follows the current question, even when option order changes. Match the answer text; a static “A/B/C” sequence will not work reliably. You still make every choice in the game.
 
@@ -23,7 +23,7 @@ Open **Requirements, routes and pairings** for required answers, progress, the r
 - **Other answers and projections:** compare the remaining visible choices.
 - **Forecast data and method:** inspect projected electoral votes, popular votes and calculation details.
 
-Switches persist locally. They do not reset the election or prevent a native achievement from unlocking. Remaining-route optimization runs in the background, so you can keep playing while it finishes.
+Switches persist locally. They do not reset the election or prevent a native achievement from unlocking. Wait for background planning to finish before following its recommendation; provisional advice stays hidden while it runs.
 
 ## Routes and live advice
 
@@ -32,6 +32,8 @@ A route is matched by scenario, running mate, mode, difficulty, question/answer 
 Some community routes omit questions. For those questions the coach computes a recommendation rather than inventing a source answer. The English written walkthrough records the actual answer taken in its successful replay and labels such gaps.
 
 Route labels distinguish community routes, source-model candidates and ordinary-guide replay routes. **Unlocked** is read from the native achievement save after the game, not inferred from a projected victory.
+
+Only routes with an actual unlock record appear in the fixed-route selector. Results show actual votes and unmet native requirements. [Latest reliability review and remaining failures](../ACHIEVEMENT_RELIABILITY_REVIEW.md).
 
 ## Cumulative and special achievements
 

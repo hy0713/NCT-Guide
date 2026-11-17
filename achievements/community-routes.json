@@ -916,7 +916,8 @@
             "identity": "legacy-route-id-without-hash"
           }
         ]
-      }
+      },
+      "supersededBy": "thebern-2016_Clinton_Sanders-1-0.97-margin-review"
     },
     {
       "id": "nmpr-community",
@@ -6555,8 +6556,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 2,
-        "success": 1,
+        "total": 8,
+        "success": 6,
         "samples": [
           {
             "seed": 1776,
@@ -6573,9 +6574,58 @@
             "yearRecorded": false,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 1,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
+          },
+          {
+            "seed": 2,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
+          },
+          {
+            "seed": 3,
+            "electoral": 326,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
+          },
+          {
+            "seed": 4,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
+          },
+          {
+            "seed": 5,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
+          },
+          {
+            "seed": 2026,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "reliability-before-results.json",
+            "identity": "SHA256"
           }
         ]
-      }
+      },
+      "supersededBy": "thebern-2016_Clinton_Sanders-1-0.97-margin-review"
     },
     {
       "id": "Vice-1960_Nixon_Goldwater-2-0.97-search",
@@ -9697,7 +9747,7 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 1,
+        "total": 2,
         "success": 1,
         "samples": [
           {
@@ -9707,6 +9757,14 @@
             "yearRecorded": false,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 1776,
+            "electoral": 255,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "all-objective-coach-review-results.json",
+            "identity": "legacy-route-id-without-hash"
           }
         ]
       }
@@ -14996,8 +15054,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 1,
-        "success": 1,
+        "total": 2,
+        "success": 2,
         "samples": [
           {
             "seed": 21,
@@ -15006,6 +15064,14 @@
             "yearRecorded": false,
             "report": "remaining-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 1776,
+            "electoral": 270,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "all-objective-coach-review-results.json",
+            "identity": "legacy-route-id-without-hash"
           }
         ]
       }
@@ -24057,7 +24123,7 @@
       "unmappedQuestions": [],
       "basedOnRoute": "whatbelt-Kaine-FL5-NH7",
       "replays": {
-        "total": 1,
+        "total": 2,
         "success": 1,
         "samples": [
           {
@@ -24067,6 +24133,223 @@
             "yearRecorded": false,
             "report": "whatbelt-neighbor-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 1776,
+            "electoral": 259,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "all-objective-coach-review-results.json",
+            "identity": "legacy-route-id-without-hash"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "achievement": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1042": [
+          5142
+        ],
+        "1043": [
+          5144
+        ],
+        "1044": [
+          5150
+        ],
+        "1045": [
+          5153
+        ],
+        "1047": [
+          5160
+        ],
+        "1052": [
+          5175
+        ],
+        "1055": [
+          5185
+        ],
+        "1056": [
+          5187
+        ],
+        "1058": [
+          5192
+        ],
+        "1059": [
+          5196
+        ],
+        "1061": [
+          5207
+        ],
+        "1063": [
+          5212
+        ],
+        "1064": [
+          5219
+        ],
+        "1065": [
+          5222
+        ],
+        "1066": [
+          5226
+        ],
+        "1067": [
+          5228
+        ],
+        "1068": [
+          5234
+        ],
+        "1070": [
+          5238
+        ],
+        "1071": [
+          5245
+        ],
+        "1072": [
+          5248
+        ],
+        "1073": [
+          5252
+        ],
+        "1074": [
+          5255
+        ],
+        "1075": [
+          5257
+        ],
+        "1076": [
+          5259
+        ],
+        "1078": [
+          5265
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "GA",
+          "GA",
+          "GA",
+          "GA",
+          "GA",
+          "GA",
+          "GA",
+          "NC",
+          "GA",
+          "NC",
+          "GA",
+          "NC"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "verification": "actual-unlock",
+      "notes": {
+        "zh-CN": "本轮调整了回答与访问安排，集中加强佐治亚州和北卡罗来纳州；旧路线失败的两组回放均已重新解锁。",
+        "en-US": "Revised answers and visits emphasize Georgia and North Carolina. Both replay fixtures that failed the old route now unlock the achievement."
+      },
+      "basedOn": "https://www.reddit.com/r/thecampaigntrail/comments/p2emej/how_to_win_a_relatively_big_victory_as/",
+      "sourceSHA256": "655b94ece7cb7bccba7ca62dfea9387c15e65d705997b1a6509dd0f6b70e37b8",
+      "fingerprints": {
+        "5142": "c41a781b",
+        "5144": "1c1d0515",
+        "5150": "343a6606",
+        "5153": "cc34f6ae",
+        "5160": "dc2ab160",
+        "5175": "4719f40a",
+        "5185": "7bb2e6dc",
+        "5187": "ab761178",
+        "5192": "a7874f8f",
+        "5196": "757016e",
+        "5207": "7dc1cb7b",
+        "5212": "860ebca6",
+        "5219": "460cdb50",
+        "5222": "b4673e36",
+        "5226": "ef3e0309",
+        "5228": "1a9f4951",
+        "5234": "9c8eb470",
+        "5238": "7ab9e42e",
+        "5245": "985ce8cf",
+        "5248": "d328ad5f",
+        "5252": "8c87fad9",
+        "5255": "8c87fad9",
+        "5257": "1b6d796d",
+        "5259": "e733565c",
+        "5265": "590faf08"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": [],
+      "replays": {
+        "total": 8,
+        "success": 8,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 2,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 3,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 4,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 5,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 1776,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 42,
+            "electoral": 368,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 2026,
+            "electoral": 357,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "bern-margin-candidate-results.json",
+            "identity": "legacy-route-id-without-hash"
           }
         ]
       }

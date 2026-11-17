@@ -1,10 +1,11 @@
 """Compile offline objective rules and observed combination baselines; no game writes."""
-import json
+import hashlib, json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 GAME=Path(__import__('sys').argv[1])
 read=lambda p:json.loads(p.read_text(encoding='utf8'))
 audit=read(ROOT/'achievements/source-audit.json');cat=read(GAME/'localization/stories/catalogue.json');en=read(GAME/'localization/en-US.json')
+assert hashlib.sha256((GAME/audit['source']).read_bytes()).hexdigest()==audit['sourceSHA256'], 'Native achievement source changed; regenerate the audit first'
 # Runtime objectives describe the original conditions. They do not replace them.
 rules={
 'destiny':dict(years=[21,20,3,9,15,10,69],goal='exact',targets=[306,232]),
@@ -49,8 +50,18 @@ for s in cat['scenarios']:
  b=baselines.get(s['scope']);own=next((r for r in b['overall'] if r['candidate']==s['candidate']),None) if b else None
  scenarios.append({k:s[k] for k in ['scope','year','election','candidate','runningMate','candidateName','runningMateName']}|{'answerIds':sorted({r['location']['pk'] for r in cat['records'] if r['scope']==s['scope'] and r['collection']=='answers_json'}),'baseline':{'ev':own['electoral_votes'],'pv':own['popular_votes'],'outcome':b['outcome'],'mode':str(b.get('mode','1'))} if own else None})
 routes=read(ROOT/'achievements/community-routes.json')['routes'] if (ROOT/'achievements/community-routes.json').exists() else []
-routes=[r for r in routes if r['achievement']!='what' and (r.get('replays',{}).get('total',0)>0 or r.get('origin')=='community')]
+routes=[r for r in routes if not r.get('supersededBy') and r['achievement']!='what' and (r.get('replays',{}).get('total',0)>0 or r.get('origin')=='community')]
 routes=[r|{'replays':{k:r['replays'][k] for k in ['total','success']}} if 'replays' in r else r for r in routes]
 data={'schema':1,'sourceSHA256':audit['sourceSHA256'],'rules':list(rules.values()),'scenarios':scenarios,'routes':routes,'evidence':'Baselines: one seed (1776), ordinary winning guide, NOT success probabilities. Community routes have separate sources, gaps and replay results.'}
-(ROOT/'guide/achievement-data.js').write_text('/* Generated offline objective data; see tools/build-achievement-runtime.py. */\nwindow.NCTAchievementData='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf8',newline='\n')
+predicates=',\n'.join(json.dumps(row['id'])+':()=>('+row['condition']+')' for row in audit['achievements'])
+diagnostics='''
+// Read-only copies of the audited native conditions, used only after results.
+window.NCTAchievementData.testCondition=function(id,e,saved,modded=false){
+ const campaignTrail_temp=e,n=e.final_overall_results.findIndex(row=>row.candidate===e.candidate_id);
+ const run={threeosix:{},tsatrolling:0,...saved,achievements:{...saved.achievements,[id]:false}};
+ const containsObject=(answer,list)=>list.includes(answer);
+ return !!({PREDICATES}[id]?.());
+};
+'''.replace('PREDICATES',predicates)
+(ROOT/'guide/achievement-data.js').write_text('/* Generated offline objective data; see tools/build-achievement-runtime.py. */\nwindow.NCTAchievementData='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'+diagnostics,encoding='utf8',newline='\n')
 print('Built',len(rules),'objectives and',len(scenarios),'combination baselines')

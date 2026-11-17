@@ -64,15 +64,16 @@
  function fingerprint(text){let h=2166136261;for(let i=0;i<text.length;i++)h=Math.imul(h^text.charCodeAt(i),16777619);return(h>>>0).toString(16);}
  function routeInfo(e,r,ids){
   const s=current(e),available=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s?.scope);
-  available.sort((a,b)=>Number((b.replays?.success||0)>0)-Number((a.replays?.success||0)>0)||Number(String(e.game_type_id)===b.mode&&e.difficulty_level_multiplier===b.difficulty)-Number(String(e.game_type_id)===a.mode&&e.difficulty_level_multiplier===a.difficulty)||b.mappedQuestions-a.mappedQuestions);
-  const route=available.find(x=>x.id===selectedRoute)||available[0];
+  available.sort((a,b)=>Number((b.replays?.success||0)>0)-Number((a.replays?.success||0)>0)||Number(String(e.game_type_id)===b.mode&&e.difficulty_level_multiplier===b.difficulty)-Number(String(e.game_type_id)===a.mode&&e.difficulty_level_multiplier===a.difficulty)||(b.replays?.success/(b.replays?.total||1)||0)-(a.replays?.success/(a.replays?.total||1)||0)||b.mappedQuestions-a.mappedQuestions);
+  const tested=available.filter(x=>x.replays?.success>0);
+  const route=tested.find(x=>x.id===selectedRoute)||tested[0]||available[0];
   if(!route)return null;
   const settings=String(e.game_type_id)===route.mode&&Math.abs(e.difficulty_level_multiplier-route.difficulty)<1e-9;
   const sourceMatches=Object.entries(route.fingerprints||{}).every(([id,hash])=>{const a=e.answers_json.find(a=>a.pk===+id);return a&&fingerprint(a.fields.description)===hash;});
   const deviated=e.player_answers.some(id=>{const a=e.answers_json.find(a=>a.pk===id),allowed=route.answers[a?.fields.question];return allowed&&!allowed.includes(id);});
   const sequence=route.visits.sequence;
   const visitDeviation=sequence&&e.player_visits.some((id,i)=>e.states_json.find(s=>s.pk===id)?.fields.abbr!==sequence[Math.min(i,sequence.length-1)]);
-  const active=settings&&sourceMatches&&!deviated&&!visitDeviation;
+  const active=route.replays?.success>0&&settings&&sourceMatches&&!deviated&&!visitDeviation;
   const q=e.answers_json.find(a=>a.pk===ids[0])?.fields.question;
   const answer=active?(route.answers[q]||[]).find(id=>ids.includes(id)):undefined;
   return {route,settings,sourceMatches,deviated:!!(deviated||visitDeviation),active,answer};
@@ -91,6 +92,37 @@
    else{const pool=policy.weakest||policy.lowestShare||[];visits.sort((a,b)=>Number(pool.includes(b.abbr))-Number(pool.includes(a.abbr))||(pool.includes(a.abbr)&&pool.includes(b.abbr)?a.share-b.share:0));}
   }
   return {rule:r,status:state,valid,answers,visits,planning,route,recommendations:suggestions(r).slice(0,3)};
+ }
+ function adviceKind(p,ids){
+  if(!p)return 'general';
+  if(!p.valid)return 'ordinary';
+  if(p.rule.goal==='finish')return 'procedure';
+  return p.route?.active&&(!ids.length||p.route.answer!==undefined)?'fixed':'model';
+ }
+ function diagnosis(e,r){
+  if(!e.final_overall_results?.length||e.player_answers.length<e.global_parameter_json?.[0]?.fields.question_count)return null;
+  const own=e.final_overall_results.find(row=>row.candidate===e.candidate_id);
+  const reasons=[],votes=own.electoral_votes,rival=Math.max(...e.final_overall_results.filter(row=>row.candidate!==e.candidate_id).map(row=>row.popular_votes));
+  if(r.goal==='min'&&votes<r.target)reasons.push(t('final_votes_short',{needed:r.target-votes}));
+  if(r.goal==='max'&&votes>r.target)reasons.push(t('final_votes_over',{extra:votes-r.target}));
+  if(r.goal==='exact'&&!targets(r,e).includes(votes))reasons.push(t('final_exact',{target:targets(r,e).join(' / ')}));
+  if(['win','winPopular','winLosePopular'].includes(r.goal)&&e.final_outcome!=='win')reasons.push(t('final_need_win'));
+  if(['popularLead','winPopular'].includes(r.goal)&&own.popular_votes<=rival)reasons.push(t('final_need_popular'));
+  if(r.goal==='winLosePopular'&&own.popular_votes>=rival)reasons.push(t('final_lose_popular'));
+  if(r.goal==='votes'&&own.popular_votes<r.target)reasons.push(t('final_popular_short',{needed:r.target-own.popular_votes}));
+  for(const state of [...(r.lose||[]),...(r.state?[r.state]:[])]){
+   const id=e.states_json.find(s=>s.fields.name===state)?.pk,row=e.final_state_results.find(s=>s.state===id),rank=row?.result.findIndex(c=>c.candidate===e.candidate_id)+1,required=r.state?1:2;
+   if(rank!==required)reasons.push(t('final_state_rank',{state:NCTI18n.term(state),rank,required}));
+  }
+  if((r.required||[]).some(id=>!e.player_answers.includes(id))||Object.entries(r.slots||{}).some(([i,id])=>e.player_answers[i]!==id))reasons.push(t('final_answers'));
+  if(r.id==='destiny'){const years=['2020','2016','2012','2000','1988','1976','1964'].filter(year=>!save().threeosix?.[year]);if(years.length)reasons.push(t('final_years',{years:years.join(' / ')}));}
+  if(r.id==='what'&&(save().tsatrolling||0)<100)reasons.push(t('counter',{count:save().tsatrolling||0}));
+  if(r.goal==='florida'){
+   const florida=e.final_state_results[8].result,gap=(florida[0].percent-florida[1].percent)*100;
+   if(gap>=.5)reasons.push(t('final_florida',{gap:gap.toFixed(3)}));
+   if(e.final_overall_results[0].electoral_votes>294)reasons.push(t('final_leader',{votes:e.final_overall_results[0].electoral_votes}));
+  }
+  return {votes,popular:own.popular_votes,outcome:e.final_outcome,unlocked:!!save().achievements?.[r.id],met:(r.special?!legitimate(e):legitimate(e))&&data.testCondition(r.id,e,save()),reasons};
  }
  function lookAhead(e,r,ids,forecast){
   const key=JSON.stringify([r.id,ids,e.player_answers,e.player_visits,e.difficulty_level_multiplier,e.game_type_id,e.candidate_id,e.running_mate_id,e.answers_json,e.questions_json,e.shining_data]);
@@ -135,6 +167,16 @@
   html+='</select></label></div>';
   if(!p)return html+'</section>';
   html+=`<div class="nct-achievement-goal"><strong data-achievement-status="${p.status.kind}">${esc(t(p.status.kind))}</strong><span>${esc(t('goal_'+p.rule.goal,{target:p.rule.target??(p.rule.targets||[]).join('/')}))}</span></div>`;
+  const final=diagnosis(e,p.rule),kind=adviceKind(p,ids);
+  if(final){html+=`<p data-achievement-result="${final.unlocked?'unlocked':final.met?'not-recorded':'not-met'}">${esc(t('final_actual',{votes:final.votes,popular:final.popular,outcome:t('outcome_'+final.outcome)}))} ${esc(t(final.unlocked?'final_unlocked':final.met?'final_priority':'final_failed'))}</p>`;if(!final.unlocked&&final.reasons.length)html+=`<p>${esc(final.reasons.join(' · '))}</p>`;}
+  else{
+   const stats=p.route?.route.replays;
+   html+=`<p data-achievement-advice="${kind}">${esc(t('advice_'+kind,stats||{}))}</p>`;
+   if(kind==='model'&&(!p.route||!stats?.success)){
+    const best=p.recommendations.find(s=>s.verified);
+    if(best)html+=`<p class="nct-guide-action">${esc(t('switch_pair',{pair:best.year+' '+NCTStory.term(best.candidateName)+' / '+NCTStory.term(best.runningMateName),mode:t('mode_'+best.verified.mode),difficulty:best.verified.difficulty}))}</p>`;
+   }
+  }
   if(p.rule.id==='what')html+=`<small>${esc(t('counter',{count:save().tsatrolling||0}))}</small>`;
   if(p.rule.id==='destiny')html+=`<small>${esc(t('years',{years:Object.entries(save().threeosix||{}).filter(([,v])=>v).map(([k])=>k).join(', ')||'—'}))}</small>`;
   if(p.status.forced.length)html+=`<p class="nct-guide-action">${esc(t('required_now'))}</p>`;
@@ -153,7 +195,7 @@
    else if(info.deviated)html+=`<small>${esc(t('route_deviated'))}</small>`;
    else if(ids.length&&info.answer===undefined)html+=`<small>${esc(t('route_gap'))}</small>`;
    let routeHTML=`<p>${esc(stats?t(p.rule.id==='destiny'?'route_year_tested':'route_tested',{success:stats.success,total:stats.total}):t('route_unverified'))}</p>`;
-   const alternatives=(data.routes||[]).filter(x=>x.achievement===p.rule.id&&x.scope===r.scope);
+   const alternatives=(data.routes||[]).filter(x=>x.achievement===p.rule.id&&x.scope===r.scope&&x.replays?.success>0);
    if(alternatives.length>1){routeHTML+=`<label for="achievement-route">${esc(t('route_choose'))}</label> <select id="achievement-route">`;for(const[i,x]of alternatives.entries())routeHTML+=`<option value="${esc(x.id)}"${x.id===r.id?' selected':''}>${esc(t(x.origin==='model-search'?'route_model':x.origin==='baseline-replay'?'route_baseline':'route_community'))} · ${esc(t('route_candidate',{index:i+1,success:x.replays?.success??0,total:x.replays?.total??0}))}</option>`;routeHTML+='</select>';}
    if(r.notes?.[NCTI18n.language])routeHTML+=`<p>${esc(r.notes[NCTI18n.language])}</p>`;
    routeHTML+=`<a href="${esc(r.source)}" target="_blank" rel="noopener noreferrer">${esc(t('route_source'))}</a>`;
@@ -164,5 +206,5 @@
   extra+=fold('combinations',t('combinations'),combinations+'</ol>',p.status.kind==='combination');
   return html+fold('achievement-details',t('details'),extra,['combination','settings','missed'].includes(p.status.kind))+'</section>';
  }
- window.NCTAchievements={match,available,status,plan,render,cost,suggestions,routeInfo,cancelPlanning,selectRoute,select,get planningPending(){return !!pendingKey;},get selectedRoute(){return selectedRoute;},get enabled(){return enabled;},setEnabled(value){enabled=!!value;if(!enabled)cancelPlanning();try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;}};
+ window.NCTAchievements={match,available,status,plan,render,cost,suggestions,routeInfo,adviceKind,diagnosis,cancelPlanning,selectRoute,select,get planningPending(){return !!pendingKey;},get selectedRoute(){return selectedRoute;},get enabled(){return enabled;},setEnabled(value){enabled=!!value;if(!enabled)cancelPlanning();try{localStorage.setItem('nct.guide.achievement.enabled',enabled?'on':'off');}catch(_){}},get selected(){return selected;}};
 })();

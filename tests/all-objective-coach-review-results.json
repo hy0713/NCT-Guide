@@ -1,0 +1,8090 @@
+{
+  "date": "2026-11-17T05:10:27.178Z",
+  "status": "passed",
+  "method": "Follow the visible in-game advice with automatic route selection",
+  "runs": [
+    {
+      "route": "ridingBiden-community",
+      "achievement": "ridingBiden",
+      "scope": "2020_Biden_Demings",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 406,
+      "popular": 84358326,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 406,
+        "popular": 84358326,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：406 张选举人票，84358326 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1230,
+          "id": 6102,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6032,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6040,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6042,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6051,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6049,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1134,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        6001,
+        6004,
+        6014,
+        6010,
+        6102,
+        6017,
+        6020,
+        6025,
+        6032,
+        6063,
+        6040,
+        6037,
+        6070,
+        6074,
+        6078,
+        6081,
+        6042,
+        6056,
+        6051,
+        6059,
+        6049,
+        6067,
+        6084,
+        6086,
+        6088
+      ],
+      "visits": [
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134,
+        1134
+      ],
+      "rngCalls": 67358,
+      "coachingRoute": "ridingBiden-community"
+    },
+    {
+      "route": "magaa-community",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 321,
+      "popular": 78085411,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 321,
+        "popular": 78085411,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：321 张选举人票，78085411 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6128,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6179,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6186,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6183,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6195,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6128,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6179,
+        6142,
+        6186,
+        6183,
+        6175,
+        6170,
+        6189,
+        6195,
+        6199,
+        6167,
+        6150,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67253,
+      "coachingRoute": "magaa-community"
+    },
+    {
+      "route": "tanks-community",
+      "achievement": "tanks",
+      "scope": "1988_Dukakis_Bentsen",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 303,
+      "popular": 45825694,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 303,
+        "popular": 45825694,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：303 张选举人票，45825694 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 717,
+          "id": 4414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 718,
+          "id": 4417,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 734,
+          "id": 4463,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 729,
+          "id": 4450,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 732,
+          "id": 4458,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 719,
+          "id": 4418,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 725,
+          "id": 4439,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 724,
+          "id": 4434,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 726,
+          "id": 4441,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 728,
+          "id": 4446,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 727,
+          "id": 4444,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 735,
+          "id": 4464,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 723,
+          "id": 4432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4511,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 722,
+          "id": 4428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 721,
+          "id": 4427,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 720,
+          "id": 4424,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4484,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 730,
+          "id": 4452,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4518,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        4414,
+        4417,
+        4463,
+        4450,
+        4458,
+        4524,
+        4418,
+        4439,
+        4490,
+        4517,
+        4434,
+        4441,
+        4446,
+        4444,
+        4464,
+        4432,
+        4511,
+        4503,
+        4428,
+        4427,
+        4424,
+        4484,
+        4479,
+        4452,
+        4518
+      ],
+      "visits": [
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490
+      ],
+      "rngCalls": 61874,
+      "coachingRoute": "tanks-community"
+    },
+    {
+      "route": "nmpr-community",
+      "achievement": "nmpr",
+      "scope": "2020_Trump_Pence",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 289,
+      "popular": 76460225,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 289,
+        "popular": 76460225,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：289 张选举人票，76460225 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6112,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6130,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6119,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6134,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6145,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1325,
+          "id": 6209,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6138,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6186,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1149,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6172,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6198,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6193,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1102,
+          "abbr": "AZ"
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6166,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6201,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6207,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        6112,
+        6114,
+        6124,
+        6127,
+        6130,
+        6119,
+        6134,
+        6145,
+        6209,
+        6142,
+        6178,
+        6138,
+        6186,
+        6180,
+        6172,
+        6170,
+        6189,
+        6198,
+        6193,
+        6160,
+        6166,
+        6150,
+        6152,
+        6201,
+        6207
+      ],
+      "visits": [
+        1149,
+        1149,
+        1149,
+        1149,
+        1149,
+        1149,
+        1149,
+        1102,
+        1102,
+        1102,
+        1109,
+        1109
+      ],
+      "rngCalls": 67253,
+      "coachingRoute": "nmpr-community"
+    },
+    {
+      "route": "nomalarkey-community",
+      "achievement": "nomalarkey",
+      "scope": "2020_Biden_Bass",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 321,
+      "popular": 82539651,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 321,
+        "popular": 82539651,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：321 张选举人票，82539651 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1200,
+          "id": 6001,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1201,
+          "id": 6004,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1202,
+          "id": 6010,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1203,
+          "id": 6014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1205,
+          "id": 6020,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1227,
+          "id": 6096,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1204,
+          "id": 6017,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1206,
+          "id": 6024,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1208,
+          "id": 6030,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1216,
+          "id": 6063,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1210,
+          "id": 6038,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1209,
+          "id": 6037,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1219,
+          "id": 6074,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1218,
+          "id": 6070,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1220,
+          "id": 6078,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1221,
+          "id": 6081,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1213,
+          "id": 6053,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1215,
+          "id": 6059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1214,
+          "id": 6056,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1217,
+          "id": 6067,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1211,
+          "id": 6044,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1212,
+          "id": 6048,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1222,
+          "id": 6084,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1223,
+          "id": 6086,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1109,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1224,
+          "id": 6088,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        6001,
+        6004,
+        6010,
+        6014,
+        6020,
+        6096,
+        6017,
+        6024,
+        6030,
+        6063,
+        6038,
+        6037,
+        6074,
+        6070,
+        6078,
+        6081,
+        6053,
+        6059,
+        6056,
+        6067,
+        6044,
+        6048,
+        6084,
+        6086,
+        6088
+      ],
+      "visits": [
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109,
+        1109
+      ],
+      "rngCalls": 67358,
+      "coachingRoute": "nomalarkey-community"
+    },
+    {
+      "route": "georgia-community",
+      "achievement": "georgia",
+      "scope": "1976_Carter_Jackson",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 443,
+      "popular": 41880207,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 443,
+        "popular": 41880207,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：443 张选举人票，41880207 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 426,
+          "id": 3541,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 415,
+          "id": 3509,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 416,
+          "id": 3513,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 429,
+          "id": 3589,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 433,
+          "id": 3605,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 432,
+          "id": 3601,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 434,
+          "id": 3610,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 445,
+          "id": 3647,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 430,
+          "id": 3592,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 431,
+          "id": 3597,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 444,
+          "id": 3645,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 419,
+          "id": 3524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 427,
+          "id": 3544,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 420,
+          "id": 3527,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 417,
+          "id": 3518,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 418,
+          "id": 3520,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 435,
+          "id": 3614,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 446,
+          "id": 3653,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 436,
+          "id": 3615,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 438,
+          "id": 3624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 278,
+          "abbr": "WA"
+        },
+        {
+          "type": "answer",
+          "question": 442,
+          "id": 3636,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 428,
+          "id": 3584,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 441,
+          "id": 3633,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 421,
+          "id": 3528,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 259,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 447,
+          "id": 3655,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3541,
+        3509,
+        3513,
+        3589,
+        3605,
+        3601,
+        3610,
+        3647,
+        3592,
+        3597,
+        3645,
+        3524,
+        3544,
+        3527,
+        3518,
+        3520,
+        3614,
+        3653,
+        3615,
+        3624,
+        3636,
+        3584,
+        3633,
+        3528,
+        3655
+      ],
+      "visits": [
+        278,
+        278,
+        259,
+        259,
+        278,
+        259,
+        278,
+        278,
+        259,
+        278,
+        259,
+        259
+      ],
+      "rngCalls": 61986,
+      "coachingRoute": "georgia-community"
+    },
+    {
+      "route": "raiders-community",
+      "achievement": "raiders",
+      "scope": "2000_Nader_LaDuke",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 0,
+      "popular": 5746901,
+      "outcome": "loss",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 0,
+        "popular": 5746901,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：0 张选举人票，5746901 张普选票，落败。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 371,
+          "id": 3414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 368,
+          "id": 3401,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3333,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3343,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3331,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3321,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3313,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3327,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3340,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 355,
+          "id": 3358,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 361,
+          "id": 3380,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 356,
+          "id": 3362,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 365,
+          "id": 3392,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 354,
+          "id": 3354,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 378,
+          "id": 3443,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 358,
+          "id": 3369,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 379,
+          "id": 3447,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3387,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 360,
+          "id": 3376,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3346,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 386,
+          "id": 3473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 383,
+          "id": 3463,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3414,
+        3401,
+        3323,
+        3333,
+        3343,
+        3331,
+        3321,
+        3313,
+        3317,
+        3327,
+        3340,
+        3358,
+        3380,
+        3362,
+        3392,
+        3354,
+        3443,
+        3369,
+        3447,
+        3387,
+        3376,
+        3346,
+        3389,
+        3473,
+        3463
+      ],
+      "visits": [
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185,
+        185
+      ],
+      "rngCalls": 61815,
+      "coachingRoute": "raiders-community"
+    },
+    {
+      "route": "moscow-community",
+      "achievement": "moscow",
+      "scope": "2016_Trump_Palin",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 325,
+      "popular": 65585569,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 325,
+        "popular": 65585569,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：325 张选举人票，65585569 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1005,
+          "id": 5012,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5023,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5032,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1041,
+          "id": 5136,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5077,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1022,
+          "id": 5072,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1017,
+          "id": 5054,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1010,
+          "id": 5028,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5041,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1028,
+          "id": 5093,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1037,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 1015,
+          "id": 5045,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1013,
+          "id": 5036,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1027,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 1024,
+          "id": 5082,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5059,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1027,
+          "abbr": "NV"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5085,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5089,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5113,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5115,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5121,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1022,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5124,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5012,
+        5023,
+        5032,
+        5025,
+        5136,
+        5077,
+        5072,
+        5054,
+        5028,
+        5041,
+        5093,
+        5045,
+        5036,
+        5082,
+        5059,
+        5085,
+        5089,
+        5113,
+        5115,
+        5119,
+        5121,
+        5124
+      ],
+      "visits": [
+        1037,
+        1037,
+        1037,
+        1037,
+        1037,
+        1037,
+        1037,
+        1027,
+        1027,
+        1022,
+        1022,
+        1022
+      ],
+      "rngCalls": 61820,
+      "coachingRoute": "moscow-community"
+    },
+    {
+      "route": "dixieDewey-community",
+      "achievement": "dixieDewey",
+      "scope": "1948_Truman_Barkley",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 294,
+      "popular": 23687586,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 294,
+        "popular": 23687586,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：294 张选举人票，23687586 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 496,
+          "id": 3806,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 497,
+          "id": 3807,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 498,
+          "id": 3809,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 499,
+          "id": 3814,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 500,
+          "id": 3817,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 501,
+          "id": 3820,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 502,
+          "id": 3822,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 521,
+          "id": 3896,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 503,
+          "id": 3828,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 522,
+          "id": 3899,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 523,
+          "id": 3903,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 524,
+          "id": 3906,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 520,
+          "id": 3893,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 504,
+          "id": 3829,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 525,
+          "id": 3910,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 527,
+          "id": 3918,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 529,
+          "id": 3924,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 528,
+          "id": 3921,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 526,
+          "id": 3913,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 505,
+          "id": 3834,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 537,
+          "id": 3948,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 532,
+          "id": 3933,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 534,
+          "id": 3939,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 506,
+          "id": 3839,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 507,
+          "id": 3845,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3806,
+        3807,
+        3809,
+        3814,
+        3817,
+        3820,
+        3822,
+        3896,
+        3828,
+        3899,
+        3903,
+        3906,
+        3893,
+        3829,
+        3910,
+        3918,
+        3924,
+        3921,
+        3913,
+        3834,
+        3948,
+        3933,
+        3939,
+        3839,
+        3845
+      ],
+      "visits": [
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363
+      ],
+      "rngCalls": 58446,
+      "coachingRoute": "dixieDewey-community"
+    },
+    {
+      "route": "Dewey-community",
+      "achievement": "Dewey",
+      "scope": "1948_Dewey_Bricker",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 305,
+      "popular": 23188191,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 305,
+        "popular": 23188191,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：305 张选举人票，23188191 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 542,
+          "id": 3959,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 508,
+          "id": 3848,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 337,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 509,
+          "id": 3850,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 511,
+          "id": 3856,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 510,
+          "id": 3853,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 512,
+          "id": 3860,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 513,
+          "id": 3862,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 514,
+          "id": 3869,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 524,
+          "id": 3906,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 521,
+          "id": 3896,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 522,
+          "id": 3900,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 515,
+          "id": 3871,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 520,
+          "id": 3893,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 523,
+          "id": 3904,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 516,
+          "id": 3878,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 526,
+          "id": 3913,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 527,
+          "id": 3917,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 525,
+          "id": 3909,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 528,
+          "id": 3922,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 529,
+          "id": 3924,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 517,
+          "id": 3883,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 532,
+          "id": 3934,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 530,
+          "id": 3927,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 518,
+          "id": 3884,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 363,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 519,
+          "id": 3892,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3959,
+        3848,
+        3850,
+        3856,
+        3853,
+        3860,
+        3862,
+        3869,
+        3906,
+        3896,
+        3900,
+        3871,
+        3893,
+        3904,
+        3878,
+        3913,
+        3917,
+        3909,
+        3922,
+        3924,
+        3883,
+        3934,
+        3927,
+        3884,
+        3892
+      ],
+      "visits": [
+        337,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363,
+        363
+      ],
+      "rngCalls": 58400,
+      "coachingRoute": "Dewey-community"
+    },
+    {
+      "route": "BCitsHard-community",
+      "achievement": "BCitsHard",
+      "scope": "1960_Kennedy_Johnson",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 125,
+      "popular": 32372236,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 125,
+        "popular": 32372236,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：125 张选举人票，32372236 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3659,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 449,
+          "id": 3664,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3798,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3737,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3768,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3750,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 304,
+          "abbr": "MI"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3753,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3688,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 304,
+          "abbr": "MI"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3783,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3683,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3680,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3675,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3795,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 477,
+          "id": 3742,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3758,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3760,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3779,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 320,
+          "abbr": "PA"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3771,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 325,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 450,
+          "id": 3665,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 295,
+          "abbr": "IL"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": false
+        }
+      ],
+      "answers": [
+        3659,
+        3664,
+        3798,
+        3737,
+        3768,
+        3750,
+        3753,
+        3688,
+        3679,
+        3782,
+        3783,
+        3683,
+        3680,
+        3675,
+        3792,
+        3795,
+        3742,
+        3758,
+        3760,
+        3779,
+        3771,
+        3775,
+        3764,
+        3665,
+        3801
+      ],
+      "visits": [
+        325,
+        325,
+        304,
+        325,
+        304,
+        295,
+        295,
+        295,
+        325,
+        320,
+        325,
+        295
+      ],
+      "rngCalls": 48820,
+      "coachingRoute": "BCitsHard-community"
+    },
+    {
+      "route": "karmic-2012_Obama_Clinton-1-0.97-search",
+      "achievement": "karmic",
+      "scope": "2012_Obama_Clinton",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 4,
+      "popular": 48521075,
+      "outcome": "loss",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 4,
+        "popular": 48521075,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：4 张选举人票，48521075 张普选票，落败。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 130,
+          "id": 727,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 93,
+          "id": 333,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 42,
+          "id": 165,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 114,
+          "id": 398,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 25,
+          "id": 100,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 22,
+          "id": 88,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 7,
+          "id": 28,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 63,
+          "id": 231,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 38,
+          "id": 152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 39,
+          "id": 156,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 19,
+          "id": 76,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 4,
+          "id": 16,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 82,
+          "id": 293,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 68,
+          "id": 246,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 98,
+          "id": 346,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 86,
+          "id": 307,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 66,
+          "id": 242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 6,
+          "id": 24,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 5,
+          "id": 20,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 91,
+          "id": 324,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 96,
+          "id": 341,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 57,
+          "id": 213,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 10,
+          "id": 40,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 29,
+          "id": 116,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 48,
+          "abbr": "DC"
+        },
+        {
+          "type": "answer",
+          "question": 40,
+          "id": 160,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        727,
+        333,
+        165,
+        398,
+        100,
+        88,
+        28,
+        231,
+        152,
+        156,
+        76,
+        16,
+        293,
+        246,
+        346,
+        307,
+        242,
+        24,
+        20,
+        324,
+        341,
+        213,
+        40,
+        116,
+        160
+      ],
+      "visits": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "rngCalls": 61997,
+      "coachingRoute": "karmic-2012_Obama_Clinton-1-0.97-search"
+    },
+    {
+      "route": "master-2000_Gore_Graham-1-0.97-search",
+      "achievement": "master",
+      "scope": "2000_Gore_Graham",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 301,
+      "popular": 50952910,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 301,
+        "popular": 50952910,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：301 张选举人票，50952910 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 398,
+          "id": 3503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 370,
+          "id": 3410,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 367,
+          "id": 3397,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3319,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3335,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3324,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3342,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 215,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3326,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3373,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 375,
+          "id": 3432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 392,
+          "id": 3490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 390,
+          "id": 3485,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3387,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 376,
+          "id": 3436,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3383,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 377,
+          "id": 3440,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 391,
+          "id": 3488,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 385,
+          "id": 3470,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 382,
+          "id": 3458,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3503,
+        3410,
+        3397,
+        3319,
+        3317,
+        3330,
+        3335,
+        3311,
+        3324,
+        3342,
+        3338,
+        3326,
+        3345,
+        3373,
+        3432,
+        3490,
+        3485,
+        3387,
+        3389,
+        3436,
+        3383,
+        3440,
+        3488,
+        3470,
+        3458
+      ],
+      "visits": [
+        215,
+        215,
+        215,
+        215,
+        215,
+        189,
+        189,
+        189,
+        189,
+        189,
+        189,
+        189
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "master-2000_Gore_Graham-1-0.97-search"
+    },
+    {
+      "route": "florida2000-2000_Bush_Cheney-1-0.97-search",
+      "achievement": "florida2000",
+      "scope": "2000_Bush_Cheney",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 210,
+      "popular": 50512169,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 210,
+        "popular": 50512169,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：210 张选举人票，50512169 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 393,
+          "id": 3493,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 366,
+          "id": 3395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 369,
+          "id": 3407,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3332,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3328,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3316,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3320,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3335,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3342,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 388,
+          "id": 3479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 374,
+          "id": 3428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3381,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 365,
+          "id": 3391,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3370,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 358,
+          "id": 3367,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 372,
+          "id": 3420,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 355,
+          "id": 3355,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3388,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 389,
+          "id": 3482,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 384,
+          "id": 3466,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 181,
+          "abbr": "AL"
+        },
+        {
+          "type": "answer",
+          "question": 381,
+          "id": 3453,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3493,
+        3395,
+        3407,
+        3338,
+        3311,
+        3332,
+        3328,
+        3316,
+        3320,
+        3335,
+        3342,
+        3323,
+        3479,
+        3428,
+        3381,
+        3391,
+        3370,
+        3367,
+        3420,
+        3355,
+        3388,
+        3482,
+        3345,
+        3466,
+        3453
+      ],
+      "visits": [
+        189,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181,
+        181
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "florida2000-2000_Bush_Cheney-1-0.97-search"
+    },
+    {
+      "route": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 354,
+      "popular": 7475398,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 354,
+        "popular": 7475398,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：354 张选举人票，7475398 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21083,
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search"
+    },
+    {
+      "route": "Rainbow-1988_Dukakis_Jackson-1-0.97-search",
+      "achievement": "Rainbow",
+      "scope": "1988_Dukakis_Jackson",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 292,
+      "popular": 45511138,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 292,
+        "popular": 45511138,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：292 张选举人票，45511138 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 717,
+          "id": 4414,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 718,
+          "id": 4417,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 738,
+          "id": 4468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4524,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 732,
+          "id": 4458,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 719,
+          "id": 4418,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 460,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 729,
+          "id": 4450,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 722,
+          "id": 4428,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 720,
+          "id": 4424,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 727,
+          "id": 4444,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 723,
+          "id": 4432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4503,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 721,
+          "id": 4427,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4517,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 725,
+          "id": 4438,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4511,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 726,
+          "id": 4441,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 728,
+          "id": 4448,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 724,
+          "id": 4434,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 739,
+          "id": 4471,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4481,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 750,
+          "id": 4504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 490,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4518,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        4414,
+        4417,
+        4468,
+        4524,
+        4458,
+        4418,
+        4450,
+        4428,
+        4424,
+        4444,
+        4432,
+        4503,
+        4427,
+        4517,
+        4479,
+        4438,
+        4511,
+        4441,
+        4490,
+        4448,
+        4434,
+        4471,
+        4481,
+        4504,
+        4518
+      ],
+      "visits": [
+        460,
+        460,
+        460,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490,
+        490
+      ],
+      "rngCalls": 62004,
+      "coachingRoute": "Rainbow-1988_Dukakis_Jackson-1-0.97-search"
+    },
+    {
+      "route": "georgenixon-1968_Nixon_Agnew-1-0.97-search",
+      "achievement": "georgenixon",
+      "scope": "1968_Nixon_Agnew",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 349,
+      "popular": 33225479,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 349,
+        "popular": 33225479,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：349 张选举人票，33225479 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 321,
+          "id": 3227,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 322,
+          "id": 3233,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3292,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1669,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 326,
+          "id": 3249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 255,
+          "id": 1665,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 254,
+          "id": 1662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 257,
+          "id": 1674,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 285,
+          "id": 1775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 290,
+          "id": 1788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 287,
+          "id": 1779,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 260,
+          "id": 1685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 329,
+          "id": 3260,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 323,
+          "id": 3235,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 280,
+          "id": 1757,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 324,
+          "id": 3239,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 286,
+          "id": 1777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 277,
+          "id": 1746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 258,
+          "id": 1679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 291,
+          "id": 1793,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 281,
+          "id": 1761,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 269,
+          "id": 1716,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 270,
+          "id": 1721,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 292,
+          "id": 1797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 106,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 325,
+          "id": 3245,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3227,
+        3233,
+        3292,
+        1669,
+        3249,
+        1665,
+        1662,
+        1674,
+        1775,
+        1788,
+        1779,
+        1685,
+        3260,
+        3235,
+        1757,
+        3239,
+        1777,
+        1746,
+        1679,
+        1793,
+        1761,
+        1716,
+        1721,
+        1797,
+        3245
+      ],
+      "visits": [
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106,
+        106
+      ],
+      "rngCalls": 48855,
+      "coachingRoute": "georgenixon-1968_Nixon_Agnew-1-0.97-search"
+    },
+    {
+      "route": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 20,
+      "popular": 28056518,
+      "outcome": "loss",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 20,
+        "popular": 28056518,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：20 张选举人票，28056518 张普选票，落败。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48853,
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search"
+    },
+    {
+      "route": "why-2016a_Clinton_Booker-1-0.97-search",
+      "achievement": "why",
+      "scope": "2016a_Clinton_Booker",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 408,
+      "popular": 73874359,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 408,
+        "popular": 73874359,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：408 张选举人票，73874359 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 787,
+          "id": 4595,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 804,
+          "id": 4641,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 789,
+          "id": 4600,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 788,
+          "id": 4597,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 790,
+          "id": 4603,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 797,
+          "id": 4623,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 842,
+          "id": 4736,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 803,
+          "id": 4640,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 793,
+          "id": 4611,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 791,
+          "id": 4605,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 801,
+          "id": 4634,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 795,
+          "id": 4617,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 792,
+          "id": 4609,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 829,
+          "id": 4706,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 819,
+          "id": 4675,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 815,
+          "id": 4662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 832,
+          "id": 4715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 820,
+          "id": 4679,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 825,
+          "id": 4695,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 827,
+          "id": 4701,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 821,
+          "id": 4682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 823,
+          "id": 4687,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 830,
+          "id": 4708,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 822,
+          "id": 4684,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 549,
+          "abbr": "TX"
+        },
+        {
+          "type": "answer",
+          "question": 834,
+          "id": 4721,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        4595,
+        4641,
+        4600,
+        4597,
+        4603,
+        4623,
+        4736,
+        4640,
+        4611,
+        4605,
+        4634,
+        4617,
+        4609,
+        4706,
+        4675,
+        4662,
+        4715,
+        4679,
+        4695,
+        4701,
+        4682,
+        4687,
+        4708,
+        4684,
+        4721
+      ],
+      "visits": [
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549,
+        549
+      ],
+      "rngCalls": 61874,
+      "coachingRoute": "why-2016a_Clinton_Booker-1-0.97-search"
+    },
+    {
+      "route": "realdebate-2012_Obama_Biden-1-0.97-search",
+      "achievement": "realdebate",
+      "scope": "2012_Obama_Biden",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 259,
+      "popular": 64373703,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 259,
+        "popular": 64373703,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：259 张选举人票，64373703 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 130,
+          "id": 729,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 93,
+          "id": 330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 114,
+          "id": 395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 7,
+          "id": 26,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 22,
+          "id": 88,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 25,
+          "id": 99,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 42,
+          "id": 168,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 43,
+          "id": 170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 33,
+          "id": 132,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 12,
+          "id": 46,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 9,
+          "id": 35,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 85,
+          "id": 305,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 5,
+          "id": 19,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 28,
+          "id": 112,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 99,
+          "id": 349,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 82,
+          "id": 294,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 52,
+          "id": 200,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 18,
+          "id": 71,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 66,
+          "id": 241,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 83,
+          "id": 297,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 56,
+          "id": 212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 65,
+          "id": 237,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 54,
+          "id": 205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 68,
+          "id": 248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 9,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 60,
+          "id": 225,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        729,
+        330,
+        395,
+        26,
+        88,
+        99,
+        168,
+        170,
+        132,
+        46,
+        35,
+        305,
+        19,
+        112,
+        349,
+        294,
+        200,
+        71,
+        241,
+        297,
+        212,
+        237,
+        205,
+        248,
+        225
+      ],
+      "visits": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "realdebate-2012_Obama_Biden-1-0.97-search"
+    },
+    {
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "achievement": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 357,
+      "popular": 69096849,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 357,
+        "popular": 69096849,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：357 张选举人票，69096849 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5142,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5153,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1047,
+          "id": 5160,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1078,
+          "id": 5265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1058,
+          "id": 5192,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5207,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1070,
+          "id": 5238,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1064,
+          "id": 5219,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1063,
+          "id": 5212,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1056,
+          "id": 5187,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5196,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5226,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5248,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5257,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5259,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5142,
+        5144,
+        5150,
+        5153,
+        5160,
+        5185,
+        5175,
+        5265,
+        5192,
+        5207,
+        5238,
+        5219,
+        5212,
+        5187,
+        5222,
+        5234,
+        5196,
+        5226,
+        5228,
+        5245,
+        5248,
+        5255,
+        5252,
+        5257,
+        5259
+      ],
+      "visits": [
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1032,
+        1009,
+        1032,
+        1009,
+        1032
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "thebern-2016_Clinton_Sanders-1-0.97-margin-review"
+    },
+    {
+      "route": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 269,
+      "popular": 33280213,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 269,
+        "popular": 33280213,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：269 张选举人票，33280213 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48820,
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search"
+    },
+    {
+      "route": "ratio-1968_Humphrey_Connally-baseline",
+      "achievement": "ratio",
+      "scope": "1968_Humphrey_Connally",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 433,
+      "popular": 35383818,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 433,
+        "popular": 35383818,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：433 张选举人票，35383818 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 328,
+          "id": 3258,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 327,
+          "id": 3252,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 128,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 252,
+          "id": 1655,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3293,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1671,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 255,
+          "id": 1668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 253,
+          "id": 1659,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 330,
+          "id": 3265,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 254,
+          "id": 1663,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 274,
+          "id": 1737,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 336,
+          "id": 3287,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 277,
+          "id": 1746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 275,
+          "id": 1740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 272,
+          "id": 1729,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 276,
+          "id": 1744,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 271,
+          "id": 1726,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 278,
+          "id": 1750,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 289,
+          "id": 1787,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 265,
+          "id": 1701,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 332,
+          "id": 3274,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 101,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 283,
+          "id": 1769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 291,
+          "id": 1794,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 105,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 264,
+          "id": 1698,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 279,
+          "id": 1755,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 105,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 333,
+          "id": 3277,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3258,
+        3252,
+        1655,
+        3293,
+        1671,
+        1668,
+        1659,
+        3265,
+        1663,
+        1737,
+        3287,
+        1746,
+        1740,
+        1729,
+        1744,
+        1726,
+        1750,
+        1787,
+        1701,
+        3274,
+        1769,
+        1794,
+        1698,
+        1755,
+        3277
+      ],
+      "visits": [
+        128,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        101,
+        105,
+        105
+      ],
+      "rngCalls": 48940,
+      "coachingRoute": "ratio-1968_Humphrey_Connally-baseline"
+    },
+    {
+      "route": "Kinder-Dole-MA",
+      "achievement": "Kinder",
+      "scope": "1988_Bush_Dole",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 496,
+      "popular": 49703458,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 496,
+        "popular": 49703458,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：496 张选举人票，49703458 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 698,
+          "id": 4366,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 715,
+          "id": 4409,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 699,
+          "id": 4371,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 700,
+          "id": 4374,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 756,
+          "id": 4525,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 745,
+          "id": 4489,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 749,
+          "id": 4502,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 742,
+          "id": 4479,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 704,
+          "id": 4385,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 708,
+          "id": 4395,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 706,
+          "id": 4392,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 703,
+          "id": 4382,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 754,
+          "id": 4516,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 705,
+          "id": 4388,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 753,
+          "id": 4512,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 743,
+          "id": 4482,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 707,
+          "id": 4393,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 701,
+          "id": 4378,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 709,
+          "id": 4397,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 744,
+          "id": 4487,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 750,
+          "id": 4504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 741,
+          "id": 4476,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 746,
+          "id": 4493,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 751,
+          "id": 4507,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 476,
+          "abbr": "MA"
+        },
+        {
+          "type": "answer",
+          "question": 755,
+          "id": 4521,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        4366,
+        4409,
+        4371,
+        4374,
+        4525,
+        4489,
+        4502,
+        4479,
+        4385,
+        4395,
+        4392,
+        4382,
+        4516,
+        4388,
+        4512,
+        4482,
+        4393,
+        4378,
+        4397,
+        4487,
+        4504,
+        4476,
+        4493,
+        4507,
+        4521
+      ],
+      "visits": [
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476,
+        476
+      ],
+      "rngCalls": 61734,
+      "coachingRoute": "Kinder-Dole-MA"
+    },
+    {
+      "route": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "achievement": "swap",
+      "scope": "2000_Gore_Graham",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 255,
+      "popular": 51392368,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 255,
+        "popular": 51392368,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：255 张选举人票，51392368 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 398,
+          "id": 3504,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 370,
+          "id": 3411,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 367,
+          "id": 3399,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3319,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 344,
+          "id": 3317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 348,
+          "id": 3330,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 349,
+          "id": 3334,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3311,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 230,
+          "abbr": "WI"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3323,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3343,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 195,
+          "abbr": "IA"
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3338,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3329,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 352,
+          "id": 3345,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 359,
+          "id": 3373,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 375,
+          "id": 3432,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 392,
+          "id": 3490,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 390,
+          "id": 3485,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 363,
+          "id": 3386,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 364,
+          "id": 3389,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 376,
+          "id": 3436,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 362,
+          "id": 3383,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 377,
+          "id": 3440,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 391,
+          "id": 3489,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 385,
+          "id": 3469,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 211,
+          "abbr": "NM"
+        },
+        {
+          "type": "answer",
+          "question": 382,
+          "id": 3457,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3504,
+        3411,
+        3399,
+        3319,
+        3317,
+        3330,
+        3334,
+        3311,
+        3323,
+        3343,
+        3338,
+        3329,
+        3345,
+        3373,
+        3432,
+        3490,
+        3485,
+        3386,
+        3389,
+        3436,
+        3383,
+        3440,
+        3489,
+        3469,
+        3457
+      ],
+      "visits": [
+        189,
+        189,
+        189,
+        230,
+        195,
+        211,
+        211,
+        211,
+        211,
+        211,
+        211,
+        211
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "swap-2000_Gore_Graham-1-0.97-baseline-search"
+    },
+    {
+      "route": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1",
+      "achievement": "California",
+      "scope": "1916_Hughes_Fairbanks",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 270,
+      "popular": 8605558,
+      "outcome": "win",
+      "unlocked": true,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 270,
+        "popular": 8605558,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true
+      },
+      "resultText": "本局实际：270 张选举人票，8605558 张普选票，获胜。 存档已解锁此成就。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 666,
+          "id": 4274,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 669,
+          "id": 4283,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 667,
+          "id": 4278,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 684,
+          "id": 4322,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 690,
+          "id": 4341,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 673,
+          "id": 4295,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 675,
+          "id": 4299,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 670,
+          "id": 4286,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 687,
+          "id": 4331,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 671,
+          "id": 4288,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 686,
+          "id": 4329,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 688,
+          "id": 4336,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 668,
+          "id": 4280,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 672,
+          "id": 4290,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 678,
+          "id": 4305,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 676,
+          "id": 4303,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 674,
+          "id": 4297,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 689,
+          "id": 4339,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 681,
+          "id": 4313,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 683,
+          "id": 4320,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 682,
+          "id": 4317,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 691,
+          "id": 4344,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 694,
+          "id": 4354,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 693,
+          "id": 4351,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 430,
+          "abbr": "MO"
+        },
+        {
+          "type": "answer",
+          "question": 697,
+          "id": 4363,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        4274,
+        4283,
+        4278,
+        4322,
+        4341,
+        4295,
+        4299,
+        4286,
+        4331,
+        4288,
+        4329,
+        4336,
+        4280,
+        4290,
+        4305,
+        4303,
+        4297,
+        4339,
+        4313,
+        4320,
+        4317,
+        4344,
+        4354,
+        4351,
+        4363
+      ],
+      "visits": [
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430,
+        430
+      ],
+      "rngCalls": 58359,
+      "coachingRoute": "California-1916_Hughes_Fairbanks-1-0.95-multistart-1"
+    },
+    {
+      "route": "whatbelt-Kaine-FL6-NH6",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 259,
+      "popular": 64986903,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 259,
+        "popular": 64986903,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false
+      },
+      "resultText": "本局实际：259 张选举人票，64986903 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5141,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5152,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1046,
+          "id": 5155,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1051,
+          "id": 5170,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5174,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1077,
+          "id": 5262,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1057,
+          "id": 5189,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1053,
+          "id": 5176,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5180,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5205,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5236,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5224,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5242,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5249,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5256,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1028,
+          "abbr": "NH"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5258,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        5141,
+        5150,
+        5144,
+        5152,
+        5155,
+        5170,
+        5185,
+        5174,
+        5262,
+        5189,
+        5222,
+        5176,
+        5180,
+        5205,
+        5236,
+        5197,
+        5234,
+        5224,
+        5228,
+        5242,
+        5249,
+        5251,
+        5255,
+        5256,
+        5258
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "rngCalls": 61921,
+      "coachingRoute": "whatbelt-Kaine-FL6-NH6"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -3,7 +3,7 @@
   "checks": [
     "Fresh install stamps all five entry assets with one bundle hash; repeated install is byte-identical",
     "A worker-only file change changes every entry asset version",
-    "Published aedd7ed, 0db149e, 2c5c512 and 4848850 file/message/CSS upgrades refresh unversioned URLs",
+    "Published aedd7ed, 0db149e, 2c5c512, 4848850 and 80ea5c2 file/message/CSS upgrades refresh entry URLs",
     "No writes without explicit upgrade",
     "Unknown script customization rejected before writes",
     "Unknown translation customization rejected before writes"

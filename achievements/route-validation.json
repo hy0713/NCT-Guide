@@ -1178,6 +1178,14 @@
       "mapped": 25,
       "total": 25,
       "unmapped": []
+    },
+    {
+      "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "scope": "2016_Clinton_Sanders",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-17T15:02:59.740Z",
+  "date": "2026-11-17T05:18:19.012Z",
   "method": "Actual native achievement storage, offline browser replays; independent Chinese seed fixtures counted once, English duplicates excluded. These are not success probabilities. Candidate search and synthetic predicate tests are excluded from unlock coverage.",
   "actualUnlocks": 31,
   "total": 31,
-  "actualGames": 613,
+  "actualGames": 664,
   "rows": [
     {
       "id": "destiny",
@@ -156,7 +156,7 @@
           "mode": "2",
           "difficulty": 0.9,
           "success": 1,
-          "total": 1
+          "total": 2
         }
       ],
       "procedureEvidence": null
@@ -165,16 +165,24 @@
       "id": "thebern",
       "name": "伯尼之火",
       "actualUnlock": true,
-      "routes": 2,
-      "testedRoutes": 2,
+      "routes": 3,
+      "testedRoutes": 3,
       "verifiedRoutes": [
         {
           "id": "thebern-2016_Clinton_Sanders-1-0.97-search",
           "scope": "2016_Clinton_Sanders",
           "mode": "1",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 2
+          "success": 6,
+          "total": 8
+        },
+        {
+          "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+          "scope": "2016_Clinton_Sanders",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 8,
+          "total": 8
         }
       ],
       "procedureEvidence": null
@@ -317,7 +325,7 @@
           "mode": "1",
           "difficulty": 0.97,
           "success": 1,
-          "total": 1
+          "total": 2
         }
       ],
       "procedureEvidence": null
@@ -550,8 +558,8 @@
           "scope": "1916_Hughes_Fairbanks",
           "mode": "1",
           "difficulty": 0.95,
-          "success": 1,
-          "total": 1
+          "success": 2,
+          "total": 2
         },
         {
           "id": "California-1916_Hughes_Fairbanks-1-0.97-multistart-5",

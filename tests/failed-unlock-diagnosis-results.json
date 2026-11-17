@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-17T05:21:50.317Z",
+  "status": "passed",
+  "method": "Test-only fixed candidate answers/visits through native controls",
+  "runs": [
+    {
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-search",
+      "achievement": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "seed": 3,
+      "language": "zh-CN",
+      "electoral": 326,
+      "popular": 69096910,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 326,
+        "popular": 69096910,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 25 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：326 张选举人票，69096910 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1042,
+          "id": 5142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1043,
+          "id": 5144,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1034,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1044,
+          "id": 5150,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1045,
+          "id": 5153,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1047,
+          "id": 5160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1055,
+          "id": 5185,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1078,
+          "id": 5265,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1058,
+          "id": 5192,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1061,
+          "id": 5207,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1070,
+          "id": 5238,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1064,
+          "id": 5219,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1063,
+          "id": 5212,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1056,
+          "id": 5187,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1065,
+          "id": 5222,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1068,
+          "id": 5234,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1059,
+          "id": 5197,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1066,
+          "id": 5226,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1034,
+          "abbr": "OH"
+        },
+        {
+          "type": "answer",
+          "question": 1067,
+          "id": 5228,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1071,
+          "id": 5245,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1009,
+          "abbr": "GA"
+        },
+        {
+          "type": "answer",
+          "question": 1072,
+          "id": 5248,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1074,
+          "id": 5255,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5252,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1075,
+          "id": 5257,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1032,
+          "abbr": "NC"
+        },
+        {
+          "type": "answer",
+          "question": 1076,
+          "id": 5259,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5142,
+        5144,
+        5150,
+        5153,
+        5160,
+        5185,
+        5175,
+        5265,
+        5192,
+        5207,
+        5238,
+        5219,
+        5212,
+        5187,
+        5222,
+        5234,
+        5197,
+        5226,
+        5228,
+        5245,
+        5248,
+        5255,
+        5252,
+        5257,
+        5259
+      ],
+      "visits": [
+        1034,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1009,
+        1034,
+        1009,
+        1008,
+        1032
+      ],
+      "rngCalls": 61723,
+      "coachingRoute": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+      "routeSHA256": "7827c0ebd47d0115772f1831c3866ea8b96c1b1085173730b54a0088567bf063"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

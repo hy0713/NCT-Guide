@@ -2,7 +2,7 @@
 
 [Achievement guide](README.md) · [简体中文](COVERAGE_ZH.md)
 
-Coverage snapshot: `2026-10-17T15:02:59.740Z`. **31/31 native achievements have actual unlock evidence**, across 613 recorded browser games.
+Coverage snapshot: `2026-11-17T05:18:19.012Z`. **31/31 native achievements have actual unlock evidence**, across 664 recorded browser games.
 
 Games used the original answer/visit controls, with non-loopback requests blocked. Unlocks were read from the native save. Replay counts include deliberate search, failures and bilingual fixtures; they are not estimated success probabilities.
 
@@ -14,7 +14,7 @@ Games used the original answer/visit controls, with non-loopback requests blocke
 | Not My President! | Recorded | [2020 — Donald Trump / Mike Pence; Default; Normal (0.97)](walkthroughs/nmpr-community.md) |
 | Civility Prevails...? | Recorded | [2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/nomalarkey-community.md) |
 | I'm Still Standing | Recorded | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md) |
-| The Flame Berns Bright | Recorded | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-search.md) |
+| The Flame Berns Bright | Recorded | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md) |
 | Moscow's Musketeers | Recorded | [2016 — Donald Trump / Sarah Palin; Default; Normal (0.97)](walkthroughs/moscow-community.md) |
 | Why? | Recorded | [2016a — Hillary Clinton / Cory Booker; Default; Normal (0.97)](walkthroughs/why-2016a_Clinton_Booker-1-0.97-search.md) |
 | WHY?!?!?!?! | Recorded | [Native procedure](README.md#what) |

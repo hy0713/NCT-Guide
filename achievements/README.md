@@ -21,7 +21,7 @@ All 31 native achievements, with the actual source conditions and tested setups.
 | [Not My President!](#nmpr) | Finish with exactly 269 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Mike Pence; Default; Normal (0.97)](walkthroughs/nmpr-community.md) |
 | [Civility Prevails...?](#nomalarkey) | Finish with exactly 306 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/nomalarkey-community.md) |
 | [I'm Still Standing](#whatbelt) | Win at least 270 electoral votes in 2016 while finishing second in Wisconsin, Michigan and Pennsylvania. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md) |
-| [The Flame Berns Bright](#thebern) | Win at least 351 electoral votes as Hillary Clinton with Bernie Sanders in 2016. | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-search.md) |
+| [The Flame Berns Bright](#thebern) | Win at least 351 electoral votes as Hillary Clinton with Bernie Sanders in 2016. | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md) |
 | [Moscow's Musketeers](#moscow) | As Trump/Palin in 2016, beat the main opponent in popular votes and finish with either a win or a loss, rather than a deadlock. | [2016 — Donald Trump / Sarah Palin; Default; Normal (0.97)](walkthroughs/moscow-community.md) |
 | [Why?](#why) | Complete one eligible game of 2016a. | [2016a — Hillary Clinton / Cory Booker; Default; Normal (0.97)](walkthroughs/why-2016a_Clinton_Booker-1-0.97-search.md) |
 | [WHY?!?!?!?!](#what) | Complete 100 eligible 2016a games in the same browser save. | [Procedure](#what) |
@@ -135,7 +135,7 @@ Use Clinton/Kaine, Proportional mode and Impossible difficulty. Visit Florida si
 
 Use the source-model route below. The menu's wording suggests 350, but the code requires more than 350.
 
-- [Walkthrough: 2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-search.md)
+- [Walkthrough: 2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2906) · Stable achievement ID: `thebern`.
 
@@ -429,6 +429,6 @@ At the starting menu, type BIGSHOT and press Enter; repeat once and accept the p
 
 [Unlock coverage](COVERAGE.md) · [Live coach](LIVE_COACH.md) · [Sources](SOURCES.md) · [Mechanics](../guide/README.md)
 
-The existing coverage snapshot records 613 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
+The existing coverage snapshot records 664 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
 
 English questions and answers are extracted from the preserved original scenario data. Run `python tools/build-english-guide.py <game-directory> --check` to verify the generated pages. Editorial conditions are maintained separately in `english-editorial.json`.

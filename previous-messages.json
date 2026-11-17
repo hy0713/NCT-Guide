@@ -96,6 +96,9 @@
     ],
     "guide.achievement_procedure_stillAlive": [
       "这是原版作弊彩蛋。菜单开启BIGSHOT后，选择1968华莱士／勒梅；用原版作弊面板将难度系数设为41，依本目标建议作答，争取535票。华盛顿特区没有该候选人的选票，不能取得538票。系数41也不能保证乱选答案成功；已有一次527票的失败记录。"
+    ],
+    "guide.working": [
+      "正在后台优化后续路线，可继续作答。"
     ]
   },
   "en-US": {
@@ -195,6 +198,9 @@
     ],
     "guide.achievement_procedure_stillAlive": [
       "Native cheat easter egg: enable BIGSHOT at the menu, choose Wallace/LeMay in 1968, set the multiplier to 41 using the native cheat panel, then follow the objective advice for 535 votes. Wallace is absent from the DC ballot, so 538 is impossible. Multiplier 41 alone is insufficient: an arbitrary-answer replay earned only 527."
+    ],
+    "guide.working": [
+      "Optimizing the remaining route in the background. You can keep playing."
     ]
   }
 }

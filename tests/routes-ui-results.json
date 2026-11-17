@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-17T04:12:37.930Z",
+  "date": "2026-11-17T05:20:12.893Z",
   "status": "passed",
   "checks": [
     "Fixed route active; source change, setting mismatch, answer/visit deviation stop fixed advice using copies only",
-    "Actual route selector and keyboard do not submit a game answer or consume RNG",
+    "Only actual-unlock routes are selectable; selector and keyboard preserve game/RNG",
     "Independent off switch hides routes, bypasses target planning, restores ordinary advice and survives language change",
     "Unrelated target is hidden; source-based alternative-pairing recommendations retain actual unlock evidence",
     "Verified route takes priority over failed matching-setting candidates and explicitly requests its actual mode/difficulty",

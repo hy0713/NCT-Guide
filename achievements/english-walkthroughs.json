@@ -2968,12 +2968,12 @@
     },
     {
       "achievement": "thebern",
-      "route": "thebern-2016_Clinton_Sanders-1-0.97-search",
+      "route": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
       "scope": "2016_Clinton_Sanders",
-      "page": "achievements/walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-search.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 42,
-      "electoral": 368,
+      "page": "achievements/walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md",
+      "report": "tests/bern-bilingual-review-results.json",
+      "seed": 3,
+      "electoral": 357,
       "scenarioSHA256": "655b94ece7cb7bccba7ca62dfea9387c15e65d705997b1a6509dd0f6b70e37b8",
       "steps": [
         {
@@ -2992,8 +2992,8 @@
         },
         {
           "type": "visit",
-          "id": 1034,
-          "abbr": "OH"
+          "id": 1009,
+          "abbr": "GA"
         },
         {
           "type": "answer",
@@ -3125,13 +3125,13 @@
         },
         {
           "type": "visit",
-          "id": 1009,
-          "abbr": "GA"
+          "id": 1032,
+          "abbr": "NC"
         },
         {
           "type": "answer",
           "question": 1059,
-          "id": 5197,
+          "id": 5196,
           "routeActive": true,
           "fromRoute": true
         },
@@ -3144,8 +3144,8 @@
         },
         {
           "type": "visit",
-          "id": 1034,
-          "abbr": "OH"
+          "id": 1009,
+          "abbr": "GA"
         },
         {
           "type": "answer",
@@ -3163,8 +3163,8 @@
         },
         {
           "type": "visit",
-          "id": 1009,
-          "abbr": "GA"
+          "id": 1032,
+          "abbr": "NC"
         },
         {
           "type": "answer",
@@ -3182,8 +3182,8 @@
         },
         {
           "type": "visit",
-          "id": 1008,
-          "abbr": "FL"
+          "id": 1009,
+          "abbr": "GA"
         },
         {
           "type": "answer",

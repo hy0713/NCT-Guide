@@ -1,5 +1,7 @@
 # The Flame Berns Bright
 
+**Superseded:** Use the [revised route](thebern-2016_Clinton_Sanders-1-0.97-margin-review.md). This page preserves the earlier replay.
+
 [All achievements](../README.md) · [Live coach](../LIVE_COACH.md)
 
 **Setup:** 2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97).

@@ -36,7 +36,7 @@ def main():
         assert hashlib.sha256(record['source'].encode()).hexdigest() == record['sha256'], key
         texts.setdefault(key, set()).add(record['source'])
     runtime = (ROOT / 'guide/achievement-data.js').read_text(encoding='utf-8')
-    data = json.loads(runtime.split('window.NCTAchievementData=', 1)[1].rstrip().removesuffix(';'))
+    data, _ = json.JSONDecoder().raw_decode(runtime.split('window.NCTAchievementData=', 1)[1])
     rules = data['rules']
     editorial = read(ROOT / 'achievements/english-editorial.json')
     coverage = read(ROOT / 'achievements/route-coverage.json')
@@ -55,6 +55,11 @@ def main():
     for run in replays['runs'] + extra['runs']:
         if run.get('unlocked') and run.get('language') == 'en-US':
             records.setdefault(run['route'], (run, 'tests/verified-route-results.json' if run in replays['runs'] else 'tests/whatbelt-neighbor-results.json'))
+    review = read(ROOT / 'tests/bern-bilingual-review-results.json')
+    assert review['status'] == 'passed'
+    for run in review['runs']:
+        if run.get('unlocked') and run.get('language') == 'en-US':
+            records[run['route']] = (run, 'tests/bern-bilingual-review-results.json')
     destiny = next(c for c in procedural['cases'] if c.get('achievement') == 'destiny' and c.get('language') == 'en-US')
     assert destiny['unlocked'] and len(destiny['games']) == 7
     for game in destiny['games']:
@@ -67,7 +72,8 @@ def main():
     answer_count = visit_count = 0
     for rule in rules:
         aid = rule['id']
-        selected = rows[aid]['verifiedRoutes'] if aid == 'destiny' else rows[aid]['verifiedRoutes'][:1]
+        eligible = [r for r in rows[aid]['verifiedRoutes'] if not routes[r['id']].get('supersededBy')]
+        selected = eligible if aid == 'destiny' else eligible[:1]
         links[aid] = []
         for selected_route in selected:
             rid = selected_route['id']
@@ -177,6 +183,17 @@ def main():
                   'The English edition supplies 34 complete 25-question recorded walkthroughs: 27 single-game routes and seven year-specific Destiny routes. The other three achievements use the completion-counter or native BIGSHOT procedures documented in the guide.', ''])
     outputs['achievements/COVERAGE.md'] = '\n'.join(cover)
     outputs['achievements/english-walkthroughs.json'] = json.dumps({'schema': 1, 'sourceCommit': audit['baseCommit'], 'walkthroughs': manifest}, ensure_ascii=False, indent=2) + '\n'
+    for old in routes.values():
+        if old.get('supersededBy'):
+            name = 'achievements/walkthroughs/' + old['id'] + '.md'
+            page = ROOT / name
+            if page.exists():
+                content = page.read_text(encoding='utf8')
+                note = '**Superseded:** Use the [revised route](' + old['supersededBy'] + '.md). This page preserves the earlier replay.\n'
+                if note not in content:
+                    first, rest = content.split('\n', 1)
+                    content = first + '\n\n' + note + rest
+                outputs[name] = content
     for name, content in outputs.items():
         raw = content.encode('utf-8')
         target = ROOT / name
