@@ -46,6 +46,8 @@ python install.py "D:\Games\NCT-Chinese-Version" --upgrade
 
 The installer recognizes published guide versions, backs up replaced files locally, and stops before overwriting unknown personal changes. Playing needs no Node.js, translation service or internet connection after installation.
 
+Updates stamp the entry scripts, styles and background planner with one content version, so refreshing loads the updated guide even when the browser cached an older release.
+
 To uninstall, remove the five `/localization/guide/` script/style references from `campaign-trail/index.html`. The worker is loaded by the guide itself. Original scenario and calculation files are not rewritten by installation.
 
 ## How recommendations work
@@ -59,6 +61,7 @@ Forecasts remove random noise for comparison. They are projections, not success 
 - [Achievement coverage](achievements/COVERAGE.md): the existing 613-game snapshot and native unlock records.
 - [English edition checks](ENGLISH_EDITION_TEST_REPORT.md): document validation and actual release regression.
 - [Compact interface regression](guide/COMPACT_UI_TEST_REPORT_ZH.md): background planning, layout and eight additional actual games; report in Chinese.
+- [Cache refresh regression](guide/CACHE_REFRESH_TEST_REPORT_ZH.md): real Chrome verification, upgrade checks, worker asset versions and two offline unlocks; report in Chinese.
 - Earlier campaign regression covered all 105 native pairings in both languages, plus five guide-hidden controls. Historical reports remain in [tests](tests/) and [the original test report](guide/TEST_REPORT_ZH.md).
 
 Regenerate or verify the English walkthroughs against the preserved game snapshot:

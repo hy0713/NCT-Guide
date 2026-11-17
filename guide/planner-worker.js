@@ -3,7 +3,7 @@ self.window=self;
 let stored=null;
 self.localStorage={getItem:key=>key==='achievements'?stored:null,setItem(){}};
 self.NCTI18n={text:key=>key};
-importScripts('model.js','achievement-data.js','achievements.js','guide.js');
+importScripts(...['model.js','achievement-data.js','achievements.js','guide.js'].map(file=>file+self.location.search));
 self.onmessage=({data})=>{
  stored=data.stored;self.dirtyhacker3=data.dirty;
  NCTAchievements.select(data.target);NCTAchievements.selectRoute(data.route);

@@ -22,6 +22,8 @@
 
 [本次界面与响应测试](guide/COMPACT_UI_TEST_REPORT_ZH.md)
 
+[筛选与缓存更新验证](guide/CACHE_REFRESH_TEST_REPORT_ZH.md)：实际Chrome确认、安装升级、后台脚本版本及两局断网成就解锁。
+
 ## 安装
 
 1. 下载并解压 [NCT-Chinese-Version](https://github.com/hy0713/NCT-Chinese-Version)。
@@ -36,6 +38,8 @@ python install.py "D:\Games\NCT-Chinese-Version"
 本局不打成就时，取消勾选面板中的 **“启用成就引导”**：成就提示和专项规划关闭，普通胜选攻略保留。开关会记住选择，再开启可恢复上次目标；不影响游戏进度，也不阻止游戏自然解锁成就。
 
 已安装旧版攻略时，使用 `python install.py "D:\Games\NCT-Chinese-Version" --upgrade`。只更新哈希匹配已发布版本的文件，拒绝覆盖未知的个人修改，并在本地保留备份。默认仅安装运行时文件；开发测试脚本可另外加 `--dev-tools`。
+
+升级后，入口脚本、样式与后台规划器会统一更新内容版本号，刷新即可加载新版本，避免旧缓存继续显示全部成就。
 
 这是独立插件仓库，不含游戏本体或社区 MOD。支持中文与英文。安装器保留本地备份，遇到已有不同攻略文件或翻译键时退出，避免覆盖修改。
 

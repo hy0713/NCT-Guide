@@ -1,5 +1,5 @@
 """Install the independent guide into NCT-Chinese-Version (Python 3)."""
-import argparse, hashlib, json, shutil
+import argparse, hashlib, json, re, shutil
 from pathlib import Path
 
 SOURCE=Path(__file__).resolve().parent
@@ -16,6 +16,10 @@ previous=json.loads((SOURCE/'previous-versions.json').read_text(encoding='utf8')
 messages=json.loads((SOURCE/'guide/messages.json').read_text(encoding='utf8'))
 previous_messages=json.loads((SOURCE/'previous-messages.json').read_text(encoding='utf8')) if (SOURCE/'previous-messages.json').exists() else {}
 copies=[(p,game/'localization/guide'/p.name) for p in (SOURCE/'guide').iterdir() if p.is_file() and (p.suffix in ['.js','.css'] or p.name=='messages.json')]
+bundle=hashlib.sha256()
+for source,_ in sorted(copies,key=lambda pair:pair[0].name):
+ bundle.update(source.name.encode('utf8')+b'\0'+hashlib.sha256(source.read_bytes()).digest())
+version=bundle.hexdigest()[:16]
 if args.dev_tools:
  copies += [(p,game/'tests'/p.name) for p in (SOURCE/'tests').glob('guide*.cjs')]
  copies += [(SOURCE/'tools/build-guide.cjs',game/'tools/build-guide.cjs')]
@@ -39,6 +43,10 @@ if '/localization/guide/model.js' not in text:
  text=text.replace(anchor,anchor+links)
 elif '/localization/guide/achievements.js' not in text:
  text=text.replace('<script src="/localization/guide/guide.js"></script>','<script src="/localization/guide/achievement-data.js"></script>\n    <script src="/localization/guide/achievements.js"></script>\n    <script src="/localization/guide/guide.js"></script>')
+# A bundle fingerprint invalidates cached entry scripts and their worker imports.
+for name in ['guide.css','model.js','achievement-data.js','achievements.js','guide.js']:
+ pattern=r'(["\'])/localization/guide/'+re.escape(name)+r'(?:\?[^"\']*)?\1'
+ text=re.sub(pattern,lambda m:m[1]+'/localization/guide/'+name+'?v='+version+m[1],text)
 updates.append((entry,text))
 # Backups are local only, ignored by Git; original game calculators are untouched.
 backup=game/'.test-artifacts/guide-install-backup'

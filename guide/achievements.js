@@ -2,6 +2,7 @@
 (function(){
  'use strict';
  const data=window.NCTAchievementData;
+ const version=typeof document==='undefined'?(typeof location==='undefined'?'':location.search):(document.currentScript?.src?new URL(document.currentScript.src).search:'');
  let planningKey='',planningCache=null;
  let planner=null,pendingKey='';
  function cancelPlanning(){if(pendingKey&&planner){planner.terminate();planner=null;}pendingKey='';}
@@ -97,7 +98,7 @@
   if(typeof document!=='undefined'){
    if(key===pendingKey)return null;
    cancelPlanning();pendingKey=key;
-   if(!planner){planner=new Worker('/localization/guide/planner-worker.js');
+   if(!planner){planner=new Worker('/localization/guide/planner-worker.js'+version);
     planner.onmessage=event=>{if(event.data.key!==pendingKey)return;pendingKey='';planningKey=event.data.key;planningCache=event.data.planning;NCTGuide.refresh();};
     planner.onerror=()=>{cancelPlanning();};
    }

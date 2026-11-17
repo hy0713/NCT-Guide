@@ -61,9 +61,13 @@
     "afd5f23858387a2d0db6e86bbd7ec0bb4b0ab53c45c1aa23d31b0204cbee3bc5",
     "c75400ff796ce933470bbdc5ab5ef39cee7ddca98e5590e40bb03997923d1be8",
     "05841bae8e6e092c71aa0c1dfb204c78c07f6ae39becd0beaea200cc4c3d9f81",
-    "c3e2ee07557c3154c7305a3625d4b69c2d7c93f69d2547fe65142df74162dee4"
+    "c3e2ee07557c3154c7305a3625d4b69c2d7c93f69d2547fe65142df74162dee4",
+    "94634c5629de19a41a56c716b3b65823c132fced69d90fa70f250f4344bcfa4a"
   ],
   "tests/guide-achievements.cjs": [
     "62c1cfc4e7decc97c82c27a3f63bf5b3d90eeb73dc09f7ff35e9aa22153fa542"
+  ],
+  "localization/guide/planner-worker.js": [
+    "8c8525a208336c2f5b5a5aa664233e1d03c8eb1cec20c15fd3475f29c8def0ec"
   ]
 }
