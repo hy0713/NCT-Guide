@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "routes": [
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "seed": 149,
+      "language": "zh-CN",
+      "unlocked": true,
+      "yearRecorded": false,
+      "label": "未参与路线筛选的随机序列：1/6 局达标。",
+      "steps": 37
+    },
+    {
+      "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+      "seed": 127,
+      "language": "zh-CN",
+      "unlocked": true,
+      "yearRecorded": false,
+      "label": "未参与路线筛选的随机序列：6/6 局达标。",
+      "steps": 37
+    },
+    {
+      "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+      "seed": 127,
+      "language": "en-US",
+      "unlocked": true,
+      "yearRecorded": false,
+      "label": "Separate validation sequences: 6/6 runs met the goal.",
+      "steps": 37
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "seed": 197,
+      "language": "zh-CN",
+      "unlocked": false,
+      "yearRecorded": true,
+      "label": "未参与路线筛选的随机序列：1/6 局达标。",
+      "steps": 37
+    },
+    {
+      "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+      "seed": 127,
+      "language": "zh-CN",
+      "unlocked": false,
+      "yearRecorded": true,
+      "label": "未参与路线筛选的随机序列：4/6 局达标。",
+      "steps": 37
+    },
+    {
+      "id": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+      "seed": 127,
+      "language": "zh-CN",
+      "unlocked": false,
+      "yearRecorded": true,
+      "label": "未参与路线筛选的随机序列：3/6 局达标。",
+      "steps": 37
+    },
+    {
+      "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "seed": 173,
+      "language": "zh-CN",
+      "unlocked": true,
+      "yearRecorded": false,
+      "label": "未参与路线筛选的随机序列：1/6 局达标。",
+      "steps": 37
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "fallback": "Exact-vote fallback finished in the worker without changing campaign state or consuming RNG"
+}

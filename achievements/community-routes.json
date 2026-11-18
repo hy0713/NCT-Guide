@@ -2196,34 +2196,102 @@
         "3959": "af943432"
       },
       "replays": {
-        "total": 3,
-        "success": 1,
+        "success": 6,
+        "total": 11,
         "samples": [
           {
             "seed": 1776,
             "electoral": 305,
             "unlocked": true,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 42,
             "electoral": 280,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2026,
             "electoral": 274,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1,
+            "electoral": 299,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 274,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 296,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 305,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 274,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 305,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
       }
     },
     {
@@ -2527,40 +2595,40 @@
         "3798": "816ec543"
       },
       "replays": {
-        "total": 6,
         "success": 1,
+        "total": 12,
         "samples": [
           {
             "seed": 1776,
             "electoral": 125,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 42,
             "electoral": 139,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2026,
             "electoral": 181,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 1,
             "electoral": 157,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2,
@@ -2575,10 +2643,62 @@
             "electoral": 272,
             "unlocked": true,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 125,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 117,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 142,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 125,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 139,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 125,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
       }
     },
     {
@@ -2716,16 +2836,16 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 4,
         "success": 1,
+        "total": 13,
         "samples": [
           {
             "seed": 1,
             "electoral": 229,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2,
@@ -2740,8 +2860,8 @@
             "electoral": 231,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 4,
@@ -2750,8 +2870,84 @@
             "yearRecorded": true,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 42,
+            "electoral": 229,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 228,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 228,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 228,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
       }
     },
     {
@@ -5377,32 +5573,32 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 12,
-        "success": 1,
+        "success": 3,
+        "total": 19,
         "samples": [
           {
             "seed": 1776,
             "electoral": 224,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 42,
             "electoral": 233,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 1,
             "electoral": 230,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2,
@@ -5417,8 +5613,8 @@
             "electoral": 234,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 4,
@@ -5475,8 +5671,68 @@
             "yearRecorded": true,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 2026,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 224,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 228,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 223,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 2,
+          "total": 6
+        }
       }
     },
     {
@@ -5617,32 +5873,32 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 10,
-        "success": 1,
+        "success": 3,
+        "total": 17,
         "samples": [
           {
             "seed": 1776,
             "electoral": 228,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 42,
             "electoral": 231,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 1,
             "electoral": 228,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2,
@@ -5657,8 +5913,8 @@
             "electoral": 234,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 4,
@@ -5699,8 +5955,68 @@
             "yearRecorded": true,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 2026,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 236,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 2,
+          "total": 6
+        }
       }
     },
     {
@@ -5841,32 +6157,32 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 31,
         "success": 1,
+        "total": 38,
         "samples": [
           {
             "seed": 1776,
             "electoral": 315,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 42,
             "electoral": 310,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 1,
             "electoral": 308,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 2,
@@ -5881,8 +6197,8 @@
             "electoral": 307,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
           },
           {
             "seed": 4,
@@ -6091,8 +6407,68 @@
             "yearRecorded": true,
             "report": "remaining-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 2026,
+            "electoral": 313,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 309,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 311,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 308,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 301,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
       }
     },
     {
@@ -7570,18 +7946,102 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 1,
         "success": 1,
+        "total": 11,
         "samples": [
           {
             "seed": 1776,
             "electoral": 433,
             "unlocked": true,
             "yearRecorded": false,
-            "report": "baseline-route-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1,
+            "electoral": 373,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 362,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 362,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 365,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 386,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 392,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 426,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 376,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 362,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 387,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
       }
     },
     {
@@ -11681,18 +12141,102 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 1,
-        "success": 1,
+        "success": 7,
+        "total": 11,
         "samples": [
           {
             "seed": 1,
             "electoral": 232,
             "unlocked": false,
             "yearRecorded": true,
-            "report": "community-route-results.json",
-            "identity": "SHA256"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 175,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 237,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 229,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 185,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
       }
     },
     {
@@ -24123,8 +24667,8 @@
       "unmappedQuestions": [],
       "basedOnRoute": "whatbelt-Kaine-FL5-NH7",
       "replays": {
-        "total": 2,
         "success": 1,
+        "total": 12,
         "samples": [
           {
             "seed": 18,
@@ -24139,10 +24683,94 @@
             "electoral": 259,
             "unlocked": false,
             "yearRecorded": false,
-            "report": "all-objective-coach-review-results.json",
-            "identity": "legacy-route-id-without-hash"
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1,
+            "electoral": 257,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 263,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 263,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 256,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 266,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 253,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 258,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 273,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
       }
     },
     {
@@ -24353,6 +24981,1452 @@
           }
         ]
       }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1042": [
+          5141
+        ],
+        "1043": [
+          5145
+        ],
+        "1044": [
+          5149
+        ],
+        "1045": [
+          5152
+        ],
+        "1046": [
+          5157
+        ],
+        "1051": [
+          5171
+        ],
+        "1052": [
+          5174
+        ],
+        "1053": [
+          5177
+        ],
+        "1054": [
+          5183
+        ],
+        "1055": [
+          5185
+        ],
+        "1057": [
+          5191
+        ],
+        "1059": [
+          5196
+        ],
+        "1061": [
+          5204
+        ],
+        "1065": [
+          5223
+        ],
+        "1066": [
+          5226
+        ],
+        "1067": [
+          5228
+        ],
+        "1068": [
+          5233
+        ],
+        "1069": [
+          5237
+        ],
+        "1071": [
+          5242
+        ],
+        "1072": [
+          5248
+        ],
+        "1073": [
+          5251
+        ],
+        "1074": [
+          5253
+        ],
+        "1075": [
+          5257
+        ],
+        "1076": [
+          5258
+        ],
+        "1077": [
+          5262
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "AR",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "NM"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "2",
+      "search": {
+        "score": 39.8296507592588,
+        "zeroEV": 270,
+        "zeroPV": 66157104
+      },
+      "replays": {
+        "success": 2,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 266,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 272,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 270,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 265,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 272,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 271,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 275,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 272,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "verification": "actual-unlock",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "fingerprints": {
+        "5141": "7d4f5704",
+        "5145": "be6587fd",
+        "5149": "468bf375",
+        "5152": "6b32305c",
+        "5157": "a5d66925",
+        "5171": "859b0371",
+        "5174": "9f04e59c",
+        "5177": "5c115d2",
+        "5183": "b8d7c87f",
+        "5185": "7bb2e6dc",
+        "5191": "8d1c56ff",
+        "5196": "757016e",
+        "5204": "2b168872",
+        "5223": "caafadbe",
+        "5226": "ef3e0309",
+        "5228": "1a9f4951",
+        "5233": "8566449e",
+        "5237": "799ae204",
+        "5242": "44d93667",
+        "5248": "d328ad5f",
+        "5251": "51079a22",
+        "5253": "833c82f7",
+        "5257": "1b6d796d",
+        "5258": "ef54e0c1",
+        "5262": "688bb999"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+      "achievement": "Dewey",
+      "scope": "1948_Dewey_Warren",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "508": [
+          3848
+        ],
+        "509": [
+          3850
+        ],
+        "510": [
+          3853
+        ],
+        "511": [
+          3856
+        ],
+        "512": [
+          3860
+        ],
+        "513": [
+          3862
+        ],
+        "514": [
+          3869
+        ],
+        "515": [
+          3871
+        ],
+        "516": [
+          3877
+        ],
+        "517": [
+          3882
+        ],
+        "518": [
+          3884
+        ],
+        "519": [
+          3892
+        ],
+        "520": [
+          3893
+        ],
+        "521": [
+          3896
+        ],
+        "522": [
+          3900
+        ],
+        "523": [
+          3904
+        ],
+        "524": [
+          3908
+        ],
+        "525": [
+          3909
+        ],
+        "526": [
+          3914
+        ],
+        "527": [
+          3917
+        ],
+        "528": [
+          3922
+        ],
+        "529": [
+          3924
+        ],
+        "531": [
+          3930
+        ],
+        "538": [
+          3952
+        ],
+        "540": [
+          3957
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 36.46249823674702,
+        "zeroEV": 299,
+        "zeroPV": 22992019
+      },
+      "replays": {
+        "success": 9,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 287,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 287,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 305,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 305,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 299,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 6,
+          "total": 6
+        }
+      },
+      "verification": "actual-unlock",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "48c57c11cd8d143574c834e3a6e964d4f23ef3206574645043a4944268d60e09",
+      "fingerprints": {
+        "3848": "32710780",
+        "3850": "b9663ad0",
+        "3853": "d8c2dfa1",
+        "3856": "894cd3ac",
+        "3860": "82b7e484",
+        "3862": "511f2e4",
+        "3869": "e830eb02",
+        "3871": "e79c9091",
+        "3877": "e830eb02",
+        "3882": "e830eb02",
+        "3884": "c644647",
+        "3892": "bc14cdcb",
+        "3893": "66b59bb0",
+        "3896": "f78fc208",
+        "3900": "39ca483e",
+        "3904": "5464a372",
+        "3908": "90e99b65",
+        "3909": "e9a96700",
+        "3914": "2af189a7",
+        "3917": "f3ba63eb",
+        "3922": "c69c2a20",
+        "3924": "d1768673",
+        "3930": "1b837180",
+        "3952": "15a54d08",
+        "3957": "dd828814"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "achievement": "destiny",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1042": [
+          5141
+        ],
+        "1043": [
+          5145
+        ],
+        "1044": [
+          5148
+        ],
+        "1045": [
+          5151
+        ],
+        "1046": [
+          5155
+        ],
+        "1051": [
+          5172
+        ],
+        "1052": [
+          5174
+        ],
+        "1053": [
+          5178
+        ],
+        "1054": [
+          5183
+        ],
+        "1055": [
+          5185
+        ],
+        "1057": [
+          5189
+        ],
+        "1059": [
+          5199
+        ],
+        "1061": [
+          5206
+        ],
+        "1065": [
+          5222
+        ],
+        "1066": [
+          5226
+        ],
+        "1067": [
+          5230
+        ],
+        "1068": [
+          5231
+        ],
+        "1069": [
+          5235
+        ],
+        "1071": [
+          5245
+        ],
+        "1072": [
+          5246
+        ],
+        "1073": [
+          5250
+        ],
+        "1074": [
+          5253
+        ],
+        "1075": [
+          5257
+        ],
+        "1076": [
+          5258
+        ],
+        "1077": [
+          5262
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "CA",
+          "CA",
+          "CA",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "PA"
+        ]
+      },
+      "difficulty": 0.9,
+      "mode": "2",
+      "search": {
+        "score": 5.044394949745038,
+        "zeroEV": 232,
+        "zeroPV": 61521226
+      },
+      "replays": {
+        "success": 3,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 235,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "verification": "actual-year-record",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "fingerprints": {
+        "5141": "7d4f5704",
+        "5145": "be6587fd",
+        "5148": "a3eb4914",
+        "5151": "7c5ea3ad",
+        "5155": "6790deae",
+        "5172": "5ef3bf2b",
+        "5174": "9f04e59c",
+        "5178": "b79000f0",
+        "5183": "b8d7c87f",
+        "5185": "7bb2e6dc",
+        "5189": "6a9ce8c0",
+        "5199": "2b56ef63",
+        "5206": "c56cb8bf",
+        "5222": "b4673e36",
+        "5226": "ef3e0309",
+        "5230": "1a9f4951",
+        "5231": "8571cbd9",
+        "5235": "4c9f0c21",
+        "5245": "985ce8cf",
+        "5246": "4c74948c",
+        "5250": "1c6318f7",
+        "5253": "833c82f7",
+        "5257": "1b6d796d",
+        "5258": "ef54e0c1",
+        "5262": "688bb999"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+      "achievement": "destiny",
+      "scope": "2012_Obama_Biden",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "5": [
+          18
+        ],
+        "7": [
+          27
+        ],
+        "9": [
+          34
+        ],
+        "12": [
+          48
+        ],
+        "18": [
+          69
+        ],
+        "22": [
+          86
+        ],
+        "25": [
+          97
+        ],
+        "28": [
+          109
+        ],
+        "33": [
+          130
+        ],
+        "42": [
+          167
+        ],
+        "43": [
+          171
+        ],
+        "52": [
+          201
+        ],
+        "54": [
+          206
+        ],
+        "56": [
+          211
+        ],
+        "60": [
+          225
+        ],
+        "65": [
+          237
+        ],
+        "66": [
+          241
+        ],
+        "68": [
+          246
+        ],
+        "82": [
+          293
+        ],
+        "83": [
+          297
+        ],
+        "85": [
+          305
+        ],
+        "93": [
+          330
+        ],
+        "99": [
+          350
+        ],
+        "114": [
+          396
+        ],
+        "130": [
+          729
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "DE",
+          "FL",
+          "PA",
+          "SD",
+          "SD",
+          "DC",
+          "DC",
+          "WY",
+          "WY",
+          "WY",
+          "WY",
+          "WY"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "2",
+      "search": {
+        "score": 6.004024893389866,
+        "zeroEV": 232,
+        "zeroPV": 58518628
+      },
+      "replays": {
+        "success": 8,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 4,
+          "total": 6
+        }
+      },
+      "verification": "actual-year-record",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "adc262f66a603f8b7d613f9379a71a5aaa3aee2f780c52ea37c6fc11373bd0ca",
+      "fingerprints": {
+        "18": "224b2a4f",
+        "27": "f65fe6e3",
+        "34": "14fa5445",
+        "48": "a2edfc1e",
+        "69": "55a7c44f",
+        "86": "821065f0",
+        "97": "2274b7b6",
+        "109": "7503de3d",
+        "130": "aa62c6a1",
+        "167": "d670f930",
+        "171": "55c508a8",
+        "201": "1058286e",
+        "206": "97769c1e",
+        "211": "c6b43e57",
+        "225": "2557d2ad",
+        "237": "1d19e05e",
+        "241": "b6f5b24a",
+        "246": "4dd4c09f",
+        "293": "13e826f5",
+        "297": "14b0294f",
+        "305": "866347f1",
+        "330": "8317a9b5",
+        "350": "7b75d41f",
+        "396": "8fcbcb5a",
+        "729": "1b8736e8"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+      "achievement": "destiny",
+      "scope": "1964_Johnson_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "254": [
+          1664
+        ],
+        "255": [
+          1665
+        ],
+        "256": [
+          1669
+        ],
+        "261": [
+          1688
+        ],
+        "263": [
+          1695
+        ],
+        "266": [
+          1708
+        ],
+        "268": [
+          1712
+        ],
+        "269": [
+          1716
+        ],
+        "270": [
+          1723
+        ],
+        "271": [
+          1724
+        ],
+        "272": [
+          1729
+        ],
+        "273": [
+          1731
+        ],
+        "274": [
+          1736
+        ],
+        "278": [
+          1751
+        ],
+        "282": [
+          1764
+        ],
+        "286": [
+          1777
+        ],
+        "287": [
+          1780
+        ],
+        "289": [
+          1787
+        ],
+        "291": [
+          1792
+        ],
+        "321": [
+          3229
+        ],
+        "322": [
+          3235
+        ],
+        "324": [
+          3239
+        ],
+        "325": [
+          3243
+        ],
+        "326": [
+          3247
+        ],
+        "338": [
+          3292
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "AZ",
+          "MI",
+          "MI",
+          "SD",
+          "VT",
+          "VT",
+          "VT",
+          "VT",
+          "VA",
+          "WV",
+          "WV",
+          "NC"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "2",
+      "search": {
+        "score": 5.96566728372963,
+        "zeroEV": 306,
+        "zeroPV": 40252705
+      },
+      "replays": {
+        "success": 4,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 306,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 312,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 309,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 306,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 306,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 309,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 306,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 302,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 3,
+          "total": 6
+        }
+      },
+      "verification": "actual-year-record",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "1c05cb7953b019cb4c1cdf46523d096a26c35f949813f4f0b4e22d75ac42f6f1",
+      "fingerprints": {
+        "1664": "e4a2b11b",
+        "1665": "67e1c14d",
+        "1669": "2b754ab5",
+        "1688": "786fc007",
+        "1695": "91eb7a18",
+        "1708": "aff3009",
+        "1712": "fcee9709",
+        "1716": "879b8757",
+        "1723": "8bb0c358",
+        "1724": "682329ce",
+        "1729": "d65ce6b1",
+        "1731": "6dee60af",
+        "1736": "27b43782",
+        "1751": "2a2dc3f7",
+        "1764": "a815c2bb",
+        "1777": "119dc0e7",
+        "1780": "9f03f9b2",
+        "1787": "31d84451",
+        "1792": "104ebef2",
+        "3229": "e3276210",
+        "3235": "d1beb945",
+        "3239": "46af5f35",
+        "3243": "5d633a49",
+        "3247": "1a5bc4d9",
+        "3292": "1141a06d"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "achievement": "ratio",
+      "scope": "1968_Humphrey_Connally",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "252": [
+          1655
+        ],
+        "253": [
+          1659
+        ],
+        "254": [
+          1663
+        ],
+        "255": [
+          1668
+        ],
+        "256": [
+          1671
+        ],
+        "264": [
+          1698
+        ],
+        "265": [
+          1701
+        ],
+        "271": [
+          1726
+        ],
+        "272": [
+          1729
+        ],
+        "274": [
+          1737
+        ],
+        "275": [
+          1740
+        ],
+        "276": [
+          1744
+        ],
+        "277": [
+          1746
+        ],
+        "278": [
+          1750
+        ],
+        "279": [
+          1755
+        ],
+        "283": [
+          1769
+        ],
+        "289": [
+          1787
+        ],
+        "291": [
+          1794
+        ],
+        "327": [
+          3252
+        ],
+        "328": [
+          3258
+        ],
+        "330": [
+          3265
+        ],
+        "332": [
+          3274
+        ],
+        "333": [
+          3277
+        ],
+        "336": [
+          3287
+        ],
+        "338": [
+          3293
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "FL",
+          "FL",
+          "IN",
+          "IA",
+          "IA",
+          "IA",
+          "SC",
+          "TN",
+          "TN",
+          "TN",
+          "VT",
+          "NC"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 49.74224587823716,
+        "zeroEV": 414,
+        "zeroPV": 35098003
+      },
+      "replays": {
+        "success": 2,
+        "total": 11,
+        "samples": [
+          {
+            "seed": 1,
+            "electoral": 373,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3,
+            "electoral": 373,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 42,
+            "electoral": 375,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1776,
+            "electoral": 441,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2026,
+            "electoral": 365,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 127,
+            "electoral": 397,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 149,
+            "electoral": 408,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 173,
+            "electoral": 435,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 197,
+            "electoral": 389,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 223,
+            "electoral": 362,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 251,
+            "electoral": 387,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "stress-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "verification": "actual-unlock",
+      "notes": {
+        "zh-CN": "用多组模拟波动搜索，并通过原版答题、访问和结算回放核验。",
+        "en-US": "Searched across simulated vote swings and checked by replaying native questions, visits and results."
+      },
+      "sourceSHA256": "54bfaa06b9ce457495620a88f7da98216c8f96ac6783447479b849d279dfa288",
+      "fingerprints": {
+        "1655": "6dc72af7",
+        "1659": "9709a961",
+        "1663": "87535beb",
+        "1668": "caa47613",
+        "1671": "780e2b9e",
+        "1698": "af7e96ba",
+        "1701": "9b6779ac",
+        "1726": "3f7127a",
+        "1729": "67424917",
+        "1737": "f03e717",
+        "1740": "b697020d",
+        "1744": "5933489d",
+        "1746": "381b7e8c",
+        "1750": "2590c1f2",
+        "1755": "83d87f96",
+        "1769": "4c8eb615",
+        "1787": "67dda354",
+        "1794": "a7619bec",
+        "3252": "4d1dc6ca",
+        "3258": "981f14e7",
+        "3265": "4a48c135",
+        "3274": "789ce2",
+        "3277": "1678dde4",
+        "3287": "a9850e49",
+        "3293": "4605350"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
     }
   ]
 }

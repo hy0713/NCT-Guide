@@ -1186,6 +1186,54 @@
       "mapped": 25,
       "total": 25,
       "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+      "scope": "1948_Dewey_Warren",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+      "scope": "2012_Obama_Biden",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+      "scope": "1964_Johnson_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "scope": "1968_Humphrey_Connally",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
     }
   ]
 }

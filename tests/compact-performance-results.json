@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17T05:23:59.442Z",
+  "date": "2026-11-18T00:56:50.583Z",
   "status": "passed",
   "errors": [],
   "external": [],
@@ -11,7 +11,7 @@
     "Entry scripts, planner worker and worker imports all request the same cache-busting bundle version"
   ],
   "timings": {
-    "targetChangeMainThreadMs": 22.5,
+    "targetChangeMainThreadMs": 14.5,
     "compactPanelHeight": 420.140625
   }
 }

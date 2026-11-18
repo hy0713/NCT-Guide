@@ -51,7 +51,7 @@ for s in cat['scenarios']:
  scenarios.append({k:s[k] for k in ['scope','year','election','candidate','runningMate','candidateName','runningMateName']}|{'answerIds':sorted({r['location']['pk'] for r in cat['records'] if r['scope']==s['scope'] and r['collection']=='answers_json'}),'baseline':{'ev':own['electoral_votes'],'pv':own['popular_votes'],'outcome':b['outcome'],'mode':str(b.get('mode','1'))} if own else None})
 routes=read(ROOT/'achievements/community-routes.json')['routes'] if (ROOT/'achievements/community-routes.json').exists() else []
 routes=[r for r in routes if not r.get('supersededBy') and r['achievement']!='what' and (r.get('replays',{}).get('total',0)>0 or r.get('origin')=='community')]
-routes=[r|{'replays':{k:r['replays'][k] for k in ['total','success']}} if 'replays' in r else r for r in routes]
+routes=[r|{'replays':{k:r['replays'][k] for k in ['total','success','holdout'] if k in r['replays']}} if 'replays' in r else r for r in routes]
 data={'schema':1,'sourceSHA256':audit['sourceSHA256'],'rules':list(rules.values()),'scenarios':scenarios,'routes':routes,'evidence':'Baselines: one seed (1776), ordinary winning guide, NOT success probabilities. Community routes have separate sources, gaps and replay results.'}
 predicates=',\n'.join(json.dumps(row['id'])+':()=>('+row['condition']+')' for row in audit['achievements'])
 diagnostics='''

@@ -1,0 +1,6293 @@
+{
+  "status": "passed",
+  "date": "2026-11-18",
+  "comparison": "Discovery seeds 1,3,42,1776,2026; holdout seeds 127,149,173,197,223,251. Native browser outcomes; Destiny checks year recording.",
+  "selection": "Require more holdout successes, at least as many discovery successes and at least two combined successes.",
+  "chosen": [
+    "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+    "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+    "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+    "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+    "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+    "ratio-1968_Humphrey_Connally-1-0.97-stress-v1"
+  ],
+  "comparisons": [
+    {
+      "achievement": "whatbelt",
+      "group": "whatbelt",
+      "original": "whatbelt-Kaine-FL6-NH6",
+      "candidate": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 0,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "Dewey",
+      "group": "Dewey",
+      "original": "Dewey-community",
+      "candidate": "Dewey-1948_Dewey_Bricker-1-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 3,
+          "total": 5
+        },
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
+      },
+      "accepted": false
+    },
+    {
+      "achievement": "Dewey",
+      "group": "Dewey",
+      "original": "Dewey-community",
+      "candidate": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 3,
+          "total": 5
+        },
+        "holdout": {
+          "success": 6,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "destiny",
+      "group": "destiny-2016",
+      "original": "destiny-destiny2016-community",
+      "candidate": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 0,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 2,
+          "total": 5
+        },
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "destiny",
+      "group": "destiny-2012",
+      "original": "destiny-2012_Obama_Biden-2-0.97-search",
+      "candidate": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 0,
+          "total": 5
+        },
+        "holdout": {
+          "success": 2,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 4,
+          "total": 5
+        },
+        "holdout": {
+          "success": 4,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "destiny",
+      "group": "destiny-2000",
+      "original": "destiny-2000_Gore_Graham-2-0.97-search",
+      "candidate": "destiny-2000_Gore_Graham-2-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 0,
+          "total": 5
+        },
+        "holdout": {
+          "success": 2,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 2,
+          "total": 5
+        },
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "accepted": false
+    },
+    {
+      "achievement": "destiny",
+      "group": "destiny-1964",
+      "original": "destiny-1964_Johnson_Humphrey-2-0.97-search",
+      "candidate": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 0,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 3,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "destiny",
+      "group": "destiny-1988",
+      "original": "destiny-1988-Jackson-community",
+      "candidate": "destiny-1988_Dukakis_Jackson-1-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 2,
+          "total": 5
+        },
+        "holdout": {
+          "success": 5,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 3,
+          "total": 5
+        },
+        "holdout": {
+          "success": 4,
+          "total": 6
+        }
+      },
+      "accepted": false
+    },
+    {
+      "achievement": "ratio",
+      "group": "ratio",
+      "original": "ratio-1968_Humphrey_Connally-baseline",
+      "candidate": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 1,
+          "total": 6
+        }
+      },
+      "accepted": true
+    },
+    {
+      "achievement": "BCitsHard",
+      "group": "BCitsHard",
+      "original": "BCitsHard-community",
+      "candidate": "BCitsHard-1960_Kennedy_Johnson-1-0.9-stress-v1",
+      "before": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "after": {
+        "discovery": {
+          "success": 1,
+          "total": 5
+        },
+        "holdout": {
+          "success": 0,
+          "total": 6
+        }
+      },
+      "accepted": false
+    }
+  ],
+  "baselines": [
+    {
+      "route": "magaa-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 289,
+          "popular": 76212760,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 311,
+          "popular": 77446365,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 311,
+          "popular": 76785004,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 321,
+          "popular": 78085411,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 311,
+          "popular": 77288494,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 321,
+          "popular": 77063286,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 295,
+          "popular": 76535785,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 321,
+          "popular": 77295047,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 321,
+          "popular": 78517210,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 321,
+          "popular": 77464952,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 311,
+          "popular": 77867264,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "whatbelt-Kaine-FL6-NH6",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 257,
+          "popular": 64430848,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 263,
+          "popular": 65537555,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 267,
+          "popular": 65242305,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 259,
+          "popular": 64986903,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 263,
+          "popular": 66159196,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 256,
+          "popular": 65032248,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 266,
+          "popular": 65421564,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 253,
+          "popular": 64836350,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 258,
+          "popular": 65632520,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 273,
+          "popular": 65751978,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 267,
+          "popular": 66093341,
+          "outcome": "tie",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "Dewey-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 299,
+          "popular": 22854375,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 274,
+          "popular": 22663190,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 280,
+          "popular": 22858787,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 305,
+          "popular": 23188191,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 274,
+          "popular": 22788870,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 296,
+          "popular": 22887866,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 299,
+          "popular": 23078038,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 173,
+          "electoral": 299,
+          "popular": 23075690,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 305,
+          "popular": 23156794,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 274,
+          "popular": 23003447,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 305,
+          "popular": 23101269,
+          "outcome": "win",
+          "met": true
+        }
+      ]
+    },
+    {
+      "route": "ratio-1968_Humphrey_Connally-baseline",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 373,
+          "popular": 35192172,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 362,
+          "popular": 35144963,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 362,
+          "popular": 34892620,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 433,
+          "popular": 35383818,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 365,
+          "popular": 35209424,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 386,
+          "popular": 35422305,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 392,
+          "popular": 35186735,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 426,
+          "popular": 35707351,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 376,
+          "popular": 35236676,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 362,
+          "popular": 34332156,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 387,
+          "popular": 35317787,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "BCitsHard-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 157,
+          "popular": 32573574,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 272,
+          "popular": 32659481,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 42,
+          "electoral": 139,
+          "popular": 32128853,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 125,
+          "popular": 32372236,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 181,
+          "popular": 32612003,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 125,
+          "popular": 32338183,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 117,
+          "popular": 32200871,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 142,
+          "popular": 32672460,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 125,
+          "popular": 32643159,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 139,
+          "popular": 32386040,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 125,
+          "popular": 32717245,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "ridingBiden-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 350,
+          "popular": 83604656,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 350,
+          "popular": 83055136,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 350,
+          "popular": 84627848,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 406,
+          "popular": 84358326,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 335,
+          "popular": 82260803,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 350,
+          "popular": 83949872,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 350,
+          "popular": 83427278,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 335,
+          "popular": 82747821,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 388,
+          "popular": 82995881,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 368,
+          "popular": 83706507,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 368,
+          "popular": 84193250,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-destiny2016-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 229,
+          "popular": 59797639,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 231,
+          "popular": 60882968,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 229,
+          "popular": 60587120,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 228,
+          "popular": 60311119,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 230,
+          "popular": 61436896,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 228,
+          "popular": 60357309,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 230,
+          "popular": 60754710,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 228,
+          "popular": 60179669,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 230,
+          "popular": 60936307,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 233,
+          "popular": 61093793,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 231,
+          "popular": 61400324,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-destiny1976-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 306,
+          "popular": 40349006,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 307,
+          "popular": 40819908,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 342,
+          "popular": 40780054,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 328,
+          "popular": 41287236,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 277,
+          "popular": 40390967,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 272,
+          "popular": 40219624,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 374,
+          "popular": 41238061,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 313,
+          "popular": 40305888,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 257,
+          "popular": 39960295,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 307,
+          "popular": 40848678,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 277,
+          "popular": 40939900,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-2012_Obama_Biden-2-0.97-search",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 230,
+          "popular": 57425124,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 234,
+          "popular": 57449959,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 233,
+          "popular": 57038407,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 224,
+          "popular": 56931823,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 233,
+          "popular": 57714715,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 232,
+          "popular": 56811745,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 149,
+          "electoral": 232,
+          "popular": 57056750,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 173,
+          "electoral": 224,
+          "popular": 56645236,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 228,
+          "popular": 57394234,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 223,
+          "popular": 56471128,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 234,
+          "popular": 57224046,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-2000_Gore_Graham-2-0.97-search",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 228,
+          "popular": 47276213,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 234,
+          "popular": 47740075,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 231,
+          "popular": 47270414,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 228,
+          "popular": 47097689,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 231,
+          "popular": 47572032,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 231,
+          "popular": 47924336,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 236,
+          "popular": 48133308,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 232,
+          "popular": 47669930,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 231,
+          "popular": 47696151,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 232,
+          "popular": 47392249,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 230,
+          "popular": 47690575,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-1964_Johnson_Humphrey-2-0.97-search",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 308,
+          "popular": 40732082,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 307,
+          "popular": 40010591,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 310,
+          "popular": 40565773,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 315,
+          "popular": 41115330,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 313,
+          "popular": 40637027,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 307,
+          "popular": 40905997,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 309,
+          "popular": 40778372,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 307,
+          "popular": 40241710,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 311,
+          "popular": 40521570,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 308,
+          "popular": 40738601,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 301,
+          "popular": 39705030,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": "destiny-1988-Jackson-community",
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 232,
+          "popular": 44383543,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 175,
+          "popular": 42971606,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 237,
+          "popular": 44026485,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 229,
+          "popular": 43954873,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 232,
+          "popular": 43839638,
+          "outcome": "loss",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 232,
+          "popular": 43244062,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 149,
+          "electoral": 185,
+          "popular": 43340892,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 232,
+          "popular": 43427994,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 232,
+          "popular": 43954049,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 232,
+          "popular": 43765897,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 232,
+          "popular": 43965234,
+          "outcome": "loss",
+          "met": true
+        }
+      ]
+    }
+  ],
+  "tested": [
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Pence-1-0.97-stress-v1",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Pence",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6193
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6206
+          ],
+          "1325": [
+            6209
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AZ",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "NV",
+            "PA",
+            "WI",
+            "WI"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 28.873047315039532,
+          "zeroEV": 311,
+          "zeroPV": 77103401
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 305,
+          "popular": 76046508,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 289,
+          "popular": 75773908,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 311,
+          "popular": 76611898,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 311,
+          "popular": 77915142,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 311,
+          "popular": 77121592,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-v1",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6138
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MI",
+            "MI",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 31.897051610575737,
+          "zeroEV": 311,
+          "zeroPV": 77425636
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 305,
+          "popular": 76364441,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 311,
+          "popular": 77599745,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 311,
+          "popular": 76936998,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 321,
+          "popular": 78237232,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 311,
+          "popular": 77443151,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 39.8296507592588,
+          "zeroEV": 270,
+          "zeroPV": 66157104
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 266,
+          "popular": 65111485,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 272,
+          "popular": 66219076,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 270,
+          "popular": 65920168,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 1776,
+          "electoral": 265,
+          "popular": 65670611,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 272,
+          "popular": 66846384,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 268,
+          "popular": 65721304,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 271,
+          "popular": 66104408,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 173,
+          "electoral": 267,
+          "popular": 65520632,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 269,
+          "popular": 66318732,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 275,
+          "popular": 66428249,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 272,
+          "popular": 66776453,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Brown-2-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Brown",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5140
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5153
+          ],
+          "1050": [
+            5168
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5173
+          ],
+          "1053": [
+            5179
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1058": [
+            5195
+          ],
+          "1060": [
+            5202
+          ],
+          "1061": [
+            5204
+          ],
+          "1062": [
+            5208
+          ],
+          "1063": [
+            5215
+          ],
+          "1065": [
+            5221
+          ],
+          "1066": [
+            5224
+          ],
+          "1067": [
+            5227
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5260
+          ],
+          "1081": [
+            5271
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "GA",
+            "GA",
+            "GA",
+            "LA",
+            "ME",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "NH",
+            "NH"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 23.971448771700352,
+          "zeroEV": 263,
+          "zeroPV": 64509473
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 254,
+          "popular": 63466956,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 269,
+          "popular": 64885352,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 255,
+          "popular": 64413400,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 263,
+          "popular": 65274060,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 261,
+          "popular": 65173308,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5140
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5170
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5176
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5249
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NH"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 36.104410606760084,
+          "zeroEV": 268,
+          "zeroPV": 65751274
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 259,
+          "popular": 64706549,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 268,
+          "popular": 65816373,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 266,
+          "popular": 65514649,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 260,
+          "popular": 65262817,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 263,
+          "popular": 66436297,
+          "outcome": "tie",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "Dewey-1948_Dewey_Bricker-1-0.97-stress-v1",
+        "achievement": "Dewey",
+        "scope": "1948_Dewey_Bricker",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "508": [
+            3848
+          ],
+          "509": [
+            3850
+          ],
+          "510": [
+            3853
+          ],
+          "511": [
+            3856
+          ],
+          "512": [
+            3860
+          ],
+          "513": [
+            3862
+          ],
+          "514": [
+            3869
+          ],
+          "515": [
+            3871
+          ],
+          "516": [
+            3877
+          ],
+          "517": [
+            3882
+          ],
+          "518": [
+            3884
+          ],
+          "519": [
+            3892
+          ],
+          "520": [
+            3893
+          ],
+          "521": [
+            3896
+          ],
+          "522": [
+            3900
+          ],
+          "523": [
+            3904
+          ],
+          "524": [
+            3906
+          ],
+          "525": [
+            3909
+          ],
+          "526": [
+            3913
+          ],
+          "527": [
+            3917
+          ],
+          "528": [
+            3922
+          ],
+          "529": [
+            3924
+          ],
+          "530": [
+            3927
+          ],
+          "532": [
+            3934
+          ],
+          "542": [
+            3959
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 25.967296447293414,
+          "zeroEV": 305,
+          "zeroPV": 22909511
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 299,
+          "popular": 22904961,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 274,
+          "popular": 22713840,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 280,
+          "popular": 22909557,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 305,
+          "popular": 23238950,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 274,
+          "popular": 22839342,
+          "outcome": "win",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 305,
+          "popular": 22938669,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 299,
+          "popular": 23128683,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 173,
+          "electoral": 305,
+          "popular": 23126659,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 305,
+          "popular": 23207827,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 299,
+          "popular": 23054200,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 305,
+          "popular": 23151758,
+          "outcome": "win",
+          "met": true
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+        "achievement": "Dewey",
+        "scope": "1948_Dewey_Warren",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "508": [
+            3848
+          ],
+          "509": [
+            3850
+          ],
+          "510": [
+            3853
+          ],
+          "511": [
+            3856
+          ],
+          "512": [
+            3860
+          ],
+          "513": [
+            3862
+          ],
+          "514": [
+            3869
+          ],
+          "515": [
+            3871
+          ],
+          "516": [
+            3877
+          ],
+          "517": [
+            3882
+          ],
+          "518": [
+            3884
+          ],
+          "519": [
+            3892
+          ],
+          "520": [
+            3893
+          ],
+          "521": [
+            3896
+          ],
+          "522": [
+            3900
+          ],
+          "523": [
+            3904
+          ],
+          "524": [
+            3908
+          ],
+          "525": [
+            3909
+          ],
+          "526": [
+            3914
+          ],
+          "527": [
+            3917
+          ],
+          "528": [
+            3922
+          ],
+          "529": [
+            3924
+          ],
+          "531": [
+            3930
+          ],
+          "538": [
+            3952
+          ],
+          "540": [
+            3957
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 36.46249823674702,
+          "zeroEV": 299,
+          "zeroPV": 22992019
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 287,
+          "popular": 22826665,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 287,
+          "popular": 22793207,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 305,
+          "popular": 23244298,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 1776,
+          "electoral": 305,
+          "popular": 23324420,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 299,
+          "popular": 22915405,
+          "outcome": "win",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 299,
+          "popular": 22967823,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 149,
+          "electoral": 299,
+          "popular": 23207337,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 173,
+          "electoral": 299,
+          "popular": 23215558,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 299,
+          "popular": 23248687,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 299,
+          "popular": 23139113,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 299,
+          "popular": 23026819,
+          "outcome": "win",
+          "met": true
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Clinton_Kaine-2-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5142
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5147
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5170
+          ],
+          "1052": [
+            5173
+          ],
+          "1053": [
+            5178
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5184
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5199
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5230
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5249
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5260
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AZ",
+            "AZ",
+            "CT",
+            "CT",
+            "CT",
+            "NV",
+            "NH",
+            "NY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 2.1941646900252203,
+          "zeroEV": 232,
+          "zeroPV": 61640809
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 231,
+          "popular": 60634178,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 232,
+          "popular": 61725201,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 42,
+          "electoral": 231,
+          "popular": 61426155,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 231,
+          "popular": 61149372,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 235,
+          "popular": 62289713,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+        "achievement": "destiny",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5148
+          ],
+          "1045": [
+            5151
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5178
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5199
+          ],
+          "1061": [
+            5206
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5230
+          ],
+          "1068": [
+            5231
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5245
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "PA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 5.044394949745038,
+          "zeroEV": 232,
+          "zeroPV": 61521226
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 232,
+          "popular": 60509907,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 233,
+          "popular": 61604061,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 233,
+          "popular": 61307438,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 232,
+          "popular": 61031429,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 233,
+          "popular": 62168072,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 231,
+          "popular": 61070708,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 234,
+          "popular": 61467196,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 231,
+          "popular": 60898765,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 232,
+          "popular": 61666585,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 235,
+          "popular": 61816179,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 234,
+          "popular": 62129099,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "2012_Obama_Biden",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "5": [
+            18
+          ],
+          "7": [
+            27
+          ],
+          "9": [
+            34
+          ],
+          "12": [
+            48
+          ],
+          "18": [
+            69
+          ],
+          "22": [
+            86
+          ],
+          "25": [
+            97
+          ],
+          "28": [
+            109
+          ],
+          "33": [
+            130
+          ],
+          "42": [
+            167
+          ],
+          "43": [
+            171
+          ],
+          "52": [
+            201
+          ],
+          "54": [
+            206
+          ],
+          "56": [
+            211
+          ],
+          "60": [
+            225
+          ],
+          "65": [
+            237
+          ],
+          "66": [
+            241
+          ],
+          "68": [
+            246
+          ],
+          "82": [
+            293
+          ],
+          "83": [
+            297
+          ],
+          "85": [
+            305
+          ],
+          "93": [
+            330
+          ],
+          "99": [
+            350
+          ],
+          "114": [
+            396
+          ],
+          "130": [
+            729
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "DE",
+            "FL",
+            "PA",
+            "SD",
+            "SD",
+            "DC",
+            "DC",
+            "WY",
+            "WY",
+            "WY",
+            "WY",
+            "WY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 6.004024893389866,
+          "zeroEV": 232,
+          "zeroPV": 58518628
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 232,
+          "popular": 58761411,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 234,
+          "popular": 58739042,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 232,
+          "popular": 58304739,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 1776,
+          "electoral": 232,
+          "popular": 58218487,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 232,
+          "popular": 59020267,
+          "outcome": "loss",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 232,
+          "popular": 58099025,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 149,
+          "electoral": 233,
+          "popular": 58326309,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 231,
+          "popular": 57953859,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 232,
+          "popular": 58761783,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 232,
+          "popular": 57730847,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 232,
+          "popular": 58500164,
+          "outcome": "loss",
+          "met": true
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Graham-2-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Graham",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3312
+          ],
+          "344": [
+            3315
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3331
+          ],
+          "349": [
+            3336
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3344
+          ],
+          "359": [
+            3372
+          ],
+          "362": [
+            3384
+          ],
+          "363": [
+            3387
+          ],
+          "364": [
+            3388
+          ],
+          "367": [
+            3399
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3430
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3439
+          ],
+          "382": [
+            3458
+          ],
+          "385": [
+            3468
+          ],
+          "390": [
+            3484
+          ],
+          "391": [
+            3488
+          ],
+          "392": [
+            3490
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "FL",
+            "MN",
+            "OH",
+            "PA",
+            "PA",
+            "UT"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 4.510161852813075,
+          "zeroEV": 232,
+          "zeroPV": 47847869
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 231,
+          "popular": 47645014,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 237,
+          "popular": 48124999,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 233,
+          "popular": 47647084,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 232,
+          "popular": 47474802,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 232,
+          "popular": 47945637,
+          "outcome": "loss",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 233,
+          "popular": 48307838,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 237,
+          "popular": 48519562,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 233,
+          "popular": 48049885,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 232,
+          "popular": 48078761,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 234,
+          "popular": 47770108,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 231,
+          "popular": 48075723,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "1964_Johnson_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "254": [
+            1664
+          ],
+          "255": [
+            1665
+          ],
+          "256": [
+            1669
+          ],
+          "261": [
+            1688
+          ],
+          "263": [
+            1695
+          ],
+          "266": [
+            1708
+          ],
+          "268": [
+            1712
+          ],
+          "269": [
+            1716
+          ],
+          "270": [
+            1723
+          ],
+          "271": [
+            1724
+          ],
+          "272": [
+            1729
+          ],
+          "273": [
+            1731
+          ],
+          "274": [
+            1736
+          ],
+          "278": [
+            1751
+          ],
+          "282": [
+            1764
+          ],
+          "286": [
+            1777
+          ],
+          "287": [
+            1780
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1792
+          ],
+          "321": [
+            3229
+          ],
+          "322": [
+            3235
+          ],
+          "324": [
+            3239
+          ],
+          "325": [
+            3243
+          ],
+          "326": [
+            3247
+          ],
+          "338": [
+            3292
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AZ",
+            "MI",
+            "MI",
+            "SD",
+            "VT",
+            "VT",
+            "VT",
+            "VT",
+            "VA",
+            "WV",
+            "WV",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 5.96566728372963,
+          "zeroEV": 306,
+          "zeroPV": 40252705
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 307,
+          "popular": 40496816,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 306,
+          "popular": 39778426,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 42,
+          "electoral": 307,
+          "popular": 40332912,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 312,
+          "popular": 40880399,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 309,
+          "popular": 40406144,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 306,
+          "popular": 40669050,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 149,
+          "electoral": 307,
+          "popular": 40544030,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 306,
+          "popular": 40006115,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 309,
+          "popular": 40288815,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 306,
+          "popular": 40508602,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 302,
+          "popular": 39471744,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-1964_Johnson_Humphrey-1-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "1964_Johnson_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "254": [
+            1662
+          ],
+          "255": [
+            1666
+          ],
+          "256": [
+            1669
+          ],
+          "261": [
+            1690
+          ],
+          "263": [
+            1694
+          ],
+          "266": [
+            1708
+          ],
+          "268": [
+            1712
+          ],
+          "269": [
+            1716
+          ],
+          "270": [
+            1723
+          ],
+          "271": [
+            1724
+          ],
+          "272": [
+            1729
+          ],
+          "273": [
+            1731
+          ],
+          "274": [
+            1735
+          ],
+          "278": [
+            1751
+          ],
+          "282": [
+            1764
+          ],
+          "286": [
+            1777
+          ],
+          "287": [
+            1780
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1792
+          ],
+          "321": [
+            3229
+          ],
+          "322": [
+            3234
+          ],
+          "324": [
+            3239
+          ],
+          "325": [
+            3244
+          ],
+          "326": [
+            3247
+          ],
+          "338": [
+            3292
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NM",
+            "NM",
+            "NM",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": -2.183056519805203,
+          "zeroEV": 305,
+          "zeroPV": 36415550
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 305,
+          "popular": 36646343,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 305,
+          "popular": 35994492,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 305,
+          "popular": 36497560,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 318,
+          "popular": 37047170,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 311,
+          "popular": 36601646,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-1988_Dukakis_Jackson-1-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "1988_Dukakis_Jackson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "717": [
+            4414
+          ],
+          "718": [
+            4417
+          ],
+          "719": [
+            4418
+          ],
+          "720": [
+            4424
+          ],
+          "721": [
+            4427
+          ],
+          "722": [
+            4428
+          ],
+          "723": [
+            4432
+          ],
+          "724": [
+            4434
+          ],
+          "725": [
+            4437
+          ],
+          "726": [
+            4440
+          ],
+          "727": [
+            4443
+          ],
+          "728": [
+            4446
+          ],
+          "729": [
+            4450
+          ],
+          "732": [
+            4458
+          ],
+          "738": [
+            4468
+          ],
+          "739": [
+            4471
+          ],
+          "742": [
+            4479
+          ],
+          "743": [
+            4482
+          ],
+          "745": [
+            4491
+          ],
+          "749": [
+            4503
+          ],
+          "750": [
+            4505
+          ],
+          "753": [
+            4511
+          ],
+          "754": [
+            4516
+          ],
+          "755": [
+            4520
+          ],
+          "756": [
+            4524
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "IN",
+            "IN",
+            "IN",
+            "IN",
+            "MD",
+            "MO",
+            "MO",
+            "MO",
+            "MO",
+            "MO"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 4.834795269502729,
+          "zeroEV": 232,
+          "zeroPV": 43889428
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 232,
+          "popular": 44533451,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 3,
+          "electoral": 175,
+          "popular": 43118238,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 237,
+          "popular": 44166846,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 232,
+          "popular": 44099626,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 232,
+          "popular": 43979675,
+          "outcome": "loss",
+          "met": true
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 221,
+          "popular": 43386013,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 185,
+          "popular": 43484667,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 232,
+          "popular": 43576632,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 232,
+          "popular": 44101774,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 223,
+          "electoral": 232,
+          "popular": 43911505,
+          "outcome": "loss",
+          "met": true
+        },
+        {
+          "seed": 251,
+          "electoral": 232,
+          "popular": 44105158,
+          "outcome": "loss",
+          "met": true
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-1976_Carter_Jackson-1-0.97-stress-v1",
+        "achievement": "destiny",
+        "scope": "1976_Carter_Jackson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "415": [
+            3510
+          ],
+          "416": [
+            3513
+          ],
+          "417": [
+            3518
+          ],
+          "418": [
+            3521
+          ],
+          "419": [
+            3524
+          ],
+          "420": [
+            3527
+          ],
+          "421": [
+            3528
+          ],
+          "426": [
+            3542
+          ],
+          "427": [
+            3544
+          ],
+          "428": [
+            3584
+          ],
+          "429": [
+            3589
+          ],
+          "430": [
+            3592
+          ],
+          "431": [
+            3598
+          ],
+          "432": [
+            3601
+          ],
+          "433": [
+            3605
+          ],
+          "434": [
+            3608
+          ],
+          "435": [
+            3611
+          ],
+          "436": [
+            3615
+          ],
+          "438": [
+            3623
+          ],
+          "441": [
+            3633
+          ],
+          "442": [
+            3635
+          ],
+          "444": [
+            3643
+          ],
+          "445": [
+            3649
+          ],
+          "446": [
+            3654
+          ],
+          "447": [
+            3657
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MS",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA",
+            "WA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": -2.772032523036059,
+          "zeroEV": 272,
+          "zeroPV": 40100807
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 265,
+          "popular": 39856198,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 293,
+          "popular": 40329747,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 249,
+          "popular": 40289357,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 297,
+          "popular": 40791713,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 223,
+          "popular": 39899108,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Demings-1-0.97-stress-v1",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Demings",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6023
+          ],
+          "1208": [
+            6032
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1217": [
+            6067
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6079
+          ],
+          "1222": [
+            6082
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6090
+          ],
+          "1230": [
+            6102
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NC",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 35.448099836224046,
+          "zeroEV": 388,
+          "zeroPV": 84435136
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 388,
+          "popular": 84115929,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 388,
+          "popular": 83555877,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 388,
+          "popular": 85136107,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 388,
+          "popular": 84847602,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 388,
+          "popular": 82763020,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Duckworth-1-0.97-stress-v1",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Duckworth",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6023
+          ],
+          "1208": [
+            6032
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6081
+          ],
+          "1222": [
+            6082
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6090
+          ],
+          "1231": [
+            6105
+          ],
+          "1232": [
+            6106
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "NC",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 30.097302940341375,
+          "zeroEV": 388,
+          "zeroPV": 83679536
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 388,
+          "popular": 83940614,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 388,
+          "popular": 83815534,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 373,
+          "popular": 83692857,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 388,
+          "popular": 83299576,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 388,
+          "popular": 82829253,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Harris-1-0.97-stress-v1",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Harris",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6023
+          ],
+          "1208": [
+            6030
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1217": [
+            6067
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6079
+          ],
+          "1222": [
+            6082
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6090
+          ],
+          "1225": [
+            6093
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 33.91215020609221,
+          "zeroEV": 388,
+          "zeroPV": 84052266
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 388,
+          "popular": 83729988,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 388,
+          "popular": 83173896,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 388,
+          "popular": 85718159,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 373,
+          "popular": 81769665,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 388,
+          "popular": 82383133,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Connally",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1668
+          ],
+          "256": [
+            1671
+          ],
+          "264": [
+            1698
+          ],
+          "265": [
+            1701
+          ],
+          "271": [
+            1726
+          ],
+          "272": [
+            1729
+          ],
+          "274": [
+            1737
+          ],
+          "275": [
+            1740
+          ],
+          "276": [
+            1744
+          ],
+          "277": [
+            1746
+          ],
+          "278": [
+            1750
+          ],
+          "279": [
+            1755
+          ],
+          "283": [
+            1769
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1794
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "330": [
+            3265
+          ],
+          "332": [
+            3274
+          ],
+          "333": [
+            3277
+          ],
+          "336": [
+            3287
+          ],
+          "338": [
+            3293
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "IN",
+            "IA",
+            "IA",
+            "IA",
+            "SC",
+            "TN",
+            "TN",
+            "TN",
+            "VT",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 49.74224587823716,
+          "zeroEV": 414,
+          "zeroPV": 35098003
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 373,
+          "popular": 35115681,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 373,
+          "popular": 35073133,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 375,
+          "popular": 34817819,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 441,
+          "popular": 35305810,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 2026,
+          "electoral": 365,
+          "popular": 35137451,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 397,
+          "popular": 35344130,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 408,
+          "popular": 35110736,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 435,
+          "popular": 35631379,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 197,
+          "electoral": 389,
+          "popular": 35158804,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 362,
+          "popular": 34260476,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 387,
+          "popular": 35240653,
+          "outcome": "win",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Harris-1-0.97-stress-v1",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Harris",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1668
+          ],
+          "256": [
+            1671
+          ],
+          "257": [
+            1675
+          ],
+          "259": [
+            1683
+          ],
+          "261": [
+            1689
+          ],
+          "264": [
+            1698
+          ],
+          "265": [
+            1701
+          ],
+          "269": [
+            1717
+          ],
+          "270": [
+            1722
+          ],
+          "274": [
+            1737
+          ],
+          "283": [
+            1770
+          ],
+          "284": [
+            1773
+          ],
+          "287": [
+            1781
+          ],
+          "288": [
+            1785
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1794
+          ],
+          "292": [
+            1797
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "330": [
+            3265
+          ],
+          "333": [
+            3277
+          ],
+          "338": [
+            3294
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "IN",
+            "IA",
+            "IA",
+            "IA",
+            "IA",
+            "IA",
+            "SC",
+            "TN",
+            "TN",
+            "NC",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 61.62616574062642,
+          "zeroEV": 427,
+          "zeroPV": 35266170
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 419,
+          "popular": 35592909,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 408,
+          "popular": 35073618,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 414,
+          "popular": 35307210,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 375,
+          "popular": 35154956,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 427,
+          "popular": 35126691,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Johnson-1-0.9-stress-v1",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "477": [
+            3742
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "IL",
+            "MI",
+            "NJ",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "SC"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "1",
+        "search": {
+          "score": -30.27579838308092,
+          "zeroEV": 171,
+          "zeroPV": 32520973
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 217,
+          "popular": 32786662,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 287,
+          "popular": 32869004,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 42,
+          "electoral": 171,
+          "popular": 32339684,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 179,
+          "popular": 32584588,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 202,
+          "popular": 32823530,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 127,
+          "electoral": 179,
+          "popular": 32552973,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 149,
+          "electoral": 163,
+          "popular": 32414604,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 173,
+          "electoral": 198,
+          "popular": 32885901,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 197,
+          "electoral": 195,
+          "popular": 32856210,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 223,
+          "electoral": 171,
+          "popular": 32600194,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 251,
+          "electoral": 202,
+          "popular": 32934080,
+          "outcome": "loss",
+          "met": false
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Johnson-2-0.9-stress-v1",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "477": [
+            3742
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MI",
+            "NJ",
+            "NY",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "SC"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 9.78575503308121,
+          "zeroEV": 245,
+          "zeroPV": 32526530
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 253,
+          "popular": 32792472,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 260,
+          "popular": 32874210,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 245,
+          "popular": 32344974,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 246,
+          "popular": 32590306,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 252,
+          "popular": 32828996,
+          "outcome": "loss",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Humphrey-2-0.9-stress-v1",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3670
+          ],
+          "454": [
+            3676
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3684
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "478": [
+            3747
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "481": [
+            3755
+          ],
+          "483": [
+            3761
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3786
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3803
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "PA",
+            "PA",
+            "PA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": -8.474236405627131,
+          "zeroEV": 221,
+          "zeroPV": 30723410
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 219,
+          "popular": 30641370,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 213,
+          "popular": 30792742,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 212,
+          "popular": 30417101,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 217,
+          "popular": 30587907,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 223,
+          "popular": 30571986,
+          "outcome": "tie",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-1709",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 39.80971740170141,
+          "zeroEV": 321,
+          "zeroPV": 77418221,
+          "simulationSeed": 1709
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 289,
+          "popular": 76357194,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 321,
+          "popular": 77592393,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 311,
+          "popular": 76929342,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 321,
+          "popular": 78230444,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 321,
+          "popular": 77435161,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-29717",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6186
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 44.0772529999112,
+          "zeroEV": 321,
+          "zeroPV": 77417896,
+          "simulationSeed": 29717
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 289,
+          "popular": 76357923,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 321,
+          "popular": 77592052,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 311,
+          "popular": 76929574,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 321,
+          "popular": 78230473,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 321,
+          "popular": 77434897,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-1-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5139
+          ],
+          "1043": [
+            5143
+          ],
+          "1044": [
+            5148
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5175
+          ],
+          "1053": [
+            5179
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5243
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5254
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5263
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "WI"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 26.470677496194728,
+          "zeroEV": 272,
+          "zeroPV": 66576235,
+          "simulationSeed": 90817
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 262,
+          "popular": 65533188,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 292,
+          "popular": 66641392,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 272,
+          "popular": 66333504,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 272,
+          "popular": 66090407,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 292,
+          "popular": 67267009,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Brown-1-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Brown",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5143
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5154
+          ],
+          "1050": [
+            5169
+          ],
+          "1051": [
+            5170
+          ],
+          "1052": [
+            5175
+          ],
+          "1053": [
+            5178
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5184
+          ],
+          "1058": [
+            5195
+          ],
+          "1060": [
+            5202
+          ],
+          "1061": [
+            5204
+          ],
+          "1062": [
+            5211
+          ],
+          "1063": [
+            5215
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5227
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1081": [
+            5271
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 23.602878523552445,
+          "zeroEV": 288,
+          "zeroPV": 66039141,
+          "simulationSeed": 90817
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 288,
+          "popular": 64998492,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 308,
+          "popular": 66412356,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 288,
+          "popular": 65946822,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 288,
+          "popular": 66819647,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 308,
+          "popular": 66723282,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Trump_Carson-1-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Trump_Carson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5000
+          ],
+          "1003": [
+            5007
+          ],
+          "1006": [
+            5014
+          ],
+          "1007": [
+            5018
+          ],
+          "1008": [
+            5023
+          ],
+          "1009": [
+            5024
+          ],
+          "1011": [
+            5030
+          ],
+          "1014": [
+            5041
+          ],
+          "1018": [
+            5059
+          ],
+          "1019": [
+            5061
+          ],
+          "1021": [
+            5069
+          ],
+          "1023": [
+            5075
+          ],
+          "1025": [
+            5084
+          ],
+          "1026": [
+            5087
+          ],
+          "1027": [
+            5092
+          ],
+          "1030": [
+            5102
+          ],
+          "1031": [
+            5105
+          ],
+          "1032": [
+            5107
+          ],
+          "1033": [
+            5112
+          ],
+          "1034": [
+            5116
+          ],
+          "1035": [
+            5118
+          ],
+          "1036": [
+            5122
+          ],
+          "1037": [
+            5123
+          ],
+          "1040": [
+            5135
+          ],
+          "1082": [
+            5273
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "MI"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 27.851589377664308,
+          "zeroEV": 275,
+          "zeroPV": 61825523,
+          "simulationSeed": 90817
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 259,
+          "popular": 61807848,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 275,
+          "popular": 62096709,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 295,
+          "popular": 62427032,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 275,
+          "popular": 63425497,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 275,
+          "popular": 61860007,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Trump_Christie-1-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Trump_Christie",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5000
+          ],
+          "1004": [
+            5009
+          ],
+          "1006": [
+            5013
+          ],
+          "1007": [
+            5018
+          ],
+          "1008": [
+            5020
+          ],
+          "1009": [
+            5024
+          ],
+          "1010": [
+            5027
+          ],
+          "1011": [
+            5030
+          ],
+          "1015": [
+            5046
+          ],
+          "1016": [
+            5048
+          ],
+          "1020": [
+            5066
+          ],
+          "1022": [
+            5071
+          ],
+          "1023": [
+            5077
+          ],
+          "1025": [
+            5084
+          ],
+          "1026": [
+            5087
+          ],
+          "1027": [
+            5090
+          ],
+          "1029": [
+            5099
+          ],
+          "1031": [
+            5104
+          ],
+          "1032": [
+            5107
+          ],
+          "1033": [
+            5111
+          ],
+          "1034": [
+            5114
+          ],
+          "1035": [
+            5119
+          ],
+          "1036": [
+            5122
+          ],
+          "1037": [
+            5123
+          ],
+          "1039": [
+            5132
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 28.06972110872509,
+          "zeroEV": 293,
+          "zeroPV": 63290077,
+          "simulationSeed": 90817
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 269,
+          "popular": 63017285,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 259,
+          "popular": 62824546,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 259,
+          "popular": 62660868,
+          "outcome": "loss",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 273,
+          "popular": 63484861,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 273,
+          "popular": 63326747,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Trump_Palin-1-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Trump_Palin",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5002
+          ],
+          "1005": [
+            5012
+          ],
+          "1006": [
+            5013
+          ],
+          "1007": [
+            5016
+          ],
+          "1008": [
+            5022
+          ],
+          "1009": [
+            5026
+          ],
+          "1010": [
+            5029
+          ],
+          "1011": [
+            5031
+          ],
+          "1013": [
+            5038
+          ],
+          "1014": [
+            5043
+          ],
+          "1015": [
+            5044
+          ],
+          "1017": [
+            5055
+          ],
+          "1018": [
+            5059
+          ],
+          "1022": [
+            5072
+          ],
+          "1023": [
+            5077
+          ],
+          "1024": [
+            5082
+          ],
+          "1025": [
+            5084
+          ],
+          "1026": [
+            5087
+          ],
+          "1028": [
+            5096
+          ],
+          "1033": [
+            5111
+          ],
+          "1034": [
+            5115
+          ],
+          "1035": [
+            5119
+          ],
+          "1036": [
+            5121
+          ],
+          "1037": [
+            5124
+          ],
+          "1041": [
+            5136
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "NH",
+            "NH"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 28.406643789809024,
+          "zeroEV": 303,
+          "zeroPV": 63510294,
+          "simulationSeed": 90817
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 303,
+          "popular": 63454990,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 319,
+          "popular": 64641378,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 279,
+          "popular": 62361983,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 1776,
+          "electoral": 319,
+          "popular": 64593282,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 303,
+          "popular": 63598699,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-1993",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5147
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5176
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5198
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5221
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 40.52773095929414,
+          "zeroEV": 270,
+          "zeroPV": 65996211,
+          "simulationSeed": 1993
+        }
+      },
+      "discovery": [
+        {
+          "seed": 1,
+          "electoral": 265,
+          "popular": 64950077,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 3,
+          "electoral": 272,
+          "popular": 66059766,
+          "outcome": "win",
+          "met": false
+        },
+        {
+          "seed": 42,
+          "electoral": 270,
+          "popular": 65761580,
+          "outcome": "win",
+          "met": true
+        },
+        {
+          "seed": 1776,
+          "electoral": 265,
+          "popular": 65506417,
+          "outcome": "tie",
+          "met": false
+        },
+        {
+          "seed": 2026,
+          "electoral": 272,
+          "popular": 66685123,
+          "outcome": "win",
+          "met": false
+        }
+      ],
+      "holdout": []
+    }
+  ]
+}

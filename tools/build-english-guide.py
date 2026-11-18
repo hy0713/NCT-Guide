@@ -72,7 +72,7 @@ def main():
     answer_count = visit_count = 0
     for rule in rules:
         aid = rule['id']
-        eligible = [r for r in rows[aid]['verifiedRoutes'] if not routes[r['id']].get('supersededBy')]
+        eligible = [r for r in rows[aid]['verifiedRoutes'] if r['id'] in records and not routes[r['id']].get('supersededBy')]
         selected = eligible if aid == 'destiny' else eligible[:1]
         links[aid] = []
         for selected_route in selected:

@@ -6,6 +6,20 @@ const reports=files.filter(f=>fs.existsSync(path.join(root,'tests',f))).map(f=>(
 for(const r of reports)assert.equal(r.status,'passed',r.file+' must finish before publishing evidence');
 const hash=r=>crypto.createHash('sha256').update(JSON.stringify([r.scope,r.answers,r.visits,r.difficulty,r.mode])).digest('hex');
 const runs=reports.flatMap(r=>r.runs.map(x=>({...x,route:x.coachingRoute||x.route,achievement:x.achievement||data.routes.find(route=>route.id===x.route)?.achievement,report:r.file}))),rules=JSON.parse(fs.readFileSync(path.join(root,'achievements/source-audit.json'),'utf8')).achievements;
+const stressFile=path.join(root,'tests/stress-route-comparison.json');
+const stress=fs.existsSync(stressFile)?JSON.parse(fs.readFileSync(stressFile,'utf8')):null;
+if(stress)assert.equal(stress.status,'passed');
+const stressEvidence=new Map();
+for(const comparison of stress?.comparisons||[]){
+ const baseline=stress.baselines.find(r=>r.route===comparison.original);
+ stressEvidence.set(comparison.original,baseline);
+ if(comparison.accepted){
+  const trial=stress.tested.find(r=>r.route.id===comparison.candidate);
+  const route=data.routes.find(r=>r.id===comparison.candidate);
+  assert.equal(hash(trial.route),hash(route),'Replayed candidate definition changed');
+  stressEvidence.set(comparison.candidate,trial);
+ }
+}
 for(const route of data.routes){const compatible=runs.filter(x=>x.route===route.id&&x.scope===route.scope&&(!x.routeSHA256||x.routeSHA256===hash(route)));const seen=new Set(),samples=[];
  for(const run of compatible){if(run.language&&run.language!=='zh-CN')continue;const key=run.seed+':'+hash(route);if(seen.has(key))continue;
   // Older reports lack a route hash. Check the recorded choices against the
@@ -14,7 +28,14 @@ for(const route of data.routes){const compatible=runs.filter(x=>x.route===route.
   if(!run.routeSHA256&&route.visits.sequence&&run.steps?.filter(s=>s.type==='visit').some((s,i)=>s.abbr!==route.visits.sequence[Math.min(i,route.visits.sequence.length-1)]))continue;
   seen.add(key);samples.push({seed:run.seed,electoral:run.electoral,unlocked:!!run.unlocked,yearRecorded:!!run.progress?.yearRecorded,report:run.report,identity:run.routeSHA256?'SHA256':'legacy-route-id-without-hash'});
  }
- route.replays={total:samples.length,success:samples.filter(x=>x.unlocked||(route.achievement==='destiny'&&x.yearRecorded)).length,samples};
+ const extra=stressEvidence.get(route.id);
+ const merged=new Map(samples.map(row=>[row.seed,row]));
+ for(const phase of ['discovery','holdout'])for(const row of extra?.[phase]||[]){
+  merged.set(row.seed,{seed:row.seed,electoral:row.electoral,unlocked:route.achievement!=='destiny'&&row.met,yearRecorded:route.achievement==='destiny'&&row.met,report:'stress-route-comparison.json',phase});
+ }
+ const distinct=[...merged.values()];
+ route.replays={total:distinct.length,success:distinct.filter(x=>x.unlocked||(route.achievement==='destiny'&&x.yearRecorded)).length,samples:distinct};
+ if(extra)route.replays.holdout={total:extra.holdout.length,success:extra.holdout.filter(r=>r.met).length};
  route.verification=route.replays.success?(route.achievement==='destiny'?'actual-year-record':'actual-unlock'):samples.length?'tested-no-unlock':'unverified';
 }
 fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');

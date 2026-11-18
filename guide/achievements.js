@@ -37,6 +37,16 @@
   return {kind:stored.achievements?.[r.id]?'unlocked':'open',forced,pending};
  }
  function targets(r,e){return r.targets||[r.target];}
+ // A lower Wilson bound favors substantial replay evidence over a lone win.
+ // It orders the test records and is not shown as a probability to players.
+ function evidenceScore(route){
+  const {success=0,total=0}=route.replays||{};
+  if(!total)return 0;
+  const p=success/total,z=1.96,z2=z*z;
+  return (p+z2/(2*total)-z*Math.sqrt((p*(1-p)+z2/(4*total))/total))/(1+z2/total);
+ }
+ function compareEvidence(a,b){return evidenceScore(b)-evidenceScore(a)||(b.replays?.total||0)-(a.replays?.total||0);}
+ function sameSettings(route,e){return String(e.game_type_id)===route.mode&&Math.abs(e.difficulty_level_multiplier-route.difficulty)<1e-9;}
  function cost(r,p,e){
   // For an ordinary win keep the audited smooth competitive-state objective;
   // greedily crossing today's EV threshold can sacrifice later swing states.
@@ -47,7 +57,10 @@
   if(r.goal==='votes')return -p.popularVotes;
   if(r.goal==='popularLead')return -p.popularLead;
   if(r.goal==='winLosePopular')return win+Math.max(0,p.popularLead+1)/10000;
-  if(r.goal==='winPopular')return win+Math.max(0,1-p.popularLead)/10000;
+  if(r.goal==='winPopular'){
+   const majority=Math.floor(p.states.reduce((n,s)=>n+s.ev,0)/2)+1;
+   return .2*win+Math.max(0,majority-p.electoral)*2-p.popularLead/80000;
+  }
   if(r.goal==='state')return -(p.states.find(s=>s.name===r.state)?.margin??-1)*100000;
   if(r.goal==='florida'){const state=p.states.find(s=>s.name==='Florida');return (state?.topMargin??1)*100000+Math.max(0,p.leaderEV-294)*1000;}
   if(r.lose)return win+r.lose.reduce((sum,n)=>{const state=p.states.find(s=>s.name===n);return sum+Math.max(0,(state?.margin??0)+.0001)*1000000+Math.max(0,(state?.rank??2)-2)*1000;},0);
@@ -57,18 +70,18 @@
   return data.scenarios.filter(s=>match(r,s)&&(r.id!=='destiny'||!save().threeosix?.[s.year])).map(s=>{
    const b=s.baseline;let score=0;const comparable=!!b&&(r.special?false:b.mode!=='3')&&(r.maxDifficulty==null||.97<=r.maxDifficulty)&&(r.difficulty==null||r.difficulty===.97);
    if(comparable){if(r.goal==='exact')score=-Math.min(...(r.targets||[r.target]).map(n=>Math.abs(b.ev-n)));else if(r.goal==='max')score=-b.ev;else if(r.goal==='votes'||r.goal==='popularLead')score=b.pv/1000000;else score=b.ev;}
-   const verified=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s.scope&&x.replays?.success>0).sort((a,b)=>b.replays.success-a.replays.success)[0];
+   const verified=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s.scope&&x.replays?.success>0).sort(compareEvidence)[0];
    return {...s,comparable,rank:score,verified};
-  }).sort((a,b)=>Number(!!b.verified)-Number(!!a.verified)||Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
+  }).sort((a,b)=>Number(!!b.verified)-Number(!!a.verified)||(a.verified&&b.verified?compareEvidence(a.verified,b.verified):0)||Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
  }
  function fingerprint(text){let h=2166136261;for(let i=0;i<text.length;i++)h=Math.imul(h^text.charCodeAt(i),16777619);return(h>>>0).toString(16);}
  function routeInfo(e,r,ids){
   const s=current(e),available=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s?.scope);
-  available.sort((a,b)=>Number((b.replays?.success||0)>0)-Number((a.replays?.success||0)>0)||Number(String(e.game_type_id)===b.mode&&e.difficulty_level_multiplier===b.difficulty)-Number(String(e.game_type_id)===a.mode&&e.difficulty_level_multiplier===a.difficulty)||(b.replays?.success/(b.replays?.total||1)||0)-(a.replays?.success/(a.replays?.total||1)||0)||b.mappedQuestions-a.mappedQuestions);
+  available.sort((a,b)=>Number(!!b.replays?.success)-Number(!!a.replays?.success)||Number(sameSettings(b,e))-Number(sameSettings(a,e))||compareEvidence(a,b)||b.mappedQuestions-a.mappedQuestions);
   const tested=available.filter(x=>x.replays?.success>0);
   const route=tested.find(x=>x.id===selectedRoute)||tested[0]||available[0];
   if(!route)return null;
-  const settings=String(e.game_type_id)===route.mode&&Math.abs(e.difficulty_level_multiplier-route.difficulty)<1e-9;
+  const settings=sameSettings(route,e);
   const sourceMatches=Object.entries(route.fingerprints||{}).every(([id,hash])=>{const a=e.answers_json.find(a=>a.pk===+id);return a&&fingerprint(a.fields.description)===hash;});
   const deviated=e.player_answers.some(id=>{const a=e.answers_json.find(a=>a.pk===id),allowed=route.answers[a?.fields.question];return allowed&&!allowed.includes(id);});
   const sequence=route.visits.sequence;
@@ -84,7 +97,9 @@
   if(!enabled||!r)return null;
   const state=status(e,r,ids),valid=['open','unlocked'].includes(state.kind);
   const route=routeInfo(e,r,ids);
-  const planning=valid&&(ids.length?route?.answer===undefined:!route?.active)&&['win','min'].includes(r.goal)&&e.player_answers.length<e.questions_json.length?lookAhead(e,r,ids,forecast):null;
+  const shouldPlan=valid&&!r.special&&(ids.length?route?.answer===undefined:!route?.active)&&['win','min','exact','winPopular','winLosePopular'].includes(r.goal)&&e.player_answers.length<e.questions_json.length;
+  const planning=shouldPlan?lookAhead(e,r,ids,forecast):null;
+  if(!shouldPlan)cancelPlanning();
   const answers=valid?[...forecast.answers].sort((a,b)=>Number(state.forced.includes(b.id))-Number(state.forced.includes(a.id))||Number(b.id===route?.answer)-Number(a.id===route?.answer)||(planning?planning.answers[a.id]-planning.answers[b.id]:cost(r,a,e)-cost(r,b,e))||a.index-b.index):forecast.answers;
   const visits=valid?[...forecast.visits].sort((a,b)=>(planning?planning.visits[a.id]-planning.visits[b.id]:cost(r,a.forecast,e)-cost(r,b.forecast,e))||b.ev-a.ev||a.index-b.index):forecast.visits;
   if(valid&&route?.active){const policy=route.route.visits,sequence=policy.sequence;
@@ -172,6 +187,7 @@
   else{
    const stats=p.route?.route.replays;
    html+=`<p data-achievement-advice="${kind}">${esc(t('advice_'+kind,stats||{}))}</p>`;
+   if(kind==='fixed'&&stats?.holdout)html+=`<small data-achievement-holdout>${esc(t('route_holdout',stats.holdout))}</small>`;
    if(kind==='model'&&(!p.route||!stats?.success)){
     const best=p.recommendations.find(s=>s.verified);
     if(best)html+=`<p class="nct-guide-action">${esc(t('switch_pair',{pair:best.year+' '+NCTStory.term(best.candidateName)+' / '+NCTStory.term(best.runningMateName),mode:t('mode_'+best.verified.mode),difficulty:best.verified.difficulty}))}</p>`;
