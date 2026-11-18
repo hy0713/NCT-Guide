@@ -1,0 +1,2816 @@
+{
+  "date": "2026-11-17T05:53:13.245Z",
+  "status": "passed",
+  "method": "Test-only fixed candidate answers/visits through native controls",
+  "runs": [
+    {
+      "route": "magaa-2020_Trump_Haley-1-0.97-audit-improvement",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 1,
+      "language": "zh-CN",
+      "electoral": 289,
+      "popular": 76384627,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 289,
+        "popular": 76384627,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 33 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：289 张选举人票，76384627 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6184,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6182,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6171,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6194,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6148,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6127,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6178,
+        6142,
+        6184,
+        6182,
+        6175,
+        6171,
+        6189,
+        6194,
+        6199,
+        6167,
+        6148,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67213,
+      "coachingRoute": "magaa-community",
+      "routeSHA256": "7636ba590d408e22e3aa25203c4829d10da27e93e09a91895b4b3bd1ef785737"
+    },
+    {
+      "route": "magaa-2020_Trump_Haley-1-0.97-audit-improvement",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 3,
+      "language": "zh-CN",
+      "electoral": 321,
+      "popular": 77619581,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 321,
+        "popular": 77619581,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 1 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：321 张选举人票，77619581 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6184,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6182,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6171,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6194,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6148,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6127,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6178,
+        6142,
+        6184,
+        6182,
+        6175,
+        6171,
+        6189,
+        6194,
+        6199,
+        6167,
+        6148,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67045,
+      "coachingRoute": "magaa-community",
+      "routeSHA256": "7636ba590d408e22e3aa25203c4829d10da27e93e09a91895b4b3bd1ef785737"
+    },
+    {
+      "route": "magaa-2020_Trump_Haley-1-0.97-audit-improvement",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 42,
+      "language": "zh-CN",
+      "electoral": 311,
+      "popular": 76957987,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 311,
+        "popular": 76957987,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 11 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：311 张选举人票，76957987 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6184,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6182,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6171,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6194,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6148,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6127,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6178,
+        6142,
+        6184,
+        6182,
+        6175,
+        6171,
+        6189,
+        6194,
+        6199,
+        6167,
+        6148,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67419,
+      "coachingRoute": "magaa-community",
+      "routeSHA256": "7636ba590d408e22e3aa25203c4829d10da27e93e09a91895b4b3bd1ef785737"
+    },
+    {
+      "route": "magaa-2020_Trump_Haley-1-0.97-audit-improvement",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 321,
+      "popular": 78257642,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 321,
+        "popular": 78257642,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 1 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：321 张选举人票，78257642 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6184,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6182,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6171,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6194,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6148,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6127,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6178,
+        6142,
+        6184,
+        6182,
+        6175,
+        6171,
+        6189,
+        6194,
+        6199,
+        6167,
+        6148,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67253,
+      "coachingRoute": "magaa-community",
+      "routeSHA256": "7636ba590d408e22e3aa25203c4829d10da27e93e09a91895b4b3bd1ef785737"
+    },
+    {
+      "route": "magaa-2020_Trump_Haley-1-0.97-audit-improvement",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "seed": 2026,
+      "language": "zh-CN",
+      "electoral": 311,
+      "popular": 77462295,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 311,
+        "popular": 77462295,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "距离门槛还差 11 张选举人票。"
+        ]
+      },
+      "resultText": "本局实际：311 张选举人票，77462295 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1300,
+          "id": 6109,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1301,
+          "id": 6114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1304,
+          "id": 6127,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1303,
+          "id": 6124,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1305,
+          "id": 6132,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1302,
+          "id": 6120,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1326,
+          "id": 6211,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1306,
+          "id": 6136,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1309,
+          "id": 6147,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1307,
+          "id": 6139,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1317,
+          "id": 6178,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1308,
+          "id": 6142,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1319,
+          "id": 6184,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1318,
+          "id": 6182,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1316,
+          "id": 6175,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1315,
+          "id": 6171,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1320,
+          "id": 6189,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1321,
+          "id": 6194,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1322,
+          "id": 6199,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1314,
+          "id": 6167,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1310,
+          "id": 6148,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1313,
+          "id": 6160,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1311,
+          "id": 6152,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1323,
+          "id": 6203,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1122,
+          "abbr": "MN"
+        },
+        {
+          "type": "answer",
+          "question": 1324,
+          "id": 6205,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        6109,
+        6114,
+        6127,
+        6124,
+        6132,
+        6120,
+        6211,
+        6136,
+        6147,
+        6139,
+        6178,
+        6142,
+        6184,
+        6182,
+        6175,
+        6171,
+        6189,
+        6194,
+        6199,
+        6167,
+        6148,
+        6160,
+        6152,
+        6203,
+        6205
+      ],
+      "visits": [
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122,
+        1122
+      ],
+      "rngCalls": 67383,
+      "coachingRoute": "magaa-community",
+      "routeSHA256": "7636ba590d408e22e3aa25203c4829d10da27e93e09a91895b4b3bd1ef785737"
+    },
+    {
+      "route": "whatbelt-2016_Trump_Carson-1-0.97-audit-alternative",
+      "achievement": "whatbelt",
+      "scope": "2016_Trump_Carson",
+      "seed": 1,
+      "language": "zh-CN",
+      "electoral": 259,
+      "popular": 61969591,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 259,
+        "popular": 61969591,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "这一项还要求赢得全国选举。"
+        ]
+      },
+      "resultText": "本局实际：259 张选举人票，61969591 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1003,
+          "id": 5007,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1019,
+          "id": 5061,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5020,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5024,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5030,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1040,
+          "id": 5133,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1082,
+          "id": 5272,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1031,
+          "id": 5103,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5040,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1027,
+          "id": 5090,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1021,
+          "id": 5067,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1032,
+          "id": 5110,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1030,
+          "id": 5101,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5056,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5075,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5083,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5086,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5111,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5122,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5123,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5007,
+        5061,
+        5020,
+        5024,
+        5030,
+        5133,
+        5272,
+        5103,
+        5040,
+        5090,
+        5067,
+        5110,
+        5101,
+        5056,
+        5075,
+        5083,
+        5086,
+        5111,
+        5114,
+        5119,
+        5122,
+        5123
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008
+      ],
+      "rngCalls": 61859,
+      "routeSHA256": "571934a208bbe263ee06bbc2878e25156eff814fb13c37681981811c8e752bdc"
+    },
+    {
+      "route": "whatbelt-2016_Trump_Carson-1-0.97-audit-alternative",
+      "achievement": "whatbelt",
+      "scope": "2016_Trump_Carson",
+      "seed": 3,
+      "language": "zh-CN",
+      "electoral": 275,
+      "popular": 62247000,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 275,
+        "popular": 62247000,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "密歇根州实际第 1 名，需要第 2 名。"
+        ]
+      },
+      "resultText": "本局实际：275 张选举人票，62247000 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1003,
+          "id": 5007,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1019,
+          "id": 5061,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5020,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5024,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5030,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1040,
+          "id": 5133,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1082,
+          "id": 5272,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1031,
+          "id": 5103,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5040,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1027,
+          "id": 5090,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1021,
+          "id": 5067,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1032,
+          "id": 5110,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1030,
+          "id": 5101,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5056,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5075,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5083,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5086,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5111,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5122,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5123,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5007,
+        5061,
+        5020,
+        5024,
+        5030,
+        5133,
+        5272,
+        5103,
+        5040,
+        5090,
+        5067,
+        5110,
+        5101,
+        5056,
+        5075,
+        5083,
+        5086,
+        5111,
+        5114,
+        5119,
+        5122,
+        5123
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008
+      ],
+      "rngCalls": 61647,
+      "routeSHA256": "571934a208bbe263ee06bbc2878e25156eff814fb13c37681981811c8e752bdc"
+    },
+    {
+      "route": "whatbelt-2016_Trump_Carson-1-0.97-audit-alternative",
+      "achievement": "whatbelt",
+      "scope": "2016_Trump_Carson",
+      "seed": 42,
+      "language": "zh-CN",
+      "electoral": 305,
+      "popular": 62575433,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 305,
+        "popular": 62575433,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "威斯康星州实际第 1 名，需要第 2 名。",
+          "密歇根州实际第 1 名，需要第 2 名。",
+          "宾夕法尼亚州实际第 1 名，需要第 2 名。"
+        ]
+      },
+      "resultText": "本局实际：305 张选举人票，62575433 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1003,
+          "id": 5007,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1019,
+          "id": 5061,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5020,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5024,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5030,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1040,
+          "id": 5133,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1082,
+          "id": 5272,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1031,
+          "id": 5103,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5040,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1027,
+          "id": 5090,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1021,
+          "id": 5067,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1032,
+          "id": 5110,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1030,
+          "id": 5101,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5056,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5075,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5083,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5086,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5111,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5122,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5123,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5007,
+        5061,
+        5020,
+        5024,
+        5030,
+        5133,
+        5272,
+        5103,
+        5040,
+        5090,
+        5067,
+        5110,
+        5101,
+        5056,
+        5075,
+        5083,
+        5086,
+        5111,
+        5114,
+        5119,
+        5122,
+        5123
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008
+      ],
+      "rngCalls": 61791,
+      "routeSHA256": "571934a208bbe263ee06bbc2878e25156eff814fb13c37681981811c8e752bdc"
+    },
+    {
+      "route": "whatbelt-2016_Trump_Carson-1-0.97-audit-alternative",
+      "achievement": "whatbelt",
+      "scope": "2016_Trump_Carson",
+      "seed": 1776,
+      "language": "zh-CN",
+      "electoral": 275,
+      "popular": 63577964,
+      "outcome": "win",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 275,
+        "popular": 63577964,
+        "outcome": "win",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "密歇根州实际第 1 名，需要第 2 名。"
+        ]
+      },
+      "resultText": "本局实际：275 张选举人票，63577964 张普选票，获胜。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1003,
+          "id": 5007,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1019,
+          "id": 5061,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5020,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5024,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5030,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1040,
+          "id": 5133,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1082,
+          "id": 5272,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1031,
+          "id": 5103,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5040,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1027,
+          "id": 5090,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1021,
+          "id": 5067,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1032,
+          "id": 5110,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1030,
+          "id": 5101,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5056,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5075,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5083,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5086,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5111,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5122,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5123,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5007,
+        5061,
+        5020,
+        5024,
+        5030,
+        5133,
+        5272,
+        5103,
+        5040,
+        5090,
+        5067,
+        5110,
+        5101,
+        5056,
+        5075,
+        5083,
+        5086,
+        5111,
+        5114,
+        5119,
+        5122,
+        5123
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008
+      ],
+      "rngCalls": 61971,
+      "routeSHA256": "571934a208bbe263ee06bbc2878e25156eff814fb13c37681981811c8e752bdc"
+    },
+    {
+      "route": "whatbelt-2016_Trump_Carson-1-0.97-audit-alternative",
+      "achievement": "whatbelt",
+      "scope": "2016_Trump_Carson",
+      "seed": 2026,
+      "language": "zh-CN",
+      "electoral": 259,
+      "popular": 62013442,
+      "outcome": "loss",
+      "unlocked": false,
+      "progress": {
+        "yearRecorded": false
+      },
+      "diagnosis": {
+        "votes": 259,
+        "popular": 62013442,
+        "outcome": "loss",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "这一项还要求赢得全国选举。"
+        ]
+      },
+      "resultText": "本局实际：259 张选举人票，62013442 张普选票，落败。 未满足原版解锁条件。",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 1000,
+          "id": 5002,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1007,
+          "id": 5016,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1006,
+          "id": 5014,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1003,
+          "id": 5007,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1019,
+          "id": 5061,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1008,
+          "id": 5020,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1009,
+          "id": 5024,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1011,
+          "id": 5030,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1040,
+          "id": 5133,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1082,
+          "id": 5272,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1031,
+          "id": 5103,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1014,
+          "id": 5040,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1027,
+          "id": 5090,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1021,
+          "id": 5067,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1032,
+          "id": 5110,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1030,
+          "id": 5101,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1018,
+          "id": 5056,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1023,
+          "id": 5075,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1025,
+          "id": 5083,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1026,
+          "id": 5086,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1033,
+          "id": 5111,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1034,
+          "id": 5114,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1035,
+          "id": 5119,
+          "fixtureRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1036,
+          "id": 5122,
+          "fixtureRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1008,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 1037,
+          "id": 5123,
+          "fixtureRoute": true
+        }
+      ],
+      "answers": [
+        5002,
+        5016,
+        5014,
+        5007,
+        5061,
+        5020,
+        5024,
+        5030,
+        5133,
+        5272,
+        5103,
+        5040,
+        5090,
+        5067,
+        5110,
+        5101,
+        5056,
+        5075,
+        5083,
+        5086,
+        5111,
+        5114,
+        5119,
+        5122,
+        5123
+      ],
+      "visits": [
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008,
+        1008
+      ],
+      "rngCalls": 61739,
+      "routeSHA256": "571934a208bbe263ee06bbc2878e25156eff814fb13c37681981811c8e752bdc"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

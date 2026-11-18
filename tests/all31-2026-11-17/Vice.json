@@ -1,0 +1,4889 @@
+{
+  "date": "2026-11-17T05:43:09.388Z",
+  "execution": "completed",
+  "network": "All non-loopback requests blocked",
+  "runtimeSHA256": {
+    "model.js": "4c786038322017a1aaa3efffecfdf34372513cb2ef0c8f645757cc14214e41b4",
+    "achievement-data.js": "21ce154d9d451bace19e74d63e43f61fcbcf4cc18c1865711591749eeb5a2c45",
+    "achievements.js": "c3e2ab81e71c4819e34a8e0b0010fbf1387d825a070d905d3ac7e572e011aa0e",
+    "guide.js": "66b1f1bea9f7a1f652671b68a9782e4a989fba119a7ac71f7b8d4c6bb4547446",
+    "planner-worker.js": "3048d4c6ee9e4b654f9e3fd317ee2177de8cd285a08a1d05ee9427ac4cfe86b6",
+    "messages.json": "4f7260aa0f008e4844764a609abe72b3b92f564fba4c600b4606a535c5481a7c"
+  },
+  "runs": [
+    {
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "mode": "2",
+      "difficulty": 0.97,
+      "seed": 1,
+      "language": "zh-CN",
+      "requestedRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Vice"
+      ],
+      "electoral": 269,
+      "popular": 33173737,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 269,
+        "popular": 33173737,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n无懈可击的副总统\n已解锁\n目标：赢得选举。\n\n本局实际：269 张选举人票，33173737 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48752,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5058725441046753,
+            0.4941274558953247,
+            0
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5203433976798238,
+            0.4796566023201761,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5558665566904113,
+            0.44413344330958865,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5194388391450155,
+            0.4805611608549845,
+            0
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5113530351397055,
+            0.4886469648602945,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5493025824136505,
+            0.4506974175863495,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5559680454445035,
+            0.4440319545554965,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5075432740102718,
+            0.4924567259897283,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5309466213064401,
+            0.4690533786935599,
+            0
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5367047295846609,
+            0.4632952704153391,
+            0
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5090586484318802,
+            0.4909413515681199,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5314027697295014,
+            0.46859723027049854,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5232509851819431,
+            0.47674901481805687,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5513839925864868,
+            0.44861600741351315,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5652616800743827,
+            0.4347383199256173,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.594985078684982,
+            0.40501492131501804,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5346004667446399,
+            0.46539953325536,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5519734573683136,
+            0.44802654263168634,
+            0
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5611021659654614,
+            0.4388978340345386,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5337959196285591,
+            0.46620408037144084,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6244189059639815,
+            0.3755810940360184,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5105238982745685,
+            0.48947610172543154,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5085026931664457,
+            0.4914973068335543,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5075034251305831,
+            0.4924965748694168,
+            0
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5002813537627853,
+            0.4997186462372146,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5102678546808271,
+            0.48973214531917275,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6082831896626525,
+            0.3917168103373475,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.500332901783123,
+            0.499667098216877,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5249443940713214,
+            0.4750556059286785,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5252359848899676,
+            0.47476401511003236,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5227722096054171,
+            0.4772277903945828,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5348660897191833,
+            0.4651339102808168,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5001253524096602,
+            0.49987464759034,
+            0
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5534531260112375,
+            0.4465468739887624,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5200402059271407,
+            0.47995979407285916,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6081205187161266,
+            0.3918794812838735,
+            0
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5085288420771881,
+            0.49147115792281193,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5114396518525249,
+            0.48856034814747507,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6556213674443028,
+            0.3443786325556973,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5557194254829301,
+            0.4442805745170698,
+            0
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5745209381696398,
+            0.4254790618303601,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5542230394989578,
+            0.4457769605010422,
+            0
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5262671736087069,
+            0.473732826391293,
+            0
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5476411464196274,
+            0.45235885358037264,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5695348666872104,
+            0.43046513331278974,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5395809586976947,
+            0.46041904130230527,
+            0
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5010331720013115,
+            0.49896682799868863,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5201823128124723,
+            0.4798176871875279,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5100570691692814,
+            0.48994293083071844,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5520513427040634,
+            0.4479486572959365,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "mode": "2",
+      "difficulty": 0.97,
+      "seed": 3,
+      "language": "zh-CN",
+      "requestedRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "unlocked": false,
+      "newUnlocks": [],
+      "electoral": 268,
+      "popular": 33289563,
+      "outcome": "tie",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 268,
+        "popular": 33289563,
+        "outcome": "tie",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "这一项还要求赢得全国选举。"
+        ]
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n无懈可击的副总统\n本局未解锁，可调整路线再试。\n目标：赢得选举。\n\n本局实际：268 张选举人票，33289563 张普选票，僵局。 未满足原版解锁条件。\n\n这一项还要求赢得全国选举。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48704,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5079699863032243,
+            0.4920300136967757,
+            0
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5096156078495029,
+            0.49038439215049706,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5507127721483556,
+            0.4492872278516445,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5127600067238397,
+            0.48723999327616024,
+            0
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5069530416697046,
+            0.49304695833029555,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5451541658397364,
+            0.4548458341602637,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5648486236188204,
+            0.4351513763811796,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5102968689922676,
+            0.4897031310077324,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5250264188773706,
+            0.4749735811226295,
+            0
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5310354382747112,
+            0.4689645617252888,
+            0
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5006996134224462,
+            0.49930038657755393,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5286308699739681,
+            0.4713691300260318,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.531226182660585,
+            0.4687738173394151,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5511376694129624,
+            0.4488623305870377,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5506358159843548,
+            0.4493641840156451,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5922874225338427,
+            0.4077125774661574,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5301961238383037,
+            0.4698038761616962,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5581545764203409,
+            0.44184542357965917,
+            0
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5643009625869995,
+            0.4356990374130006,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5394685378993835,
+            0.4605314621006165,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6221241450995543,
+            0.3778758549004458,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5169545285201153,
+            0.48304547147988475,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5136065373311826,
+            0.4863934626688173,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5024005922462695,
+            0.4975994077537304,
+            0
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5011046338880575,
+            0.49889536611194246,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5091381649220057,
+            0.4908618350779943,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6079040354834052,
+            0.3920959645165949,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5082858454522956,
+            0.49171415454770434,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5221736642007643,
+            0.4778263357992358,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5320954860291436,
+            0.4679045139708565,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5288697116532507,
+            0.47113028834674925,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5398994345980509,
+            0.4601005654019491,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5030818771248647,
+            0.49691812287513526,
+            0
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5487944653537165,
+            0.45120553464628355,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5170559881054593,
+            0.4829440118945406,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6061500190596287,
+            0.39384998094037116,
+            0
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5114060182352941,
+            0.4885939817647058,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5110400579363698,
+            0.48895994206363014,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6592995215493315,
+            0.3407004784506686,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5525540805088142,
+            0.4474459194911859,
+            0
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5737663182115159,
+            0.4262336817884839,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5478366235993541,
+            0.4521633764006458,
+            0
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5269059174662591,
+            0.47309408253374086,
+            0
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.543337927721263,
+            0.456662072278737,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5745429302341756,
+            0.4254570697658245,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5395634769081429,
+            0.4604365230918572,
+            0
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5101617372843601,
+            0.48983826271563996,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5307339087182086,
+            0.4692660912817915,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5125609476498694,
+            0.48743905235013046,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.549078496205237,
+            0.4509215037947631,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "mode": "2",
+      "difficulty": 0.97,
+      "seed": 42,
+      "language": "zh-CN",
+      "requestedRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "unlocked": false,
+      "newUnlocks": [],
+      "electoral": 266,
+      "popular": 33399537,
+      "outcome": "tie",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 266,
+        "popular": 33399537,
+        "outcome": "tie",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "这一项还要求赢得全国选举。"
+        ]
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n无懈可击的副总统\n本局未解锁，可调整路线再试。\n目标：赢得选举。\n\n本局实际：266 张选举人票，33399537 张普选票，僵局。 未满足原版解锁条件。\n\n这一项还要求赢得全国选举。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48840,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.509734441924714,
+            0.49026555807528605,
+            0
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5092684365705251,
+            0.4907315634294748,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5530756582254597,
+            0.44692434177454027,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5228834700515363,
+            0.4771165299484636,
+            0
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5156573029555166,
+            0.4843426970444833,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5465275260153284,
+            0.4534724739846716,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5566082042561888,
+            0.44339179574381127,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5133273957716477,
+            0.48667260422835246,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5222525509168906,
+            0.47774744908310934,
+            0
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5405637773939258,
+            0.45943622260607425,
+            0
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5009228430318753,
+            0.49907715696812477,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5312478315316383,
+            0.4687521684683617,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.523968236761394,
+            0.4760317632386059,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5576895187426788,
+            0.4423104812573213,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5577597602819129,
+            0.44224023971808707,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5898976195400717,
+            0.4101023804599283,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5312910171577293,
+            0.4687089828422706,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5525633631274293,
+            0.4474366368725707,
+            0
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.560398410059122,
+            0.43960158994087783,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5341956448259962,
+            0.46580435517400365,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6264994801401305,
+            0.3735005198598695,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5097206733060092,
+            0.49027932669399077,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5144086202138441,
+            0.48559137978615585,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5126410236841163,
+            0.4873589763158836,
+            0
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5002376768936024,
+            0.49976232310639757,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5117432419894163,
+            0.4882567580105838,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6052228522537344,
+            0.3947771477462656,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5128815636317334,
+            0.4871184363682666,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.522249464784074,
+            0.4777505352159259,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5308840639141525,
+            0.46911593608584745,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5273190786688856,
+            0.4726809213311144,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5391256021743976,
+            0.46087439782560247,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5099074523107486,
+            0.49009254768925153,
+            0
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5505341675547736,
+            0.4494658324452265,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5181622612198926,
+            0.4818377387801074,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6005247252070683,
+            0.39947527479293177,
+            0
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5122731872809224,
+            0.4877268127190776,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.51114614729837,
+            0.48885385270163006,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6588296521882611,
+            0.3411703478117389,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5546251092398485,
+            0.4453748907601515,
+            0
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5754531410084273,
+            0.42454685899157274,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5462608252231979,
+            0.45373917477680203,
+            0
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5208407446760057,
+            0.4791592553239944,
+            0
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.538211849210013,
+            0.46178815078998703,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5735587060040352,
+            0.4264412939959648,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5318770662763832,
+            0.46812293372361674,
+            0
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5058612371964115,
+            0.49413876280358854,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5268567919969941,
+            0.47314320800300597,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5221765437918884,
+            0.4778234562081116,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5454303139230757,
+            0.45456968607692416,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "mode": "2",
+      "difficulty": 0.97,
+      "seed": 1776,
+      "language": "zh-CN",
+      "requestedRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Vice"
+      ],
+      "electoral": 269,
+      "popular": 33280213,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 269,
+        "popular": 33280213,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n无懈可击的副总统\n已解锁\n目标：赢得选举。\n\n本局实际：269 张选举人票，33280213 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48820,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.502191089447072,
+            0.49780891055292786,
+            0
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5207455831223724,
+            0.4792544168776276,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5518781219009593,
+            0.4481218780990407,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5131468539107861,
+            0.4868531460892138,
+            0
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5038308245689898,
+            0.49616917543101025,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5453461934572632,
+            0.45465380654273685,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5547940715195063,
+            0.4452059284804938,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5163431030971481,
+            0.4836568969028518,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5260936287033672,
+            0.4739063712966329,
+            0
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5311123896388695,
+            0.4688876103611306,
+            0
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5037895211001739,
+            0.4962104788998261,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5270371773234803,
+            0.4729628226765197,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5265942313016351,
+            0.473405768698365,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5577370490730317,
+            0.44226295092696827,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5661869112479331,
+            0.4338130887520668,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.597790904434872,
+            0.40220909556512807,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.53276340572461,
+            0.46723659427538994,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5549813938421714,
+            0.4450186061578286,
+            0
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5632549193952174,
+            0.4367450806047825,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.539096159380922,
+            0.46090384061907796,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.616412305309293,
+            0.38358769469070697,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5085352628704559,
+            0.4914647371295441,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5123007733489856,
+            0.48769922665101445,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5142356400868718,
+            0.48576435991312805,
+            0
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5000924738218396,
+            0.49990752617816037,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5120726056745138,
+            0.48792739432548615,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6084366785241017,
+            0.39156332147589834,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5020776495973528,
+            0.4979223504026471,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.525486330208388,
+            0.47451366979161197,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5281882634560483,
+            0.4718117365439518,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5217366226069056,
+            0.47826337739309444,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5344417965570831,
+            0.46555820344291676,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.503857536624194,
+            0.4961424633758059,
+            0
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5542992055255808,
+            0.4457007944744191,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5283524524015873,
+            0.47164754759841265,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6113259866453974,
+            0.38867401335460255,
+            0
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5127226612739771,
+            0.4872773387260228,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5065761002238697,
+            0.4934238997761302,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6455456955498814,
+            0.3544543044501186,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5614077110253379,
+            0.43859228897466196,
+            0
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.578668804421807,
+            0.421331195578193,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5517305503366939,
+            0.44826944966330606,
+            0
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5261905427664006,
+            0.47380945723359935,
+            0
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5433619540456117,
+            0.45663804595438834,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5793414822855562,
+            0.42065851771444385,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5374370070495136,
+            0.4625629929504864,
+            0
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5112330413361073,
+            0.4887669586638927,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5258539236849323,
+            0.4741460763150677,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5163231658393279,
+            0.48367683416067203,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5467257087445951,
+            0.45327429125540475,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "mode": "2",
+      "difficulty": 0.97,
+      "seed": 2026,
+      "language": "zh-CN",
+      "requestedRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "coachingRoute": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "unlocked": false,
+      "newUnlocks": [],
+      "electoral": 266,
+      "popular": 33241671,
+      "outcome": "tie",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 266,
+        "popular": 33241671,
+        "outcome": "tie",
+        "unlocked": false,
+        "met": false,
+        "reasons": [
+          "这一项还要求赢得全国选举。"
+        ]
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n无懈可击的副总统\n本局未解锁，可调整路线再试。\n目标：赢得选举。\n\n本局实际：266 张选举人票，33241671 张普选票，僵局。 未满足原版解锁条件。\n\n这一项还要求赢得全国选举。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 459,
+          "id": 3690,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 468,
+          "id": 3715,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3769,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3799,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3749,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 470,
+          "id": 3719,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 475,
+          "id": 3735,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 473,
+          "id": 3731,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 469,
+          "id": 3717,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3782,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 474,
+          "id": 3733,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 472,
+          "id": 3728,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 492,
+          "id": 3792,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3746,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3796,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3772,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3775,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 482,
+          "id": 3759,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3788,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3764,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 471,
+          "id": 3723,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 314,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3801,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3690,
+        3715,
+        3769,
+        3799,
+        3740,
+        3749,
+        3751,
+        3719,
+        3735,
+        3731,
+        3784,
+        3717,
+        3782,
+        3733,
+        3728,
+        3792,
+        3746,
+        3796,
+        3772,
+        3775,
+        3759,
+        3788,
+        3764,
+        3723,
+        3801
+      ],
+      "visits": [
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314,
+        314
+      ],
+      "rngCalls": 48872,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5159800136396087,
+            0.48401998636039134,
+            0
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5141620715862445,
+            0.48583792841375556,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.550575655399982,
+            0.44942434460001796,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5225352542219095,
+            0.47746474577809056,
+            0
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5131337426582404,
+            0.4868662573417596,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5389487532966931,
+            0.4610512467033069,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5582044113601936,
+            0.44179558863980634,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5194352520016313,
+            0.48056474799836874,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5283825453004536,
+            0.4716174546995465,
+            0
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.540025908527343,
+            0.4599740914726569,
+            0
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5032908082264872,
+            0.4967091917735129,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5287393919584219,
+            0.47126060804157804,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5324041929417925,
+            0.4675958070582075,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5455613085096084,
+            0.4544386914903916,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5454978653563489,
+            0.4545021346436511,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5869628503587029,
+            0.4130371496412971,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5325360773124221,
+            0.46746392268757775,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5528736486739737,
+            0.4471263513260264,
+            0
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5551125531395404,
+            0.44488744686045956,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5425228421014593,
+            0.4574771578985407,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6263507651508408,
+            0.37364923484915924,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5130657525798473,
+            0.4869342474201528,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5171388223186909,
+            0.4828611776813092,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5070790147234057,
+            0.4929209852765943,
+            0
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5047369169124645,
+            0.4952630830875356,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5090562669360621,
+            0.49094373306393785,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6043813525830078,
+            0.3956186474169921,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5125227350437787,
+            0.4874772649562213,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5267164306115398,
+            0.4732835693884601,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5336216847197163,
+            0.46637831528028384,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5308034399465711,
+            0.4691965600534289,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5465429780531729,
+            0.4534570219468272,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5104278517154358,
+            0.48957214828456413,
+            0
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5414439515283868,
+            0.45855604847161313,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5184049531325724,
+            0.4815950468674276,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6014250106797427,
+            0.3985749893202572,
+            0
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5049614212367645,
+            0.4950385787632355,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5172594113792731,
+            0.48274058862072683,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.6605077657724284,
+            0.3394922342275716,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.548185921460953,
+            0.45181407853904704,
+            0
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.573695064879249,
+            0.42630493512075085,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5484242248891572,
+            0.4515757751108429,
+            0
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5124291837338367,
+            0.4875708162661633,
+            0
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5463500275958882,
+            0.4536499724041117,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5735056944636299,
+            0.42649430553637,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.542204592709939,
+            0.45779540729006096,
+            0
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5011291171595789,
+            0.4988708828404212,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5382679438631219,
+            0.46173205613687807,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5144890691474863,
+            0.48551093085251373,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5397019521885045,
+            0.46029804781149547,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "achievement": "Vice",
+  "name": "无懈可击的副总统",
+  "setup": "1960_Nixon_Goldwater",
+  "seeds": [
+    1,
+    3,
+    42,
+    1776,
+    2026
+  ],
+  "unlocks": 2
+}

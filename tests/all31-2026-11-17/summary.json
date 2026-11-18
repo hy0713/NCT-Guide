@@ -1,0 +1,962 @@
+{
+  "schema": 1,
+  "executionDate": "2026-11-17",
+  "reportDate": "2026-11-18",
+  "guideRuntimeCommit": "36c5b399c5390e1ca40b52667fffa1b9701b856c",
+  "checkedAchievements": 31,
+  "baselineGames": 290,
+  "adjustmentGames": 10,
+  "totalRecordedGames": 300,
+  "method": "Fresh native browser games; follow visible live coaching; five fixed seeds per ordinary objective. Cumulative known-success fixtures are separate from year-level seed trials. Counter games alternate languages in one fresh save. Fixture RNG is test-only.",
+  "ordinary": {
+    "objectives": 27,
+    "allFive": 8,
+    "mixed": 17,
+    "noneOfFive": 2
+  },
+  "integrity": {
+    "execution": "completed",
+    "checks": [
+      {
+        "command": [
+          "node",
+          "tests/integrity.cjs"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS 7 original algorithms, 111 original data files, 779 bilingual keys and variable signatures\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "tests/stories-integrity.cjs"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS 105 pairings; 32770 entries; original source bytes and markup intact; 0 quality warnings; 330 original out-of-collection references\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "tools/build-guide.cjs",
+          "--check"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS guide projection source and generated file: b94d95f33b92d6a997d7b86304501c6b11bc5e9eaa6172282b5018aaa83e0278\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          ".publish/NCT-Guide/tools/achievement-audit.cjs",
+          "E:/nct"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS 31 native achievements, 47 predicate fixtures, 9 localized required-answer variants\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          ".publish/NCT-Guide/tests/audit-achievement-eligibility.cjs"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS eligibility, settings, required answers, state/RNG preservation for all 31 objectives\n",
+        "stderr": ""
+      }
+    ]
+  },
+  "eligibilityChecks": 31,
+  "runtimeSHA256": {
+    "model.js": "4c786038322017a1aaa3efffecfdf34372513cb2ef0c8f645757cc14214e41b4",
+    "achievement-data.js": "21ce154d9d451bace19e74d63e43f61fcbcf4cc18c1865711591749eeb5a2c45",
+    "achievements.js": "c3e2ab81e71c4819e34a8e0b0010fbf1387d825a070d905d3ac7e572e011aa0e",
+    "guide.js": "66b1f1bea9f7a1f652671b68a9782e4a989fba119a7ac71f7b8d4c6bb4547446",
+    "planner-worker.js": "3048d4c6ee9e4b654f9e3fd317ee2177de8cd285a08a1d05ee9427ac4cfe86b6",
+    "messages.json": "4f7260aa0f008e4844764a609abe72b3b92f564fba4c600b4606a535c5481a7c"
+  },
+  "yearTrials": [
+    {
+      "year": "2020",
+      "scope": "2020_Biden_Bass",
+      "recorded": 4,
+      "total": 5
+    },
+    {
+      "year": "2016",
+      "scope": "2016_Clinton_Kaine",
+      "recorded": 0,
+      "total": 5
+    },
+    {
+      "year": "2012",
+      "scope": "2012_Obama_Biden",
+      "recorded": 0,
+      "total": 5
+    },
+    {
+      "year": "2000",
+      "scope": "2000_Gore_Graham",
+      "recorded": 0,
+      "total": 5
+    },
+    {
+      "year": "1988",
+      "scope": "1988_Dukakis_Jackson",
+      "recorded": 2,
+      "total": 5
+    },
+    {
+      "year": "1976",
+      "scope": "1976_Carter_Jackson",
+      "recorded": 1,
+      "total": 5
+    },
+    {
+      "year": "1964",
+      "scope": "1964_Johnson_Humphrey",
+      "recorded": 0,
+      "total": 5
+    }
+  ],
+  "rows": [
+    {
+      "id": "destiny",
+      "name": "殊途同归",
+      "english": "Destiny Arrives All the Same",
+      "checkedScope": "2020_Biden_Bass",
+      "setup": {
+        "year": "2020",
+        "candidate": "Joe Biden",
+        "runningMate": "Karen Bass",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 14,
+      "report": "tests/all31-2026-11-17/destiny.json",
+      "unlockFixtures": 2,
+      "result": "bilingual-cumulative-completed",
+      "checkedScopes": [
+        "2020_Biden_Bass",
+        "2016_Clinton_Kaine",
+        "2012_Obama_Biden",
+        "2000_Gore_Graham",
+        "1988_Dukakis_Jackson",
+        "1976_Carter_Jackson",
+        "1964_Johnson_Humphrey"
+      ],
+      "yearSetups": [
+        {
+          "scope": "2020_Biden_Bass",
+          "mode": "1",
+          "difficulty": 0.97,
+          "seed": 1
+        },
+        {
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.9,
+          "seed": 4
+        },
+        {
+          "scope": "2012_Obama_Biden",
+          "mode": "2",
+          "difficulty": 0.97,
+          "seed": 10
+        },
+        {
+          "scope": "2000_Gore_Graham",
+          "mode": "2",
+          "difficulty": 0.97,
+          "seed": 8
+        },
+        {
+          "scope": "1988_Dukakis_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "seed": 1
+        },
+        {
+          "scope": "1976_Carter_Jackson",
+          "mode": "1",
+          "difficulty": 0.97,
+          "seed": 1
+        },
+        {
+          "scope": "1964_Johnson_Humphrey",
+          "mode": "2",
+          "difficulty": 0.97,
+          "seed": 29
+        }
+      ]
+    },
+    {
+      "id": "ridingBiden",
+      "name": "黑暗布兰登崛起",
+      "english": "The Dark Brandon Rises",
+      "checkedScope": "2020_Biden_Demings",
+      "setup": {
+        "year": "2020",
+        "candidate": "Joe Biden",
+        "runningMate": "Val Demings",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/ridingBiden.json",
+      "unlockFixtures": 1,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "magaa",
+      "name": "让美国再次伟大……再来一次",
+      "english": "MAGA... Again",
+      "checkedScope": "2020_Trump_Haley",
+      "setup": {
+        "year": "2020",
+        "candidate": "Donald Trump",
+        "runningMate": "Nikki Haley",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/magaa.json",
+      "unlockFixtures": 0,
+      "result": "none-of-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "nmpr",
+      "name": "他不是我的总统！",
+      "english": "Not My President!",
+      "checkedScope": "2020_Trump_Pence",
+      "setup": {
+        "year": "2020",
+        "candidate": "Donald Trump",
+        "runningMate": "Mike Pence",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/nmpr.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "nomalarkey",
+      "name": "文明获胜……？",
+      "english": "Civility Prevails...?",
+      "checkedScope": "2020_Biden_Bass",
+      "setup": {
+        "year": "2020",
+        "candidate": "Joe Biden",
+        "runningMate": "Karen Bass",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/nomalarkey.json",
+      "unlockFixtures": 4,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "whatbelt",
+      "name": "我依然屹立",
+      "english": "I'm Still Standing",
+      "checkedScope": "2016_Clinton_Kaine",
+      "setup": {
+        "year": "2016",
+        "candidate": "Hillary Clinton",
+        "runningMate": "Tim Kaine",
+        "mode": "2",
+        "difficulty": 0.9
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/whatbelt.json",
+      "unlockFixtures": 0,
+      "result": "none-of-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "thebern",
+      "name": "伯尼之火",
+      "english": "The Flame Berns Bright",
+      "checkedScope": "2016_Clinton_Sanders",
+      "setup": {
+        "year": "2016",
+        "candidate": "Hillary Clinton",
+        "runningMate": "Bernie Sanders",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/thebern.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "moscow",
+      "name": "莫斯科的火枪手",
+      "english": "Moscow's Musketeers",
+      "checkedScope": "2016_Trump_Palin",
+      "setup": {
+        "year": "2016",
+        "candidate": "Donald Trump",
+        "runningMate": "Sarah Palin",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/moscow.json",
+      "unlockFixtures": 4,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "why",
+      "name": "为什么？",
+      "english": "Why?",
+      "checkedScope": "2016a_Clinton_Booker",
+      "setup": {
+        "year": "2016a",
+        "candidate": "Hillary Clinton",
+        "runningMate": "Cory Booker",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/why.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "what",
+      "name": "到底为什么？！",
+      "english": "WHY?!?!?!?!",
+      "checkedScope": "2016a_Clinton_Booker",
+      "setup": {
+        "year": "2016a",
+        "candidate": "Hillary Clinton",
+        "runningMate": "Cory Booker",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 100,
+      "report": "tests/all31-2026-11-17/what.json",
+      "unlockFixtures": 1,
+      "result": "counter-completed"
+    },
+    {
+      "id": "realdebate",
+      "name": "真正的辩论",
+      "english": "A Real Debate",
+      "checkedScope": "2012_Obama_Biden",
+      "setup": {
+        "year": "2012",
+        "candidate": "Barack Obama",
+        "runningMate": "Joe Biden",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/realdebate.json",
+      "unlockFixtures": 4,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "karmic",
+      "name": "因果报应",
+      "english": "Karmic Retribution",
+      "checkedScope": "2012_Obama_Clinton",
+      "setup": {
+        "year": "2012",
+        "candidate": "Barack Obama",
+        "runningMate": "Hillary Clinton",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/karmic.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "raiders",
+      "name": "纳德的突击队",
+      "english": "Nader's Raiders",
+      "checkedScope": "2000_Nader_LaDuke",
+      "setup": {
+        "year": "2000",
+        "candidate": "Ralph Nader",
+        "runningMate": "Winona LaDuke",
+        "mode": "1",
+        "difficulty": 1.33
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/raiders.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "master",
+      "name": "自己掌舵",
+      "english": "I'm My Own Master Now",
+      "checkedScope": "2000_Gore_Graham",
+      "setup": {
+        "year": "2000",
+        "candidate": "Al Gore",
+        "runningMate": "Bob Graham",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/master.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "swap",
+      "name": "胜负对调",
+      "english": "Death Swap",
+      "checkedScope": "2000_Gore_Graham",
+      "setup": {
+        "year": "2000",
+        "candidate": "Al Gore",
+        "runningMate": "Bob Graham",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/swap.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "florida2000",
+      "name": "艺术模仿生活",
+      "english": "Art Imitates Life",
+      "checkedScope": "2000_Bush_Cheney",
+      "setup": {
+        "year": "2000",
+        "candidate": "George W. Bush",
+        "runningMate": "Dick Cheney",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/florida2000.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "tanks",
+      "name": "坦克与税收",
+      "english": "Tanks and Taxes",
+      "checkedScope": "1988_Dukakis_Bentsen",
+      "setup": {
+        "year": "1988",
+        "candidate": "Michael Dukakis",
+        "runningMate": "Lloyd Bentsen",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/tanks.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "Rainbow",
+      "name": "彩虹联盟",
+      "english": "The Rainbow Coalition",
+      "checkedScope": "1988_Dukakis_Jackson",
+      "setup": {
+        "year": "1988",
+        "candidate": "Michael Dukakis",
+        "runningMate": "Jesse Jackson",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/Rainbow.json",
+      "unlockFixtures": 4,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "Kinder",
+      "name": "更仁慈、更温和的大胜",
+      "english": "A Kinder, Gentler Landslide",
+      "checkedScope": "1988_Bush_Dole",
+      "setup": {
+        "year": "1988",
+        "candidate": "George Bush",
+        "runningMate": "Bob Dole",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/Kinder.json",
+      "unlockFixtures": 3,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "georgia",
+      "name": "激进自由派吉米·卡特",
+      "english": "Radical Liberal Jimmy Carter",
+      "checkedScope": "1976_Carter_Jackson",
+      "setup": {
+        "year": "1976",
+        "candidate": "Jimmy Carter",
+        "runningMate": "Scoop Jackson",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/georgia.json",
+      "unlockFixtures": 3,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "georgenixon",
+      "name": "魔鬼来到佐治亚",
+      "english": "The Devil Went Down To Georgia",
+      "checkedScope": "1968_Nixon_Agnew",
+      "setup": {
+        "year": "1968",
+        "candidate": "Richard Nixon",
+        "runningMate": "Spiro Agnew",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/georgenixon.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "ratio",
+      "name": "休伯特的压倒性胜利",
+      "english": "Hubert Horatio'd",
+      "checkedScope": "1968_Humphrey_Connally",
+      "setup": {
+        "year": "1968",
+        "candidate": "Hubert H. Humphrey",
+        "runningMate": "John Connally",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/ratio.json",
+      "unlockFixtures": 1,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "BCitsHard",
+      "name": "正因为困难",
+      "english": "Not Because It Is Easy, But Because It Is Hard",
+      "checkedScope": "1960_Kennedy_Johnson",
+      "setup": {
+        "year": "1960",
+        "candidate": "John F. Kennedy",
+        "runningMate": "Lyndon Johnson",
+        "mode": "1",
+        "difficulty": 0.9
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/BCitsHard.json",
+      "unlockFixtures": 1,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "BCitsEasy",
+      "name": "正因为容易",
+      "english": "Not Because It Is Hard, But Because It Is Easy",
+      "checkedScope": "1960_Kennedy_Humphrey",
+      "setup": {
+        "year": "1960",
+        "candidate": "John F. Kennedy",
+        "runningMate": "Hubert H. Humphrey",
+        "mode": "1",
+        "difficulty": 1.33
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/BCitsEasy.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "Vice",
+      "name": "无懈可击的副总统",
+      "english": "The Vice With No Vice",
+      "checkedScope": "1960_Nixon_Goldwater",
+      "setup": {
+        "year": "1960",
+        "candidate": "Richard Nixon",
+        "runningMate": "Barry Goldwater",
+        "mode": "2",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/Vice.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "dixieDewey",
+      "name": "南方击败杜威",
+      "english": "Dixie Defeats Dewey",
+      "checkedScope": "1948_Truman_Barkley",
+      "setup": {
+        "year": "1948",
+        "candidate": "Harry Truman",
+        "runningMate": "Alben Barkley",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/dixieDewey.json",
+      "unlockFixtures": 2,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "Dewey",
+      "name": "大局已定",
+      "english": "All Over But The Shouting",
+      "checkedScope": "1948_Dewey_Bricker",
+      "setup": {
+        "year": "1948",
+        "candidate": "Thomas Dewey",
+        "runningMate": "John Bricker",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/Dewey.json",
+      "unlockFixtures": 1,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "California",
+      "name": "加州在哪里？",
+      "english": "Califor-Huh?",
+      "checkedScope": "1916_Hughes_Fairbanks",
+      "setup": {
+        "year": "1916",
+        "candidate": "Charles Evans Hughes",
+        "runningMate": "Charles W. Fairbanks",
+        "mode": "1",
+        "difficulty": 0.95
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/California.json",
+      "unlockFixtures": 3,
+      "result": "mixed",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "Commoner",
+      "name": "伟大的平民",
+      "english": "The Great Commoner",
+      "checkedScope": "1896_Bryan_Teller",
+      "setup": {
+        "year": "1896",
+        "candidate": "William Jennings Bryan",
+        "runningMate": "Henry Teller",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 5,
+      "report": "tests/all31-2026-11-17/Commoner.json",
+      "unlockFixtures": 5,
+      "result": "all-five",
+      "seeds": [
+        1,
+        3,
+        42,
+        1776,
+        2026
+      ]
+    },
+    {
+      "id": "stillAlive",
+      "name": "依然在场",
+      "english": "Still Alive",
+      "checkedScope": "1968_Wallace_LeMay",
+      "setup": {
+        "year": "1968",
+        "candidate": "George Wallace",
+        "runningMate": "Curtis LeMay",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 3,
+      "report": "tests/all31-2026-11-17/stillAlive.json",
+      "unlockFixtures": 3,
+      "result": "all-three-special"
+    },
+    {
+      "id": "yourchance",
+      "name": "你的机会来了",
+      "english": "NOW'S YOUR CHANCE TO BE A",
+      "checkedScope": "1968_Wallace_LeMay",
+      "setup": {
+        "year": "1968",
+        "candidate": "George Wallace",
+        "runningMate": "Curtis LeMay",
+        "mode": "1",
+        "difficulty": 0.97
+      },
+      "execution": "completed",
+      "games": 3,
+      "report": "tests/all31-2026-11-17/yourchance.json",
+      "unlockFixtures": 3,
+      "result": "all-three-special"
+    }
+  ],
+  "sourceSHA256": {
+    "destiny.json": "7cd250c98113b059fb32b526ddc6bca5e960d42d6e89b2a1687a58b3979a6604",
+    "ridingBiden.json": "6ee4092d20f323da2c98aa121f92da633796bbc1668c4ffeb4ce071005afc0e0",
+    "magaa.json": "10392efbfdaa114e9aa10457d4da80479d83bde24e3a5caf1a425d7ef63898bd",
+    "nmpr.json": "f04c4d1b8f83aa414e5cad3734772f3bc9ccbbeababd01ff30669ec5cc2b0fd3",
+    "nomalarkey.json": "3c6f39498200f447737825003303347115194b2f0eab25b09178a3cf81aa3241",
+    "whatbelt.json": "24479c0e286fc1ecb18a07b021b66ea618fbd130552c334d0a57d930a4a33e18",
+    "thebern.json": "8274321fd37db9de0dbb173977143a235d13d410def33fa389e32d070c67aab0",
+    "moscow.json": "5d6137d509086e1687393c8ff95fa4f378512ac775e72d5c1990e525eadabab1",
+    "why.json": "018b4de24b803e468049f1dd426de3c8691b1601e466dfb3d6fc025baeb3d94b",
+    "what.json": "26630316ada6fabda95ec2f3429c86bd5015dd7b31fe4face314709243bffb78",
+    "realdebate.json": "ca3a6a064ff40ffc7dbbdc6f8e0ee1fc16ded97d7f77a55b59e055f2e41bd424",
+    "karmic.json": "198e86609ce97ad36829675d6c904c67a86b329817b83ee74b6e9d6d1952c917",
+    "raiders.json": "1aba8d3ee8e3b761b6cd67c3534339db2cf0642accf19b1f2c1cae4ec6903c0f",
+    "master.json": "4311359473922382dade118ae6611865a72d73f9fff1921f3a903eacf216a4b9",
+    "swap.json": "d456d59cf716d970367b2ea926cba56666fabf77746dda45b3fdcf5c3c7792e1",
+    "florida2000.json": "28e1bcb1a1003c9c1bd52d610cbea2940115feca925ae6676beda3da59662c32",
+    "tanks.json": "5d1e9d773193df4dc6cb81a275e4666d0b1006223b86c0183235d71bd6142094",
+    "Rainbow.json": "27ecddceb773303cb1e6bfc2c7211a3e0e7caa0be23eb74fcd608f19551348fb",
+    "Kinder.json": "ba5dc054e887443d034e53c8a12e2772f429d1586b1375b57acdc55570f2b2e4",
+    "georgia.json": "a24be594835532a95d12c49af8107b8ec666ea8355137f5cb71c7086ad009b8b",
+    "georgenixon.json": "646247da7d0bd78484835a1dc0a079f55e736504006389a83728ab05aa34a640",
+    "ratio.json": "a4047894da675c891e4fdd9743e2d4bdc0c9d1ee7beeda461b440959717a0a5a",
+    "BCitsHard.json": "1ea22478b6dffd55d641232f1e0812496662e808780666bb8b7e6e2ee0936938",
+    "BCitsEasy.json": "d187287f2cdd9c7fcc0ed1032a38872256f1b271de0664ecdb7ef857f4b0c9c5",
+    "Vice.json": "2630541071de64e81bc2129bbb3e3ee8964ef74b01d9cb24c82fe99e772c0636",
+    "dixieDewey.json": "c693d945b64e45336d9b23cb668e53c113217b6ad07bbd9796bd816b4dbc47e8",
+    "Dewey.json": "28fc4ceae404c01ea3b3326d25cc1ded47c4916fde5ea676565fdc9005c62943",
+    "California.json": "12e11cd9b4d59e17cccc56a3188a2be885a14ee3df35f0d389292912568e6a18",
+    "Commoner.json": "1c2e614abc5b1ef330a571926dd7cd69c150c8ba32b4c970cde2efd51b23acbc",
+    "stillAlive.json": "4576aa14461fbbcb83445ad3fac72d4613933725067f09cbf2bcc377fbcfba7f",
+    "yourchance.json": "97eea1172694d06b46cae2b151ad9f7b4dc665e9f86a212224cc568693f14ca7",
+    "destiny-grid.json": "39b6d4da95394eb576a6ad13be120fae019fe710f1ca2a17190c51fd352bd52b",
+    "eligibility.json": "7e1dbb449a8d10c6944c4029bef16bec3278e34fc7d04e697151635969b37fee",
+    "adjustment-attempts.json": "85e7a5d3fa29f395bf5168ea38f5a974f073c1da9beb4bcf53f07c7f7b6c18a1",
+    "adjustment-candidates.json": "3b1d6ed05db827a6cd208bb7b3e37b244858ba3e63075d5e215dfc299a61ae3e",
+    "integrity.json": "1eb8acf90b453ee86cbd695de71f6153d3187af78b459d424e359c4efd200e1f"
+  }
+}

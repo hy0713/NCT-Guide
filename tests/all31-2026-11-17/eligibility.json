@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-18T00:28:16.635Z",
+  "execution": "completed",
+  "method": "Copied setup tests, not natural unlocks",
+  "rng": "Any call throws",
+  "rows": [
+    {
+      "id": "destiny",
+      "scope": "2020_Biden_Harris",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "ridingBiden",
+      "scope": "2020_Biden_Harris",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "magaa",
+      "scope": "2020_Trump_Pence",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "nmpr",
+      "scope": "2020_Trump_Pence",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "nomalarkey",
+      "scope": "2020_Biden_Harris",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "whatbelt",
+      "scope": "2016_Trump_Pence",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "thebern",
+      "scope": "2016_Clinton_Sanders",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "moscow",
+      "scope": "2016_Trump_Palin",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "why",
+      "scope": "2016a_Clinton_Booker",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "what",
+      "scope": "2016a_Clinton_Booker",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "realdebate",
+      "scope": "2012_Obama_Biden",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "karmic",
+      "scope": "2012_Obama_Clinton",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "raiders",
+      "scope": "2000_Nader_LaDuke",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "master",
+      "scope": "2000_Gore_Lieberman",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "swap",
+      "scope": "2000_Gore_Lieberman",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "florida2000",
+      "scope": "2000_Bush_Cheney",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "tanks",
+      "scope": "1988_Dukakis_Bentsen",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "Rainbow",
+      "scope": "1988_Dukakis_Jackson",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "Kinder",
+      "scope": "1988_Bush_Quayle",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "georgia",
+      "scope": "1976_Carter_Mondale",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "georgenixon",
+      "scope": "1968_Nixon_Agnew",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "ratio",
+      "scope": "1968_Humphrey_Muskie",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "BCitsHard",
+      "scope": "1960_Kennedy_Johnson",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "BCitsEasy",
+      "scope": "1960_Kennedy_Johnson",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "dixieDewey",
+      "scope": "1948_Truman_Barkley",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "Dewey",
+      "scope": "1948_Dewey_Warren",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "California",
+      "scope": "1916_Hughes_Fairbanks",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "Commoner",
+      "scope": "1896_Bryan_Sewall",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "stillAlive",
+      "scope": "1968_Wallace_LeMay",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    },
+    {
+      "id": "yourchance",
+      "scope": "2020_Biden_Harris",
+      "positiveEligibility": true,
+      "wrongPairingHidden": true,
+      "settingsChecked": true,
+      "mandatoryAnswersChecked": true,
+      "gameUnchanged": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "execution": "completed",
+  "checks": [
+    {
+      "command": [
+        "node",
+        "tests/integrity.cjs"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS 7 original algorithms, 111 original data files, 779 bilingual keys and variable signatures\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/stories-integrity.cjs"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS 105 pairings; 32770 entries; original source bytes and markup intact; 0 quality warnings; 330 original out-of-collection references\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tools/build-guide.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS guide projection source and generated file: b94d95f33b92d6a997d7b86304501c6b11bc5e9eaa6172282b5018aaa83e0278\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        ".publish/NCT-Guide/tools/achievement-audit.cjs",
+        "E:/nct"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS 31 native achievements, 47 predicate fixtures, 9 localized required-answer variants\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        ".publish/NCT-Guide/tests/audit-achievement-eligibility.cjs"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS eligibility, settings, required answers, state/RNG preservation for all 31 objectives\n",
+      "stderr": ""
+    }
+  ]
+}

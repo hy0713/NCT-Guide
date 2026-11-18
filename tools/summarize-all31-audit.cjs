@@ -1,0 +1,55 @@
+/* Compile the preserved 2026-11-17 execution snapshot; no new game claims. */
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert'),crypto=require('crypto');
+const root=path.resolve(__dirname,'..'),game=path.resolve(process.argv[2]||'.'),check=process.argv.includes('--check');
+const dir='tests/all31-2026-11-17',folder=path.join(root,dir),read=name=>JSON.parse(fs.readFileSync(path.join(folder,name+'.json'),'utf8'));
+const box={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'guide/achievement-data.js'),'utf8'),box);const data=box.window.NCTAchievementData;
+const glossary=JSON.parse(fs.readFileSync(path.join(game,'localization/glossary_zh.json'),'utf8'));
+const term=name=>glossary.names[name]||name.split(' ').map(word=>glossary.names[word]||word).join('·');
+const special=new Set(['destiny','what','stillAlive','yourchance']),rows=[],reports=[];let runtime;
+for(const rule of data.rules){const report=read(rule.id);assert.equal(report.execution,'completed',rule.id);assert.equal(report.achievement,rule.id);
+ for(const key of ['errors','external','missing'])assert.deepEqual(report[key],[],rule.id+' '+key);
+ runtime??=report.runtimeSHA256;assert.deepEqual(report.runtimeSHA256,runtime,rule.id+' changed runtime');reports.push([rule.id,report]);
+ const s=data.scenarios.find(s=>s.scope===report.runs[0].scope);assert(s);
+ const row={id:rule.id,name:rule.name,english:rule.english,checkedScope:s.scope,setup:{year:s.year,candidate:s.candidateName,runningMate:s.runningMateName,mode:report.runs[0].mode,difficulty:report.runs[0].difficulty},
+  execution:'completed',games:report.runs.length,report:dir+'/'+rule.id+'.json',unlockFixtures:report.runs.filter(r=>r.unlocked).length};
+ if(!special.has(rule.id)){assert.equal(report.runs.length,5);row.result=row.unlockFixtures===5?'all-five':row.unlockFixtures===0?'none-of-five':'mixed';row.seeds=report.seeds;}
+ else if(rule.id==='what'){assert.equal(report.runs.length,100);report.runs.forEach((r,i)=>assert.equal(r.counter,i+1));assert(report.runs.at(-1).unlocked);row.result='counter-completed';}
+ else if(rule.id==='destiny'){assert.equal(report.runs.length,14);assert.equal(row.unlockFixtures,2);assert(report.runs.every(r=>r.yearRecorded));row.result='bilingual-cumulative-completed';row.checkedScopes=[...new Set(report.runs.map(r=>r.scope))];assert.equal(row.checkedScopes.length,7);row.yearSetups=report.runs.filter(r=>r.language==='zh-CN').map(r=>({scope:r.scope,mode:r.mode,difficulty:r.difficulty,seed:r.seed}));}
+ else{assert.equal(report.runs.length,3);assert.equal(row.unlockFixtures,3);row.result='all-three-special';}
+ rows.push(row);
+}
+assert.equal(rows.length,31);assert.equal(new Set(rows.map(r=>r.id)).size,31);
+const grid=read('destiny-grid');assert.equal(grid.execution,'completed');assert.equal(grid.runs.length,35);assert.deepEqual(grid.runtimeSHA256,runtime);reports.push(['destiny-grid',grid]);
+const eligibility=read('eligibility');assert.equal(eligibility.execution,'completed');assert.equal(eligibility.rows.length,31);
+const attempt=read('adjustment-attempts');assert.equal(attempt.status,'passed');assert.equal(attempt.runs.length,10);assert(attempt.runs.every(r=>!r.unlocked));
+const candidates=read('adjustment-candidates').routes;for(const run of attempt.runs){const r=candidates.find(r=>r.id===run.route);assert(r);const digest=crypto.createHash('sha256').update(JSON.stringify([r.scope,r.answers,r.visits,r.difficulty,r.mode])).digest('hex');assert.equal(run.routeSHA256,digest);}
+const integrity=read('integrity');assert(integrity.checks.every(c=>c.exitCode===0));
+const ordinary=rows.filter(r=>!special.has(r.id)),yearTrials=[];
+for(const year of ['2020','2016','2012','2000','1988','1976','1964']){const runs=grid.runs.filter(r=>String(r.scope.split('_')[0])===year);assert.equal(runs.length,5);yearTrials.push({year,scope:runs[0].scope,recorded:runs.filter(r=>r.yearRecorded).length,total:runs.length});}
+const total=reports.reduce((sum,[,r])=>sum+r.runs.length,0);assert.equal(total,290);
+const sourceFiles=[...reports.map(([name])=>name+'.json'),'eligibility.json','adjustment-attempts.json','adjustment-candidates.json','integrity.json'];
+const summary={schema:1,executionDate:'2026-11-17',reportDate:'2026-11-18',guideRuntimeCommit:'36c5b399c5390e1ca40b52667fffa1b9701b856c',checkedAchievements:31,baselineGames:total,adjustmentGames:10,totalRecordedGames:300,
+ method:'Fresh native browser games; follow visible live coaching; five fixed seeds per ordinary objective. Cumulative known-success fixtures are separate from year-level seed trials. Counter games alternate languages in one fresh save. Fixture RNG is test-only.',
+ ordinary:{objectives:27,allFive:ordinary.filter(r=>r.result==='all-five').length,mixed:ordinary.filter(r=>r.result==='mixed').length,noneOfFive:ordinary.filter(r=>r.result==='none-of-five').length},
+ integrity,eligibilityChecks:31,runtimeSHA256:runtime,yearTrials,rows,sourceSHA256:Object.fromEntries(sourceFiles.map(name=>[name,crypto.createHash('sha256').update(fs.readFileSync(path.join(folder,name))).digest('hex')]))};
+const link=r=>`[${r.id}](${r.report})`,mode=r=>r.setup.mode==='2'?'比例分配':'默认模式';
+const zh=['# 全部31项成就逐项检查','','执行日期：2026-11-17；报告日期：2026-11-18。','','**31项均已检查，共记录300局真实浏览器游戏：290局基线检查，另有10局改进候选复测。检查完成不等于所有路线可靠。**','','## 结论','','27项单局目标各用1、3、42、1776、2026五组随机夹具完整跟随游戏内建议：**8项五组全部解锁，17项结果波动，2项五组均未解锁。** 0/5的是“MAGA Again”和“不赢锈带仍获胜”。没有把一次历史成功当成本轮通过。','','两项特殊成就各3/3解锁；百局成就在同一全新存档真实完成100局，逐局核对1→100，最终解锁。七年累计在中文、英文各一份存档完整复现；另逐年进行35局独立检查，只有7局满足232/306票要求。','','全程屏蔽非本机请求，无脚本异常或缺失资源。原游戏7处算法、111份数据、105组合32770条文本完整性检查通过；31项资格与必要回答检查、47个原版条件夹具通过。原游戏数值、随机机制和用户存档均未修改。','','## 逐项结果','','“5/5”等仅指这批固定夹具；每局读取原版存档，不将预测票数当作解锁。表中的设置是已检查的组合，未声称穷尽105种组合。','','| # | 成就 | 已检查的年份／搭档 | 开局设置 | 实际结果 | 原始记录 |','| ---: | --- | --- | --- | --- | --- |'];
+const en=['# All 31 native achievements: individual audit','','Executed 2026-11-17; report compiled 2026-11-18.','','**All 31 achievements checked in 300 recorded native-browser games: 290 baseline games and 10 unsuccessful candidate replays. Completion of the audit does not mean every route passed.**','','For 27 single-game objectives, follow the visible coach in five fixed fixtures (1, 3, 42, 1776, 2026): **8 unlocked in all five, 17 had mixed results, and 2 unlocked in none.** The zero-unlock objectives were `magaa` and `whatbelt`.','','The two native special procedures unlocked in all three tested fixtures each. One fresh save completed 100 real 2016a games with every counter increment checked. The seven-year achievement was completed in both languages using known-success fixtures; separate year-level trials recorded only 7 qualifying totals in 35 games. These are separate kinds of evidence, not success probabilities.','','All non-loopback requests were blocked. No script errors or missing resources occurred. Original algorithms/data/text integrity and all 31 eligibility checks passed. No production RNG, game values or user saves were edited.','','## Every achievement','','The table lists the actual setup checked, not every possible pairing. Recorded unlocks come from the native save.','','| # | Achievement | Checked setup | Mode / multiplier | Actual result | Evidence |','| ---: | --- | --- | --- | --- | --- |'];
+for(const [i,r]of rows.entries()){
+ let result,enResult,settings=mode(r)+' / '+r.setup.difficulty,enSettings=(r.setup.mode==='2'?'Proportional':'Default')+' / '+r.setup.difficulty;
+ if(!special.has(r.id)){result=r.unlockFixtures+'/5解锁';enResult=r.unlockFixtures+'/5 unlocks';}
+ else if(r.id==='what'){result='100局计数逐次正确，最终解锁';enResult='100 checked increments; unlocked at 100';}
+ else if(r.id==='destiny'){result='双语七年累计均解锁；逐年试验另列';enResult='Both bilingual cumulative saves unlocked';settings='默认／比例分配；各年设置见记录';enSettings='Default / Proportional; see per-year settings';}
+ else{result='3/3解锁';enResult='3/3 unlocks';settings='原版BIGSHOT'+(r.id==='stillAlive'?'，面板倍率41':'');enSettings='Native BIGSHOT'+(r.id==='stillAlive'?'; panel multiplier 41':'');}
+ const setup=r.id==='destiny'?'2020、2016、2012、2000、1988、1976、1964；各搭档见记录':`${r.setup.year} ${term(r.setup.candidate)}／${term(r.setup.runningMate)}`;
+ const englishSetup=r.id==='destiny'?'Seven year-specific pairings (see report)':`${r.setup.year} ${r.setup.candidate} / ${r.setup.runningMate}`;
+ zh.push(`| ${i+1} | ${r.name} | ${setup} | ${settings} | ${result} | ${link(r)} |`);
+ en.push(`| ${i+1} | ${r.english} | ${englishSetup} | ${enSettings} | ${enResult} | ${link(r)} |`);
+}
+zh.push('','## 七年累计的逐年试验','','累计通关使用历史已成功的固定夹具，验证存档能逐年记账并最终解锁；下面额外五组随机序列用于检查每年路线的实际波动，不能将两类结果混为一谈。','','| 年份 | 记账成功／检查局数 |','| --- | ---: |');
+en.push('','## Destiny: separate year-level trials','','Known-success cumulative fixtures verify the complete save flow. This table records five separate fixtures per year.','','| Year | Qualifying totals / games |','| --- | ---: |');
+for(const row of yearTrials){zh.push(`| ${row.year} | ${row.recorded}/${row.total} |`);en.push(`| ${row.year} | ${row.recorded}/${row.total} |`);}
+zh.push('','[35局逐年记录](tests/all31-2026-11-17/destiny-grid.json)。百局检查中，奇数局中文、偶数局英文，始终使用同一浏览器存档；没有预填计数或改写成就。','', '## 失败路线的改进复测','','对两个0/5项目尝试源码离线搜索出的替代方案，再通过原版控件各回放5局：MAGA仍0/5，改用特朗普／卡森的锈带方案也0/5。其中锈带方案虽有275、305票的全国胜选，仍因赢下了必须输掉的锈带州而不满足条件。候选没有进入正式攻略。','','[候选数据](tests/all31-2026-11-17/adjustment-candidates.json) · [10局复测](tests/all31-2026-11-17/adjustment-attempts.json)。','','## 复现与范围','','所有记录绑定相同运行时文件哈希，见[汇总JSON](tests/all31-2026-11-17/summary.json)。本轮运行时对应攻略提交`36c5b39`；本次交付新增检查工具和证据，没有替换正式路线或修改游戏。未知随机分支未穷尽，5/5也不代表100%必得。','','见[检查工具与命令](tests/all31-2026-11-17/README.md)。');
+en.push('','[35 year-level games](tests/all31-2026-11-17/destiny-grid.json). Counter games alternated Chinese and English in the same fresh save; no counters or unlocks were prefilled.','','## Unsuccessful improvements','','Two source-search candidates were replayed five times each: MAGA remained 0/5 and a Trump/Carson Rust Belt candidate also remained 0/5. Some Rust Belt runs won 275 or 305 EV but also won states that the achievement requires losing. Neither candidate was added to production coaching.','','[Candidate fixtures](tests/all31-2026-11-17/adjustment-candidates.json) · [10 actual replays](tests/all31-2026-11-17/adjustment-attempts.json).','','## Reproduction','','[Machine-readable index and hashes](tests/all31-2026-11-17/summary.json) · [Tools and commands](tests/all31-2026-11-17/README.md). The audited runtime is guide commit `36c5b39`. This delivery adds checks and evidence, not replacement routes or game changes. Unexamined random branches remain; five successful fixtures do not establish a guarantee.');
+function write(file,content){const target=path.join(root,file);if(check)assert.equal(fs.readFileSync(target,'utf8'),content,file+' differs');else fs.writeFileSync(target,content);}
+write(dir+'/summary.json',JSON.stringify(summary,null,2)+'\n');write('ALL_ACHIEVEMENTS_AUDIT_ZH.md',zh.join('\n')+'\n');write('ALL_ACHIEVEMENTS_AUDIT.md',en.join('\n')+'\n');console.log('Verified all 31 reports; 300 recorded games; ordinary outcomes',summary.ordinary);

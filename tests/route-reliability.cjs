@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..'),game=path.resolve(process.argv[2]||'.');
 const {chromium}=require(path.join(game,'tests/runtime.cjs')),{start,play}=require('./community-routes.cjs');
-const routes=JSON.parse(fs.readFileSync(path.join(root,'achievements/community-routes.json'),'utf8')).routes;
+const routes=JSON.parse(fs.readFileSync(process.env.NCT_RELIABILITY_ROUTES||path.join(root,'achievements/community-routes.json'),'utf8')).routes;
 const ids=process.env.NCT_RELIABILITY_IDS?.split(',')||['thebern-2016_Clinton_Sanders-1-0.97-margin-review'];
 const seeds=(process.env.NCT_RELIABILITY_SEEDS||'1,2,3,4,5,1776,42,2026').split(',').map(Number);
 const candidate=process.env.NCT_RELIABILITY_CANDIDATE==='1';

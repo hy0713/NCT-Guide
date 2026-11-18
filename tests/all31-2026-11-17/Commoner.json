@@ -1,0 +1,4134 @@
+{
+  "date": "2026-11-17T05:44:07.967Z",
+  "execution": "completed",
+  "network": "All non-loopback requests blocked",
+  "runtimeSHA256": {
+    "model.js": "4c786038322017a1aaa3efffecfdf34372513cb2ef0c8f645757cc14214e41b4",
+    "achievement-data.js": "21ce154d9d451bace19e74d63e43f61fcbcf4cc18c1865711591749eeb5a2c45",
+    "achievements.js": "c3e2ab81e71c4819e34a8e0b0010fbf1387d825a070d905d3ac7e572e011aa0e",
+    "guide.js": "66b1f1bea9f7a1f652671b68a9782e4a989fba119a7ac71f7b8d4c6bb4547446",
+    "planner-worker.js": "3048d4c6ee9e4b654f9e3fd317ee2177de8cd285a08a1d05ee9427ac4cfe86b6",
+    "messages.json": "4f7260aa0f008e4844764a609abe72b3b92f564fba4c600b4606a535c5481a7c"
+  },
+  "runs": [
+    {
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "mode": "1",
+      "difficulty": 0.97,
+      "seed": 1,
+      "language": "zh-CN",
+      "requestedRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Commoner"
+      ],
+      "electoral": 354,
+      "popular": 7408043,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 354,
+        "popular": 7408043,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n伟大的平民\n已解锁\n目标：本人至少 331 张选举人票。\n\n本局实际：354 张选举人票，7408043 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21191,
+      "states": [
+        {
+          "state": 52,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6879553751299506,
+            0.29010765892329593,
+            0.021936965946753345
+          ]
+        },
+        {
+          "state": 53,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7271831040834185,
+            0.2611874695436198,
+            0.01162942637296161
+          ]
+        },
+        {
+          "state": 54,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5424454231811262,
+            0.44699511894811217,
+            0.010559457870761582
+          ]
+        },
+        {
+          "state": 55,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8627196127196222,
+            0.12672287585089562,
+            0.010557511429482129
+          ]
+        },
+        {
+          "state": 56,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5732223711294814,
+            0.41135170524773274,
+            0.015425923622785854
+          ]
+        },
+        {
+          "state": 57,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5144990569610156,
+            0.47215359875399837,
+            0.013347344284986061
+          ]
+        },
+        {
+          "state": 58,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7187016499108622,
+            0.2591715051314406,
+            0.022126844957697216
+          ]
+        },
+        {
+          "state": 59,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6151797987188293,
+            0.36521834483532356,
+            0.01960185644584705
+          ]
+        },
+        {
+          "state": 60,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8108626021977363,
+            0.1841298012338708,
+            0.005007596568392863
+          ]
+        },
+        {
+          "state": 61,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5175933925032769,
+            0.4778426016027911,
+            0.004564005893931957
+          ]
+        },
+        {
+          "state": 62,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5277466860788304,
+            0.4680202977132227,
+            0.004233016207946898
+          ]
+        },
+        {
+          "state": 63,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5111940624044536,
+            0.4846074436916182,
+            0.004198493903928314
+          ]
+        },
+        {
+          "state": 64,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5623886870434234,
+            0.43380324743089593,
+            0.0038080655256806577
+          ]
+        },
+        {
+          "state": 65,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5381294861865028,
+            0.4559253910860906,
+            0.005945122727406444
+          ]
+        },
+        {
+          "state": 66,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7528878413478302,
+            0.24135591901602105,
+            0.005756239636148917
+          ]
+        },
+        {
+          "state": 67,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6093526524526336,
+            0.38541531171162935,
+            0.005232035835737065
+          ]
+        },
+        {
+          "state": 68,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5035652891865842,
+            0.4833275316161327,
+            0.01310717919728316
+          ]
+        },
+        {
+          "state": 69,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6268458873535422,
+            0.3580901472278894,
+            0.015063965418568423
+          ]
+        },
+        {
+          "state": 70,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5045346980215872,
+            0.4846585235103215,
+            0.010806778468091372
+          ]
+        },
+        {
+          "state": 71,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49886136436170975,
+            0.48950637599169194,
+            0.01163225964659825
+          ]
+        },
+        {
+          "state": 72,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.9045148151633169,
+            0.07802703710964715,
+            0.017458147727036025
+          ]
+        },
+        {
+          "state": 73,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5768070933659439,
+            0.41871897318430107,
+            0.004473933449755101
+          ]
+        },
+        {
+          "state": 74,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7987444472585888,
+            0.1991201218446217,
+            0.00213543089678947
+          ]
+        },
+        {
+          "state": 75,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5688678948359912,
+            0.4233632751800072,
+            0.007768829984001584
+          ]
+        },
+        {
+          "state": 76,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8175624578275031,
+            0.18243754217249689,
+            0
+          ]
+        },
+        {
+          "state": 77,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5994597450159349,
+            0.3869428700603497,
+            0.013597384923715244
+          ]
+        },
+        {
+          "state": 78,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.518190339084025,
+            0.46355148726722617,
+            0.018258173648748828
+          ]
+        },
+        {
+          "state": 79,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5016340002704873,
+            0.48354238102497277,
+            0.014823618704539866
+          ]
+        },
+        {
+          "state": 80,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5568518786715816,
+            0.44106233826077407,
+            0.0020857830676443458
+          ]
+        },
+        {
+          "state": 81,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5083022533397721,
+            0.4884229402265173,
+            0.003274806433710503
+          ]
+        },
+        {
+          "state": 82,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5110990407357979,
+            0.4851503788016218,
+            0.003750580462580318
+          ]
+        },
+        {
+          "state": 83,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5355097929599315,
+            0.4559173721482178,
+            0.008572834891850822
+          ]
+        },
+        {
+          "state": 84,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5267299860964049,
+            0.4608705687437797,
+            0.012399445159815546
+          ]
+        },
+        {
+          "state": 85,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5910939983853079,
+            0.3947786671598699,
+            0.014127334454822274
+          ]
+        },
+        {
+          "state": 86,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8584594412345438,
+            0.1350671562296765,
+            0.006473402535779745
+          ]
+        },
+        {
+          "state": 87,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5424457450867302,
+            0.4542882102641331,
+            0.003266044649136862
+          ]
+        },
+        {
+          "state": 88,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5868693869445755,
+            0.4086371584750548,
+            0.004493454580369891
+          ]
+        },
+        {
+          "state": 89,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6961112191388352,
+            0.298530145749209,
+            0.005358635111955816
+          ]
+        },
+        {
+          "state": 90,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8494503940484801,
+            0.1501607765998228,
+            0.00038882935169713836
+          ]
+        },
+        {
+          "state": 91,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6958089723887942,
+            0.2939884243234954,
+            0.010202603287710383
+          ]
+        },
+        {
+          "state": 92,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.566994271215585,
+            0.4274894800368529,
+            0.005516248747562103
+          ]
+        },
+        {
+          "state": 93,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6000653611823535,
+            0.39571025535246906,
+            0.004224383465177445
+          ]
+        },
+        {
+          "state": 94,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5133010728490432,
+            0.48258939770369186,
+            0.004109529447264826
+          ]
+        },
+        {
+          "state": 95,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.49559126732734243,
+            0.4928918128173254,
+            0.011516919855332023
+          ]
+        },
+        {
+          "state": 96,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5950475489303909,
+            0.40109026704140655,
+            0.0038621840282025166
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "mode": "1",
+      "difficulty": 0.97,
+      "seed": 3,
+      "language": "zh-CN",
+      "requestedRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Commoner"
+      ],
+      "electoral": 340,
+      "popular": 7424023,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 340,
+        "popular": 7424023,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n伟大的平民\n已解锁\n目标：本人至少 331 张选举人票。\n\n本局实际：340 张选举人票，7424023 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21041,
+      "states": [
+        {
+          "state": 52,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6803854968865441,
+            0.2966175880757086,
+            0.022996915037747187
+          ]
+        },
+        {
+          "state": 53,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7231395203436051,
+            0.2650813552817375,
+            0.011779124374657387
+          ]
+        },
+        {
+          "state": 54,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5409848313744154,
+            0.44846961056102297,
+            0.010545558064561507
+          ]
+        },
+        {
+          "state": 55,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8576364695573971,
+            0.13120059990237,
+            0.011162930540232837
+          ]
+        },
+        {
+          "state": 56,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.57903243544343,
+            0.40548255629045465,
+            0.015485008266115338
+          ]
+        },
+        {
+          "state": 57,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5119609386958448,
+            0.4745309721840282,
+            0.013508089120127098
+          ]
+        },
+        {
+          "state": 58,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.711347653260544,
+            0.26538686559973607,
+            0.023265481139719827
+          ]
+        },
+        {
+          "state": 59,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6059785262971542,
+            0.3736469261730105,
+            0.020374547529835276
+          ]
+        },
+        {
+          "state": 60,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8045404810364519,
+            0.19029431339896802,
+            0.005165205564580172
+          ]
+        },
+        {
+          "state": 61,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5148893220140939,
+            0.4805073729205005,
+            0.004603305065405576
+          ]
+        },
+        {
+          "state": 62,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.526910362141958,
+            0.4687565567296109,
+            0.004333081128431128
+          ]
+        },
+        {
+          "state": 63,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5143368142308897,
+            0.4813242290385924,
+            0.0043389567305178196
+          ]
+        },
+        {
+          "state": 64,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5600953906032033,
+            0.4361231712960726,
+            0.0037814381007241007
+          ]
+        },
+        {
+          "state": 65,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5418937069399837,
+            0.45216641950801434,
+            0.0059398735520019615
+          ]
+        },
+        {
+          "state": 66,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7557932741718506,
+            0.23842988490452183,
+            0.0057768409236273795
+          ]
+        },
+        {
+          "state": 67,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6143446185190949,
+            0.38044945684711595,
+            0.005205924633789121
+          ]
+        },
+        {
+          "state": 68,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49674168502172555,
+            0.4895567458221846,
+            0.013701569156089851
+          ]
+        },
+        {
+          "state": 69,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6243189152113082,
+            0.360753971509311,
+            0.0149271132793808
+          ]
+        },
+        {
+          "state": 70,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.49996834250652294,
+            0.48919642381709394,
+            0.010835233676383116
+          ]
+        },
+        {
+          "state": 71,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49522843820437995,
+            0.4930703624643669,
+            0.011701199331253046
+          ]
+        },
+        {
+          "state": 72,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.902200616319976,
+            0.08016443987294791,
+            0.017634943807076118
+          ]
+        },
+        {
+          "state": 73,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5747240803217567,
+            0.42067381949302074,
+            0.004602100185222598
+          ]
+        },
+        {
+          "state": 74,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7917775674386563,
+            0.20607452646514796,
+            0.0021479060961956693
+          ]
+        },
+        {
+          "state": 75,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.55805222516046,
+            0.434174819771718,
+            0.007772955067821952
+          ]
+        },
+        {
+          "state": 76,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8119508679247471,
+            0.18804913207525278,
+            0
+          ]
+        },
+        {
+          "state": 77,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6039900366148918,
+            0.38266510055954733,
+            0.013344862825560874
+          ]
+        },
+        {
+          "state": 78,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5213547935842358,
+            0.4599040730811969,
+            0.0187411333345675
+          ]
+        },
+        {
+          "state": 79,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49725227429054575,
+            0.4870034164707479,
+            0.015744309238706237
+          ]
+        },
+        {
+          "state": 80,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.55540543331704,
+            0.4424212737125741,
+            0.0021732929703859477
+          ]
+        },
+        {
+          "state": 81,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5175343407913852,
+            0.47918411010224926,
+            0.003281549106365645
+          ]
+        },
+        {
+          "state": 82,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5128387266667009,
+            0.48326527057271623,
+            0.0038960027605827795
+          ]
+        },
+        {
+          "state": 83,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.531382094269996,
+            0.4595406052674109,
+            0.009077300462593026
+          ]
+        },
+        {
+          "state": 84,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5341770487273177,
+            0.45309539777964053,
+            0.012727553493041706
+          ]
+        },
+        {
+          "state": 85,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6015639041775869,
+            0.383947632604714,
+            0.014488463217699182
+          ]
+        },
+        {
+          "state": 86,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8564697454891637,
+            0.1369723305519021,
+            0.006557923958934197
+          ]
+        },
+        {
+          "state": 87,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5435881966486809,
+            0.453084821535535,
+            0.003326981815784189
+          ]
+        },
+        {
+          "state": 88,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5773431887913669,
+            0.4180943366298808,
+            0.0045624745787521
+          ]
+        },
+        {
+          "state": 89,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6924923606916094,
+            0.3021728265725193,
+            0.005334812735871399
+          ]
+        },
+        {
+          "state": 90,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8491794008220902,
+            0.1504245095628651,
+            0.00039608961504473543
+          ]
+        },
+        {
+          "state": 91,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.7081304748043679,
+            0.2817408269477,
+            0.010128698247932178
+          ]
+        },
+        {
+          "state": 92,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5636819987400152,
+            0.4306458387796402,
+            0.005672162480344689
+          ]
+        },
+        {
+          "state": 93,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5895781336915192,
+            0.40602550171461144,
+            0.00439636459386933
+          ]
+        },
+        {
+          "state": 94,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5084377023711966,
+            0.48745147417532464,
+            0.004110823453478704
+          ]
+        },
+        {
+          "state": 95,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5020100152263907,
+            0.4864717332503064,
+            0.011518251523302821
+          ]
+        },
+        {
+          "state": 96,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5791717519536976,
+            0.4169265123126339,
+            0.003901735733668332
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "mode": "1",
+      "difficulty": 0.97,
+      "seed": 42,
+      "language": "zh-CN",
+      "requestedRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Commoner"
+      ],
+      "electoral": 340,
+      "popular": 7405826,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 340,
+        "popular": 7405826,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n伟大的平民\n已解锁\n目标：本人至少 331 张选举人票。\n\n本局实际：340 张选举人票，7405826 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21143,
+      "states": [
+        {
+          "state": 52,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6833033483729909,
+            0.2947580642860038,
+            0.021938587341005275
+          ]
+        },
+        {
+          "state": 53,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7229011154436763,
+            0.26564108043666995,
+            0.011457804119653692
+          ]
+        },
+        {
+          "state": 54,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5315355871404913,
+            0.4578379786479001,
+            0.010626434211608655
+          ]
+        },
+        {
+          "state": 55,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8571957263248812,
+            0.13173301921475103,
+            0.011071254460367906
+          ]
+        },
+        {
+          "state": 56,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5814099586051951,
+            0.40278859010589313,
+            0.015801451288911736
+          ]
+        },
+        {
+          "state": 57,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5013852888146118,
+            0.4850734653350597,
+            0.013541245850328646
+          ]
+        },
+        {
+          "state": 58,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7098003805822273,
+            0.26662533940171296,
+            0.02357428001605981
+          ]
+        },
+        {
+          "state": 59,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6048709106334695,
+            0.3752460275443071,
+            0.019883061822223408
+          ]
+        },
+        {
+          "state": 60,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8067325535088878,
+            0.18818953138520567,
+            0.005077915105906364
+          ]
+        },
+        {
+          "state": 61,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5117092967036473,
+            0.4837395384565347,
+            0.004551164839817894
+          ]
+        },
+        {
+          "state": 62,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5193889258358859,
+            0.4763391737866612,
+            0.004271900377452868
+          ]
+        },
+        {
+          "state": 63,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.50631415713695,
+            0.48939653520559445,
+            0.004289307657455567
+          ]
+        },
+        {
+          "state": 64,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5597488954051633,
+            0.43646266705945835,
+            0.0037884375353783913
+          ]
+        },
+        {
+          "state": 65,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5366338569958828,
+            0.45740582588527257,
+            0.005960317118844729
+          ]
+        },
+        {
+          "state": 66,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7541640946449081,
+            0.2400260184279681,
+            0.005809886927123744
+          ]
+        },
+        {
+          "state": 67,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6134840677801658,
+            0.38128703370185296,
+            0.005228898517981316
+          ]
+        },
+        {
+          "state": 68,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.4963722483156506,
+            0.4902682843937205,
+            0.01335946729062894
+          ]
+        },
+        {
+          "state": 69,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6259300382201342,
+            0.3592180450539928,
+            0.01485191672587292
+          ]
+        },
+        {
+          "state": 70,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.49651665258152966,
+            0.4931402111722934,
+            0.010343136246177028
+          ]
+        },
+        {
+          "state": 71,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.4994512107204859,
+            0.4889364426631066,
+            0.01161234661640757
+          ]
+        },
+        {
+          "state": 72,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.9024708385319924,
+            0.08016469034041619,
+            0.01736447112759144
+          ]
+        },
+        {
+          "state": 73,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5698685546895802,
+            0.42558857498556135,
+            0.004542870324858441
+          ]
+        },
+        {
+          "state": 74,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7919935344693528,
+            0.2058283323529393,
+            0.0021781331777079556
+          ]
+        },
+        {
+          "state": 75,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5672414406004537,
+            0.42503978269295906,
+            0.007718776706587289
+          ]
+        },
+        {
+          "state": 76,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8083387124840948,
+            0.19166128751590505,
+            0
+          ]
+        },
+        {
+          "state": 77,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6138371227237397,
+            0.37264951295042015,
+            0.013513364325840018
+          ]
+        },
+        {
+          "state": 78,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5222955641638481,
+            0.45892446895452593,
+            0.01877996688162588
+          ]
+        },
+        {
+          "state": 79,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.4939055421341138,
+            0.4906925980378813,
+            0.015401859828004913
+          ]
+        },
+        {
+          "state": 80,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5555289243959354,
+            0.4423411321004667,
+            0.0021299435035977577
+          ]
+        },
+        {
+          "state": 81,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5031269108229447,
+            0.4935571582390957,
+            0.0033159309379597133
+          ]
+        },
+        {
+          "state": 82,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5077120960036493,
+            0.48843842710226715,
+            0.003849476894083476
+          ]
+        },
+        {
+          "state": 83,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5248000128220853,
+            0.4665648816732949,
+            0.008635105504619755
+          ]
+        },
+        {
+          "state": 84,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5374453484949857,
+            0.4498208603471689,
+            0.012733791157845346
+          ]
+        },
+        {
+          "state": 85,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5961743308602686,
+            0.3894424939790523,
+            0.014383175160679147
+          ]
+        },
+        {
+          "state": 86,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8546358830321378,
+            0.13879792533560006,
+            0.006566191632262244
+          ]
+        },
+        {
+          "state": 87,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5420954177046491,
+            0.45462807279496426,
+            0.003276509500386628
+          ]
+        },
+        {
+          "state": 88,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.580778684441813,
+            0.4145943735724105,
+            0.004626941985776584
+          ]
+        },
+        {
+          "state": 89,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6890455357351728,
+            0.3056285726472083,
+            0.005325891617618916
+          ]
+        },
+        {
+          "state": 90,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8491733741760299,
+            0.15043157947679411,
+            0.0003950463471759356
+          ]
+        },
+        {
+          "state": 91,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.7028437188554969,
+            0.28703069453407565,
+            0.010125586610427468
+          ]
+        },
+        {
+          "state": 92,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5638926990454496,
+            0.4304041550904573,
+            0.005703145864093039
+          ]
+        },
+        {
+          "state": 93,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5881229316654895,
+            0.407544052071169,
+            0.004333016263341625
+          ]
+        },
+        {
+          "state": 94,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5001193238285588,
+            0.49580471074839993,
+            0.004075965423041322
+          ]
+        },
+        {
+          "state": 95,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.504078152174393,
+            0.4844316985138351,
+            0.011490149311771817
+          ]
+        },
+        {
+          "state": 96,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5858510288364605,
+            0.4102802459698722,
+            0.0038687251936671955
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "mode": "1",
+      "difficulty": 0.97,
+      "seed": 1776,
+      "language": "zh-CN",
+      "requestedRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Commoner"
+      ],
+      "electoral": 354,
+      "popular": 7475398,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 354,
+        "popular": 7475398,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n伟大的平民\n已解锁\n目标：本人至少 331 张选举人票。\n\n本局实际：354 张选举人票，7475398 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21083,
+      "states": [
+        {
+          "state": 52,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6849252274030424,
+            0.2926622314180844,
+            0.022412541178873237
+          ]
+        },
+        {
+          "state": 53,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7286878990401696,
+            0.25931003775471323,
+            0.012002063205117104
+          ]
+        },
+        {
+          "state": 54,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.538138106111957,
+            0.45113051230018625,
+            0.010731381587856872
+          ]
+        },
+        {
+          "state": 55,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8588590780550773,
+            0.13004627843201141,
+            0.011094643512911277
+          ]
+        },
+        {
+          "state": 56,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5693320181482506,
+            0.4148352588477405,
+            0.015832723004008967
+          ]
+        },
+        {
+          "state": 57,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5157580431961579,
+            0.47056545673704037,
+            0.013676500066801649
+          ]
+        },
+        {
+          "state": 58,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7146665297754425,
+            0.26187824363222656,
+            0.023455226592330843
+          ]
+        },
+        {
+          "state": 59,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6121580824281713,
+            0.36779316303556336,
+            0.020048754536265406
+          ]
+        },
+        {
+          "state": 60,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8091200373111651,
+            0.1856860252622728,
+            0.0051939374265622725
+          ]
+        },
+        {
+          "state": 61,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.513762404938691,
+            0.4815084266626134,
+            0.004729168398695589
+          ]
+        },
+        {
+          "state": 62,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5243338226279012,
+            0.47141469244313705,
+            0.004251484928961841
+          ]
+        },
+        {
+          "state": 63,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5166074031915864,
+            0.4790569881834474,
+            0.004335608624966207
+          ]
+        },
+        {
+          "state": 64,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5671552445105897,
+            0.4289474406484758,
+            0.003897314840934567
+          ]
+        },
+        {
+          "state": 65,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5496341955525065,
+            0.44440393030831415,
+            0.0059618741391792756
+          ]
+        },
+        {
+          "state": 66,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7527933579676301,
+            0.24146418861025234,
+            0.005742453422117394
+          ]
+        },
+        {
+          "state": 67,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6070208737478696,
+            0.38764004292953064,
+            0.005339083322599789
+          ]
+        },
+        {
+          "state": 68,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49535296559638237,
+            0.49076777262933113,
+            0.0138792617742866
+          ]
+        },
+        {
+          "state": 69,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6231143772800979,
+            0.36174462949897124,
+            0.015140993220930942
+          ]
+        },
+        {
+          "state": 70,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5006175300337445,
+            0.48875138036928767,
+            0.010631089596967782
+          ]
+        },
+        {
+          "state": 71,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5009335806144335,
+            0.4873159319614722,
+            0.011750487424094219
+          ]
+        },
+        {
+          "state": 72,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.9065435506017152,
+            0.07621902133229402,
+            0.017237428065990674
+          ]
+        },
+        {
+          "state": 73,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5818070210516934,
+            0.4135913243581388,
+            0.00460165459016781
+          ]
+        },
+        {
+          "state": 74,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7959410522709305,
+            0.20189472491888744,
+            0.0021642228101819995
+          ]
+        },
+        {
+          "state": 75,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5699696656490533,
+            0.42218976221615573,
+            0.007840572134790958
+          ]
+        },
+        {
+          "state": 76,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8164984507036279,
+            0.18350154929637208,
+            0
+          ]
+        },
+        {
+          "state": 77,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6001246601845535,
+            0.3860754803109466,
+            0.013799859504499811
+          ]
+        },
+        {
+          "state": 78,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5177293308883009,
+            0.4628639895789073,
+            0.019406679532791692
+          ]
+        },
+        {
+          "state": 79,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5035098375713797,
+            0.4807463929500695,
+            0.015743769478550773
+          ]
+        },
+        {
+          "state": 80,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5622023654669956,
+            0.4356460005329547,
+            0.0021516340000496082
+          ]
+        },
+        {
+          "state": 81,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5157446638485208,
+            0.48090117947610406,
+            0.0033541566753751413
+          ]
+        },
+        {
+          "state": 82,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5223675329341357,
+            0.47373052355615336,
+            0.003901943509711024
+          ]
+        },
+        {
+          "state": 83,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5370073597490138,
+            0.4542073621239217,
+            0.008785278127064504
+          ]
+        },
+        {
+          "state": 84,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.53733862002233,
+            0.44990641043230695,
+            0.012754969545363206
+          ]
+        },
+        {
+          "state": 85,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.596053495624343,
+            0.38920621824655294,
+            0.01474028612910408
+          ]
+        },
+        {
+          "state": 86,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8565571550922739,
+            0.13678079472882693,
+            0.006662050178899082
+          ]
+        },
+        {
+          "state": 87,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5477275953463548,
+            0.4490350142426919,
+            0.0032373904109533366
+          ]
+        },
+        {
+          "state": 88,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5884466599581183,
+            0.40694732398041233,
+            0.0046060160614692725
+          ]
+        },
+        {
+          "state": 89,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6999203755417414,
+            0.2947122247756249,
+            0.005367399682633779
+          ]
+        },
+        {
+          "state": 90,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8488535567476,
+            0.15074692140604215,
+            0.00039952184635788147
+          ]
+        },
+        {
+          "state": 91,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.7022750466264785,
+            0.2877625137726296,
+            0.009962439600891684
+          ]
+        },
+        {
+          "state": 92,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5634775771127484,
+            0.4306770413603855,
+            0.005845381526866288
+          ]
+        },
+        {
+          "state": 93,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5970103212366532,
+            0.39857324901166996,
+            0.00441642975167675
+          ]
+        },
+        {
+          "state": 94,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5087066266853152,
+            0.48712194584812585,
+            0.004171427466559029
+          ]
+        },
+        {
+          "state": 95,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5008655520346643,
+            0.4875528554281695,
+            0.011581592537166131
+          ]
+        },
+        {
+          "state": 96,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5918313175831549,
+            0.40419939571010366,
+            0.003969286706741538
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "Commoner",
+      "scope": "1896_Bryan_Teller",
+      "mode": "1",
+      "difficulty": 0.97,
+      "seed": 2026,
+      "language": "zh-CN",
+      "requestedRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "coachingRoute": "Commoner-1896_Bryan_Teller-1-0.97-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "Commoner"
+      ],
+      "electoral": 354,
+      "popular": 7431619,
+      "outcome": "win",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 354,
+        "popular": 7431619,
+        "outcome": "win",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n伟大的平民\n已解锁\n目标：本人至少 331 张选举人票。\n\n本局实际：354 张选举人票，7431619 张普选票，获胜。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 138,
+          "id": 979,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 197,
+          "id": 1478,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 142,
+          "id": 992,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 195,
+          "id": 1468,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 139,
+          "id": 981,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 194,
+          "id": 1465,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 193,
+          "id": 1462,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 196,
+          "id": 1473,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 148,
+          "id": 1011,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 141,
+          "id": 991,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 145,
+          "id": 1002,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 226,
+          "id": 1568,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 151,
+          "id": 1021,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 146,
+          "id": 1007,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 217,
+          "id": 1540,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 216,
+          "id": 1536,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 171,
+          "id": 1372,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 221,
+          "id": 1553,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 237,
+          "id": 1602,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 244,
+          "id": 1624,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 143,
+          "id": 997,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 152,
+          "id": 1025,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 219,
+          "id": 1546,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 149,
+          "id": 1016,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 251,
+          "id": 1649,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        979,
+        1478,
+        992,
+        1468,
+        981,
+        1465,
+        1462,
+        1473,
+        1011,
+        991,
+        1002,
+        1568,
+        1021,
+        1007,
+        1540,
+        1536,
+        1372,
+        1553,
+        1602,
+        1624,
+        997,
+        1025,
+        1546,
+        1016,
+        1649
+      ],
+      "visits": [],
+      "rngCalls": 21033,
+      "states": [
+        {
+          "state": 52,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6801005831249328,
+            0.29719576287086036,
+            0.022703654004206958
+          ]
+        },
+        {
+          "state": 53,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7286538584874404,
+            0.25969255546101583,
+            0.01165358605154376
+          ]
+        },
+        {
+          "state": 54,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5398392590635757,
+            0.44942859960141457,
+            0.010732141335009911
+          ]
+        },
+        {
+          "state": 55,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8590799977483559,
+            0.12957910057183092,
+            0.011340901679813224
+          ]
+        },
+        {
+          "state": 56,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5744424585107999,
+            0.40974676951732236,
+            0.015810771971877663
+          ]
+        },
+        {
+          "state": 57,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5154545792433393,
+            0.47094038591705645,
+            0.013605034839604215
+          ]
+        },
+        {
+          "state": 58,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7145811290364503,
+            0.2621325319138801,
+            0.023286339049669567
+          ]
+        },
+        {
+          "state": 59,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6083398246192654,
+            0.3717175234405106,
+            0.019942651940224078
+          ]
+        },
+        {
+          "state": 60,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8043145103223018,
+            0.19045532671498347,
+            0.005230162962714622
+          ]
+        },
+        {
+          "state": 61,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5094739913659074,
+            0.4858469871355985,
+            0.004679021498494082
+          ]
+        },
+        {
+          "state": 62,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5272637206983706,
+            0.4684083807231804,
+            0.004327898578449113
+          ]
+        },
+        {
+          "state": 63,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5147683541408195,
+            0.48086773479139794,
+            0.0043639110677826725
+          ]
+        },
+        {
+          "state": 64,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.570466459199424,
+            0.4255953486073396,
+            0.003938192193236346
+          ]
+        },
+        {
+          "state": 65,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5367951721533871,
+            0.4571186503136054,
+            0.006086177533007441
+          ]
+        },
+        {
+          "state": 66,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7576465908585147,
+            0.236598217567379,
+            0.0057551915741062935
+          ]
+        },
+        {
+          "state": 67,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.611602124481835,
+            0.3831560055102498,
+            0.005241870007915088
+          ]
+        },
+        {
+          "state": 68,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.4948808456676377,
+            0.49127545943204043,
+            0.013843694900321933
+          ]
+        },
+        {
+          "state": 69,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6238680946504034,
+            0.3613070985817187,
+            0.014824806767877913
+          ]
+        },
+        {
+          "state": 70,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5019272131556114,
+            0.48745629310391175,
+            0.010616493740476844
+          ]
+        },
+        {
+          "state": 71,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.49603570499895594,
+            0.4922077011445771,
+            0.011756593856466878
+          ]
+        },
+        {
+          "state": 72,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.9048236613135892,
+            0.07751091434071107,
+            0.017665424345699753
+          ]
+        },
+        {
+          "state": 73,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5763002077148979,
+            0.41910541841003524,
+            0.004594373875066818
+          ]
+        },
+        {
+          "state": 74,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.7959369753233675,
+            0.20188867257158305,
+            0.0021743521050494314
+          ]
+        },
+        {
+          "state": 75,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.566160105324307,
+            0.4260055055234334,
+            0.007834389152259485
+          ]
+        },
+        {
+          "state": 76,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8165559463926958,
+            0.18344405360730406,
+            0
+          ]
+        },
+        {
+          "state": 77,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.6011217919316764,
+            0.38502504521493297,
+            0.013853162853390541
+          ]
+        },
+        {
+          "state": 78,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5131853952559172,
+            0.46775287948988675,
+            0.019061725254196055
+          ]
+        },
+        {
+          "state": 79,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5046341551717269,
+            0.47992131806243354,
+            0.015444526765839572
+          ]
+        },
+        {
+          "state": 80,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5606299882636655,
+            0.4371743577661279,
+            0.0021956539702065363
+          ]
+        },
+        {
+          "state": 81,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.516415542251822,
+            0.480228058661772,
+            0.003356399086406027
+          ]
+        },
+        {
+          "state": 82,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5123056619086332,
+            0.48376205959225815,
+            0.003932278499108559
+          ]
+        },
+        {
+          "state": 83,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5400773011437076,
+            0.4511769700695037,
+            0.008745728786788691
+          ]
+        },
+        {
+          "state": 84,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5347200870106832,
+            0.4524577127739937,
+            0.012822200215323067
+          ]
+        },
+        {
+          "state": 85,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.5971299521700052,
+            0.3883914797940964,
+            0.014478568035898328
+          ]
+        },
+        {
+          "state": 86,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8590389645401172,
+            0.13457590091099214,
+            0.006385134548890745
+          ]
+        },
+        {
+          "state": 87,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5439981751218272,
+            0.45270978656640487,
+            0.003292038311767933
+          ]
+        },
+        {
+          "state": 88,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5860594426076122,
+            0.40936641226298676,
+            0.00457414512940113
+          ]
+        },
+        {
+          "state": 89,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6883359533300696,
+            0.3061258793552476,
+            0.0055381673146827895
+          ]
+        },
+        {
+          "state": 90,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.8489180283368976,
+            0.1506755903625347,
+            0.00040638130056772466
+          ]
+        },
+        {
+          "state": 91,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.7023929197267712,
+            0.2874726036977588,
+            0.010134476575469942
+          ]
+        },
+        {
+          "state": 92,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5723538682897421,
+            0.4219245616261487,
+            0.005721570084109215
+          ]
+        },
+        {
+          "state": 93,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.6018743943558473,
+            0.3937370571483212,
+            0.00438854849583152
+          ]
+        },
+        {
+          "state": 94,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.513806095770905,
+            0.48190407472996655,
+            0.004289829499128565
+          ]
+        },
+        {
+          "state": 95,
+          "ranking": [
+            20,
+            21,
+            22
+          ],
+          "margins": [
+            0.4989055452669445,
+            0.4896095525076051,
+            0.011484902225450516
+          ]
+        },
+        {
+          "state": 96,
+          "ranking": [
+            21,
+            20,
+            22
+          ],
+          "margins": [
+            0.5878880675354222,
+            0.4081689875614503,
+            0.003942944903127518
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "achievement": "Commoner",
+  "name": "伟大的平民",
+  "setup": "1896_Bryan_Teller",
+  "seeds": [
+    1,
+    3,
+    42,
+    1776,
+    2026
+  ],
+  "unlocks": 5
+}

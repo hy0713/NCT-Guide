@@ -1,0 +1,4889 @@
+{
+  "date": "2026-11-17T05:42:56.851Z",
+  "execution": "completed",
+  "network": "All non-loopback requests blocked",
+  "runtimeSHA256": {
+    "model.js": "4c786038322017a1aaa3efffecfdf34372513cb2ef0c8f645757cc14214e41b4",
+    "achievement-data.js": "21ce154d9d451bace19e74d63e43f61fcbcf4cc18c1865711591749eeb5a2c45",
+    "achievements.js": "c3e2ab81e71c4819e34a8e0b0010fbf1387d825a070d905d3ac7e572e011aa0e",
+    "guide.js": "66b1f1bea9f7a1f652671b68a9782e4a989fba119a7ac71f7b8d4c6bb4547446",
+    "planner-worker.js": "3048d4c6ee9e4b654f9e3fd317ee2177de8cd285a08a1d05ee9427ac4cfe86b6",
+    "messages.json": "4f7260aa0f008e4844764a609abe72b3b92f564fba4c600b4606a535c5481a7c"
+  },
+  "runs": [
+    {
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "mode": "1",
+      "difficulty": 1.33,
+      "seed": 1,
+      "language": "zh-CN",
+      "requestedRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "BCitsEasy"
+      ],
+      "electoral": 20,
+      "popular": 28122558,
+      "outcome": "loss",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 20,
+        "popular": 28122558,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n正因为困难\n正因为容易\n已解锁\n目标：不超过 99 张选举人票。\n\n本局实际：20 张选举人票，28122558 张普选票，落败。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48811,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.47955611144204846,
+            0.32229803457534,
+            0.19814585398261145
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5570695715832186,
+            0.4429304284167814,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5963045604422305,
+            0.4036954395577695,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4244778910182396,
+            0.3272160780825682,
+            0.24830603089919223
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5503595191824615,
+            0.4496404808175385,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5890177057867054,
+            0.4109822942132944,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5068464102984164,
+            0.4931535897015837,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5445903104233301,
+            0.45540968957666994,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.49543036221124215,
+            0.25644913235458694,
+            0.248120505434171
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.3782280604617764,
+            0.3630452275790698,
+            0.25872671195915387
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5522653498405642,
+            0.4477346501594358,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5858445956643421,
+            0.4141554043356579,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5313031284275025,
+            0.4686968715724975,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5855563102892636,
+            0.41444368971073636,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6018497991946615,
+            0.3981502008053384,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.626321660139729,
+            0.3736783398602709,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5820059478733899,
+            0.4179940521266101,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.3771936139702635,
+            0.33495418611145966,
+            0.2878521999182769
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6063579006421108,
+            0.3936420993578892,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.529538366459124,
+            0.47046163354087606,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.539166567188802,
+            0.4608334328111981,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5369333638807303,
+            0.4630666361192696,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5321358952007907,
+            0.46786410479920915,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4777113138595075,
+            0.32699804534379145,
+            0.19529064079670105
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5500178042610052,
+            0.4499821957389947,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5505147601833623,
+            0.4494852398166377,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6409972399963129,
+            0.3590027600036872,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.533849940815094,
+            0.46615005918490615,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5807163988549318,
+            0.4192836011450683,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5267845711540942,
+            0.47321542884590573,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5248167300818202,
+            0.47518326991817983,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5013704985015148,
+            0.49862950149848523,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4608159311292389,
+            0.28158742208956716,
+            0.25759664678119404
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5916995683084464,
+            0.4083004316915536,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.571703259748259,
+            0.428296740251741,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5055457303525254,
+            0.30449367171727637,
+            0.18996059793019823
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5556670995293929,
+            0.4443329004706072,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5378468282158054,
+            0.46215317178419457,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.565399562733879,
+            0.43460043726612096,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4512205264524261,
+            0.3530047934858176,
+            0.19577468006175627
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6133371302751492,
+            0.38666286972485087,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4762875238720319,
+            0.3071498095306826,
+            0.21656266659728537
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.48911120515253625,
+            0.25599193384871993,
+            0.25489686099874376
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5961668396647822,
+            0.40383316033521777,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.621976845967483,
+            0.378023154032517,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5862743324772984,
+            0.2902004169203806,
+            0.12352525060232095
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5505231325132793,
+            0.44947686748672067,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5300819948271406,
+            0.46991800517285953,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5489160867376074,
+            0.4510839132623926,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5937214217674289,
+            0.406278578232571,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0.0059901038667760555,
+            0.994009896133224
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "mode": "1",
+      "difficulty": 1.33,
+      "seed": 3,
+      "language": "zh-CN",
+      "requestedRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "BCitsEasy"
+      ],
+      "electoral": 65,
+      "popular": 28244678,
+      "outcome": "loss",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 65,
+        "popular": 28244678,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n正因为困难\n正因为容易\n已解锁\n目标：不超过 99 张选举人票。\n\n本局实际：65 张选举人票，28244678 张普选票，落败。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48591,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.47389394833723053,
+            0.3252861132162514,
+            0.20081993844651808
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5584315810043202,
+            0.4415684189956797,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5988945283966117,
+            0.40110547160338833,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.43712758375215793,
+            0.3183301915330066,
+            0.24454222471483555
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5526613991885221,
+            0.44733860081147786,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5980720199812666,
+            0.4019279800187334,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5113855012485381,
+            0.4886144987514619,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5470480597144654,
+            0.45295194028553465,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5043712309868283,
+            0.24920822354432412,
+            0.2464205454688477
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.37768442432835775,
+            0.3643551192701878,
+            0.25796045640145454
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5585778067458366,
+            0.4414221932541634,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5838342349438336,
+            0.4161657650561664,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5315479717032865,
+            0.4684520282967134,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5833874138719717,
+            0.4166125861280284,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6054791993791482,
+            0.39452080062085193,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6278672277554793,
+            0.37213277224452074,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5912635987493945,
+            0.40873640125060545,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.38024008460046105,
+            0.33652812827076894,
+            0.28323178712877
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6061451725266884,
+            0.3938548274733115,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5314967350645694,
+            0.46850326493543043,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5348658831096912,
+            0.4651341168903088,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5423346546639454,
+            0.4576653453360545,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.53748877687212,
+            0.4625112231278799,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.47741994869609755,
+            0.33486834386574194,
+            0.1877117074381605
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5568163174861956,
+            0.44318368251380447,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5578815859665823,
+            0.4421184140334177,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6486520769663333,
+            0.35134792303366663,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5436280910683489,
+            0.45637190893165125,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5822028596627736,
+            0.41779714033722626,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5261854901054073,
+            0.4738145098945927,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5340212760867669,
+            0.46597872391323303,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5010680341923427,
+            0.49893196580765725,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4656836551580588,
+            0.2759734990808082,
+            0.258342845761133
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5964132854544981,
+            0.4035867145455019,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5740081106050199,
+            0.42599188939498006,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5060579505515023,
+            0.29784494028905967,
+            0.19609710915943807
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5642480924211745,
+            0.4357519075788256,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5374535694584704,
+            0.46254643054152966,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.55847095300523,
+            0.44152904699477,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4504979470949485,
+            0.35843599070196974,
+            0.19106606220308173
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.622871703109345,
+            0.3771282968906551,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4722712967230115,
+            0.31167903978460626,
+            0.2160496634923823
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5005742702076338,
+            0.2521735142472324,
+            0.24725221554513385
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6000687321299222,
+            0.3999312678700778,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6220044591916014,
+            0.37799554080839864,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5975373808723266,
+            0.28157996484822656,
+            0.12088265427944693
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5495592047064869,
+            0.45044079529351316,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5292917833228479,
+            0.4707082166771521,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5545192586778073,
+            0.44548074132219273,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.599246619925519,
+            0.4007533800744811,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0.00606660614390558,
+            0.9939333938560945
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "mode": "1",
+      "difficulty": 1.33,
+      "seed": 42,
+      "language": "zh-CN",
+      "requestedRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "BCitsEasy"
+      ],
+      "electoral": 20,
+      "popular": 27897441,
+      "outcome": "loss",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 20,
+        "popular": 27897441,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n正因为困难\n正因为容易\n已解锁\n目标：不超过 99 张选举人票。\n\n本局实际：20 张选举人票，27897441 张普选票，落败。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48813,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.47534103482845447,
+            0.3252036900075991,
+            0.19945527516394637
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.559756483783139,
+            0.4402435162168609,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.599684607919732,
+            0.40031539208026795,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.43751786081600014,
+            0.328163414293636,
+            0.23431872489036382
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5478310590228914,
+            0.4521689409771085,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5999705634007378,
+            0.40002943659926216,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5127024315512579,
+            0.48729756844874206,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5601523781279093,
+            0.43984762187209075,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.492406493853436,
+            0.25656595671105775,
+            0.2510275494355062
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.387577843138482,
+            0.36459918876153663,
+            0.24782296809998153
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5579973420591106,
+            0.44200265794088944,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5774350755279829,
+            0.42256492447201716,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5307026033152411,
+            0.4692973966847589,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5902002951430134,
+            0.40979970485698647,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6075795506696063,
+            0.39242044933039366,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6324026637836622,
+            0.36759733621633783,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5877075999176608,
+            0.4122924000823392,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.3835610608946724,
+            0.33576609133561264,
+            0.2806728477697149
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6111093132571257,
+            0.38889068674287425,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5434497449375136,
+            0.45655025506248625,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5354718699158034,
+            0.46452813008419663,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5464979960024672,
+            0.4535020039975328,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.541668857356339,
+            0.45833114264366104,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.483928346348627,
+            0.32980439318010224,
+            0.18626726047127073
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5568048066687534,
+            0.44319519333124663,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5605390005728403,
+            0.4394609994271597,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6453256397788509,
+            0.3546743602211489,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5488817414464626,
+            0.45111825855353743,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5815959191536358,
+            0.41840408084636405,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.529093490959491,
+            0.4709065090405091,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5300681686873882,
+            0.4699318313126119,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5054058253355979,
+            0.49459417466440225,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4654926513416725,
+            0.2796101068048042,
+            0.2548972418535233
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5993739489857568,
+            0.4006260510142431,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.572101401629961,
+            0.4278985983700388,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5052899038499449,
+            0.3033584452694159,
+            0.19135165088063938
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.564670479968315,
+            0.435329520031685,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5461242940023758,
+            0.4538757059976242,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5617589793310451,
+            0.4382410206689548,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4483513136507449,
+            0.36063118912161785,
+            0.19101749722763736
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6218770361169262,
+            0.3781229638830738,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4829834993168223,
+            0.30743604148364895,
+            0.2095804591995289
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.49342682816700284,
+            0.2541874382902057,
+            0.2523857335427916
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6034535892924959,
+            0.39654641070750396,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6279350251904058,
+            0.3720649748095942,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5947778251170881,
+            0.28213812779940567,
+            0.12308404708350618
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.548473134352726,
+            0.45152686564727385,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5351217426231988,
+            0.46487825737680116,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5549880888863932,
+            0.445011911113607,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5985344661418683,
+            0.4014655338581316,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0.006095103059692475,
+            0.9939048969403076
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "mode": "1",
+      "difficulty": 1.33,
+      "seed": 1776,
+      "language": "zh-CN",
+      "requestedRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "BCitsEasy"
+      ],
+      "electoral": 20,
+      "popular": 28056518,
+      "outcome": "loss",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 20,
+        "popular": 28056518,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n正因为困难\n正因为容易\n已解锁\n目标：不超过 99 张选举人票。\n\n本局实际：20 张选举人票，28056518 张普选票，落败。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48853,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4696990495154078,
+            0.3287728280819492,
+            0.20152812240264298
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5598983561159018,
+            0.44010164388409834,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5963763288527913,
+            0.4036236711472086,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.43728936992632317,
+            0.31736283221616424,
+            0.2453477978575126
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5477164871502577,
+            0.4522835128497424,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5988163535615897,
+            0.4011836464384103,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5066225858092961,
+            0.49337741419070397,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5472829564370029,
+            0.4527170435629972,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.49962547354614767,
+            0.2518263323889085,
+            0.2485481940649438
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.3776240338583988,
+            0.3640093053038211,
+            0.25836666083778015
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5515831285057601,
+            0.4484168714942398,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5854553968710187,
+            0.4145446031289813,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5304459242395202,
+            0.46955407576047975,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.582804253688239,
+            0.4171957463117611,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6013992919730994,
+            0.3986007080269005,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6324520594912704,
+            0.3675479405087295,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5892848922914186,
+            0.4107151077085815,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.38032801878832934,
+            0.3395373275951328,
+            0.280134653616538
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6067729466505283,
+            0.3932270533494716,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5351478944592556,
+            0.4648521055407445,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5279997110515545,
+            0.4720002889484454,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5410900027379142,
+            0.45890999726208576,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5418065828596816,
+            0.4581934171403183,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4764300286726061,
+            0.332512784907319,
+            0.191057186420075
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.550458441302325,
+            0.449541558697675,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5611507505835586,
+            0.4388492494164414,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6474543923866064,
+            0.35254560761339354,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5415170596210149,
+            0.4584829403789851,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5790761689615601,
+            0.4209238310384398,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5259558518690404,
+            0.47404414813095946,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5320128531733582,
+            0.46798714682664183,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.502124600864159,
+            0.49787539913584095,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4678215273254313,
+            0.2765177038775039,
+            0.2556607687970648
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5991249675424348,
+            0.4008750324575651,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5708539054738838,
+            0.42914609452611613,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5070631826883072,
+            0.30076407052643445,
+            0.1921727467852583
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5694269067276527,
+            0.4305730932723472,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5431290276643895,
+            0.45687097233561047,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.566464804209149,
+            0.43353519579085087,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4398624593160844,
+            0.364151573469908,
+            0.19598596721400774
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6167224458411191,
+            0.3832775541588809,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4744850494778925,
+            0.30766098086525034,
+            0.2178539696568572
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5022586373976021,
+            0.24947921056624184,
+            0.24826215203615618
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5999151193689883,
+            0.4000848806310116,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.622819710089773,
+            0.3771802899102271,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5854218389734083,
+            0.29330138544843753,
+            0.12127677557815417
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5545528107120384,
+            0.44544718928796145,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.529755993457863,
+            0.4702440065421371,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5466110218643971,
+            0.4533889781356028,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5976282234791663,
+            0.4023717765208336,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0.006006888601141479,
+            0.9939931113988586
+          ]
+        }
+      ]
+    },
+    {
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "mode": "1",
+      "difficulty": 1.33,
+      "seed": 2026,
+      "language": "zh-CN",
+      "requestedRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "coachingRoute": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "unlocked": true,
+      "newUnlocks": [
+        "BCitsEasy"
+      ],
+      "electoral": 65,
+      "popular": 28066641,
+      "outcome": "loss",
+      "yearRecorded": false,
+      "counter": 0,
+      "diagnosis": {
+        "votes": 65,
+        "popular": 28066641,
+        "outcome": "loss",
+        "unlocked": true,
+        "met": true,
+        "reasons": []
+      },
+      "resultText": "竞选攻略\n 启用成就引导\n本局目标：\n常规胜选\n正因为困难\n正因为容易\n已解锁\n目标：不超过 99 张选举人票。\n\n本局实际：65 张选举人票，28066641 张普选票，落败。 存档已解锁此成就。\n\n成就条件、路线与组合\n预测数据与计算依据",
+      "steps": [
+        {
+          "type": "answer",
+          "question": 448,
+          "id": 3662,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 452,
+          "id": 3668,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 485,
+          "id": 3770,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 476,
+          "id": 3740,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 494,
+          "id": 3800,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 479,
+          "id": 3748,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 480,
+          "id": 3751,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 453,
+          "id": 3672,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 458,
+          "id": 3686,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 455,
+          "id": 3677,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 457,
+          "id": 3685,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 489,
+          "id": 3780,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 490,
+          "id": 3785,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 456,
+          "id": 3682,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 454,
+          "id": 3673,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 483,
+          "id": 3763,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 491,
+          "id": 3789,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 493,
+          "id": 3797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 481,
+          "id": 3754,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 486,
+          "id": 3773,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 488,
+          "id": 3777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 487,
+          "id": 3776,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 478,
+          "id": 3745,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 484,
+          "id": 3766,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 333,
+          "abbr": "AA"
+        },
+        {
+          "type": "answer",
+          "question": 495,
+          "id": 3804,
+          "routeActive": true,
+          "fromRoute": true
+        }
+      ],
+      "answers": [
+        3662,
+        3668,
+        3770,
+        3740,
+        3800,
+        3748,
+        3751,
+        3672,
+        3686,
+        3677,
+        3685,
+        3780,
+        3785,
+        3682,
+        3673,
+        3763,
+        3789,
+        3797,
+        3754,
+        3773,
+        3777,
+        3776,
+        3745,
+        3766,
+        3804
+      ],
+      "visits": [
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333,
+        333
+      ],
+      "rngCalls": 48619,
+      "states": [
+        {
+          "state": 283,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.46824012798687287,
+            0.3212133573576791,
+            0.2105465146554481
+          ]
+        },
+        {
+          "state": 284,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5488656980915956,
+            0.4511343019084045,
+            0
+          ]
+        },
+        {
+          "state": 285,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5938855191679493,
+            0.40611448083205065,
+            0
+          ]
+        },
+        {
+          "state": 286,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.42672055239092255,
+            0.3227608478379866,
+            0.250518599771091
+          ]
+        },
+        {
+          "state": 287,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5414211406003246,
+            0.45857885939967546,
+            0
+          ]
+        },
+        {
+          "state": 288,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5902921167922645,
+            0.4097078832077356,
+            0
+          ]
+        },
+        {
+          "state": 289,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5026840199570624,
+            0.49731598004293764,
+            0
+          ]
+        },
+        {
+          "state": 290,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5376328575247938,
+            0.46236714247520605,
+            0
+          ]
+        },
+        {
+          "state": 291,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.4914150411210461,
+            0.2590124561496355,
+            0.24957250272931844
+          ]
+        },
+        {
+          "state": 292,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.37922111481799226,
+            0.3565119051361923,
+            0.2642669800458155
+          ]
+        },
+        {
+          "state": 293,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5535450377205132,
+            0.4464549622794867,
+            0
+          ]
+        },
+        {
+          "state": 294,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5747312803380769,
+            0.42526871966192326,
+            0
+          ]
+        },
+        {
+          "state": 295,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5268729864976992,
+            0.4731270135023009,
+            0
+          ]
+        },
+        {
+          "state": 296,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.580319194586048,
+            0.419680805413952,
+            0
+          ]
+        },
+        {
+          "state": 297,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6022164184963712,
+            0.39778358150362875,
+            0
+          ]
+        },
+        {
+          "state": 298,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6263300951170511,
+            0.3736699048829488,
+            0
+          ]
+        },
+        {
+          "state": 299,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5855685497523399,
+            0.4144314502476602,
+            0
+          ]
+        },
+        {
+          "state": 300,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.3728816924528316,
+            0.33763416887690834,
+            0.2894841386702601
+          ]
+        },
+        {
+          "state": 301,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6033236222381341,
+            0.3966763777618659,
+            0
+          ]
+        },
+        {
+          "state": 302,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5246078595258186,
+            0.47539214047418155,
+            0
+          ]
+        },
+        {
+          "state": 303,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5407342086460452,
+            0.4592657913539548,
+            0
+          ]
+        },
+        {
+          "state": 304,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5285521097709105,
+            0.4714478902290896,
+            0
+          ]
+        },
+        {
+          "state": 305,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5314937802938206,
+            0.4685062197061794,
+            0
+          ]
+        },
+        {
+          "state": 306,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.4746728276430402,
+            0.3303047399162988,
+            0.195022432440661
+          ]
+        },
+        {
+          "state": 307,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5506536367759863,
+            0.4493463632240137,
+            0
+          ]
+        },
+        {
+          "state": 308,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5504462093540914,
+            0.4495537906459085,
+            0
+          ]
+        },
+        {
+          "state": 309,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6425561061612854,
+            0.35744389383871455,
+            0
+          ]
+        },
+        {
+          "state": 310,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5429668419831604,
+            0.45703315801683964,
+            0
+          ]
+        },
+        {
+          "state": 311,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5764821368602288,
+            0.4235178631397713,
+            0
+          ]
+        },
+        {
+          "state": 312,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5200432183370096,
+            0.4799567816629903,
+            0
+          ]
+        },
+        {
+          "state": 313,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5264112878438901,
+            0.4735887121561098,
+            0
+          ]
+        },
+        {
+          "state": 314,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5050574157963804,
+            0.4949425842036195,
+            0
+          ]
+        },
+        {
+          "state": 315,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.4647306980705486,
+            0.28006241711225255,
+            0.2552068848171989
+          ]
+        },
+        {
+          "state": 316,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5935885610508111,
+            0.4064114389491888,
+            0
+          ]
+        },
+        {
+          "state": 317,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5675351659361113,
+            0.4324648340638888,
+            0
+          ]
+        },
+        {
+          "state": 318,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.5061044852518394,
+            0.3009470909687695,
+            0.19294842377939123
+          ]
+        },
+        {
+          "state": 319,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5622704324809182,
+            0.4377295675190818,
+            0
+          ]
+        },
+        {
+          "state": 320,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5359145241459016,
+            0.46408547585409843,
+            0
+          ]
+        },
+        {
+          "state": 321,
+          "ranking": [
+            105,
+            106,
+            107
+          ],
+          "margins": [
+            0.5716467485895891,
+            0.4283532514104109,
+            0
+          ]
+        },
+        {
+          "state": 322,
+          "ranking": [
+            107,
+            106,
+            105
+          ],
+          "margins": [
+            0.44759523014441355,
+            0.35667820058808636,
+            0.19572656926750012
+          ]
+        },
+        {
+          "state": 323,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6128975168196273,
+            0.3871024831803728,
+            0
+          ]
+        },
+        {
+          "state": 324,
+          "ranking": [
+            106,
+            107,
+            105
+          ],
+          "margins": [
+            0.47230262038695714,
+            0.30663389612645997,
+            0.22106348348658286
+          ]
+        },
+        {
+          "state": 325,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.4920503843279111,
+            0.25843533703630295,
+            0.24951427863578599
+          ]
+        },
+        {
+          "state": 326,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.587152574522715,
+            0.412847425477285,
+            0
+          ]
+        },
+        {
+          "state": 327,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.6165876139789568,
+            0.3834123860210433,
+            0
+          ]
+        },
+        {
+          "state": 328,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.587315420840414,
+            0.2914605303465913,
+            0.12122404881299464
+          ]
+        },
+        {
+          "state": 329,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5440147876193996,
+            0.4559852123806004,
+            0
+          ]
+        },
+        {
+          "state": 330,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5263209596425763,
+            0.4736790403574238,
+            0
+          ]
+        },
+        {
+          "state": 331,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5427626840708164,
+            0.4572373159291836,
+            0
+          ]
+        },
+        {
+          "state": 332,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0.5851716441812962,
+            0.4148283558187037,
+            0
+          ]
+        },
+        {
+          "state": 333,
+          "ranking": [
+            106,
+            105,
+            107
+          ],
+          "margins": [
+            0,
+            0.006013253211940906,
+            0.9939867467880591
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "missing": [],
+  "achievement": "BCitsEasy",
+  "name": "正因为容易",
+  "setup": "1960_Kennedy_Humphrey",
+  "seeds": [
+    1,
+    3,
+    42,
+    1776,
+    2026
+  ],
+  "unlocks": 5
+}
