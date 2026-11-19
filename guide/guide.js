@@ -9,6 +9,7 @@
  const t=(key,p={})=>NCTI18n.text('guide.'+key,p);
  const h=(key,p={})=>NCTI18n.html('guide.'+key,p);
  const signed=n=>(n>=0?'+':'')+n.toFixed(2);
+ const visitable=new Set(window.NCTAchievementData.visitMap);
  const native=()=>typeof window.modded==='undefined'||!window.modded;
  function place(){
   if(!panel||panel.hidden)return;
@@ -56,7 +57,7 @@
   const answers=ids.map((id,index)=>({id,index,...project(id)}));
   const compare=(a,b)=>b.score-a.score||b.popular-a.popular||a.index-b.index;
   answers.sort(compare);
-  const visits=base.states.map((s,index)=>{
+  const visits=base.states.filter(s=>visitable.has(s.abbr)).map((s,index)=>{
    const after=project(undefined,s.id),next=after.states.find(r=>r.id===s.id);
    return {...s,index,score:after.score-base.score,gain:next.margin-s.margin,forecast:after};
   }).sort((a,b)=>b.score-a.score||b.ev-a.ev||a.index-b.index);

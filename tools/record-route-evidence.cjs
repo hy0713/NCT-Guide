@@ -9,6 +9,28 @@ const runs=reports.flatMap(r=>r.runs.map(x=>({...x,route:x.coachingRoute||x.rout
 const stressFile=path.join(root,'tests/stress-route-comparison.json');
 const stress=fs.existsSync(stressFile)?JSON.parse(fs.readFileSync(stressFile,'utf8')):null;
 if(stress)assert.equal(stress.status,'passed');
+const optimizerFile='optimizer-route-comparison.json';
+const optimizerPath=path.join(root,'tests',optimizerFile);
+const optimizer=fs.existsSync(optimizerPath)?JSON.parse(fs.readFileSync(optimizerPath,'utf8')):null;
+const optimizedEvidence=new Map();
+if(optimizer){
+ assert.equal(optimizer.status,'passed');
+ const trials=new Map(optimizer.trials.map(row=>[row.route.id,row]));
+ for(const {previous,promoted,reason} of optimizer.selection){
+  const trial=trials.get(promoted);
+  assert(trial.clickable,'A promoted route needs clickable visits');
+  const existing=data.routes.find(r=>r.id===promoted);
+  if(existing)assert.equal(hash(existing),hash(trial.route),'Replayed route definition changed');
+  else data.routes.push({...trial.route,improves:previous,notes:{
+   'zh-CN':'按原版解锁条件搜索，并在另选的随机序列中回放验证。',
+   'en-US':'Searched against the native unlock conditions and replayed on separate validation sequences.'
+  }});
+  const old=data.routes.find(r=>r.id===previous);assert(old,previous);
+  if(reason==='unclickable-visit')old.supersededBy=promoted;
+  optimizedEvidence.set(promoted,trial);
+  if(trials.get(previous)?.clickable)optimizedEvidence.set(previous,trials.get(previous));
+ }
+}
 const stressEvidence=new Map();
 for(const comparison of stress?.comparisons||[]){
  const baseline=stress.baselines.find(r=>r.route===comparison.original);
@@ -33,17 +55,26 @@ for(const route of data.routes){const compatible=runs.filter(x=>x.route===route.
  for(const phase of ['discovery','holdout'])for(const row of extra?.[phase]||[]){
   merged.set(row.seed,{seed:row.seed,electoral:row.electoral,unlocked:route.achievement!=='destiny'&&row.met,yearRecorded:route.achievement==='destiny'&&row.met,report:'stress-route-comparison.json',phase});
  }
+ const optimized=optimizedEvidence.get(route.id);
+ if(optimized)assert.equal(hash(optimized.route),hash(route));
+ for(const phase of ['discovery','holdout'])for(const row of optimized?.[phase]||[]){
+  merged.set(row.seed,{seed:row.seed,electoral:row.electoral,unlocked:row.unlocked,yearRecorded:false,report:optimizerFile,phase});
+ }
  const distinct=[...merged.values()];
  route.replays={total:distinct.length,success:distinct.filter(x=>x.unlocked||(route.achievement==='destiny'&&x.yearRecorded)).length,samples:distinct};
  if(extra)route.replays.holdout={total:extra.holdout.length,success:extra.holdout.filter(r=>r.met).length};
+ if(optimized)route.replays.holdout={total:optimized.holdout.length,success:optimized.holdout.filter(r=>r.unlocked).length};
  route.verification=route.replays.success?(route.achievement==='destiny'?'actual-year-record':'actual-unlock'):samples.length?'tested-no-unlock':'unverified';
 }
 fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
 const procedural=JSON.parse(fs.readFileSync(path.join(root,'tests/procedural-achievement-results.json'),'utf8'));assert.equal(procedural.status,'passed');
-const rows=rules.map(rule=>{const routes=data.routes.filter(r=>r.achievement===rule.id),unlocks=runs.filter(r=>r.achievement===rule.id&&r.unlocked),special=procedural.cases.filter(c=>c.achievement===rule.id&&c.unlocked),verified=routes.filter(r=>r.replays.success);return {id:rule.id,name:rule.name,actualUnlock:unlocks.length>0||special.length>0,routes:routes.length,testedRoutes:routes.filter(r=>r.replays.total).length,verifiedRoutes:verified.map(r=>({id:r.id,scope:r.scope,mode:r.mode,difficulty:r.difficulty,success:r.replays.success,total:r.replays.total})),procedureEvidence:special.length? 'tests/procedural-achievement-results.json':null};});
-const report={date:new Date().toISOString(),method:'Actual native achievement storage, offline browser replays; independent Chinese seed fixtures counted once, English duplicates excluded. These are not success probabilities. Candidate search and synthetic predicate tests are excluded from unlock coverage.',actualUnlocks:rows.filter(r=>r.actualUnlock).length,total:rows.length,actualGames:runs.length+procedural.cases.reduce((n,c)=>n+(c.games?.length||1),0),rows,remaining:rows.filter(r=>!r.actualUnlock).map(r=>r.id)};
+const rows=rules.map(rule=>{const routes=data.routes.filter(r=>r.achievement===rule.id),unlocks=runs.filter(r=>r.achievement===rule.id&&r.unlocked),special=procedural.cases.filter(c=>c.achievement===rule.id&&c.unlocked),verified=routes.filter(r=>r.replays.success&&!r.supersededBy);return {id:rule.id,name:rule.name,actualUnlock:unlocks.length>0||special.length>0||verified.some(r=>r.replays.samples.some(s=>s.unlocked)),routes:routes.length,testedRoutes:routes.filter(r=>r.replays.total).length,verifiedRoutes:verified.map(r=>({id:r.id,scope:r.scope,mode:r.mode,difficulty:r.difficulty,success:r.replays.success,total:r.replays.total})),procedureEvidence:special.length? 'tests/procedural-achievement-results.json':null};});
+const optimizerGames=optimizer?.trials.filter(row=>row.clickable).reduce((n,row)=>n+row.discovery.length+row.holdout.length,0)||0;
+const report={date:new Date().toISOString(),method:'Actual native achievement storage, offline browser replays. Route evidence counts independent Chinese seed fixtures once. Browser run totals also include earlier bilingual checks and failed candidates. Simulations are excluded.',actualUnlocks:rows.filter(r=>r.actualUnlock).length,total:rows.length,actualGames:runs.length+procedural.cases.reduce((n,c)=>n+(c.games?.length||1),0)+optimizerGames,rows,remaining:rows.filter(r=>!r.actualUnlock).map(r=>r.id)};
 fs.writeFileSync(path.join(root,'achievements/route-coverage.json'),JSON.stringify(report,null,2)+'\n');
 const lines=['# 原生成就路线与实际解锁覆盖','',`统计时间：${report.date}。实际解锁 **${report.actualUnlocks}/${report.total}** 项；当前报告包含 **${report.actualGames}** 局实际浏览器游戏。`,'','每局通过原版按钮完成，读取原版存档判定。测试种子只用于隔离浏览器回归，不进入插件。中英文重复回放不当作独立成功样本；以下次数不是胜率。未注明实际解锁的搜索候选不能当作成功攻略。','','| 成就 | 实际解锁 | 路线／已测试 | 已验证组合与配置 |','| --- | --- | --- | --- |'];
 for(const r of rows)lines.push(`| ${r.name} (${r.id}) | ${r.actualUnlock?'是':'尚未'} | ${r.routes} / ${r.testedRoutes} | ${r.verifiedRoutes.map(v=>`${v.scope}，模式${v.mode}，系数${v.difficulty}（${v.success}/${v.total}）`).join('<br>')||(r.procedureEvidence?'原版操作／累计流程，见实际报告':'尚无解锁证据')} |`);
-lines.push('','## 可核对的原始记录','','- [逐题路线回归](../tests/community-route-results.json)','- [后续困难目标与失败记录](../tests/remaining-route-results.json)','- [普通攻略路线提取](../tests/baseline-route-results.json)','- [原版彩蛋、百局计数、跨年累计](../tests/procedural-achievement-results.json)','','固定路线按年份、搭档、问题ID、答案ID及英文指纹匹配；设置不符、原文变化或偏离路线时，明确停用固定路线并回到条件／模型建议。个别社区来源缺少题目或访问次数，缺口在运行时和JSON中保留。原文中的历史观点不等同于游戏最佳数值策略。','');
+lines.push('','## 可核对的原始记录','','- [逐题路线回归](../tests/community-route-results.json)','- [后续困难目标与失败记录](../tests/remaining-route-results.json)','- [普通攻略路线提取](../tests/baseline-route-results.json)','- [原版彩蛋、百局计数、跨年累计](../tests/procedural-achievement-results.json)');
+if(optimizer)lines.push('- [新旧路线逐局对照](../tests/'+optimizerFile+')');
+lines.push('','固定路线按开局配置、已选答案、已访问州与原文指纹匹配。偏离后优先接入仍符合当前进度的实测路线，再使用模型建议。','');
 fs.writeFileSync(path.join(root,'achievements/COVERAGE_ZH.md'),lines.join('\n'));console.log('Actual unlocks',report.actualUnlocks+'/'+report.total,'actual games',report.actualGames,'remaining',report.remaining);

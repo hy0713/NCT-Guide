@@ -16,8 +16,8 @@ All 31 native achievements, with the actual source conditions and tested setups.
 | Achievement | Exact goal | Walkthrough / procedure |
 | --- | --- | --- |
 | [Destiny Arrives All the Same](#destiny) | Record exactly 232 or 306 of your own electoral votes in each of 1964, 1976, 1988, 2000, 2012, 2016 and 2020, using the same browser save. The entire state map need not match history. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/destiny-destiny2016-community.md)<br>[1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)<br>[2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)<br>[2000 — Al Gore / Bob Graham; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md)<br>[1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)<br>[2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)<br>[1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md) |
-| [The Dark Brandon Rises](#ridingbiden) | Win at least 406 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-community.md) |
-| [MAGA... Again](#magaa) | Win at least 322 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-community.md) |
+| [The Dark Brandon Rises](#ridingbiden) | Win at least 406 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931.md) |
+| [MAGA... Again](#magaa) | Win at least 322 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-2020_Trump_Haley-1-0.97-stress-robust-15877.md) |
 | [Not My President!](#nmpr) | Finish with exactly 269 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Mike Pence; Default; Normal (0.97)](walkthroughs/nmpr-community.md) |
 | [Civility Prevails...?](#nomalarkey) | Finish with exactly 306 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/nomalarkey-community.md) |
 | [I'm Still Standing](#whatbelt) | Win at least 270 electoral votes in 2016 while finishing second in Wisconsin, Michigan and Pennsylvania. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md) |
@@ -29,17 +29,17 @@ All 31 native achievements, with the actual source conditions and tested setups.
 | [Karmic Retribution](#karmic) | As Obama/Clinton in 2012, finish with no more than four electoral votes. | [2012 — Barack Obama / Hillary Clinton; Default; Normal (0.97)](walkthroughs/karmic-2012_Obama_Clinton-1-0.97-search.md) |
 | [Nader's Raiders](#raiders) | As Ralph Nader in 2000, receive at least 5,300,000 popular votes. Difficulty may be as easy as Cakewalk (1.33). | [2000 — Ralph Nader / Winona LaDuke; Default; Cakewalk (1.33)](walkthroughs/raiders-community.md) |
 | [I'm My Own Master Now](#master) | Win as Al Gore in 2000 after choosing answer 3326, supporting Clinton's impeachment. | [2000 — Al Gore / Bob Graham; Default; Normal (0.97)](walkthroughs/master-2000_Gore_Graham-1-0.97-search.md) |
-| [Death Swap](#swap) | Win the election as Al Gore in 2000 while losing the popular-vote comparison with the main opponent. | [2000 — Al Gore / Bob Graham; Default; Normal (0.97)](walkthroughs/swap-2000_Gore_Graham-1-0.97-baseline-search.md) |
+| [Death Swap](#swap) | Win the election as Al Gore in 2000 while losing the popular-vote comparison with the main opponent. | [2000 — Al Gore / Bob Graham; Default; Normal (0.97)](walkthroughs/swap-2000_Gore_Graham-1-0.97-stress-robust-14931.md) |
 | [Art Imitates Life](#florida2000) | In 2000, make Florida's top-two margin less than 0.5 percentage points while the national electoral-vote leader has no more than 294 votes. | [2000 — George W. Bush / Dick Cheney; Default; Normal (0.97)](walkthroughs/florida2000-2000_Bush_Cheney-1-0.97-search.md) |
 | [Tanks and Taxes](#tanks) | Win as Dukakis in 1988 after choosing both the tank answer (4439) and the tax-increase answer (4484). | [1988 — Michael Dukakis / Lloyd Bentsen; Default; Normal (0.97)](walkthroughs/tanks-community.md) |
 | [The Rainbow Coalition](#rainbow) | Win as Michael Dukakis with Jesse Jackson in 1988. | [1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/Rainbow-1988_Dukakis_Jackson-1-0.97-search.md) |
 | [A Kinder, Gentler Landslide](#kinder) | Win at least 501 electoral votes as George H. W. Bush in 1988. | [1988 — George Bush / Bob Dole; Default; Normal (0.97)](walkthroughs/Kinder-Dole-MA.md) |
 | [Radical Liberal Jimmy Carter](#georgia) | Win at least 401 electoral votes as Carter in 1976 after choosing answers 3610 and 3647, the specified abortion-rights and universal-health-care positions. | [1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/georgia-community.md) |
 | [The Devil Went Down To Georgia](#georgenixon) | Win Georgia as Richard Nixon in 1968. | [1968 — Richard Nixon / Spiro Agnew; Default; Normal (0.97)](walkthroughs/georgenixon-1968_Nixon_Agnew-1-0.97-search.md) |
-| [Hubert Horatio'd](#ratio) | Win at least 431 electoral votes as Hubert Humphrey in 1968. | [1968 — Hubert H. Humphrey / John Connally; Default; Normal (0.97)](walkthroughs/ratio-1968_Humphrey_Connally-baseline.md) |
+| [Hubert Horatio'd](#ratio) | Win at least 431 electoral votes as Hubert Humphrey in 1968. | [1968 — Hubert H. Humphrey / Edmund Muskie; Default; Normal (0.97)](walkthroughs/ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931.md) |
 | [Not Because It Is Easy, But Because It Is Hard](#bcitshard) | Win as John F. Kennedy in 1960 on Impossible (0.90) or a harder difficulty. | [1960 — John F. Kennedy / Lyndon Johnson; Default; Impossible (0.9)](walkthroughs/BCitsHard-community.md) |
-| [Not Because It Is Hard, But Because It Is Easy](#bcitseasy) | As Kennedy in 1960, receive fewer than 100 electoral votes on exactly Cakewalk (1.33). | [1960 — John F. Kennedy / Hubert H. Humphrey; Default; Cakewalk (1.33)](walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search.md) |
-| [The Vice With No Vice](#vice) | Win as Richard Nixon with Barry Goldwater in 1960. | [1960 — Richard Nixon / Barry Goldwater; Proportional; Normal (0.97)](walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-search.md) |
+| [Not Because It Is Hard, But Because It Is Easy](#bcitseasy) | As Kennedy in 1960, receive fewer than 100 electoral votes on exactly Cakewalk (1.33). | [1960 — John F. Kennedy / Hubert H. Humphrey; Default; Cakewalk (1.33)](walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931.md) |
+| [The Vice With No Vice](#vice) | Win as Richard Nixon with Barry Goldwater in 1960. | [1960 — Richard Nixon / Barry Goldwater; Proportional; Normal (0.97)](walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931.md) |
 | [Dixie Defeats Dewey](#dixiedewey) | Win as Truman in 1948, with answer 3809 as your third answer. | [1948 — Harry Truman / Alben Barkley; Default; Normal (0.97)](walkthroughs/dixieDewey-community.md) |
 | [All Over But The Shouting](#dewey) | Win both the election and the popular-vote comparison with the main opponent as Thomas Dewey in 1948. | [1948 — Thomas Dewey / John Bricker; Default; Normal (0.97)](walkthroughs/Dewey-community.md) |
 | [Califor-Huh?](#california) | Win as Charles Evans Hughes in 1916 while finishing second in California. | [1916 — Charles Evans Hughes / Charles W. Fairbanks; Default; Hard (0.95)](walkthroughs/California-1916_Hughes_Fairbanks-1-0.95-multistart-1.md) |
@@ -75,7 +75,7 @@ Use the seven year-specific walkthroughs below. Proportional mode is allowed. On
 
 Choose Val Demings and visit Ohio throughout the recorded route. A normal Biden victory is not enough: aim to expand the map.
 
-- [Walkthrough: 2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-community.md)
+- [Walkthrough: 2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2883) · Stable achievement ID: `ridingBiden`.
 
@@ -87,7 +87,7 @@ Choose Val Demings and visit Ohio throughout the recorded route. A normal Biden 
 
 Choose Nikki Haley and concentrate visits in Minnesota. The route needs the extra electoral votes beyond the usual Trump coalition; 321 does not qualify.
 
-- [Walkthrough: 2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-community.md)
+- [Walkthrough: 2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-2020_Trump_Haley-1-0.97-stress-robust-15877.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2887) · Stable achievement ID: `magaa`.
 
@@ -231,7 +231,7 @@ Use Gore/Graham. Keep the required impeachment answer even if ordinary victory a
 
 Use Gore/Graham and preserve the narrow electoral coalition. The native unlock popup has a title mismatch; the saved achievement ID, swap, identifies this goal.
 
-- [Walkthrough: 2000 — Al Gore / Bob Graham; Default; Normal (0.97)](walkthroughs/swap-2000_Gore_Graham-1-0.97-baseline-search.md)
+- [Walkthrough: 2000 — Al Gore / Bob Graham; Default; Normal (0.97)](walkthroughs/swap-2000_Gore_Graham-1-0.97-stress-robust-14931.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2945) · Stable achievement ID: `swap`.
 
@@ -315,7 +315,7 @@ Use Nixon/Agnew and concentrate on Georgia. Winning the national election is not
 
 Use Humphrey/Connally and the original-game route below. This route was tested without a best-RNG mod; exactly 430 votes does not qualify.
 
-- [Walkthrough: 1968 — Hubert H. Humphrey / John Connally; Default; Normal (0.97)](walkthroughs/ratio-1968_Humphrey_Connally-baseline.md)
+- [Walkthrough: 1968 — Hubert H. Humphrey / Edmund Muskie; Default; Normal (0.97)](walkthroughs/ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2983) · Stable achievement ID: `ratio`.
 
@@ -339,7 +339,7 @@ Choose Lyndon Johnson. The setting named Hard (0.95) is not hard enough for this
 
 Choose Humphrey and follow the deliberately losing answers. Easier conditions alone do not satisfy the achievement: the difficulty multiplier must be exactly 1.33.
 
-- [Walkthrough: 1960 — John F. Kennedy / Hubert H. Humphrey; Default; Cakewalk (1.33)](walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search.md)
+- [Walkthrough: 1960 — John F. Kennedy / Hubert H. Humphrey; Default; Cakewalk (1.33)](walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2994) · Stable achievement ID: `BCitsEasy`.
 
@@ -351,7 +351,7 @@ Choose Humphrey and follow the deliberately losing answers. Easier conditions al
 
 Use Proportional mode on Normal. There are 537 electoral votes in this scenario, so 269 wins a majority. The complete source-model route supplies all 25 answers.
 
-- [Walkthrough: 1960 — Richard Nixon / Barry Goldwater; Proportional; Normal (0.97)](walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-search.md)
+- [Walkthrough: 1960 — Richard Nixon / Barry Goldwater; Proportional; Normal (0.97)](walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2998) · Stable achievement ID: `Vice`.
 
@@ -429,6 +429,6 @@ At the starting menu, type BIGSHOT and press Enter; repeat once and accept the p
 
 [Unlock coverage](COVERAGE.md) · [Live coach](LIVE_COACH.md) · [Sources](SOURCES.md) · [Mechanics](../guide/README.md)
 
-The existing coverage snapshot records 664 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
+The existing coverage snapshot records 908 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
 
 English questions and answers are extracted from the preserved original scenario data. Run `python tools/build-english-guide.py <game-directory> --check` to verify the generated pages. Editorial conditions are maintained separately in `english-editorial.json`.

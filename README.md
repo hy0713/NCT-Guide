@@ -6,7 +6,7 @@ An offline campaign and achievement guide for **The New Campaign Trail**. Read t
 
 **All 31 achievements checked (report 2026-11-18):** 300 recorded games. Of 27 single-game objectives tested in five fixtures each, 8 unlocked in all five, 17 had mixed results and 2 unlocked in none. Counter, seven-year cumulative and special procedures were checked separately. [Every result and its evidence](ALL_ACHIEVEMENTS_AUDIT.md).
 
-The follow-up added six routes after separate validation replays. [Improved routes, starting configurations and replay results](STRESS_REPLAY.md).
+The November 19 update adds six improved routes, checks that visits can be made on the map, and switches to another tested route when it still matches your progress. [New setups and head-to-head replay results](ACHIEVEMENT_OPTIMIZER.md)
 
 ## Start reading
 

@@ -1234,6 +1234,54 @@
       "mapped": 25,
       "total": 25,
       "unmapped": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+      "scope": "1968_Humphrey_Muskie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
+      "scope": "1960_Nixon_Goldwater",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
+      "scope": "2020_Biden_Demings",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+      "scope": "2020_Trump_Haley",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
+      "scope": "1960_Kennedy_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
     }
   ]
 }

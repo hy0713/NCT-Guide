@@ -21,7 +21,7 @@ def bundle_version():
 check(install());fresh=snapshot();version=bundle_version()
 check(install());assert {k:v for k,v in snapshot().items() if not k.startswith('.test-artifacts/')}=={k:v for k,v in fresh.items() if not k.startswith('.test-artifacts/')};assert bundle_version()==version
 git=['git','-c','safe.directory='+ROOT.as_posix(),'-C',str(ROOT)]
-for ref in ['aedd7ed3132ffc984bacf48375240c7a2b1c17fc','0db149e066d0ad3bfb0e75ebeca2a8435557b670','2c5c512aea8a9dbb031fef816537cffcd76419da','48488507f18401d86cab6066bd8c75788b5f5674','80ea5c28fdb515f51bc3424f89f8087e3614f8aa','d4b5ec9a5c20d8b0ee883a2d8218c5c6bd63d9cd']:
+for ref in ['aedd7ed3132ffc984bacf48375240c7a2b1c17fc','0db149e066d0ad3bfb0e75ebeca2a8435557b670','2c5c512aea8a9dbb031fef816537cffcd76419da','48488507f18401d86cab6066bd8c75788b5f5674','80ea5c28fdb515f51bc3424f89f8087e3614f8aa','d4b5ec9a5c20d8b0ee883a2d8218c5c6bd63d9cd','0d555911d056a2a66f65122b08f78ceeaa59ada1']:
  p=target/'campaign-trail/index.html';p.write_text(re.sub(r'\?v=[a-f0-9]{16}','',p.read_text(encoding='utf8')),encoding='utf8')
  (target/'localization/guide/planner-worker.js').unlink(missing_ok=True)
  for name in ['guide.js','achievements.js','achievement-data.js','messages.json','guide.css']:
@@ -48,5 +48,5 @@ for name in ['campaign-trail/index.html','localization/i18n.js','localization/en
  p=other/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes((GAME/name).read_bytes())
 check(subprocess.run([sys.executable,str(variant/'install.py'),str(other)],capture_output=True))
 target=other;assert bundle_version()!=version
-report={'status':'passed','checks':['Fresh install stamps all five entry assets with one bundle hash; repeated install is byte-identical','A worker-only file change changes every entry asset version','Published aedd7ed, 0db149e, 2c5c512, 4848850, 80ea5c2 and d4b5ec9 file/message/CSS upgrades refresh entry URLs','No writes without explicit upgrade','Unknown script customization rejected before writes','Unknown translation customization rejected before writes']}
+report={'status':'passed','checks':['Fresh install stamps all five entry assets with one bundle hash; repeated install is byte-identical','A worker-only file change changes every entry asset version','Seven published file/message/CSS versions upgrade, including 0d55591; every upgrade refreshes entry URLs','No writes without explicit upgrade','Unknown script customization rejected before writes','Unknown translation customization rejected before writes']}
 (ROOT/'tests/install-routes-results.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8',newline='\n');print('PASS route installation and published-version upgrade')

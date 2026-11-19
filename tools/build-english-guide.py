@@ -60,6 +60,14 @@ def main():
     for run in review['runs']:
         if run.get('unlocked') and run.get('language') == 'en-US':
             records[run['route']] = (run, 'tests/bern-bilingual-review-results.json')
+    coach_report = 'tests/optimizer-coach-results.json'
+    optimizer = read(ROOT / coach_report)
+    assert optimizer['status'] == 'passed'
+    preferred = set()
+    for run in optimizer['runs']:
+        if run['unlocked'] and run['language'] == 'en-US':
+            records[run['route']] = (run, coach_report)
+            preferred.add(run['route'])
     destiny = next(c for c in procedural['cases'] if c.get('achievement') == 'destiny' and c.get('language') == 'en-US')
     assert destiny['unlocked'] and len(destiny['games']) == 7
     for game in destiny['games']:
@@ -73,6 +81,7 @@ def main():
     for rule in rules:
         aid = rule['id']
         eligible = [r for r in rows[aid]['verifiedRoutes'] if r['id'] in records and not routes[r['id']].get('supersededBy')]
+        eligible.sort(key=lambda r: r['id'] not in preferred)
         selected = eligible if aid == 'destiny' else eligible[:1]
         links[aid] = []
         for selected_route in selected:

@@ -1,5 +1,5 @@
 """Compile offline objective rules and observed combination baselines; no game writes."""
-import hashlib, json
+import hashlib, json, re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 GAME=Path(__import__('sys').argv[1])
@@ -52,7 +52,12 @@ for s in cat['scenarios']:
 routes=read(ROOT/'achievements/community-routes.json')['routes'] if (ROOT/'achievements/community-routes.json').exists() else []
 routes=[r for r in routes if not r.get('supersededBy') and r['achievement']!='what' and (r.get('replays',{}).get('total',0)>0 or r.get('origin')=='community')]
 routes=[r|{'replays':{k:r['replays'][k] for k in ['total','success','holdout'] if k in r['replays']}} if 'replays' in r else r for r in routes]
-data={'schema':1,'sourceSHA256':audit['sourceSHA256'],'rules':list(rules.values()),'scenarios':scenarios,'routes':routes,'evidence':'Baselines: one seed (1776), ordinary winning guide, NOT success probabilities. Community routes have separate sources, gaps and replay results.'}
+# Congressional district rows still count for results, but have no clickable
+# shape on the native visit map. Read the actual map's state hit-area keys.
+visit_map=re.findall(r'^\s+([A-Z]{2}): "M', (GAME/'static/js/us-map-1.0.1/jquery.usmap.js').read_text(encoding='utf8'), re.M)
+assert len(set(visit_map)) == len(visit_map) == 51
+routes=[r for r in routes if all(state in visit_map for key in ('sequence','weakest','lowestShare') for state in r['visits'].get(key,[]))]
+data={'schema':1,'sourceSHA256':audit['sourceSHA256'],'rules':list(rules.values()),'scenarios':scenarios,'routes':routes,'visitMap':visit_map,'evidence':'Baselines: one seed (1776), ordinary winning guide, NOT success probabilities. Community routes have separate sources, gaps and replay results.'}
 predicates=',\n'.join(json.dumps(row['id'])+':()=>('+row['condition']+')' for row in audit['achievements'])
 diagnostics='''
 // Read-only copies of the audited native conditions, used only after results.

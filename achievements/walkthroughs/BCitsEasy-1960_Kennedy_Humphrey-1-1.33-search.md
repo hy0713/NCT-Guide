@@ -1,5 +1,7 @@
 # Not Because It Is Hard, But Because It Is Easy
 
+**Superseded:** Use the [revised route](BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931.md). This page preserves the earlier replay.
+
 [All achievements](../README.md) · [Live coach](../LIVE_COACH.md)
 
 **Setup:** 1960 — John F. Kennedy / Hubert H. Humphrey; Default; Cakewalk (1.33).

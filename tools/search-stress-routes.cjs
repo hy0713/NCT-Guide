@@ -5,9 +5,11 @@ const game=path.resolve(process.argv[2]),output=path.resolve(process.argv[3]);
 const captures=path.join(game,'.test-artifacts/route-inputs');
 const box={window:{}};
 for(const file of ['model.js','achievement-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'guide',file),'utf8'),box);
-const {rules,scenarios}=box.window.NCTAchievementData;
+const {rules,scenarios,visitMap}=box.window.NCTAchievementData;
+const clickable=new Set(visitMap);
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'achievements/community-routes.json'),'utf8')).routes;
 const source='https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js';
+const robust=process.argv.includes('--robust');
 
 function random(seed){return ()=>((seed=(Math.imul(seed,1664525)+1013904223)>>>0)+.5)/4294967296;}
 function normal(next){return Math.sqrt(-2*Math.log(next()))*Math.cos(2*Math.PI*next());}
@@ -35,7 +37,7 @@ function buildModel(e,seed){
  for(const row of fields(e,'answer_score_state_json'))if(row.candidate===e.candidate_id&&ids.has(row.affected_candidate)&&states.has(row.state)&&effects.has(row.answer))effects.get(row.answer).state.push([states.get(row.state)*nc+ids.get(row.affected_candidate),row.state_multiplier]);
  for(const row of fields(e,'answer_score_issue_json'))if(topics.includes(row.issue)&&effects.has(row.answer))effects.get(row.answer).issue.push([topics.indexOf(row.issue),row.issue_score*row.issue_importance,row.issue_importance]);
  const next=random(seed);
- const stress=Array.from({length:15},(_,i)=>({
+ const stress=Array.from({length:robust?33:15},(_,i)=>({
   global:candidates.map(()=>i?1+normal(next)*p.global_variance:1),
   local:base.map(()=>i?1+normal(next)*p.global_variance:1),
   turnout:e.states_json.map(s=>Math.floor(s.fields.popular_votes*(i?.95+.1*next():1)))
@@ -57,7 +59,7 @@ function buildModel(e,seed){
  }
  function simulate(prepared,visits,draw){
   const electoral=new Int16Array(nc),popular=new Float64Array(nc),margins=new Float64Array(ns),shares=new Float64Array(ns),ranks=new Uint8Array(ns),scores=new Float64Array(nc);
-  let smooth=0;
+  let smooth=0,floridaGap=1;
   for(let s=0;s<ns;s++){
    const state=e.states_json[s].fields,ev=state.electoral_votes;
    let total=0,winner=0,rival=-Infinity,second=0,rank=1;
@@ -69,6 +71,11 @@ function buildModel(e,seed){
    }
    if(!total)throw Error('Could not project '+state.abbr);
    const margin=margins[s]=(scores[0]-rival)/total;shares[s]=scores[0]/total;
+   if(state.abbr==='FL'){
+    let runnerUp=0;
+    for(let c=0;c<nc;c++)if(c!==winner)runnerUp=Math.max(runnerUp,scores[c]);
+    floridaGap=(scores[winner]-runnerUp)/total;
+   }
    let allocated=0,voteTotal=0,winnerVotes=0;
    for(let c=0;c<nc;c++){
     const share=scores[c]/total,votes=Math.floor(share*draw.turnout[s]);
@@ -84,18 +91,32 @@ function buildModel(e,seed){
    }
    ranks[s]=rank;smooth+=ev*sigmoid(margin/.017);
   }
-  return {ev:electoral[0],pv:popular[0],lead:popular[0]-Math.max(...popular.slice(1)),margins,shares,ranks,smooth};
+  return {ev:electoral[0],leaderEV:Math.max(...electoral),pv:popular[0],lead:popular[0]-Math.max(...popular.slice(1)),margins,shares,ranks,smooth,floridaGap};
  }
  return {prepare,simulate,stress};
 }
 
 function objective(rule,result,e){
  const majority=e.election_json.find(r=>Number(r.pk)===Number(e.election_id)).fields.winning_electoral_vote_number;
+ if(rule.goal==='florida'){
+  const {floridaGap,leaderEV}=result;
+  return 20*Number(floridaGap<.005&&leaderEV<=294)+4*Math.exp(-floridaGap/.009)-Math.log1p(Math.max(0,leaderEV-294));
+ }
+ if(rule.goal==='winLosePopular'){
+  const {ev,lead}=result;
+  return 25*Number(ev>=majority&&lead<0)+3*sigmoid((ev-majority+.5)/10)+3*sigmoid(-lead/350000);
+ }
+ if(rule.goal==='max')return 30*Number(result.ev<=rule.target)+7*sigmoid((rule.target-result.ev+.5)/12)-.04*result.smooth;
  if(rule.lose){
   const unwanted=rule.lose.map(name=>e.states_json.findIndex(row=>row.fields.name===name));
   const losses=unwanted.filter(s=>result.ranks[s]===2).length;
   const rankMargins=unwanted.reduce((sum,s)=>sum+sigmoid(-result.margins[s]/.012),0);
-  return 28*Number(result.ev>=majority&&losses===unwanted.length)+.65*Math.min(result.ev-majority+12,22)+3.5*losses+4*rankMargins+.016*result.smooth;
+  const threshold=rule.target??majority;
+  if(robust){
+   const second=unwanted.reduce((score,s)=>score+(result.ranks[s]===2?1:sigmoid(-Math.abs(result.margins[s])/.012)/2),0);
+   return 34*Number(result.ev>=threshold&&losses===unwanted.length)+4*sigmoid((result.ev-threshold+.5)/10)+3*second+rankMargins;
+  }
+  return 28*Number(result.ev>=threshold&&losses===unwanted.length)+.65*Math.min(result.ev-threshold+12,22)+3.5*losses+4*rankMargins+.016*result.smooth;
  }
  if(rule.goal==='exact'){
   const delta=Math.min(...(rule.targets||[rule.target]).map(n=>Math.abs(result.ev-n)));
@@ -104,6 +125,7 @@ function objective(rule,result,e){
  if(rule.goal==='winPopular')return 38*Number(result.ev>=majority&&result.lead>0)+.17*Math.min(result.ev-majority+15,38)+Math.min(20,result.lead/85000)+.01*result.smooth;
  if(rule.goal==='win'||rule.goal==='min'){
   const threshold=rule.target??majority;
+  if(robust)return 30*Number(result.ev>=threshold)+7*sigmoid((result.ev-threshold+.5)/12)+.04*result.smooth;
   return 27*Number(result.ev>=threshold)+.7*Math.min(result.ev-threshold,25)+.13*result.smooth;
  }
  throw Error('Unsupported search goal '+rule.goal);
@@ -114,19 +136,22 @@ function search(rule,scenario,e,mode,difficulty,seed){
  const groups=e.questions_json.map((q,i)=>{
   const choices=e.answers_json.filter(a=>a.fields.question===q.pk).map(a=>a.pk);
   const forced=rule.slots?.[i]??choices.find(id=>rule.required?.includes(id));
-  if(forced)assert(choices.includes(forced));return forced?[forced]:choices;
+  if(forced)assert(choices.includes(forced));
+  // A fresh save awards I'm My Own Master Now first when this answer and a Gore win coincide.
+  return forced?[forced]:choices.filter(id=>rule.id!=='swap'&&rule.id!=='florida2000'||id!==3326);
  });
- const visitables=e.states_json.map((row,i)=>row.fields.electoral_votes>0&&row.fields.abbr?.length===2?i:-1).filter(i=>i>=0);
+ const visitables=e.states_json.map((row,i)=>clickable.has(row.fields.abbr)?i:-1).filter(i=>i>=0);
  const existing=catalogue.filter(r=>r.achievement===rule.id&&r.scope===scenario.scope&&r.mode===mode&&r.difficulty===difficulty);
  const base=existing.filter(r=>!r.supersededBy).sort((a,b)=>(b.replays?.success||0)-(a.replays?.success||0))[0];
  const anchor=groups.map((group,i)=>base?.answers[e.questions_json[i].pk]?.find(id=>group.includes(id))??group[0]);
  const baselineVisits=new Uint8Array(e.states_json.length);
- for(const abbr of base?.visits.sequence||[])baselineVisits[stateIndex.get(abbr)]++;
- const visitCount=scenario.year<1900?0:12;
+ for(const abbr of base?.visits.sequence||[])if(clickable.has(abbr))baselineVisits[stateIndex.get(abbr)]++;
+ const election=e.election_json.find(row=>Number(row.pk)===Number(e.election_id));
+ const visitCount=election.fields.has_visits?Math.floor(e.global_parameter_json[0].fields.question_count/2):0;
  while(baselineVisits.reduce((a,b)=>a+b,0)<visitCount)baselineVisits[visitables[0]]++;
  const exact=rule.goal==='exact',next=random(1291),winners=[];
  const value=(prepared,visits)=>model.stress.reduce((sum,s)=>sum+objective(rule,model.simulate(prepared,visits,s),e),0)/model.stress.length;
- for(let restart=0;restart<(exact?10:6);restart++){
+ for(let restart=0;restart<(robust?8:exact?10:6);restart++){
   const answers=restart>1&&winners.length?[...winners[0].answers]:[...anchor];
   const visits=restart>1&&winners.length?winners[0].visits.slice():baselineVisits.slice();
   if(restart)for(let i=0;i<answers.length;i++)if(next()<(restart===1?1:.24))answers[i]=groups[i][Math.floor(next()*groups[i].length)];
@@ -161,7 +186,7 @@ function search(rule,scenario,e,mode,difficulty,seed){
  }
  assert.equal(zero.pv,actual.reduce((n,c)=>n+c.votes,0),scenario.scope+' popular vote parity');
  const mapped=Object.fromEntries(e.questions_json.map((q,i)=>[q.pk,[best.answers[i]]]));
- const suffix=seed===90817?'v1':String(seed);
+ const suffix=robust?'robust-'+seed:seed===90817?'v1':String(seed);
  return {id:`${rule.id}-${scenario.scope}-${mode}-${difficulty}-stress-${suffix}`,achievement:rule.id,scope:scenario.scope,source,origin:'model-search',answers:mapped,visits:{sequence:indexes.map(i=>e.states_json[i].fields.abbr)},difficulty,mode,search:{score:best.cost,zeroEV:zero.ev,zeroPV:zero.pv,simulationSeed:seed}};
 }
 

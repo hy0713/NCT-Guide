@@ -293,8 +293,8 @@
         "6102": "6a8f07eb"
       },
       "replays": {
-        "total": 3,
-        "success": 1,
+        "total": 14,
+        "success": 4,
         "samples": [
           {
             "seed": 1776,
@@ -319,8 +319,100 @@
             "yearRecorded": false,
             "report": "community-route-results.json",
             "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 319,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 368,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 2
+        }
       }
     },
     {
@@ -458,7 +550,7 @@
         "6211": "20fb86e"
       },
       "replays": {
-        "total": 16,
+        "total": 27,
         "success": 1,
         "samples": [
           {
@@ -588,8 +680,100 @@
             "yearRecorded": false,
             "report": "remaining-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 319,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 312,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 275,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 312,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 311,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 0
+        }
       }
     },
     {
@@ -2196,8 +2380,8 @@
         "3959": "af943432"
       },
       "replays": {
-        "success": 6,
         "total": 11,
+        "success": 6,
         "samples": [
           {
             "seed": 1776,
@@ -2289,8 +2473,8 @@
           }
         ],
         "holdout": {
-          "success": 5,
-          "total": 6
+          "total": 6,
+          "success": 5
         }
       }
     },
@@ -2595,8 +2779,8 @@
         "3798": "816ec543"
       },
       "replays": {
-        "success": 1,
         "total": 12,
+        "success": 1,
         "samples": [
           {
             "seed": 1776,
@@ -2696,8 +2880,8 @@
           }
         ],
         "holdout": {
-          "success": 0,
-          "total": 6
+          "total": 6,
+          "success": 0
         }
       }
     },
@@ -2836,8 +3020,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 1,
         "total": 13,
+        "success": 1,
         "samples": [
           {
             "seed": 1,
@@ -2945,8 +3129,8 @@
           }
         ],
         "holdout": {
-          "success": 0,
-          "total": 6
+          "total": 6,
+          "success": 0
         }
       }
     },
@@ -4953,7 +5137,8 @@
             "identity": "SHA256"
           }
         ]
-      }
+      },
+      "supersededBy": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931"
     },
     {
       "id": "whatbelt-2016_Clinton_Kaine-2-0.9-search",
@@ -5573,8 +5758,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 3,
         "total": 19,
+        "success": 3,
         "samples": [
           {
             "seed": 1776,
@@ -5730,8 +5915,8 @@
           }
         ],
         "holdout": {
-          "success": 2,
-          "total": 6
+          "total": 6,
+          "success": 2
         }
       }
     },
@@ -5873,8 +6058,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 3,
         "total": 17,
+        "success": 3,
         "samples": [
           {
             "seed": 1776,
@@ -6014,8 +6199,8 @@
           }
         ],
         "holdout": {
-          "success": 2,
-          "total": 6
+          "total": 6,
+          "success": 2
         }
       }
     },
@@ -6157,8 +6342,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 1,
         "total": 38,
+        "success": 1,
         "samples": [
           {
             "seed": 1776,
@@ -6466,8 +6651,8 @@
           }
         ],
         "holdout": {
-          "success": 0,
-          "total": 6
+          "total": 6,
+          "success": 0
         }
       }
     },
@@ -7142,8 +7327,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 2,
-        "success": 1,
+        "total": 13,
+        "success": 7,
         "samples": [
           {
             "seed": 1776,
@@ -7160,8 +7345,100 @@
             "yearRecorded": false,
             "report": "community-route-results.json",
             "identity": "SHA256"
+          },
+          {
+            "seed": 319,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 275,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 275,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 271,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 272,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 4
+        }
       }
     },
     {
@@ -7946,8 +8223,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 1,
         "total": 11,
+        "success": 1,
         "samples": [
           {
             "seed": 1776,
@@ -8039,8 +8316,8 @@
           }
         ],
         "holdout": {
-          "success": 0,
-          "total": 6
+          "total": 6,
+          "success": 0
         }
       }
     },
@@ -10207,8 +10484,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 2,
-        "success": 1,
+        "total": 13,
+        "success": 3,
         "samples": [
           {
             "seed": 1,
@@ -10225,8 +10502,100 @@
             "yearRecorded": false,
             "report": "all-objective-coach-review-results.json",
             "identity": "legacy-route-id-without-hash"
+          },
+          {
+            "seed": 319,
+            "electoral": 237,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 274,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 296,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 287,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 309,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 303,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 244,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 307,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
           }
-        ]
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 1
+        }
       }
     },
     {
@@ -12141,8 +12510,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "success": 7,
         "total": 11,
+        "success": 7,
         "samples": [
           {
             "seed": 1,
@@ -12234,8 +12603,8 @@
           }
         ],
         "holdout": {
-          "success": 5,
-          "total": 6
+          "total": 6,
+          "success": 5
         }
       }
     },
@@ -24667,8 +25036,8 @@
       "unmappedQuestions": [],
       "basedOnRoute": "whatbelt-Kaine-FL5-NH7",
       "replays": {
-        "success": 1,
         "total": 12,
+        "success": 1,
         "samples": [
           {
             "seed": 18,
@@ -24768,8 +25137,8 @@
           }
         ],
         "holdout": {
-          "success": 0,
-          "total": 6
+          "total": 6,
+          "success": 0
         }
       }
     },
@@ -25089,8 +25458,8 @@
         "zeroPV": 66157104
       },
       "replays": {
-        "success": 2,
         "total": 11,
+        "success": 2,
         "samples": [
           {
             "seed": 1,
@@ -25182,8 +25551,8 @@
           }
         ],
         "holdout": {
-          "success": 1,
-          "total": 6
+          "total": 6,
+          "success": 1
         }
       },
       "verification": "actual-unlock",
@@ -25330,8 +25699,8 @@
         "zeroPV": 22992019
       },
       "replays": {
-        "success": 9,
         "total": 11,
+        "success": 9,
         "samples": [
           {
             "seed": 1,
@@ -25423,8 +25792,8 @@
           }
         ],
         "holdout": {
-          "success": 6,
-          "total": 6
+          "total": 6,
+          "success": 6
         }
       },
       "verification": "actual-unlock",
@@ -25571,8 +25940,8 @@
         "zeroPV": 61521226
       },
       "replays": {
-        "success": 3,
         "total": 11,
+        "success": 3,
         "samples": [
           {
             "seed": 1,
@@ -25664,8 +26033,8 @@
           }
         ],
         "holdout": {
-          "success": 1,
-          "total": 6
+          "total": 6,
+          "success": 1
         }
       },
       "verification": "actual-year-record",
@@ -25812,8 +26181,8 @@
         "zeroPV": 58518628
       },
       "replays": {
-        "success": 8,
         "total": 11,
+        "success": 8,
         "samples": [
           {
             "seed": 1,
@@ -25905,8 +26274,8 @@
           }
         ],
         "holdout": {
-          "success": 4,
-          "total": 6
+          "total": 6,
+          "success": 4
         }
       },
       "verification": "actual-year-record",
@@ -26053,8 +26422,8 @@
         "zeroPV": 40252705
       },
       "replays": {
-        "success": 4,
         "total": 11,
+        "success": 4,
         "samples": [
           {
             "seed": 1,
@@ -26146,8 +26515,8 @@
           }
         ],
         "holdout": {
-          "success": 3,
-          "total": 6
+          "total": 6,
+          "success": 3
         }
       },
       "verification": "actual-year-record",
@@ -26294,8 +26663,8 @@
         "zeroPV": 35098003
       },
       "replays": {
-        "success": 2,
-        "total": 11,
+        "total": 22,
+        "success": 3,
         "samples": [
           {
             "seed": 1,
@@ -26384,11 +26753,99 @@
             "yearRecorded": false,
             "report": "stress-route-comparison.json",
             "phase": "holdout"
+          },
+          {
+            "seed": 319,
+            "electoral": 418,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 414,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 362,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 410,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 398,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 441,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 398,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 388,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 418,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 359,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 403,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
           }
         ],
         "holdout": {
-          "success": 1,
-          "total": 6
+          "total": 8,
+          "success": 1
         }
       },
       "verification": "actual-unlock",
@@ -26423,6 +26880,1464 @@
         "3277": "1678dde4",
         "3287": "a9850e49",
         "3293": "4605350"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+      "achievement": "ratio",
+      "scope": "1968_Humphrey_Muskie",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "252": [
+          1655
+        ],
+        "253": [
+          1659
+        ],
+        "254": [
+          1663
+        ],
+        "255": [
+          1667
+        ],
+        "256": [
+          1670
+        ],
+        "258": [
+          1679
+        ],
+        "259": [
+          1683
+        ],
+        "266": [
+          1706
+        ],
+        "268": [
+          1713
+        ],
+        "269": [
+          1717
+        ],
+        "275": [
+          1740
+        ],
+        "281": [
+          1763
+        ],
+        "283": [
+          1770
+        ],
+        "286": [
+          1777
+        ],
+        "288": [
+          1784
+        ],
+        "292": [
+          1797
+        ],
+        "323": [
+          3235
+        ],
+        "327": [
+          3252
+        ],
+        "328": [
+          3258
+        ],
+        "329": [
+          3260
+        ],
+        "330": [
+          3265
+        ],
+        "331": [
+          3270
+        ],
+        "333": [
+          3277
+        ],
+        "336": [
+          3287
+        ],
+        "338": [
+          3293
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "AR",
+          "CO",
+          "CO",
+          "CO",
+          "CO",
+          "CO",
+          "IA",
+          "IA",
+          "IA",
+          "IA",
+          "IA",
+          "IA"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 52.04562281040814,
+        "zeroEV": 455,
+        "zeroPV": 35291427,
+        "simulationSeed": 14931
+      },
+      "improves": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 11,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 432,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 455,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 455,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 459,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 438,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 449,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 8
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "29099877690acd41d229b0655d3b15df061ffca24b7adcfbd471ff5146cfa7c5",
+      "fingerprints": {
+        "1655": "6dc72af7",
+        "1659": "9709a961",
+        "1663": "87535beb",
+        "1667": "a83a61c6",
+        "1670": "58a78fbe",
+        "1679": "d1acc5ce",
+        "1683": "82ef74b6",
+        "1706": "fc425f16",
+        "1713": "fe4f95c9",
+        "1717": "abfb107b",
+        "1740": "b697020d",
+        "1763": "3459969d",
+        "1770": "2043af89",
+        "1777": "81bc1368",
+        "1784": "84036a64",
+        "1797": "675253c5",
+        "3235": "da3eae4c",
+        "3252": "4d1dc6ca",
+        "3258": "981f14e7",
+        "3260": "7dc1cbed",
+        "3265": "4a48c135",
+        "3270": "f8cac7ed",
+        "3277": "1678dde4",
+        "3287": "a9850e49",
+        "3293": "4605350"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
+      "achievement": "Vice",
+      "scope": "1960_Nixon_Goldwater",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "459": [
+          3690
+        ],
+        "468": [
+          3715
+        ],
+        "469": [
+          3717
+        ],
+        "470": [
+          3719
+        ],
+        "471": [
+          3726
+        ],
+        "472": [
+          3728
+        ],
+        "473": [
+          3731
+        ],
+        "474": [
+          3733
+        ],
+        "475": [
+          3735
+        ],
+        "476": [
+          3740
+        ],
+        "478": [
+          3745
+        ],
+        "479": [
+          3749
+        ],
+        "480": [
+          3751
+        ],
+        "482": [
+          3759
+        ],
+        "484": [
+          3764
+        ],
+        "485": [
+          3769
+        ],
+        "486": [
+          3772
+        ],
+        "487": [
+          3775
+        ],
+        "489": [
+          3782
+        ],
+        "490": [
+          3784
+        ],
+        "491": [
+          3788
+        ],
+        "492": [
+          3792
+        ],
+        "493": [
+          3796
+        ],
+        "494": [
+          3799
+        ],
+        "495": [
+          3803
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "CA",
+          "CA",
+          "CA",
+          "CA",
+          "CA",
+          "CA",
+          "HI",
+          "NC",
+          "NC",
+          "NC",
+          "NC",
+          "PA"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "2",
+      "search": {
+        "score": 43.06987111726718,
+        "zeroEV": 273,
+        "zeroPV": 33162546,
+        "simulationSeed": 14931
+      },
+      "improves": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 11,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 276,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 272,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 272,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 271,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 274,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 275,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 269,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 275,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 8
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "68a2948b7c8e6a0c09640182eec3d4fdb7f1c70c696e2a1a1245ce78c382d55a",
+      "fingerprints": {
+        "3690": "4c9c3bd9",
+        "3715": "85a44fb3",
+        "3717": "e77f3c08",
+        "3719": "9e8972ee",
+        "3726": "a0b7f17a",
+        "3728": "c819dd03",
+        "3731": "794fbeed",
+        "3733": "4d1b0dee",
+        "3735": "c55a8645",
+        "3740": "c4290bba",
+        "3745": "9ca7fd6b",
+        "3749": "e48e817",
+        "3751": "af75c8e6",
+        "3759": "93e1211c",
+        "3764": "3c553595",
+        "3769": "ae68b4de",
+        "3772": "f46e1d34",
+        "3775": "270f4267",
+        "3782": "40e5c5ae",
+        "3784": "1eb2e9eb",
+        "3788": "17a024d8",
+        "3792": "8fbca557",
+        "3796": "fa06a5af",
+        "3799": "916183a8",
+        "3803": "46cb638f"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
+      "achievement": "swap",
+      "scope": "2000_Gore_Graham",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "343": [
+          3311
+        ],
+        "344": [
+          3316
+        ],
+        "345": [
+          3319
+        ],
+        "346": [
+          3325
+        ],
+        "347": [
+          3328
+        ],
+        "348": [
+          3330
+        ],
+        "349": [
+          3334
+        ],
+        "350": [
+          3338
+        ],
+        "351": [
+          3341
+        ],
+        "352": [
+          3345
+        ],
+        "359": [
+          3371
+        ],
+        "362": [
+          3383
+        ],
+        "363": [
+          3386
+        ],
+        "364": [
+          3389
+        ],
+        "367": [
+          3400
+        ],
+        "370": [
+          3410
+        ],
+        "375": [
+          3432
+        ],
+        "376": [
+          3436
+        ],
+        "377": [
+          3440
+        ],
+        "382": [
+          3460
+        ],
+        "385": [
+          3469
+        ],
+        "390": [
+          3485
+        ],
+        "391": [
+          3488
+        ],
+        "392": [
+          3492
+        ],
+        "398": [
+          3503
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "MI",
+          "MN",
+          "TN",
+          "TN",
+          "WI",
+          "WI",
+          "WI"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 26.35779880925398,
+        "zeroEV": 301,
+        "zeroPV": 50503877,
+        "simulationSeed": 14931
+      },
+      "improves": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 10,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 284,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 284,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 306,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 315,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 284,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 284,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 301,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 320,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 308,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 313,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 7
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
+      "fingerprints": {
+        "3311": "90404ed5",
+        "3316": "f09c0c84",
+        "3319": "9b9b9840",
+        "3325": "48ff178d",
+        "3328": "fc99275d",
+        "3330": "a305b15b",
+        "3334": "25706acd",
+        "3338": "d8fa1d19",
+        "3341": "80740a83",
+        "3345": "c9b3b77",
+        "3371": "fe73846",
+        "3383": "39f499b",
+        "3386": "48fa222",
+        "3389": "1a6a708e",
+        "3400": "310d24b5",
+        "3410": "177dc70e",
+        "3432": "506a10d9",
+        "3436": "506a10d9",
+        "3440": "506a10d9",
+        "3460": "1119674b",
+        "3469": "1ed14c74",
+        "3485": "7c4791c7",
+        "3488": "3574cce3",
+        "3492": "40196093",
+        "3503": "eeeb3335"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
+      "achievement": "ridingBiden",
+      "scope": "2020_Biden_Demings",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1200": [
+          6001
+        ],
+        "1201": [
+          6004
+        ],
+        "1202": [
+          6010
+        ],
+        "1203": [
+          6014
+        ],
+        "1204": [
+          6017
+        ],
+        "1205": [
+          6020
+        ],
+        "1206": [
+          6024
+        ],
+        "1208": [
+          6030
+        ],
+        "1209": [
+          6037
+        ],
+        "1210": [
+          6040
+        ],
+        "1211": [
+          6042
+        ],
+        "1212": [
+          6049
+        ],
+        "1213": [
+          6050
+        ],
+        "1214": [
+          6054
+        ],
+        "1215": [
+          6059
+        ],
+        "1216": [
+          6063
+        ],
+        "1217": [
+          6067
+        ],
+        "1218": [
+          6070
+        ],
+        "1219": [
+          6074
+        ],
+        "1220": [
+          6078
+        ],
+        "1221": [
+          6079
+        ],
+        "1222": [
+          6084
+        ],
+        "1223": [
+          6086
+        ],
+        "1224": [
+          6088
+        ],
+        "1230": [
+          6102
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "OH",
+          "TX"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 25.60498060126778,
+        "zeroEV": 388,
+        "zeroPV": 84327634,
+        "simulationSeed": 14931
+      },
+      "improves": "ridingBiden-community",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 4,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 388,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 388,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 388,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 350,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 388,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 406,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 3
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "27b27b98cae128f4857f3313176453445869655eb6d27e2c11724c4828370ed3",
+      "fingerprints": {
+        "6001": "560ffa7e",
+        "6004": "94b5ffe0",
+        "6010": "fa0908e8",
+        "6014": "96ac6893",
+        "6017": "f7ee9324",
+        "6020": "61c5aa3a",
+        "6024": "bc3f3533",
+        "6030": "ad3aa214",
+        "6037": "bb4f68f6",
+        "6040": "29973d",
+        "6042": "4d70b510",
+        "6049": "80581cdd",
+        "6050": "4358820a",
+        "6054": "ea241062",
+        "6059": "a21b5857",
+        "6063": "3aee30e2",
+        "6067": "8e30a3fc",
+        "6070": "34d11bcf",
+        "6074": "c5a2c7b6",
+        "6078": "889f465e",
+        "6079": "b85d85ff",
+        "6084": "8b8e2c4d",
+        "6086": "71c7d05",
+        "6088": "c397d65b",
+        "6102": "6a8f07eb"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+      "achievement": "magaa",
+      "scope": "2020_Trump_Haley",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1300": [
+          6109
+        ],
+        "1301": [
+          6114
+        ],
+        "1302": [
+          6120
+        ],
+        "1303": [
+          6124
+        ],
+        "1304": [
+          6127
+        ],
+        "1305": [
+          6132
+        ],
+        "1306": [
+          6136
+        ],
+        "1307": [
+          6139
+        ],
+        "1308": [
+          6142
+        ],
+        "1309": [
+          6147
+        ],
+        "1310": [
+          6148
+        ],
+        "1311": [
+          6152
+        ],
+        "1313": [
+          6161
+        ],
+        "1314": [
+          6167
+        ],
+        "1315": [
+          6171
+        ],
+        "1316": [
+          6175
+        ],
+        "1317": [
+          6178
+        ],
+        "1318": [
+          6182
+        ],
+        "1319": [
+          6184
+        ],
+        "1320": [
+          6189
+        ],
+        "1321": [
+          6194
+        ],
+        "1322": [
+          6199
+        ],
+        "1323": [
+          6202
+        ],
+        "1324": [
+          6205
+        ],
+        "1326": [
+          6211
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN",
+          "MN"
+        ]
+      },
+      "difficulty": 0.97,
+      "mode": "1",
+      "search": {
+        "score": 17.15431038061315,
+        "zeroEV": 321,
+        "zeroPV": 77411698,
+        "simulationSeed": 15877
+      },
+      "improves": "magaa-community",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 2,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 322,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 311,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 322,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 321,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 295,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 1
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "37f9503188761e944a6c87df84be9fd15827af1b9c05db4734de3ffe1115c2e7",
+      "fingerprints": {
+        "6109": "442e717c",
+        "6114": "428b4bcf",
+        "6120": "fd7bb250",
+        "6124": "51434696",
+        "6127": "92a9e3e4",
+        "6132": "fedfdb38",
+        "6136": "fcad4bcb",
+        "6139": "c5f338c9",
+        "6142": "83927f4b",
+        "6147": "52e47e51",
+        "6148": "573017f3",
+        "6152": "f0667e92",
+        "6161": "3017ee43",
+        "6167": "15b7f3a",
+        "6171": "dcbca8fb",
+        "6175": "dd9058df",
+        "6178": "d493f1fe",
+        "6182": "24d8a6ef",
+        "6184": "3592d80c",
+        "6189": "ec186a7d",
+        "6194": "6afa3db0",
+        "6199": "c71eaf5d",
+        "6202": "a0e67e0d",
+        "6205": "2082d89b",
+        "6211": "20fb86e"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
+      "achievement": "BCitsEasy",
+      "scope": "1960_Kennedy_Humphrey",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "448": [
+          3662
+        ],
+        "452": [
+          3668
+        ],
+        "453": [
+          3672
+        ],
+        "454": [
+          3673
+        ],
+        "455": [
+          3677
+        ],
+        "456": [
+          3681
+        ],
+        "457": [
+          3685
+        ],
+        "458": [
+          3686
+        ],
+        "476": [
+          3740
+        ],
+        "478": [
+          3745
+        ],
+        "479": [
+          3748
+        ],
+        "480": [
+          3751
+        ],
+        "481": [
+          3754
+        ],
+        "483": [
+          3763
+        ],
+        "484": [
+          3766
+        ],
+        "485": [
+          3770
+        ],
+        "486": [
+          3773
+        ],
+        "487": [
+          3776
+        ],
+        "488": [
+          3777
+        ],
+        "489": [
+          3780
+        ],
+        "490": [
+          3785
+        ],
+        "491": [
+          3789
+        ],
+        "493": [
+          3797
+        ],
+        "494": [
+          3800
+        ],
+        "495": [
+          3804
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "AL",
+          "AL",
+          "AL",
+          "AL",
+          "AL",
+          "OK",
+          "OK",
+          "OK",
+          "OK",
+          "OK",
+          "OK",
+          "OK"
+        ]
+      },
+      "difficulty": 1.33,
+      "mode": "1",
+      "search": {
+        "score": 35.04493642372482,
+        "zeroEV": 20,
+        "zeroPV": 28399284,
+        "simulationSeed": 14931
+      },
+      "improves": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 11,
+        "success": 11,
+        "samples": [
+          {
+            "seed": 319,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 863,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1453,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1973,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2459,
+            "electoral": 65,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 3511,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4957,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 6199,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7313,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8597,
+            "electoral": 20,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 9623,
+            "electoral": 65,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "optimizer-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 8
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "8f51d67124849cdc14784aeb4fca94e84486bb80157b87093afac699d5d350c1",
+      "fingerprints": {
+        "3662": "f881bf1c",
+        "3668": "1f0475ac",
+        "3672": "95e72203",
+        "3673": "ee29d008",
+        "3677": "9270976f",
+        "3681": "61d12a0b",
+        "3685": "c8a33ddc",
+        "3686": "7621c3ad",
+        "3740": "c4290bba",
+        "3745": "9ca7fd6b",
+        "3748": "7db186c8",
+        "3751": "af75c8e6",
+        "3754": "61c1277e",
+        "3763": "cb762fe5",
+        "3766": "cf612062",
+        "3770": "2f4b8ab5",
+        "3773": "f9164ae5",
+        "3776": "b090c78d",
+        "3777": "e5b79eb9",
+        "3780": "c8b4e74f",
+        "3785": "ceb81c1d",
+        "3789": "3e55a12b",
+        "3797": "e4c22846",
+        "3800": "d5fe3879",
+        "3804": "62df9fb0"
       },
       "mappedQuestions": 25,
       "totalQuestions": 25,

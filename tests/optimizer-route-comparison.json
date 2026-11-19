@@ -1,0 +1,7423 @@
+{
+  "date": "2026-11-18T11:01:43.067Z",
+  "status": "passed",
+  "seedSets": {
+    "discovery": [
+      319,
+      863,
+      1453
+    ],
+    "holdout": [
+      1973,
+      2459,
+      3511,
+      4957,
+      6199,
+      7313,
+      8597,
+      9623
+    ]
+  },
+  "selectionCriteria": "More holdout unlocks, at least as many discovery unlocks, and two or more total. A repaired unclickable route must be verified with SVG visits.",
+  "network": "Blocked all non-loopback requests",
+  "played": 258,
+  "excluded": 14,
+  "selection": [
+    {
+      "previous": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+      "promoted": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "promoted": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "promoted": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "ridingBiden-community",
+      "promoted": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "magaa-community",
+      "promoted": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "promoted": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
+      "reason": "unclickable-visit"
+    }
+  ],
+  "trials": [
+    {
+      "route": {
+        "id": "magaa-community",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://www.reddit.com/r/thecampaigntrail/comments/zkkmo4/maga_again_achievement_guide/",
+        "origin": "community",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6128
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6150
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6179
+          ],
+          "1318": [
+            6183
+          ],
+          "1319": [
+            6186
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6195
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1"
+      },
+      "routeSHA256": "db68b04dd57698a9303f2e5c2ae4eb975e2981f767a9943284bc5876602d4d3e",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 321,
+          "popular": 76880718,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 295,
+          "popular": 76544413,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77690271,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 321,
+          "popular": 77342291,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 295,
+          "popular": 76894079,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 275,
+          "popular": 76585108,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 47 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 312,
+          "popular": 78071881,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 321,
+          "popular": 77791614,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 321,
+          "popular": 78871623,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 311,
+          "popular": 76732877,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 295,
+          "popular": 77692570,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-14931",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6135
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6168
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "N2"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 19.789992067956135,
+          "zeroEV": 321,
+          "zeroPV": 77330382,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "a5a9e736ffec94ed8a18a556a4365bbe56ab13b017d937c675202c204431d37f",
+      "clickable": false,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 321,
+          "popular": 76940415,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 863,
+          "electoral": 295,
+          "popular": 76603450,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77746290,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 321,
+          "popular": 77400573,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 2459,
+          "electoral": 295,
+          "popular": 76950463,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 3511,
+          "electoral": 311,
+          "popular": 76644652,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 4957,
+          "electoral": 312,
+          "popular": 78130372,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 6199,
+          "electoral": 321,
+          "popular": 77851921,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 7313,
+          "electoral": 321,
+          "popular": 78930037,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 8597,
+          "electoral": 321,
+          "popular": 76789640,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 9623,
+          "electoral": 295,
+          "popular": 77751345,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-91251",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "N2"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 19.728278738552703,
+          "zeroEV": 321,
+          "zeroPV": 77407836,
+          "simulationSeed": 91251
+        }
+      },
+      "routeSHA256": "45a2480a265f510ec1092addc79f56d11d8c562290f2b785ea2526fd011390c8",
+      "clickable": false,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 321,
+          "popular": 77017143,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 863,
+          "electoral": 295,
+          "popular": 76680782,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77824090,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "callback-no-hit-area"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Pence-1-0.97-stress-robust-91251",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Pence",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6123
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6193
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6205
+          ],
+          "1325": [
+            6209
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "PA",
+            "PA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 13.86227228251758,
+          "zeroEV": 311,
+          "zeroPV": 77095035,
+          "simulationSeed": 91251
+        }
+      },
+      "routeSHA256": "9b892a28af995e73bf280875693cdea05ee7a12c2e14a8587957def321532988",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 295,
+          "popular": 75176241,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 311,
+          "popular": 76353413,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77511097,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Pence-1-0.97-stress-robust-14931",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Pence",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6123
+          ],
+          "1304": [
+            6128
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6160
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6193
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6205
+          ],
+          "1325": [
+            6209
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "MI",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "PA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 13.80357305685315,
+          "zeroEV": 311,
+          "zeroPV": 77089465,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "26737d63ca72a27d7652041a378a7da1909acc8ecd28ae754f91ae8f85bb8513",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 301,
+          "popular": 75170866,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 21 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 311,
+          "popular": 76348683,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77506443,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ridingBiden-community",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Demings",
+        "source": "https://www.reddit.com/r/thecampaigntrail/comments/za4pre/the_dark_brandon_rises_achievement_guide/",
+        "origin": "community",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6025
+          ],
+          "1208": [
+            6032
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6051
+          ],
+          "1214": [
+            6056
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1217": [
+            6067
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6081
+          ],
+          "1222": [
+            6084
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6088
+          ],
+          "1230": [
+            6102
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1"
+      },
+      "routeSHA256": "090d5dd3cfeea82f40e3341e26b14ef60bbf1c4fcff8dab31fd5a31b50eb18a3",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 350,
+          "popular": 84165266,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 406,
+          "popular": 83868583,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 350,
+          "popular": 84598221,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 350,
+          "popular": 82548098,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 350,
+          "popular": 83605209,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 350,
+          "popular": 83996940,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 350,
+          "popular": 84072637,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 368,
+          "popular": 85148541,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 38 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 406,
+          "popular": 84986537,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 350,
+          "popular": 84693102,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 406,
+          "popular": 85629786,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Demings",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6024
+          ],
+          "1208": [
+            6030
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1217": [
+            6067
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6079
+          ],
+          "1222": [
+            6084
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6088
+          ],
+          "1230": [
+            6102
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 25.60498060126778,
+          "zeroEV": 388,
+          "zeroPV": 84327634,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "b18f3f999583ddb112e9785792483d20511f214664bf253aa1884a867f79c4fd",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 388,
+          "popular": 84561449,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 406,
+          "popular": 84255722,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 350,
+          "popular": 84992605,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 350,
+          "popular": 82942956,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 388,
+          "popular": 84000682,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 388,
+          "popular": 84395857,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 350,
+          "popular": 84472402,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 56 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 406,
+          "popular": 85543781,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 406,
+          "popular": 85385709,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 388,
+          "popular": 85094491,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 406,
+          "popular": 86025186,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Rice-1-0.97-stress-robust-14931",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Rice",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6023
+          ],
+          "1208": [
+            6032
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6059
+          ],
+          "1216": [
+            6063
+          ],
+          "1217": [
+            6067
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6079
+          ],
+          "1222": [
+            6082
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6090
+          ],
+          "1226": [
+            6094
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 16.15088839739215,
+          "zeroEV": 388,
+          "zeroPV": 84233179,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "2555cbf7aa0cb3d3554673b322e59787deaed7319cc7a1238538b4c8b903f2ea",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 388,
+          "popular": 84473655,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 388,
+          "popular": 84044477,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 388,
+          "popular": 84178047,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ridingBiden-2020_Biden_Whitmer-1-0.97-stress-robust-14931",
+        "achievement": "ridingBiden",
+        "scope": "2020_Biden_Whitmer",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1200": [
+            6001
+          ],
+          "1201": [
+            6004
+          ],
+          "1202": [
+            6010
+          ],
+          "1203": [
+            6014
+          ],
+          "1204": [
+            6017
+          ],
+          "1205": [
+            6020
+          ],
+          "1206": [
+            6023
+          ],
+          "1208": [
+            6032
+          ],
+          "1209": [
+            6037
+          ],
+          "1210": [
+            6040
+          ],
+          "1211": [
+            6042
+          ],
+          "1212": [
+            6049
+          ],
+          "1213": [
+            6050
+          ],
+          "1214": [
+            6054
+          ],
+          "1215": [
+            6058
+          ],
+          "1216": [
+            6063
+          ],
+          "1218": [
+            6070
+          ],
+          "1219": [
+            6074
+          ],
+          "1220": [
+            6078
+          ],
+          "1221": [
+            6079
+          ],
+          "1222": [
+            6082
+          ],
+          "1223": [
+            6086
+          ],
+          "1224": [
+            6090
+          ],
+          "1228": [
+            6099
+          ],
+          "1232": [
+            6106
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NC",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 15.700025279621983,
+          "zeroEV": 388,
+          "zeroPV": 83853427,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "0dda61b70b5dbc7c8a2098379ae104583230850f9d45736cc64b88eb4d1ac118",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 335,
+          "popular": 81936305,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 71 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 373,
+          "popular": 82932097,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 33 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 388,
+          "popular": 84246076,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 18 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
+        "achievement": "thebern",
+        "scope": "2016_Clinton_Sanders",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5142
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5153
+          ],
+          "1047": [
+            5160
+          ],
+          "1052": [
+            5175
+          ],
+          "1055": [
+            5185
+          ],
+          "1056": [
+            5187
+          ],
+          "1058": [
+            5192
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5207
+          ],
+          "1063": [
+            5212
+          ],
+          "1064": [
+            5219
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1070": [
+            5238
+          ],
+          "1071": [
+            5245
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5252
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5259
+          ],
+          "1078": [
+            5265
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "NC",
+            "GA",
+            "NC",
+            "GA",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1"
+      },
+      "routeSHA256": "f15214d6195f31c55cf310e0fa7aeccc90bfd737a91b9f930bad1f83a0155940",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 357,
+          "popular": 69698266,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 357,
+          "popular": 70425374,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 357,
+          "popular": 69836623,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "thebern-2016_Clinton_Sanders-1-0.97-stress-robust-14931",
+        "achievement": "thebern",
+        "scope": "2016_Clinton_Sanders",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5142
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5153
+          ],
+          "1047": [
+            5160
+          ],
+          "1052": [
+            5175
+          ],
+          "1055": [
+            5185
+          ],
+          "1056": [
+            5187
+          ],
+          "1058": [
+            5192
+          ],
+          "1059": [
+            5197
+          ],
+          "1061": [
+            5207
+          ],
+          "1063": [
+            5212
+          ],
+          "1064": [
+            5219
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1070": [
+            5238
+          ],
+          "1071": [
+            5245
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5252
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5259
+          ],
+          "1078": [
+            5265
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "GA",
+            "NC",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 46.49129557822759,
+          "zeroEV": 357,
+          "zeroPV": 69588714,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "e608f74a39872e5acda774028de646998ee3ff68e353faf7849d604044276eeb",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 357,
+          "popular": 69694067,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 357,
+          "popular": 70421593,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 357,
+          "popular": 69832421,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Connally",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1668
+          ],
+          "256": [
+            1671
+          ],
+          "264": [
+            1698
+          ],
+          "265": [
+            1701
+          ],
+          "271": [
+            1726
+          ],
+          "272": [
+            1729
+          ],
+          "274": [
+            1737
+          ],
+          "275": [
+            1740
+          ],
+          "276": [
+            1744
+          ],
+          "277": [
+            1746
+          ],
+          "278": [
+            1750
+          ],
+          "279": [
+            1755
+          ],
+          "283": [
+            1769
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1794
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "330": [
+            3265
+          ],
+          "332": [
+            3274
+          ],
+          "333": [
+            3277
+          ],
+          "336": [
+            3287
+          ],
+          "338": [
+            3293
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "IN",
+            "IA",
+            "IA",
+            "IA",
+            "SC",
+            "TN",
+            "TN",
+            "TN",
+            "VT",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 49.74224587823716,
+          "zeroEV": 414,
+          "zeroPV": 35098003
+        }
+      },
+      "routeSHA256": "857dda688f251f24590e6cfafbd119cc010dd618b3fcf280969125e61e0827b6",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 418,
+          "popular": 35191721,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 13 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 414,
+          "popular": 35004099,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 362,
+          "popular": 34405509,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 69 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 410,
+          "popular": 35362810,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 21 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 398,
+          "popular": 34886371,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 33 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 441,
+          "popular": 36154530,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 398,
+          "popular": 35285207,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 33 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 388,
+          "popular": 34971947,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 43 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 418,
+          "popular": 35391970,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 13 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 359,
+          "popular": 34731227,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 72 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 403,
+          "popular": 35307802,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 28 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Muskie",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1667
+          ],
+          "256": [
+            1670
+          ],
+          "258": [
+            1679
+          ],
+          "259": [
+            1683
+          ],
+          "266": [
+            1706
+          ],
+          "268": [
+            1713
+          ],
+          "269": [
+            1717
+          ],
+          "275": [
+            1740
+          ],
+          "281": [
+            1763
+          ],
+          "283": [
+            1770
+          ],
+          "286": [
+            1777
+          ],
+          "288": [
+            1784
+          ],
+          "292": [
+            1797
+          ],
+          "323": [
+            3235
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "329": [
+            3260
+          ],
+          "330": [
+            3265
+          ],
+          "331": [
+            3270
+          ],
+          "333": [
+            3277
+          ],
+          "336": [
+            3287
+          ],
+          "338": [
+            3293
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "CO",
+            "CO",
+            "CO",
+            "CO",
+            "CO",
+            "IA",
+            "IA",
+            "IA",
+            "IA",
+            "IA",
+            "IA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 52.04562281040814,
+          "zeroEV": 455,
+          "zeroPV": 35291427,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "d959b05d91724aab35c8dc437dad63a74c5d4ee6a00939509fd8f0dc706c4e8c",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 459,
+          "popular": 35382018,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 459,
+          "popular": 35286167,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 432,
+          "popular": 34597997,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 455,
+          "popular": 35486207,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 459,
+          "popular": 35452187,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 459,
+          "popular": 36355251,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 455,
+          "popular": 35494369,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 459,
+          "popular": 35488067,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 459,
+          "popular": 35399715,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 438,
+          "popular": 34938835,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 449,
+          "popular": 34899940,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-robust-14931",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Connally",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1668
+          ],
+          "256": [
+            1671
+          ],
+          "264": [
+            1699
+          ],
+          "265": [
+            1701
+          ],
+          "271": [
+            1726
+          ],
+          "272": [
+            1729
+          ],
+          "274": [
+            1737
+          ],
+          "275": [
+            1741
+          ],
+          "276": [
+            1744
+          ],
+          "277": [
+            1746
+          ],
+          "278": [
+            1750
+          ],
+          "279": [
+            1754
+          ],
+          "283": [
+            1769
+          ],
+          "289": [
+            1787
+          ],
+          "291": [
+            1794
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "330": [
+            3265
+          ],
+          "332": [
+            3274
+          ],
+          "333": [
+            3277
+          ],
+          "336": [
+            3287
+          ],
+          "338": [
+            3293
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "IN",
+            "IA",
+            "IA",
+            "SC",
+            "SC",
+            "SC",
+            "SC",
+            "TN",
+            "NC",
+            "NC",
+            "NC",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 21.808836912460773,
+          "zeroEV": 414,
+          "zeroPV": 35096132,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "3cbf75c9ec1a27ac845d7761e6ecc1e48b252cfb27d4a09266ae5f6ccde57d53",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 418,
+          "popular": 35189837,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 13 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 414,
+          "popular": 35002411,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 348,
+          "popular": 34403601,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 83 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "ratio-1968_Humphrey_Kennedy-1-0.97-stress-robust-14931",
+        "achievement": "ratio",
+        "scope": "1968_Humphrey_Kennedy",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "252": [
+            1655
+          ],
+          "253": [
+            1659
+          ],
+          "254": [
+            1663
+          ],
+          "255": [
+            1666
+          ],
+          "256": [
+            1670
+          ],
+          "258": [
+            1679
+          ],
+          "259": [
+            1683
+          ],
+          "260": [
+            1687
+          ],
+          "262": [
+            1693
+          ],
+          "263": [
+            1696
+          ],
+          "270": [
+            1722
+          ],
+          "272": [
+            1728
+          ],
+          "273": [
+            1732
+          ],
+          "275": [
+            1740
+          ],
+          "276": [
+            1742
+          ],
+          "279": [
+            1753
+          ],
+          "282": [
+            1765
+          ],
+          "287": [
+            1779
+          ],
+          "291": [
+            1794
+          ],
+          "327": [
+            3252
+          ],
+          "328": [
+            3258
+          ],
+          "330": [
+            3265
+          ],
+          "331": [
+            3270
+          ],
+          "333": [
+            3277
+          ],
+          "338": [
+            3292
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "IN",
+            "IN",
+            "IN",
+            "IN",
+            "IN",
+            "IN",
+            "IN",
+            "SC",
+            "SC",
+            "TN",
+            "VA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 15.45969735100903,
+          "zeroEV": 361,
+          "zeroPV": 34960940,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "d025ee991bd728cbafb02d542163b1a5e6287385927804c2dd1b65b869339959",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 348,
+          "popular": 35073067,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 83 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 386,
+          "popular": 34655285,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 45 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 387,
+          "popular": 35355094,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 44 张选举人票。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 39.8296507592588,
+          "zeroEV": 270,
+          "zeroPV": 66157104
+        }
+      },
+      "routeSHA256": "d3611e38d8821ba42ce500c91b23e57aba1637600bad9499321a48656023a586",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 269,
+          "popular": 66261443,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 270,
+          "popular": 66967751,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 273,
+          "popular": 66413998,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 267,
+          "popular": 65450879,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 2459,
+          "electoral": 264,
+          "popular": 65687771,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 3511,
+          "electoral": 265,
+          "popular": 65516884,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 4957,
+          "electoral": 267,
+          "popular": 67016926,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 6199,
+          "electoral": 268,
+          "popular": 66191860,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 7313,
+          "electoral": 268,
+          "popular": 66369930,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 8597,
+          "electoral": 272,
+          "popular": 66147013,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "宾夕法尼亚州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 9623,
+          "electoral": 272,
+          "popular": 66717479,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-robust-14931",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5154
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5207
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5224
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5254
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 21.888018505587194,
+          "zeroEV": 270,
+          "zeroPV": 66129044,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "43f15824a3c29cb7a7c33d2036637633c6a9807fc1e423770d2647dd535e349c",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 269,
+          "popular": 66231822,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 273,
+          "popular": 66936958,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 275,
+          "popular": 66382974,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-robust-14931",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5205
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1069": [
+            5236
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NH",
+            "NH",
+            "NM",
+            "NM",
+            "NM",
+            "OH"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 19.195170079471207,
+          "zeroEV": 270,
+          "zeroPV": 66306520,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "9e34c149c04eb631eae3bd546c855a1a1bff7a3e077befdd79d7294c3e07301c",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 268,
+          "popular": 66413067,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 273,
+          "popular": 67118274,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 275,
+          "popular": 66562251,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Trump_Carson-2-0.97-stress-robust-14931",
+        "achievement": "whatbelt",
+        "scope": "2016_Trump_Carson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5000
+          ],
+          "1003": [
+            5007
+          ],
+          "1006": [
+            5015
+          ],
+          "1007": [
+            5018
+          ],
+          "1008": [
+            5022
+          ],
+          "1009": [
+            5026
+          ],
+          "1011": [
+            5030
+          ],
+          "1014": [
+            5043
+          ],
+          "1018": [
+            5056
+          ],
+          "1019": [
+            5060
+          ],
+          "1021": [
+            5069
+          ],
+          "1023": [
+            5075
+          ],
+          "1025": [
+            5084
+          ],
+          "1026": [
+            5086
+          ],
+          "1027": [
+            5091
+          ],
+          "1030": [
+            5102
+          ],
+          "1031": [
+            5103
+          ],
+          "1032": [
+            5110
+          ],
+          "1033": [
+            5112
+          ],
+          "1034": [
+            5117
+          ],
+          "1035": [
+            5120
+          ],
+          "1036": [
+            5121
+          ],
+          "1037": [
+            5123
+          ],
+          "1040": [
+            5135
+          ],
+          "1082": [
+            5273
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NC",
+            "NC",
+            "NC",
+            "NC",
+            "TN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 12.474791736152243,
+          "zeroEV": 253,
+          "zeroPV": 60328209,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "78b1410a2f5bf1da55a189b53271a735f7d9480b6d66dc29867ace90a55253ca",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 254,
+          "popular": 60671261,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 252,
+          "popular": 60139338,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 251,
+          "popular": 60125247,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Johnson-2-0.9-stress-robust-14931",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "477": [
+            3742
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NY",
+            "NY",
+            "NY",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 8.260270933881877,
+          "zeroEV": 245,
+          "zeroPV": 32542307,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "403ff4f1c65c59765f3a1fc2de45655b83c11b23e4d0360e4f07478b352669a2",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 239,
+          "popular": 32341057,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 248,
+          "popular": 32729689,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 244,
+          "popular": 32635604,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Humphrey-1-0.9-stress-robust-14931",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3670
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "478": [
+            3747
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "481": [
+            3755
+          ],
+          "483": [
+            3761
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3786
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3803
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "PA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "1",
+        "search": {
+          "score": 7.847721445145636,
+          "zeroEV": 235,
+          "zeroPV": 30704470,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "c8d6af7feaaae0082ccd45ffd26ab089914ece8e028fb369beddea66e4402017",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 160,
+          "popular": 30636469,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 203,
+          "popular": 30979620,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 233,
+          "popular": 30489865,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Humphrey-2-0.9-stress-robust-14931",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3670
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "478": [
+            3747
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "481": [
+            3755
+          ],
+          "483": [
+            3761
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3786
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3802
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "2",
+        "search": {
+          "score": 7.590939714207393,
+          "zeroEV": 219,
+          "zeroPV": 30708916,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "5eb55a87c20f8594d20f919e55ecb178f4cf528e06e69bbd69705600d8f3012a",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 216,
+          "popular": 30640428,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 219,
+          "popular": 30983394,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 219,
+          "popular": 30493484,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+        "achievement": "swap",
+        "scope": "2000_Gore_Graham",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3317
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3329
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3343
+          ],
+          "352": [
+            3345
+          ],
+          "359": [
+            3373
+          ],
+          "362": [
+            3383
+          ],
+          "363": [
+            3386
+          ],
+          "364": [
+            3389
+          ],
+          "367": [
+            3399
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3432
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3440
+          ],
+          "382": [
+            3457
+          ],
+          "385": [
+            3469
+          ],
+          "390": [
+            3485
+          ],
+          "391": [
+            3489
+          ],
+          "392": [
+            3490
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "WI",
+            "IA",
+            "NM",
+            "NM",
+            "NM",
+            "NM",
+            "NM",
+            "NM",
+            "NM"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1"
+      },
+      "routeSHA256": "cf0dbbac9e0e2bde6c3e9a3f6b030a5cbc9c2af34ea945029c93efba3bd54915",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 237,
+          "popular": 51076139,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 274,
+          "popular": 51536880,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 307,
+          "popular": 51893492,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 296,
+          "popular": 52295012,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 287,
+          "popular": 51718780,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 267,
+          "popular": 51320249,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 309,
+          "popular": 52898418,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 303,
+          "popular": 52396499,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 267,
+          "popular": 51942298,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。",
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 244,
+          "popular": 51802313,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 307,
+          "popular": 51969308,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项要求普选票低于对手。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
+        "achievement": "swap",
+        "scope": "2000_Gore_Graham",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3325
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3341
+          ],
+          "352": [
+            3345
+          ],
+          "359": [
+            3371
+          ],
+          "362": [
+            3383
+          ],
+          "363": [
+            3386
+          ],
+          "364": [
+            3389
+          ],
+          "367": [
+            3400
+          ],
+          "370": [
+            3410
+          ],
+          "375": [
+            3432
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3440
+          ],
+          "382": [
+            3460
+          ],
+          "385": [
+            3469
+          ],
+          "390": [
+            3485
+          ],
+          "391": [
+            3488
+          ],
+          "392": [
+            3492
+          ],
+          "398": [
+            3503
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "MI",
+            "MN",
+            "TN",
+            "TN",
+            "WI",
+            "WI",
+            "WI"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 26.35779880925398,
+          "zeroEV": 301,
+          "zeroPV": 50503877,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "3a08132a83269b9266044c6f326adc1fad70e9dd466bcf10e3d23903c41a0f10",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 284,
+          "popular": 49805106,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 284,
+          "popular": 50278298,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 306,
+          "popular": 50618618,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 315,
+          "popular": 51038802,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 284,
+          "popular": 50444564,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 284,
+          "popular": 50055713,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 301,
+          "popular": 51585593,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 320,
+          "popular": 51109756,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 308,
+          "popular": 50699584,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 267,
+          "popular": 50525291,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 313,
+          "popular": 50702492,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "swap-2000_Gore_Graham-1-0.95-stress-robust-14931",
+        "achievement": "swap",
+        "scope": "2000_Gore_Graham",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3317
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3324
+          ],
+          "347": [
+            3329
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3345
+          ],
+          "359": [
+            3371
+          ],
+          "362": [
+            3382
+          ],
+          "363": [
+            3386
+          ],
+          "364": [
+            3389
+          ],
+          "367": [
+            3397
+          ],
+          "370": [
+            3410
+          ],
+          "375": [
+            3430
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3440
+          ],
+          "382": [
+            3457
+          ],
+          "385": [
+            3469
+          ],
+          "390": [
+            3485
+          ],
+          "391": [
+            3487
+          ],
+          "392": [
+            3492
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "MO",
+            "MO",
+            "MO",
+            "MO",
+            "PA",
+            "TN"
+          ]
+        },
+        "difficulty": 0.95,
+        "mode": "1",
+        "search": {
+          "score": 26.287927481540518,
+          "zeroEV": 290,
+          "zeroPV": 50796626,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "00cf48248be3ae7c6fcbec2ebe5213ec8ab8499be370fc6aa9a1856862f4f6eb",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 279,
+          "popular": 50102410,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 290,
+          "popular": 50566038,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 306,
+          "popular": 50916071,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 297,
+          "popular": 51326022,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 290,
+          "popular": 50739062,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 295,
+          "popular": 50346941,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 290,
+          "popular": 51892262,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 313,
+          "popular": 51405523,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 297,
+          "popular": 50983919,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 246,
+          "popular": 50824193,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 301,
+          "popular": 50994269,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "swap-2000_Gore_Graham-2-0.97-stress-robust-14931",
+        "achievement": "swap",
+        "scope": "2000_Gore_Graham",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3317
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3324
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3341
+          ],
+          "352": [
+            3345
+          ],
+          "359": [
+            3373
+          ],
+          "362": [
+            3383
+          ],
+          "363": [
+            3387
+          ],
+          "364": [
+            3389
+          ],
+          "367": [
+            3397
+          ],
+          "370": [
+            3410
+          ],
+          "375": [
+            3432
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3440
+          ],
+          "382": [
+            3460
+          ],
+          "385": [
+            3468
+          ],
+          "390": [
+            3485
+          ],
+          "391": [
+            3488
+          ],
+          "392": [
+            3492
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "AR",
+            "MO",
+            "NH",
+            "NH",
+            "NH",
+            "NH",
+            "NH",
+            "NH",
+            "NY",
+            "TN",
+            "WY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 3.5303992262700024,
+          "zeroEV": 254,
+          "zeroPV": 50192404,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "64ff11bc539fafb5e6b146b03f5cd01abb57ef9b5c935ae50645dabfeaa18aec",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 250,
+          "popular": 49493216,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 250,
+          "popular": 49971274,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 257,
+          "popular": 50301076,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+        "achievement": "Vice",
+        "scope": "1960_Nixon_Goldwater",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "459": [
+            3690
+          ],
+          "468": [
+            3715
+          ],
+          "469": [
+            3717
+          ],
+          "470": [
+            3719
+          ],
+          "471": [
+            3723
+          ],
+          "472": [
+            3728
+          ],
+          "473": [
+            3731
+          ],
+          "474": [
+            3733
+          ],
+          "475": [
+            3735
+          ],
+          "476": [
+            3740
+          ],
+          "478": [
+            3746
+          ],
+          "479": [
+            3749
+          ],
+          "480": [
+            3751
+          ],
+          "482": [
+            3759
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3769
+          ],
+          "486": [
+            3772
+          ],
+          "487": [
+            3775
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3788
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3796
+          ],
+          "494": [
+            3799
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2"
+      },
+      "routeSHA256": "bc2af94164da0c7816461ccd6ed59f371e4ebb72daa7c08b4e9e126b0ce06e45",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 269,
+          "popular": 33331419,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 275,
+          "popular": 33775441,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 268,
+          "popular": 33017506,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 269,
+          "popular": 33190742,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 268,
+          "popular": 33215234,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 275,
+          "popular": 33538460,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 268,
+          "popular": 33311047,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 268,
+          "popular": 32919491,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 271,
+          "popular": 33360191,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 267,
+          "popular": 32806490,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 272,
+          "popular": 33106568,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
+        "achievement": "Vice",
+        "scope": "1960_Nixon_Goldwater",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "459": [
+            3690
+          ],
+          "468": [
+            3715
+          ],
+          "469": [
+            3717
+          ],
+          "470": [
+            3719
+          ],
+          "471": [
+            3726
+          ],
+          "472": [
+            3728
+          ],
+          "473": [
+            3731
+          ],
+          "474": [
+            3733
+          ],
+          "475": [
+            3735
+          ],
+          "476": [
+            3740
+          ],
+          "478": [
+            3745
+          ],
+          "479": [
+            3749
+          ],
+          "480": [
+            3751
+          ],
+          "482": [
+            3759
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3769
+          ],
+          "486": [
+            3772
+          ],
+          "487": [
+            3775
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3788
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3796
+          ],
+          "494": [
+            3799
+          ],
+          "495": [
+            3803
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "HI",
+            "NC",
+            "NC",
+            "NC",
+            "NC",
+            "PA"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 43.06987111726718,
+          "zeroEV": 273,
+          "zeroPV": 33162546,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "6b74d8890fbb096e292a54b46eb3288a006f708627a8cde6b8fd25b51cc75052",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 269,
+          "popular": 33221283,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 276,
+          "popular": 33674140,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 272,
+          "popular": 32902206,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 272,
+          "popular": 33083117,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 271,
+          "popular": 33113238,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 274,
+          "popular": 33424182,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 269,
+          "popular": 33194164,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 269,
+          "popular": 32815525,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 275,
+          "popular": 33252307,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 269,
+          "popular": 32685927,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 275,
+          "popular": 32995678,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "Vice-1960_Nixon_Goldwater-1-0.97-stress-robust-14931",
+        "achievement": "Vice",
+        "scope": "1960_Nixon_Goldwater",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "459": [
+            3690
+          ],
+          "468": [
+            3715
+          ],
+          "469": [
+            3717
+          ],
+          "470": [
+            3720
+          ],
+          "471": [
+            3726
+          ],
+          "472": [
+            3728
+          ],
+          "473": [
+            3731
+          ],
+          "474": [
+            3733
+          ],
+          "475": [
+            3735
+          ],
+          "476": [
+            3740
+          ],
+          "478": [
+            3745
+          ],
+          "479": [
+            3749
+          ],
+          "480": [
+            3751
+          ],
+          "482": [
+            3759
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3769
+          ],
+          "486": [
+            3772
+          ],
+          "487": [
+            3775
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3788
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3796
+          ],
+          "494": [
+            3799
+          ],
+          "495": [
+            3803
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "MO",
+            "MO",
+            "MO",
+            "NC"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 36.49475388421141,
+          "zeroEV": 278,
+          "zeroPV": 33040985,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "73ca4caf8dfe0525e85a609c07f61ce9a3335905516f0fa453b1d7829a3f8210",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 267,
+          "popular": 33098500,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 283,
+          "popular": 33551825,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 262,
+          "popular": 32781047,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "florida2000-2000_Bush_Cheney-1-0.97-search",
+        "achievement": "florida2000",
+        "scope": "2000_Bush_Cheney",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3320
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3332
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3345
+          ],
+          "355": [
+            3355
+          ],
+          "358": [
+            3367
+          ],
+          "359": [
+            3370
+          ],
+          "362": [
+            3381
+          ],
+          "364": [
+            3388
+          ],
+          "365": [
+            3391
+          ],
+          "366": [
+            3395
+          ],
+          "369": [
+            3407
+          ],
+          "372": [
+            3420
+          ],
+          "374": [
+            3428
+          ],
+          "381": [
+            3453
+          ],
+          "384": [
+            3466
+          ],
+          "388": [
+            3479
+          ],
+          "389": [
+            3482
+          ],
+          "393": [
+            3493
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1"
+      },
+      "routeSHA256": "b76cae254102cffed0e00003fe8718c83802ee2f60393c30f183388159b8a722",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 245,
+          "popular": 50647308,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 242,
+          "popular": 50697911,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.005 个百分点，需要小于 0.5。",
+            "全国榜首实际 296 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 250,
+          "popular": 51092062,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 199,
+          "popular": 49371859,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.708 个百分点，需要小于 0.5。",
+            "全国榜首实际 339 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 261,
+          "popular": 51697133,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.914 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 276,
+          "popular": 51081161,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 271,
+          "popular": 51848738,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 242,
+          "popular": 50794944,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 2.028 个百分点，需要小于 0.5。",
+            "全国榜首实际 296 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 261,
+          "popular": 51183600,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 242,
+          "popular": 50606282,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.121 个百分点，需要小于 0.5。",
+            "全国榜首实际 296 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 221,
+          "popular": 51069659,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.674 个百分点，需要小于 0.5。",
+            "全国榜首实际 317 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "florida2000-2000_Bush_Cheney-2-0.97-stress-robust-14931",
+        "achievement": "florida2000",
+        "scope": "2000_Bush_Cheney",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3312
+          ],
+          "344": [
+            3315
+          ],
+          "345": [
+            3320
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3327
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3339
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3345
+          ],
+          "355": [
+            3355
+          ],
+          "358": [
+            3368
+          ],
+          "359": [
+            3370
+          ],
+          "362": [
+            3381
+          ],
+          "364": [
+            3388
+          ],
+          "365": [
+            3391
+          ],
+          "366": [
+            3396
+          ],
+          "369": [
+            3408
+          ],
+          "372": [
+            3417
+          ],
+          "374": [
+            3426
+          ],
+          "381": [
+            3453
+          ],
+          "384": [
+            3466
+          ],
+          "388": [
+            3479
+          ],
+          "389": [
+            3481
+          ],
+          "393": [
+            3494
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 9.60196323656473,
+          "zeroEV": 259,
+          "zeroPV": 49482740,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "f1224fc9de00bdf74ebcdeeba5a96af9c61f47c789e7279a5be64a10a641baf9",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 257,
+          "popular": 49273444,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 257,
+          "popular": 49318480,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.661 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 260,
+          "popular": 49722681,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 252,
+          "popular": 48025870,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.037 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 261,
+          "popular": 50322486,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.577 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 259,
+          "popular": 49692636,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 262,
+          "popular": 50470128,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 257,
+          "popular": 49418282,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 2.316 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 259,
+          "popular": 49806629,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 260,
+          "popular": 49247495,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.426 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 262,
+          "popular": 49705451,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.002 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "florida2000-2000_Bush_Cheney-1-0.97-stress-robust-14931",
+        "achievement": "florida2000",
+        "scope": "2000_Bush_Cheney",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3319
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3332
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3339
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3344
+          ],
+          "355": [
+            3356
+          ],
+          "358": [
+            3367
+          ],
+          "359": [
+            3370
+          ],
+          "362": [
+            3381
+          ],
+          "364": [
+            3388
+          ],
+          "365": [
+            3391
+          ],
+          "366": [
+            3395
+          ],
+          "369": [
+            3408
+          ],
+          "372": [
+            3418
+          ],
+          "374": [
+            3427
+          ],
+          "381": [
+            3456
+          ],
+          "384": [
+            3466
+          ],
+          "388": [
+            3479
+          ],
+          "389": [
+            3482
+          ],
+          "393": [
+            3494
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "MO",
+            "MO",
+            "NM",
+            "NM",
+            "NM",
+            "NM",
+            "OH",
+            "OH",
+            "OH",
+            "OH",
+            "TN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 8.46311737806781,
+          "zeroEV": 247,
+          "zeroPV": 50843611,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "0f415f11714ae234f6df2d69b9682c1adb7c0936950861c73ea88f51265c9498",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 267,
+          "popular": 50635038,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 268,
+          "popular": 50685294,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.790 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 276,
+          "popular": 51082667,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 199,
+          "popular": 49361758,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.927 个百分点，需要小于 0.5。",
+            "全国榜首实际 339 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 2459,
+          "electoral": 272,
+          "popular": 51691405,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.696 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 3511,
+          "electoral": 276,
+          "popular": 51065272,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 4957,
+          "electoral": 251,
+          "popular": 51842064,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 6199,
+          "electoral": 242,
+          "popular": 50784184,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 2.261 个百分点，需要小于 0.5。",
+            "全国榜首实际 296 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 7313,
+          "electoral": 236,
+          "popular": 51172525,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "全国榜首实际 302 票，需要不超过 294。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 8597,
+          "electoral": 247,
+          "popular": 50596683,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 1.349 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 9623,
+          "electoral": 247,
+          "popular": 51061477,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "佛州差距为 0.892 个百分点，需要小于 0.5。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "BCitsHard-community",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "source": "https://www.reddit.com/r/thecampaigntrail/comments/10lbu98/not_because_it_is_easy_but_because_it_is_hard_is/",
+        "origin": "community",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3688,
+            3687
+          ],
+          "476": [
+            3737,
+            3739
+          ],
+          "477": [
+            3742,
+            3743
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3783,
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ]
+        },
+        "visits": {
+          "weakest": [
+            "IL",
+            "TX",
+            "MI",
+            "PA"
+          ]
+        },
+        "difficulty": 0.9,
+        "mode": "1"
+      },
+      "routeSHA256": "391cd07c910ad6705f74c54306ec39b1e151be1b263e9777db1f670567c674a5",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 72,
+          "popular": 32105863,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 863,
+          "electoral": 143,
+          "popular": 32496325,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        },
+        {
+          "seed": 1453,
+          "electoral": 117,
+          "popular": 32398942,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-callback"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
+        "achievement": "BCitsEasy",
+        "scope": "1960_Kennedy_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3662
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3672
+          ],
+          "454": [
+            3673
+          ],
+          "455": [
+            3677
+          ],
+          "456": [
+            3681
+          ],
+          "457": [
+            3685
+          ],
+          "458": [
+            3686
+          ],
+          "476": [
+            3740
+          ],
+          "478": [
+            3745
+          ],
+          "479": [
+            3748
+          ],
+          "480": [
+            3751
+          ],
+          "481": [
+            3754
+          ],
+          "483": [
+            3763
+          ],
+          "484": [
+            3766
+          ],
+          "485": [
+            3770
+          ],
+          "486": [
+            3773
+          ],
+          "487": [
+            3776
+          ],
+          "488": [
+            3777
+          ],
+          "489": [
+            3780
+          ],
+          "490": [
+            3785
+          ],
+          "491": [
+            3789
+          ],
+          "493": [
+            3797
+          ],
+          "494": [
+            3800
+          ],
+          "495": [
+            3804
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "AL",
+            "OK",
+            "OK",
+            "OK",
+            "OK",
+            "OK",
+            "OK",
+            "OK"
+          ]
+        },
+        "difficulty": 1.33,
+        "mode": "1",
+        "search": {
+          "score": 35.04493642372482,
+          "zeroEV": 20,
+          "zeroPV": 28399284,
+          "simulationSeed": 14931
+        }
+      },
+      "routeSHA256": "c6a85b7e7a801a2e9c672eaa8e7f845d717807f639f9ea9f5b827620a7c8af32",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 20,
+          "popular": 28317115,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 863,
+          "electoral": 20,
+          "popular": 28658309,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 1453,
+          "electoral": 20,
+          "popular": 28187703,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 20,
+          "popular": 28205434,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 2459,
+          "electoral": 65,
+          "popular": 28862015,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 3511,
+          "electoral": 20,
+          "popular": 27923225,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 4957,
+          "electoral": 20,
+          "popular": 28097465,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 6199,
+          "electoral": 20,
+          "popular": 28245037,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 7313,
+          "electoral": 20,
+          "popular": 27596620,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 8597,
+          "electoral": 20,
+          "popular": 28491320,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 9623,
+          "electoral": 65,
+          "popular": 29104688,
+          "outcome": "loss",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 17.15431038061315,
+          "zeroEV": 321,
+          "zeroPV": 77411698,
+          "simulationSeed": 15877
+        }
+      },
+      "routeSHA256": "2a0175015397188402a445d10b5186ffdf378607b8e77f989b0dc0779b115408",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 321,
+          "popular": 77020870,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 863,
+          "electoral": 295,
+          "popular": 76684659,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 1453,
+          "electoral": 322,
+          "popular": 77827929,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 321,
+          "popular": 77482251,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 2459,
+          "electoral": 295,
+          "popular": 77032339,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 3511,
+          "electoral": 311,
+          "popular": 76725684,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 4957,
+          "electoral": 322,
+          "popular": 78211639,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 6199,
+          "electoral": 321,
+          "popular": 77933232,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 7313,
+          "electoral": 321,
+          "popular": 79012317,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 8597,
+          "electoral": 321,
+          "popular": 76870920,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 9623,
+          "electoral": 295,
+          "popular": 77832930,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 27 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-29947",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6170
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "1",
+        "search": {
+          "score": 19.524807227414716,
+          "zeroEV": 321,
+          "zeroPV": 77404703,
+          "simulationSeed": 29947
+        }
+      },
+      "routeSHA256": "895c8f6b1d9a6fae30d6e552ded8abde5eca811f650179f9d53d07e770092316",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 321,
+          "popular": 77014480,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 863,
+          "electoral": 311,
+          "popular": 76677835,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 1453,
+          "electoral": 312,
+          "popular": 77821093,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "距离门槛还差 10 张选举人票。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-robust-15877",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5148
+          ],
+          "1045": [
+            5153
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5173
+          ],
+          "1053": [
+            5179
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5247
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "OK",
+            "OK"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 23.304711342162804,
+          "zeroEV": 269,
+          "zeroPV": 66059441,
+          "simulationSeed": 15877
+        }
+      },
+      "routeSHA256": "f44f4bb854f113dabed25a8b51c247342d2f1d591105d9d3cb71d5970df15618",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 268,
+          "popular": 66162133,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 863,
+          "electoral": 270,
+          "popular": 66870712,
+          "outcome": "win",
+          "unlocked": true,
+          "goalMet": true,
+          "reasons": [],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 1453,
+          "electoral": 273,
+          "popular": 66317413,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 1973,
+          "electoral": 266,
+          "popular": 65352718,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 2459,
+          "electoral": 263,
+          "popular": 65589340,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 3511,
+          "electoral": 263,
+          "popular": 65419576,
+          "outcome": "loss",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 4957,
+          "electoral": 267,
+          "popular": 66921358,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 6199,
+          "electoral": 266,
+          "popular": 66094277,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 7313,
+          "electoral": 268,
+          "popular": 66272921,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 8597,
+          "electoral": 272,
+          "popular": 66048629,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "宾夕法尼亚州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 9623,
+          "electoral": 272,
+          "popular": 66619553,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-robust-29947",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5147
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5173
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5190
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5236
+          ],
+          "1071": [
+            5243
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5252
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5263
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM",
+            "OH",
+            "OH",
+            "OH"
+          ]
+        },
+        "difficulty": 0.97,
+        "mode": "2",
+        "search": {
+          "score": 26.470013828241832,
+          "zeroEV": 271,
+          "zeroPV": 66268185,
+          "simulationSeed": 29947
+        }
+      },
+      "routeSHA256": "06a2635b89b59fcdd052f38bd420e22f0b58e7c28ecf5bc26e4960e7a619142f",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 319,
+          "electoral": 269,
+          "popular": 66370557,
+          "outcome": "tie",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 863,
+          "electoral": 273,
+          "popular": 67078524,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        },
+        {
+          "seed": 1453,
+          "electoral": 276,
+          "popular": 66525823,
+          "outcome": "win",
+          "unlocked": false,
+          "goalMet": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ],
+          "visitControls": "native-svg"
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+        "achievement": "BCitsEasy",
+        "scope": "1960_Kennedy_Humphrey",
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3662
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3672
+          ],
+          "454": [
+            3673
+          ],
+          "455": [
+            3677
+          ],
+          "456": [
+            3682
+          ],
+          "457": [
+            3685
+          ],
+          "458": [
+            3686
+          ],
+          "476": [
+            3740
+          ],
+          "478": [
+            3745
+          ],
+          "479": [
+            3748
+          ],
+          "480": [
+            3751
+          ],
+          "481": [
+            3754
+          ],
+          "483": [
+            3763
+          ],
+          "484": [
+            3766
+          ],
+          "485": [
+            3770
+          ],
+          "486": [
+            3773
+          ],
+          "487": [
+            3776
+          ],
+          "488": [
+            3777
+          ],
+          "489": [
+            3780
+          ],
+          "490": [
+            3785
+          ],
+          "491": [
+            3789
+          ],
+          "493": [
+            3797
+          ],
+          "494": [
+            3800
+          ],
+          "495": [
+            3804
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA",
+            "AA"
+          ]
+        },
+        "difficulty": 1.33,
+        "mode": "1"
+      },
+      "routeSHA256": "cd453a510f6b749258db692ffa7f199ee252101374c8fd692e92bb4cb9bea185",
+      "clickable": false,
+      "discovery": [],
+      "holdout": []
+    }
+  ]
+}

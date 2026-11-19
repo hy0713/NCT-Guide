@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-17T05:18:19.012Z",
-  "method": "Actual native achievement storage, offline browser replays; independent Chinese seed fixtures counted once, English duplicates excluded. These are not success probabilities. Candidate search and synthetic predicate tests are excluded from unlock coverage.",
+  "date": "2026-11-19T01:12:01.598Z",
+  "method": "Actual native achievement storage, offline browser replays. Route evidence counts independent Chinese seed fixtures once. Browser run totals also include earlier bilingual checks and failed candidates. Simulations are excluded.",
   "actualUnlocks": 31,
   "total": 31,
-  "actualGames": 664,
+  "actualGames": 908,
   "rows": [
     {
       "id": "destiny",
       "name": "殊途同归",
       "actualUnlock": true,
-      "routes": 9,
-      "testedRoutes": 9,
+      "routes": 12,
+      "testedRoutes": 12,
       "verifiedRoutes": [
         {
           "id": "destiny-destiny2016-community",
@@ -18,7 +18,7 @@
           "mode": "2",
           "difficulty": 0.9,
           "success": 1,
-          "total": 4
+          "total": 13
         },
         {
           "id": "destiny-destiny1976-community",
@@ -33,16 +33,16 @@
           "scope": "2012_Obama_Biden",
           "mode": "2",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 12
+          "success": 3,
+          "total": 19
         },
         {
           "id": "destiny-2000_Gore_Graham-2-0.97-search",
           "scope": "2000_Gore_Graham",
           "mode": "2",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 10
+          "success": 3,
+          "total": 17
         },
         {
           "id": "destiny-1964_Johnson_Humphrey-2-0.97-search",
@@ -50,7 +50,7 @@
           "mode": "2",
           "difficulty": 0.97,
           "success": 1,
-          "total": 31
+          "total": 38
         },
         {
           "id": "destiny-2020-Bass-community",
@@ -65,8 +65,32 @@
           "scope": "1988_Dukakis_Jackson",
           "mode": "1",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 1
+          "success": 7,
+          "total": 11
+        },
+        {
+          "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.9,
+          "success": 3,
+          "total": 11
+        },
+        {
+          "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
+          "scope": "2012_Obama_Biden",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 8,
+          "total": 11
+        },
+        {
+          "id": "destiny-1964_Johnson_Humphrey-2-0.97-stress-v1",
+          "scope": "1964_Johnson_Humphrey",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 4,
+          "total": 11
         }
       ],
       "procedureEvidence": "tests/procedural-achievement-results.json"
@@ -75,16 +99,24 @@
       "id": "ridingBiden",
       "name": "黑暗布兰登崛起",
       "actualUnlock": true,
-      "routes": 1,
-      "testedRoutes": 1,
+      "routes": 2,
+      "testedRoutes": 2,
       "verifiedRoutes": [
         {
           "id": "ridingBiden-community",
           "scope": "2020_Biden_Demings",
           "mode": "1",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 3
+          "success": 4,
+          "total": 14
+        },
+        {
+          "id": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
+          "scope": "2020_Biden_Demings",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 4,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -93,8 +125,8 @@
       "id": "magaa",
       "name": "让美国再次伟大……再来一次",
       "actualUnlock": true,
-      "routes": 3,
-      "testedRoutes": 3,
+      "routes": 4,
+      "testedRoutes": 4,
       "verifiedRoutes": [
         {
           "id": "magaa-community",
@@ -102,7 +134,15 @@
           "mode": "1",
           "difficulty": 0.97,
           "success": 1,
-          "total": 16
+          "total": 27
+        },
+        {
+          "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+          "scope": "2020_Trump_Haley",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -147,8 +187,8 @@
       "id": "whatbelt",
       "name": "我依然屹立",
       "actualUnlock": true,
-      "routes": 54,
-      "testedRoutes": 17,
+      "routes": 55,
+      "testedRoutes": 18,
       "verifiedRoutes": [
         {
           "id": "whatbelt-Kaine-FL6-NH6",
@@ -156,7 +196,15 @@
           "mode": "2",
           "difficulty": 0.9,
           "success": 1,
-          "total": 2
+          "total": 12
+        },
+        {
+          "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 2,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -168,14 +216,6 @@
       "routes": 3,
       "testedRoutes": 3,
       "verifiedRoutes": [
-        {
-          "id": "thebern-2016_Clinton_Sanders-1-0.97-search",
-          "scope": "2016_Clinton_Sanders",
-          "mode": "1",
-          "difficulty": 0.97,
-          "success": 6,
-          "total": 8
-        },
         {
           "id": "thebern-2016_Clinton_Sanders-1-0.97-margin-review",
           "scope": "2016_Clinton_Sanders",
@@ -316,16 +356,24 @@
       "id": "swap",
       "name": "胜负对调",
       "actualUnlock": true,
-      "routes": 2,
-      "testedRoutes": 2,
+      "routes": 3,
+      "testedRoutes": 3,
       "verifiedRoutes": [
         {
           "id": "swap-2000_Gore_Graham-1-0.97-baseline-search",
           "scope": "2000_Gore_Graham",
           "mode": "1",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 2
+          "success": 3,
+          "total": 13
+        },
+        {
+          "id": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
+          "scope": "2000_Gore_Graham",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 10,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -442,8 +490,8 @@
       "id": "ratio",
       "name": "休伯特的压倒性胜利",
       "actualUnlock": true,
-      "routes": 5,
-      "testedRoutes": 2,
+      "routes": 7,
+      "testedRoutes": 4,
       "verifiedRoutes": [
         {
           "id": "ratio-1968_Humphrey_Connally-baseline",
@@ -451,7 +499,23 @@
           "mode": "1",
           "difficulty": 0.97,
           "success": 1,
-          "total": 1
+          "total": 11
+        },
+        {
+          "id": "ratio-1968_Humphrey_Connally-1-0.97-stress-v1",
+          "scope": "1968_Humphrey_Connally",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 3,
+          "total": 22
+        },
+        {
+          "id": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+          "scope": "1968_Humphrey_Muskie",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 11,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -469,7 +533,7 @@
           "mode": "1",
           "difficulty": 0.9,
           "success": 1,
-          "total": 6
+          "total": 12
         }
       ],
       "procedureEvidence": null
@@ -478,16 +542,16 @@
       "id": "BCitsEasy",
       "name": "正因为容易",
       "actualUnlock": true,
-      "routes": 1,
-      "testedRoutes": 1,
+      "routes": 2,
+      "testedRoutes": 2,
       "verifiedRoutes": [
         {
-          "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+          "id": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
           "scope": "1960_Kennedy_Humphrey",
           "mode": "1",
           "difficulty": 1.33,
-          "success": 2,
-          "total": 2
+          "success": 11,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -496,16 +560,24 @@
       "id": "Vice",
       "name": "无懈可击的副总统",
       "actualUnlock": true,
-      "routes": 2,
-      "testedRoutes": 2,
+      "routes": 3,
+      "testedRoutes": 3,
       "verifiedRoutes": [
         {
           "id": "Vice-1960_Nixon_Goldwater-2-0.97-search",
           "scope": "1960_Nixon_Goldwater",
           "mode": "2",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 2
+          "success": 7,
+          "total": 13
+        },
+        {
+          "id": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
+          "scope": "1960_Nixon_Goldwater",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 11,
+          "total": 11
         }
       ],
       "procedureEvidence": null
@@ -532,16 +604,24 @@
       "id": "Dewey",
       "name": "大局已定",
       "actualUnlock": true,
-      "routes": 1,
-      "testedRoutes": 1,
+      "routes": 2,
+      "testedRoutes": 2,
       "verifiedRoutes": [
         {
           "id": "Dewey-community",
           "scope": "1948_Dewey_Bricker",
           "mode": "1",
           "difficulty": 0.97,
-          "success": 1,
-          "total": 3
+          "success": 6,
+          "total": 11
+        },
+        {
+          "id": "Dewey-1948_Dewey_Warren-1-0.97-stress-v1",
+          "scope": "1948_Dewey_Warren",
+          "mode": "1",
+          "difficulty": 0.97,
+          "success": 9,
+          "total": 11
         }
       ],
       "procedureEvidence": null

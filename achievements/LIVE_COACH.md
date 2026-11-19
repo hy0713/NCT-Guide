@@ -27,7 +27,9 @@ Switches persist locally. They do not reset the election or prevent a native ach
 
 ## Routes and live advice
 
-A route is matched by scenario, running mate, mode, difficulty, question/answer IDs and original English fingerprints. The coach checks previous answers and visits. A setting mismatch, changed scenario or departure from the route switches the panel to current-state advice and explains the change.
+A route is matched by scenario, running mate, mode, difficulty, question and answer IDs, and fingerprints of the original English text. After a different answer or visit, the coach looks for another tested route that fits the choices already made. If there is no match, it uses the current campaign to plan the next step.
+
+Visit advice is limited to clickable places on the native map. Death Swap and A Rainbow Coalition warn when a choice could cause an earlier achievement to take priority. [Improved routes and replay results](../ACHIEVEMENT_OPTIMIZER.md)
 
 Some community routes omit questions. For those questions the coach computes a recommendation rather than inventing a source answer. The English written walkthrough records the actual answer taken in its successful replay and labels such gaps.
 

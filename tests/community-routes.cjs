@@ -33,7 +33,18 @@ async function play(page,options={}){
    if(document.getElementById('overall_results_button'))return {type:'done'};
    if(click('ok_button')||click('final_result_button'))return {type:'transition'};
    if(waitingForVisit&&click('confirm_visit_button'))return {type:'confirmedVisit'};
-   if(document.querySelector('.visit_text')){const first=nativeFallback?null:document.querySelector('[data-guide-state]'),sequence=fixedRoute?.visits.sequence,abbr=sequence?.[Math.min(campaignTrail_temp.player_visits.length,sequence.length-1)],id=abbr?campaignTrail_temp.states_json.find(s=>s.fields.abbr===abbr).pk:first?+first.dataset.guideState:nativeFallback?campaignTrail_temp.states_json[0].pk:null;if(id==null)return {type:'wait'};const s=campaignTrail_temp.states_json.find(s=>s.pk===id);jQuery('#map_container').usmap('trigger',s.fields.abbr,'click',{});return {type:'visit',id,abbr:s.fields.abbr};}
+   if(document.querySelector('.visit_text')){
+    const e=campaignTrail_temp,sequence=fixedRoute?.visits.sequence;
+    const hitAreas=[...document.querySelectorAll('#map_container svg *')].filter(node=>node.dataState);
+    const first=document.querySelector('[data-guide-state]');
+    const abbr=sequence?sequence[Math.min(e.player_visits.length,sequence.length-1)]:
+     nativeFallback?hitAreas[0]?.dataState:e.states_json.find(s=>s.pk===+first?.dataset.guideState)?.fields.abbr;
+    if(abbr==null)return {type:'wait'};
+    const hitArea=hitAreas.find(node=>node.dataState===abbr);
+    if(!hitArea)throw Error('Visit has no clickable native map area: '+abbr);
+    hitArea.dispatchEvent(new MouseEvent('click',{bubbles:true}));
+    return {type:'visit',id:e.states_json.find(s=>s.fields.abbr===abbr).pk,abbr};
+   }
    if(fixedRoute&&document.querySelector('.game_answers')){const e=campaignTrail_temp,ids=[...document.querySelectorAll('.game_answers')].map(a=>+a.value),q=e.answers_json.find(a=>a.pk===ids[0]).fields.question,id=fixedRoute.answers[q]?.find(id=>ids.includes(id));if(id==null)throw Error('Candidate lacks visible answer '+q);document.querySelector(`.game_answers[value="${id}"]`).click();click('answer_select_button');return {type:'answer',question:q,id,fixtureRoute:true};}
    const first=nativeFallback?null:document.querySelector('[data-guide-answer]');
    if(first){const id=+first.dataset.guideAnswer,a=document.querySelector(`.game_answers[value="${id}"]`),e=campaignTrail_temp,q=e.answers_json.find(a=>a.pk===id).fields.question,p=NCTAchievements.plan(e,NCTGuide.result,[...document.querySelectorAll('.game_answers')].map(n=>+n.value));a.click();click('answer_select_button');return {type:'answer',question:q,id,routeActive:p?.route?.active??false,fromRoute:p?.route?.answer===id};}

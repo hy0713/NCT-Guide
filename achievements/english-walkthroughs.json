@@ -1733,11 +1733,11 @@
     },
     {
       "achievement": "ridingBiden",
-      "route": "ridingBiden-community",
+      "route": "ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931",
       "scope": "2020_Biden_Demings",
-      "page": "achievements/walkthroughs/ridingBiden-community.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 1776,
+      "page": "achievements/walkthroughs/ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 6199,
       "electoral": 406,
       "scenarioSHA256": "27b27b98cae128f4857f3313176453445869655eb6d27e2c11724c4828370ed3",
       "steps": [
@@ -1808,7 +1808,7 @@
         {
           "type": "answer",
           "question": 1206,
-          "id": 6025,
+          "id": 6024,
           "routeActive": true,
           "fromRoute": true
         },
@@ -1820,7 +1820,7 @@
         {
           "type": "answer",
           "question": 1208,
-          "id": 6032,
+          "id": 6030,
           "routeActive": true,
           "fromRoute": true
         },
@@ -1884,7 +1884,7 @@
         {
           "type": "answer",
           "question": 1221,
-          "id": 6081,
+          "id": 6079,
           "routeActive": true,
           "fromRoute": true
         },
@@ -1903,7 +1903,7 @@
         {
           "type": "answer",
           "question": 1214,
-          "id": 6056,
+          "id": 6054,
           "routeActive": true,
           "fromRoute": true
         },
@@ -1915,7 +1915,7 @@
         {
           "type": "answer",
           "question": 1213,
-          "id": 6051,
+          "id": 6050,
           "routeActive": true,
           "fromRoute": true
         },
@@ -1966,8 +1966,8 @@
         },
         {
           "type": "visit",
-          "id": 1134,
-          "abbr": "OH"
+          "id": 1142,
+          "abbr": "TX"
         },
         {
           "type": "answer",
@@ -1980,11 +1980,11 @@
     },
     {
       "achievement": "magaa",
-      "route": "magaa-community",
+      "route": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
       "scope": "2020_Trump_Haley",
-      "page": "achievements/walkthroughs/magaa-community.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 13,
+      "page": "achievements/walkthroughs/magaa-2020_Trump_Haley-1-0.97-stress-robust-15877.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 4957,
       "electoral": 322,
       "scenarioSHA256": "37f9503188761e944a6c87df84be9fd15827af1b9c05db4734de3ffe1115c2e7",
       "steps": [
@@ -2010,7 +2010,7 @@
         {
           "type": "answer",
           "question": 1304,
-          "id": 6128,
+          "id": 6127,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2086,7 +2086,7 @@
         {
           "type": "answer",
           "question": 1317,
-          "id": 6179,
+          "id": 6178,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2105,14 +2105,14 @@
         {
           "type": "answer",
           "question": 1319,
-          "id": 6186,
+          "id": 6184,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1318,
-          "id": 6183,
+          "id": 6182,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2131,7 +2131,7 @@
         {
           "type": "answer",
           "question": 1315,
-          "id": 6170,
+          "id": 6171,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2150,7 +2150,7 @@
         {
           "type": "answer",
           "question": 1321,
-          "id": 6195,
+          "id": 6194,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2181,14 +2181,14 @@
         {
           "type": "answer",
           "question": 1310,
-          "id": 6150,
+          "id": 6148,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1313,
-          "id": 6160,
+          "id": 6161,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2207,7 +2207,7 @@
         {
           "type": "answer",
           "question": 1323,
-          "id": 6203,
+          "id": 6202,
           "routeActive": true,
           "fromRoute": true
         },
@@ -4697,25 +4697,25 @@
     },
     {
       "achievement": "swap",
-      "route": "swap-2000_Gore_Graham-1-0.97-baseline-search",
+      "route": "swap-2000_Gore_Graham-1-0.97-stress-robust-14931",
       "scope": "2000_Gore_Graham",
-      "page": "achievements/walkthroughs/swap-2000_Gore_Graham-1-0.97-baseline-search.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 1,
-      "electoral": 281,
+      "page": "achievements/walkthroughs/swap-2000_Gore_Graham-1-0.97-stress-robust-14931.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 1973,
+      "electoral": 315,
       "scenarioSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
       "steps": [
         {
           "type": "answer",
           "question": 398,
-          "id": 3504,
+          "id": 3503,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 370,
-          "id": 3411,
+          "id": 3410,
           "routeActive": true,
           "fromRoute": true
         },
@@ -4727,7 +4727,7 @@
         {
           "type": "answer",
           "question": 367,
-          "id": 3399,
+          "id": 3400,
           "routeActive": true,
           "fromRoute": true
         },
@@ -4746,7 +4746,7 @@
         {
           "type": "answer",
           "question": 344,
-          "id": 3317,
+          "id": 3316,
           "routeActive": true,
           "fromRoute": true
         },
@@ -4778,27 +4778,27 @@
         },
         {
           "type": "visit",
-          "id": 230,
-          "abbr": "WI"
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
           "question": 346,
-          "id": 3323,
+          "id": 3325,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 351,
-          "id": 3343,
+          "id": 3341,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 195,
-          "abbr": "IA"
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
@@ -4810,14 +4810,14 @@
         {
           "type": "answer",
           "question": 347,
-          "id": 3329,
+          "id": 3328,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 202,
+          "abbr": "MI"
         },
         {
           "type": "answer",
@@ -4829,14 +4829,14 @@
         {
           "type": "answer",
           "question": 359,
-          "id": 3373,
+          "id": 3371,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 203,
+          "abbr": "MN"
         },
         {
           "type": "answer",
@@ -4848,14 +4848,14 @@
         {
           "type": "answer",
           "question": 392,
-          "id": 3490,
+          "id": 3492,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 222,
+          "abbr": "TN"
         },
         {
           "type": "answer",
@@ -4873,8 +4873,8 @@
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 222,
+          "abbr": "TN"
         },
         {
           "type": "answer",
@@ -4892,8 +4892,8 @@
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 230,
+          "abbr": "WI"
         },
         {
           "type": "answer",
@@ -4911,13 +4911,13 @@
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 230,
+          "abbr": "WI"
         },
         {
           "type": "answer",
           "question": 391,
-          "id": 3489,
+          "id": 3488,
           "routeActive": true,
           "fromRoute": true
         },
@@ -4930,13 +4930,13 @@
         },
         {
           "type": "visit",
-          "id": 211,
-          "abbr": "NM"
+          "id": 230,
+          "abbr": "WI"
         },
         {
           "type": "answer",
           "question": 382,
-          "id": 3457,
+          "id": 3460,
           "routeActive": true,
           "fromRoute": true
         }
@@ -6426,13 +6426,13 @@
     },
     {
       "achievement": "ratio",
-      "route": "ratio-1968_Humphrey_Connally-baseline",
-      "scope": "1968_Humphrey_Connally",
-      "page": "achievements/walkthroughs/ratio-1968_Humphrey_Connally-baseline.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 1776,
-      "electoral": 433,
-      "scenarioSHA256": "54bfaa06b9ce457495620a88f7da98216c8f96ac6783447479b849d279dfa288",
+      "route": "ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931",
+      "scope": "1968_Humphrey_Muskie",
+      "page": "achievements/walkthroughs/ratio-1968_Humphrey_Muskie-1-0.97-stress-robust-14931.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 1973,
+      "electoral": 455,
+      "scenarioSHA256": "29099877690acd41d229b0655d3b15df061ffca24b7adcfbd471ff5146cfa7c5",
       "steps": [
         {
           "type": "answer",
@@ -6450,51 +6450,13 @@
         },
         {
           "type": "visit",
-          "id": 128,
-          "abbr": "NY"
+          "id": 100,
+          "abbr": "AR"
         },
         {
           "type": "answer",
           "question": 252,
           "id": 1655,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 338,
-          "id": 3293,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 101,
-          "abbr": "CA"
-        },
-        {
-          "type": "answer",
-          "question": 256,
-          "id": 1671,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 255,
-          "id": 1668,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 101,
-          "abbr": "CA"
-        },
-        {
-          "type": "answer",
-          "question": 253,
-          "id": 1659,
           "routeActive": true,
           "fromRoute": true
         },
@@ -6507,8 +6469,34 @@
         },
         {
           "type": "visit",
-          "id": 101,
-          "abbr": "CA"
+          "id": 102,
+          "abbr": "CO"
+        },
+        {
+          "type": "answer",
+          "question": 253,
+          "id": 1659,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 256,
+          "id": 1670,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 102,
+          "abbr": "CO"
+        },
+        {
+          "type": "answer",
+          "question": 338,
+          "id": 3293,
+          "routeActive": true,
+          "fromRoute": true
         },
         {
           "type": "answer",
@@ -6518,35 +6506,16 @@
           "fromRoute": true
         },
         {
-          "type": "answer",
-          "question": 274,
-          "id": 1737,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
           "type": "visit",
-          "id": 101,
-          "abbr": "CA"
+          "id": 102,
+          "abbr": "CO"
         },
         {
           "type": "answer",
-          "question": 336,
-          "id": 3287,
+          "question": 255,
+          "id": 1667,
           "routeActive": true,
           "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 277,
-          "id": 1746,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 101,
-          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -6556,111 +6525,142 @@
           "fromRoute": true
         },
         {
+          "type": "visit",
+          "id": 102,
+          "abbr": "CO"
+        },
+        {
           "type": "answer",
-          "question": 272,
-          "id": 1729,
+          "question": 329,
+          "id": 3260,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 281,
+          "id": 1763,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 101,
-          "abbr": "CA"
+          "id": 102,
+          "abbr": "CO"
         },
         {
           "type": "answer",
-          "question": 276,
-          "id": 1744,
+          "question": 323,
+          "id": 3235,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
-          "question": 271,
-          "id": 1726,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 101,
-          "abbr": "CA"
-        },
-        {
-          "type": "answer",
-          "question": 278,
-          "id": 1750,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 289,
-          "id": 1787,
+          "question": 258,
+          "id": 1679,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 101,
-          "abbr": "CA"
+          "id": 111,
+          "abbr": "IA"
         },
         {
           "type": "answer",
-          "question": 265,
-          "id": 1701,
+          "question": 269,
+          "id": 1717,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
-          "question": 332,
-          "id": 3274,
+          "question": 336,
+          "id": 3287,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 101,
-          "abbr": "CA"
+          "id": 111,
+          "abbr": "IA"
+        },
+        {
+          "type": "answer",
+          "question": 292,
+          "id": 1797,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 331,
+          "id": 3270,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 111,
+          "abbr": "IA"
+        },
+        {
+          "type": "answer",
+          "question": 266,
+          "id": 1706,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 286,
+          "id": 1777,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 111,
+          "abbr": "IA"
+        },
+        {
+          "type": "answer",
+          "question": 288,
+          "id": 1784,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 268,
+          "id": 1713,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 111,
+          "abbr": "IA"
         },
         {
           "type": "answer",
           "question": 283,
-          "id": 1769,
+          "id": 1770,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
-          "question": 291,
-          "id": 1794,
+          "question": 259,
+          "id": 1683,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 105,
-          "abbr": "FL"
-        },
-        {
-          "type": "answer",
-          "question": 264,
-          "id": 1698,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 279,
-          "id": 1755,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 105,
-          "abbr": "FL"
+          "id": 111,
+          "abbr": "IA"
         },
         {
           "type": "answer",
@@ -6920,11 +6920,11 @@
     },
     {
       "achievement": "BCitsEasy",
-      "route": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search",
+      "route": "BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931",
       "scope": "1960_Kennedy_Humphrey",
-      "page": "achievements/walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-search.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 1776,
+      "page": "achievements/walkthroughs/BCitsEasy-1960_Kennedy_Humphrey-1-1.33-stress-robust-14931.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 1973,
       "electoral": 20,
       "scenarioSHA256": "8f51d67124849cdc14784aeb4fca94e84486bb80157b87093afac699d5d350c1",
       "steps": [
@@ -6944,8 +6944,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 283,
+          "abbr": "AL"
         },
         {
           "type": "answer",
@@ -6963,8 +6963,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 283,
+          "abbr": "AL"
         },
         {
           "type": "answer",
@@ -6982,8 +6982,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 283,
+          "abbr": "AL"
         },
         {
           "type": "answer",
@@ -7001,8 +7001,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 283,
+          "abbr": "AL"
         },
         {
           "type": "answer",
@@ -7020,8 +7020,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 283,
+          "abbr": "AL"
         },
         {
           "type": "answer",
@@ -7039,8 +7039,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7052,14 +7052,14 @@
         {
           "type": "answer",
           "question": 456,
-          "id": 3682,
+          "id": 3681,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7077,8 +7077,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7096,8 +7096,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7115,8 +7115,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7134,8 +7134,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7153,8 +7153,8 @@
         },
         {
           "type": "visit",
-          "id": 333,
-          "abbr": "AA"
+          "id": 318,
+          "abbr": "OK"
         },
         {
           "type": "answer",
@@ -7167,12 +7167,12 @@
     },
     {
       "achievement": "Vice",
-      "route": "Vice-1960_Nixon_Goldwater-2-0.97-search",
+      "route": "Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931",
       "scope": "1960_Nixon_Goldwater",
-      "page": "achievements/walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-search.md",
-      "report": "tests/verified-route-results.json",
-      "seed": 1776,
-      "electoral": 269,
+      "page": "achievements/walkthroughs/Vice-1960_Nixon_Goldwater-2-0.97-stress-robust-14931.md",
+      "report": "tests/optimizer-coach-results.json",
+      "seed": 1973,
+      "electoral": 272,
       "scenarioSHA256": "68a2948b7c8e6a0c09640182eec3d4fdb7f1c70c696e2a1a1245ce78c382d55a",
       "steps": [
         {
@@ -7191,8 +7191,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7210,8 +7210,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7229,8 +7229,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7248,8 +7248,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7267,8 +7267,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7286,8 +7286,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 287,
+          "abbr": "CA"
         },
         {
           "type": "answer",
@@ -7305,8 +7305,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 293,
+          "abbr": "HI"
         },
         {
           "type": "answer",
@@ -7324,13 +7324,13 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 315,
+          "abbr": "NC"
         },
         {
           "type": "answer",
           "question": 478,
-          "id": 3746,
+          "id": 3745,
           "routeActive": true,
           "fromRoute": true
         },
@@ -7343,8 +7343,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 315,
+          "abbr": "NC"
         },
         {
           "type": "answer",
@@ -7362,8 +7362,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 315,
+          "abbr": "NC"
         },
         {
           "type": "answer",
@@ -7381,8 +7381,8 @@
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 315,
+          "abbr": "NC"
         },
         {
           "type": "answer",
@@ -7394,19 +7394,19 @@
         {
           "type": "answer",
           "question": 471,
-          "id": 3723,
+          "id": 3726,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 314,
-          "abbr": "NY"
+          "id": 320,
+          "abbr": "PA"
         },
         {
           "type": "answer",
           "question": 495,
-          "id": 3801,
+          "id": 3803,
           "routeActive": true,
           "fromRoute": true
         }
