@@ -77,13 +77,15 @@
   if(r.lose)return win+r.lose.reduce((sum,n)=>{const state=p.states.find(s=>s.name===n);return sum+Math.max(0,(state?.margin??0)+.0001)*1000000+Math.max(0,(state?.rank??2)-2)*1000;},0);
   return win;
  }
- function suggestions(r){
-  return data.scenarios.filter(s=>match(r,s)&&(r.id!=='destiny'||!save().threeosix?.[s.year])).map(s=>{
+ function suggestions(r,year){
+  const remaining=r.id==='destiny'?save().threeosix||{}:null;
+  const currentYear=s=>Number(!!(remaining&&s.verified&&s.year===year));
+  return data.scenarios.filter(s=>match(r,s)&&!remaining?.[s.year]).map(s=>{
    const b=s.baseline;let score=0;const comparable=!!b&&(r.special?false:b.mode!=='3')&&(r.maxDifficulty==null||.97<=r.maxDifficulty)&&(r.difficulty==null||r.difficulty===.97);
    if(comparable){if(r.goal==='exact')score=-Math.min(...(r.targets||[r.target]).map(n=>Math.abs(b.ev-n)));else if(r.goal==='max')score=-b.ev;else if(r.goal==='votes'||r.goal==='popularLead')score=b.pv/1000000;else score=b.ev;}
    const verified=(data.routes||[]).filter(x=>x.achievement===r.id&&x.scope===s.scope&&x.replays?.success>0).sort(compareEvidence)[0];
    return {...s,comparable,rank:score,verified};
-  }).sort((a,b)=>Number(!!b.verified)-Number(!!a.verified)||(a.verified&&b.verified?compareEvidence(a.verified,b.verified):0)||Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
+  }).sort((a,b)=>currentYear(b)-currentYear(a)||Number(!!b.verified)-Number(!!a.verified)||(a.verified&&b.verified?compareEvidence(a.verified,b.verified):0)||Number(b.comparable)-Number(a.comparable)||b.rank-a.rank||a.scope.localeCompare(b.scope));
  }
  function fingerprint(text){let h=2166136261;for(let i=0;i<text.length;i++)h=Math.imul(h^text.charCodeAt(i),16777619);return(h>>>0).toString(16);}
  function routeInfo(e,r,ids){
@@ -136,7 +138,7 @@
    if(sequence){const abbr=sequence[Math.min(e.player_visits.length,sequence.length-1)];visits.sort((a,b)=>Number(b.abbr===abbr)-Number(a.abbr===abbr));}
    else{const pool=policy.weakest||policy.lowestShare||[];visits.sort((a,b)=>Number(pool.includes(b.abbr))-Number(pool.includes(a.abbr))||(pool.includes(a.abbr)&&pool.includes(b.abbr)?a.share-b.share:0));}
   }
-  return {rule:r,status:state,valid,answers,visits,planning,route,recommendations:suggestions(r).slice(0,3)};
+  return {rule:r,status:state,valid,answers,visits,planning,route,recommendations:suggestions(r,current(e)?.year).slice(0,3)};
  }
  function adviceKind(p,ids){
   if(!p)return 'general';
@@ -147,6 +149,7 @@
  function diagnosis(e,r){
   if(!e.final_overall_results?.length||e.player_answers.length<e.global_parameter_json?.[0]?.fields.question_count)return null;
   const own=e.final_overall_results.find(row=>row.candidate===e.candidate_id);
+  const stored=save();
   const reasons=[],votes=own.electoral_votes,rival=Math.max(...e.final_overall_results.filter(row=>row.candidate!==e.candidate_id).map(row=>row.popular_votes));
   if(r.goal==='min'&&votes<r.target)reasons.push(t('final_votes_short',{needed:r.target-votes}));
   if(r.goal==='max'&&votes>r.target)reasons.push(t('final_votes_over',{extra:votes-r.target}));
@@ -160,14 +163,16 @@
    if(rank!==required)reasons.push(t('final_state_rank',{state:NCTI18n.term(state),rank,required}));
   }
   if((r.required||[]).some(id=>!e.player_answers.includes(id))||Object.entries(r.slots||{}).some(([i,id])=>e.player_answers[i]!==id))reasons.push(t('final_answers'));
-  if(r.id==='destiny'){const years=['2020','2016','2012','2000','1988','1976','1964'].filter(year=>!save().threeosix?.[year]);if(years.length)reasons.push(t('final_years',{years:years.join(' / ')}));}
-  if(r.id==='what'&&(save().tsatrolling||0)<100)reasons.push(t('counter',{count:save().tsatrolling||0}));
+  if(r.id==='destiny'){const years=['2020','2016','2012','2000','1988','1976','1964'].filter(year=>!stored.threeosix?.[year]);if(years.length)reasons.push(t('final_years',{years:years.join(' / ')}));}
+  if(r.id==='what'&&(stored.tsatrolling||0)<100)reasons.push(t('counter',{count:stored.tsatrolling||0}));
   if(r.goal==='florida'){
    const florida=e.final_state_results[8].result,gap=(florida[0].percent-florida[1].percent)*100;
    if(gap>=.5)reasons.push(t('final_florida',{gap:gap.toFixed(3)}));
    if(e.final_overall_results[0].electoral_votes>294)reasons.push(t('final_leader',{votes:e.final_overall_results[0].electoral_votes}));
   }
-  return {votes,popular:own.popular_votes,outcome:e.final_outcome,unlocked:!!save().achievements?.[r.id],met:(r.special?!legitimate(e):legitimate(e))&&data.testCondition(r.id,e,save()),reasons};
+  const year=current(e)?.year;
+  const yearRecorded=r.id==='destiny'&&!!stored.threeosix?.[year]&&legitimate(e)&&e.difficulty_level_multiplier<=r.maxDifficulty&&targets(r,e).includes(votes);
+  return {votes,popular:own.popular_votes,outcome:e.final_outcome,unlocked:!!stored.achievements?.[r.id],met:(r.special?!legitimate(e):legitimate(e))&&data.testCondition(r.id,e,stored),yearRecorded,year,reasons};
  }
  function lookAhead(e,r,ids,forecast){
   const stored=localStorage.getItem('achievements');
@@ -216,7 +221,12 @@
   if(!p)return html+'</section>';
   html+=`<div class="nct-achievement-goal"><strong data-achievement-status="${p.status.kind}">${esc(t(p.status.kind,{name:p.status.earlier&&name(p.status.earlier)}))}</strong><span>${esc(t('goal_'+p.rule.goal,{target:p.rule.target??(p.rule.targets||[]).join('/')}))}</span></div>`;
   const final=diagnosis(e,p.rule),kind=adviceKind(p,ids);
-  if(final){html+=`<p data-achievement-result="${final.unlocked?'unlocked':final.met?'not-recorded':'not-met'}">${esc(t('final_actual',{votes:final.votes,popular:final.popular,outcome:t('outcome_'+final.outcome)}))} ${esc(t(final.unlocked?'final_unlocked':final.met?'final_priority':'final_failed'))}</p>`;if(!final.unlocked&&final.reasons.length)html+=`<p>${esc(final.reasons.join(' · '))}</p>`;}
+  if(final){
+   const result=final.unlocked?'unlocked':final.yearRecorded?'year-recorded':final.met?'not-recorded':'not-met';
+   const message={unlocked:'final_unlocked','year-recorded':'final_year_recorded','not-recorded':'final_priority','not-met':'final_failed'}[result];
+   html+=`<p data-achievement-result="${result}">${esc(t('final_actual',{votes:final.votes,popular:final.popular,outcome:t('outcome_'+final.outcome)}))} ${esc(t(message,{year:final.year}))}</p>`;
+   if(!final.unlocked&&final.reasons.length)html+=`<p>${esc(final.reasons.join(' · '))}</p>`;
+  }
   else{
    const stats=p.route?.route.replays;
    html+=`<p data-achievement-advice="${kind}">${esc(t('advice_'+kind,stats||{}))}</p>`;

@@ -4,13 +4,13 @@
   "walkthroughs": [
     {
       "achievement": "destiny",
-      "route": "destiny-destiny2016-community",
-      "scope": "2016_Clinton_Kaine",
-      "page": "achievements/walkthroughs/destiny-destiny2016-community.md",
-      "report": "tests/procedural-achievement-results.json",
-      "seed": 4,
+      "route": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "scope": "2016_Clinton_Warren",
+      "page": "achievements/walkthroughs/destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232.md",
+      "report": "tests/ensemble-coach-results.json",
+      "seed": 1877,
       "electoral": 232,
-      "scenarioSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "scenarioSHA256": "abc7af6327e8a9f8071296f4451a414c39fe9c011d8609dc15220e9823d86f9f",
       "steps": [
         {
           "type": "answer",
@@ -22,38 +22,38 @@
         {
           "type": "answer",
           "question": 1044,
-          "id": 5148,
+          "id": 5147,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1012,
+          "abbr": "IL"
         },
         {
           "type": "answer",
           "question": 1043,
-          "id": 5143,
+          "id": 5145,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1045,
-          "id": 5151,
+          "id": 5152,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1012,
+          "abbr": "IL"
         },
         {
           "type": "answer",
-          "question": 1046,
-          "id": 5155,
+          "question": 1049,
+          "id": 5166,
           "routeActive": true,
           "fromRoute": true
         },
@@ -66,8 +66,27 @@
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1031,
+          "abbr": "NY"
+        },
+        {
+          "type": "answer",
+          "question": 1052,
+          "id": 5175,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1080,
+          "id": 5269,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
@@ -78,148 +97,117 @@
         },
         {
           "type": "answer",
-          "question": 1052,
-          "id": 5173,
+          "question": 1063,
+          "id": 5215,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
-        },
-        {
-          "type": "answer",
-          "question": 1077,
-          "id": 5263,
-          "routeActive": true,
-          "fromRoute": true
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
           "question": 1057,
-          "id": 5189,
+          "id": 5191,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1069,
+          "id": 5237,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
-          "question": 1065,
-          "id": 5221,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 1053,
-          "id": 5178,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
-        },
-        {
-          "type": "answer",
-          "question": 1054,
-          "id": 5181,
+          "question": 1058,
+          "id": 5195,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1061,
-          "id": 5204,
+          "id": 5207,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
-          "question": 1069,
-          "id": 5235,
+          "question": 1070,
+          "id": 5241,
           "routeActive": true,
           "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 1054,
+          "id": 5183,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
           "question": 1059,
-          "id": 5197,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
-        },
-        {
-          "type": "answer",
-          "question": 1068,
-          "id": 5231,
+          "id": 5199,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1066,
-          "id": 5224,
+          "id": 5225,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
           "question": 1067,
-          "id": 5230,
+          "id": 5229,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1071,
-          "id": 5245,
+          "id": 5242,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1031,
+          "abbr": "NY"
         },
         {
           "type": "answer",
           "question": 1072,
-          "id": 5246,
+          "id": 5249,
           "routeActive": true,
           "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 1073,
-          "id": 5250,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
         },
         {
           "type": "answer",
@@ -229,21 +217,33 @@
           "fromRoute": true
         },
         {
+          "type": "visit",
+          "id": 1036,
+          "abbr": "OR"
+        },
+        {
+          "type": "answer",
+          "question": 1073,
+          "id": 5251,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
           "type": "answer",
           "question": 1075,
-          "id": 5256,
+          "id": 5257,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1050,
-          "abbr": "WY"
+          "id": 1036,
+          "abbr": "OR"
         },
         {
           "type": "answer",
           "question": 1076,
-          "id": 5260,
+          "id": 5261,
           "routeActive": true,
           "fromRoute": true
         }
@@ -745,18 +745,18 @@
     },
     {
       "achievement": "destiny",
-      "route": "destiny-2000_Gore_Graham-2-0.97-search",
-      "scope": "2000_Gore_Graham",
-      "page": "achievements/walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md",
-      "report": "tests/procedural-achievement-results.json",
-      "seed": 8,
+      "route": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "scope": "2000_Gore_Lieberman",
+      "page": "achievements/walkthroughs/destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232.md",
+      "report": "tests/ensemble-coach-results.json",
+      "seed": 667,
       "electoral": 232,
-      "scenarioSHA256": "216f2ef36a1ee8c1d535c8e58f1ca1986dd6bf63afa2fb706ade42108cc644aa",
+      "scenarioSHA256": "2ad401b4e7a192283bfc2ed0f64f916be8c515f3ce7ff218bb8ea21ecd9596be",
       "steps": [
         {
           "type": "answer",
-          "question": 398,
-          "id": 3504,
+          "question": 397,
+          "id": 3501,
           "routeActive": true,
           "fromRoute": true
         },
@@ -769,32 +769,89 @@
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 185,
+          "abbr": "CA"
         },
         {
           "type": "answer",
           "question": 367,
-          "id": 3398,
+          "id": 3399,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
-          "question": 345,
-          "id": 3321,
+          "question": 349,
+          "id": 3334,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 185,
+          "abbr": "CA"
+        },
+        {
+          "type": "answer",
+          "question": 346,
+          "id": 3322,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 350,
+          "id": 3340,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 343,
+          "id": 3310,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 351,
+          "id": 3341,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 347,
+          "id": 3329,
+          "routeActive": true,
+          "fromRoute": true
         },
         {
           "type": "answer",
           "question": 344,
-          "id": 3317,
+          "id": 3315,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 345,
+          "id": 3320,
           "routeActive": true,
           "fromRoute": true
         },
@@ -807,65 +864,27 @@
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
-          "question": 349,
-          "id": 3334,
+          "question": 358,
+          "id": 3366,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
-          "question": 343,
-          "id": 3311,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 228,
-          "abbr": "DC"
-        },
-        {
-          "type": "answer",
-          "question": 346,
-          "id": 3323,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 351,
-          "id": 3342,
+          "question": 365,
+          "id": 3390,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
-        },
-        {
-          "type": "answer",
-          "question": 350,
-          "id": 3338,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 347,
-          "id": 3329,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
@@ -876,34 +895,41 @@
         },
         {
           "type": "answer",
-          "question": 359,
-          "id": 3371,
+          "question": 353,
+          "id": 3349,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 361,
+          "id": 3380,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "answer",
+          "question": 355,
+          "id": 3358,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
           "question": 375,
-          "id": 3431,
+          "id": 3432,
           "routeActive": true,
           "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 392,
-          "id": 3490,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 228,
-          "abbr": "DC"
         },
         {
           "type": "answer",
@@ -913,42 +939,28 @@
           "fromRoute": true
         },
         {
+          "type": "visit",
+          "id": 189,
+          "abbr": "FL"
+        },
+        {
+          "type": "answer",
+          "question": 356,
+          "id": 3362,
+          "routeActive": true,
+          "fromRoute": true
+        },
+        {
           "type": "answer",
           "question": 363,
-          "id": 3385,
+          "id": 3387,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
-        },
-        {
-          "type": "answer",
-          "question": 364,
-          "id": 3388,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "answer",
-          "question": 376,
-          "id": 3435,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
-          "type": "visit",
-          "id": 228,
-          "abbr": "DC"
-        },
-        {
-          "type": "answer",
-          "question": 362,
-          "id": 3381,
-          "routeActive": true,
-          "fromRoute": true
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
@@ -958,33 +970,21 @@
           "fromRoute": true
         },
         {
-          "type": "visit",
-          "id": 228,
-          "abbr": "DC"
-        },
-        {
-          "type": "answer",
-          "question": 391,
-          "id": 3487,
-          "routeActive": true,
-          "fromRoute": true
-        },
-        {
           "type": "answer",
           "question": 385,
-          "id": 3468,
+          "id": 3470,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 228,
-          "abbr": "DC"
+          "id": 189,
+          "abbr": "FL"
         },
         {
           "type": "answer",
           "question": 382,
-          "id": 3460,
+          "id": 3457,
           "routeActive": true,
           "fromRoute": true
         }
@@ -2721,12 +2721,12 @@
     },
     {
       "achievement": "whatbelt",
-      "route": "whatbelt-Kaine-FL6-NH6",
+      "route": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
       "scope": "2016_Clinton_Kaine",
-      "page": "achievements/walkthroughs/whatbelt-Kaine-FL6-NH6.md",
-      "report": "tests/whatbelt-neighbor-results.json",
-      "seed": 18,
-      "electoral": 270,
+      "page": "achievements/walkthroughs/whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163.md",
+      "report": "tests/ensemble-coach-results.json",
+      "seed": 667,
+      "electoral": 271,
       "scenarioSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
       "steps": [
         {
@@ -2739,7 +2739,7 @@
         {
           "type": "answer",
           "question": 1044,
-          "id": 5150,
+          "id": 5149,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2751,14 +2751,14 @@
         {
           "type": "answer",
           "question": 1043,
-          "id": 5144,
+          "id": 5145,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1045,
-          "id": 5152,
+          "id": 5153,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2770,14 +2770,14 @@
         {
           "type": "answer",
           "question": 1046,
-          "id": 5155,
+          "id": 5157,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1051,
-          "id": 5170,
+          "id": 5171,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2815,7 +2815,7 @@
         {
           "type": "answer",
           "question": 1057,
-          "id": 5189,
+          "id": 5191,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2827,14 +2827,14 @@
         {
           "type": "answer",
           "question": 1065,
-          "id": 5222,
+          "id": 5223,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1053,
-          "id": 5176,
+          "id": 5179,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2846,59 +2846,59 @@
         {
           "type": "answer",
           "question": 1054,
-          "id": 5180,
+          "id": 5183,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1061,
-          "id": 5205,
+          "id": 5206,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1008,
+          "abbr": "FL"
         },
         {
           "type": "answer",
           "question": 1069,
-          "id": 5236,
+          "id": 5237,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1059,
-          "id": 5197,
+          "id": 5196,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1008,
+          "abbr": "FL"
         },
         {
           "type": "answer",
           "question": 1068,
-          "id": 5234,
+          "id": 5233,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1066,
-          "id": 5224,
+          "id": 5226,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1034,
+          "abbr": "OH"
         },
         {
           "type": "answer",
@@ -2916,13 +2916,13 @@
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1034,
+          "abbr": "OH"
         },
         {
           "type": "answer",
           "question": 1072,
-          "id": 5249,
+          "id": 5248,
           "routeActive": true,
           "fromRoute": true
         },
@@ -2935,27 +2935,27 @@
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1034,
+          "abbr": "OH"
         },
         {
           "type": "answer",
           "question": 1074,
-          "id": 5255,
+          "id": 5253,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "answer",
           "question": 1075,
-          "id": 5256,
+          "id": 5257,
           "routeActive": true,
           "fromRoute": true
         },
         {
           "type": "visit",
-          "id": 1028,
-          "abbr": "NH"
+          "id": 1034,
+          "abbr": "OH"
         },
         {
           "type": "answer",

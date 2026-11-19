@@ -7,9 +7,12 @@ const box={window:{}};
 for(const file of ['model.js','achievement-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'guide',file),'utf8'),box);
 const {rules,scenarios,visitMap}=box.window.NCTAchievementData;
 const clickable=new Set(visitMap);
-const catalogue=JSON.parse(fs.readFileSync(path.join(root,'achievements/community-routes.json'),'utf8')).routes;
+const catalogue=JSON.parse(fs.readFileSync(process.env.NCT_SEARCH_CATALOGUE||path.join(root,'achievements/community-routes.json'),'utf8')).routes;
 const source='https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js';
-const robust=process.argv.includes('--robust');
+const ensemble=process.argv.includes('--ensemble');
+const robust=ensemble||process.argv.includes('--robust');
+const focusStates=process.argv.find(arg=>arg.startsWith('--focus-states='))?.split('=')[1].split(',')||[];
+assert(!focusStates.length||ensemble,'State focus requires --ensemble');
 
 function random(seed){return ()=>((seed=(Math.imul(seed,1664525)+1013904223)>>>0)+.5)/4294967296;}
 function normal(next){return Math.sqrt(-2*Math.log(next()))*Math.cos(2*Math.PI*next());}
@@ -37,7 +40,7 @@ function buildModel(e,seed){
  for(const row of fields(e,'answer_score_state_json'))if(row.candidate===e.candidate_id&&ids.has(row.affected_candidate)&&states.has(row.state)&&effects.has(row.answer))effects.get(row.answer).state.push([states.get(row.state)*nc+ids.get(row.affected_candidate),row.state_multiplier]);
  for(const row of fields(e,'answer_score_issue_json'))if(topics.includes(row.issue)&&effects.has(row.answer))effects.get(row.answer).issue.push([topics.indexOf(row.issue),row.issue_score*row.issue_importance,row.issue_importance]);
  const next=random(seed);
- const stress=Array.from({length:robust?33:15},(_,i)=>({
+ const stress=Array.from({length:ensemble?258:robust?33:15},(_,i)=>({
   global:candidates.map(()=>i?1+normal(next)*p.global_variance:1),
   local:base.map(()=>i?1+normal(next)*p.global_variance:1),
   turnout:e.states_json.map(s=>Math.floor(s.fields.popular_votes*(i?.95+.1*next():1)))
@@ -96,8 +99,7 @@ function buildModel(e,seed){
  return {prepare,simulate,stress};
 }
 
-function objective(rule,result,e){
- const majority=e.election_json.find(r=>Number(r.pk)===Number(e.election_id)).fields.winning_electoral_vote_number;
+function objective(rule,result,majority,unwanted){
  if(rule.goal==='florida'){
   const {floridaGap,leaderEV}=result;
   return 20*Number(floridaGap<.005&&leaderEV<=294)+4*Math.exp(-floridaGap/.009)-Math.log1p(Math.max(0,leaderEV-294));
@@ -108,10 +110,10 @@ function objective(rule,result,e){
  }
  if(rule.goal==='max')return 30*Number(result.ev<=rule.target)+7*sigmoid((rule.target-result.ev+.5)/12)-.04*result.smooth;
  if(rule.lose){
-  const unwanted=rule.lose.map(name=>e.states_json.findIndex(row=>row.fields.name===name));
   const losses=unwanted.filter(s=>result.ranks[s]===2).length;
   const rankMargins=unwanted.reduce((sum,s)=>sum+sigmoid(-result.margins[s]/.012),0);
   const threshold=rule.target??majority;
+  if(ensemble)return 38*Number(result.ev>=threshold&&losses===unwanted.length)+8*sigmoid((result.ev-threshold+.5)/6)+2*losses+2*rankMargins;
   if(robust){
    const second=unwanted.reduce((score,s)=>score+(result.ranks[s]===2?1:sigmoid(-Math.abs(result.margins[s])/.012)/2),0);
    return 34*Number(result.ev>=threshold&&losses===unwanted.length)+4*sigmoid((result.ev-threshold+.5)/10)+3*second+rankMargins;
@@ -120,6 +122,7 @@ function objective(rule,result,e){
  }
  if(rule.goal==='exact'){
   const delta=Math.min(...(rule.targets||[rule.target]).map(n=>Math.abs(result.ev-n)));
+  if(ensemble)return 36*Number(delta===0)+8*Math.exp(-delta/3)-Math.log1p(delta);
   return delta===0?10:-Math.log1p(delta)*2;
  }
  if(rule.goal==='winPopular')return 38*Number(result.ev>=majority&&result.lead>0)+.17*Math.min(result.ev-majority+15,38)+Math.min(20,result.lead/85000)+.01*result.smooth;
@@ -147,11 +150,20 @@ function search(rule,scenario,e,mode,difficulty,seed){
  const baselineVisits=new Uint8Array(e.states_json.length);
  for(const abbr of base?.visits.sequence||[])if(clickable.has(abbr))baselineVisits[stateIndex.get(abbr)]++;
  const election=e.election_json.find(row=>Number(row.pk)===Number(e.election_id));
+ const majority=election.fields.winning_electoral_vote_number;
+ const unwanted=rule.lose?.map(name=>e.states_json.findIndex(row=>row.fields.name===name));
+ const focus=focusStates.map(abbr=>{assert(stateIndex.has(abbr),abbr);return stateIndex.get(abbr);});
  const visitCount=election.fields.has_visits?Math.floor(e.global_parameter_json[0].fields.question_count/2):0;
  while(baselineVisits.reduce((a,b)=>a+b,0)<visitCount)baselineVisits[visitables[0]]++;
- const exact=rule.goal==='exact',next=random(1291),winners=[];
- const value=(prepared,visits)=>model.stress.reduce((sum,s)=>sum+objective(rule,model.simulate(prepared,visits,s),e),0)/model.stress.length;
- for(let restart=0;restart<(robust?8:exact?10:6);restart++){
+ const exact=rule.goal==='exact',next=random(ensemble?seed^1291:1291),winners=[];
+ const samples=ensemble?model.stress.slice(1,66):model.stress;
+ const value=(prepared,visits)=>samples.reduce((sum,s)=>{
+  const result=model.simulate(prepared,visits,s);
+  // Favor close, individually decisive states while the native outcome remains the main objective.
+  const closeStates=focus.reduce((score,idx)=>score+7*sigmoid(result.margins[idx]/.007),0);
+  return sum+objective(rule,result,majority,unwanted)+closeStates;
+ },0)/samples.length;
+ for(let restart=0;restart<(ensemble?9:robust?8:exact?10:6);restart++){
   const answers=restart>1&&winners.length?[...winners[0].answers]:[...anchor];
   const visits=restart>1&&winners.length?winners[0].visits.slice():baselineVisits.slice();
   if(restart)for(let i=0;i<answers.length;i++)if(next()<(restart===1?1:.24))answers[i]=groups[i][Math.floor(next()*groups[i].length)];
@@ -171,11 +183,37 @@ function search(rule,scenario,e,mode,difficulty,seed){
      visits[winner]++;if(winner===from)break;
     }
    }
+   if(ensemble&&!changed){
+    // Some states need several visits before they cross a vote or rank threshold.
+    for(const from of visitables.filter(i=>visits[i]>1)){
+     for(const count of new Set([visits[from],Math.ceil(visits[from]/2)])){
+      if(count<=1||visits[from]<count)continue;
+      let winner=from;visits[from]-=count;
+      for(const to of visitables){
+       visits[to]+=count;const score=value(current,visits);visits[to]-=count;
+       if(score>cost+1e-8){winner=to;cost=score;changed=true;}
+      }
+      visits[winner]+=count;
+     }
+    }
+   }
    if(!changed)break;
   }
   winners.push({answers,visits,cost});winners.sort((a,b)=>b.cost-a.cost);
  }
- const best=winners[0],prepared=model.prepare(best.answers),zero=model.simulate(prepared,best.visits,model.stress[0]);
+ const trialStats=winner=>{
+  const prep=model.prepare(winner.answers);
+  let success=0;
+  for(const sample of model.stress.slice(66)){
+   const p=model.simulate(prep,winner.visits,sample);
+   const met=exact?(rule.targets||[rule.target]).includes(p.ev):p.ev>=(rule.target??majority)&&(!unwanted||unwanted.every(i=>p.ranks[i]===2));
+   success+=Number(met);
+  }
+  return success;
+ };
+ const best=ensemble?winners.slice(0,5).map(w=>({...w,modelSuccess:trialStats(w)}))
+  .sort((a,b)=>b.modelSuccess-a.modelSuccess||b.cost-a.cost)[0]:winners[0];
+ const prepared=model.prepare(best.answers),zero=model.simulate(prepared,best.visits,model.stress[0]);
  const indexes=Array.from(best.visits).flatMap((n,i)=>Array(n).fill(i));
  const projected=box.window.NCTGuideModel.project({...e,player_answers:best.answers,player_visits:indexes.map(i=>e.states_json[i].pk)});
  const actual=projected.flatMap(row=>row.result.filter(c=>c.candidate===e.candidate_id));
@@ -186,17 +224,20 @@ function search(rule,scenario,e,mode,difficulty,seed){
  }
  assert.equal(zero.pv,actual.reduce((n,c)=>n+c.votes,0),scenario.scope+' popular vote parity');
  const mapped=Object.fromEntries(e.questions_json.map((q,i)=>[q.pk,[best.answers[i]]]));
- const suffix=robust?'robust-'+seed:seed===90817?'v1':String(seed);
- return {id:`${rule.id}-${scenario.scope}-${mode}-${difficulty}-stress-${suffix}`,achievement:rule.id,scope:scenario.scope,source,origin:'model-search',answers:mapped,visits:{sequence:indexes.map(i=>e.states_json[i].fields.abbr)},difficulty,mode,search:{score:best.cost,zeroEV:zero.ev,zeroPV:zero.pv,simulationSeed:seed}};
+ const suffix=ensemble?`ensemble-${seed}${rule.targets?.length===1?'-'+rule.targets[0]:''}${focus.length?'-'+focusStates.join('-'):''}`:robust?'robust-'+seed:seed===90817?'v1':String(seed);
+ return {id:`${rule.id}-${scenario.scope}-${mode}-${difficulty}-stress-${suffix}`,achievement:rule.id,scope:scenario.scope,source,origin:'model-search',answers:mapped,visits:{sequence:indexes.map(i=>e.states_json[i].fields.abbr)},difficulty,mode,search:{score:best.cost,zeroEV:zero.ev,zeroPV:zero.pv,simulationSeed:seed,...(ensemble?{modelTarget:rule.targets?.length===1?rule.targets[0]:undefined,modelSuccess:best.modelSuccess,modelTotal:model.stress.length-66}:{})}};
 }
 
 const config=JSON.parse(fs.readFileSync(process.argv[4],'utf8'));
 const routes=[];
-for(const [id,scope,mode,difficulty,seed=90817] of config){
+for(const [id,scope,mode,difficulty,seed=90817,target] of config){
  const input=path.join(captures,`${scope}-${mode}-${difficulty}.json`);
  const e=JSON.parse(fs.readFileSync(input,'utf8'));
  assert(!e.primary_states,'Locked-state snapshot is unsupported by this search');
- const route=search(rules.find(r=>r.id===id),scenarios.find(s=>s.scope===scope),e,String(mode),difficulty,seed);
+ const rule=rules.find(r=>r.id===id);
+ if(ensemble)assert(['win','min','exact'].includes(rule.goal),'Unsupported ensemble goal '+rule.goal);
+ if(target!==undefined)assert(rule.goal==='exact'&&(rule.targets||[rule.target]).includes(target),'Invalid exact-vote target');
+ const route=search(target===undefined?rule:{...rule,targets:[target]},scenarios.find(s=>s.scope===scope),e,String(mode),difficulty,seed);
  routes.push(route);fs.writeFileSync(output,JSON.stringify({routes},null,2)+'\n');
  console.log(route.id,route.search);
 }

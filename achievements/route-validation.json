@@ -1282,6 +1282,30 @@
       "mapped": 25,
       "total": 25,
       "unmapped": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+      "scope": "2016_Clinton_Kaine",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "scope": "2016_Clinton_Warren",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
+    },
+    {
+      "id": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "scope": "2000_Gore_Lieberman",
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "mapped": 25,
+      "total": 25,
+      "unmapped": []
     }
   ]
 }

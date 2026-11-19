@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-19T01:12:01.598Z",
+  "date": "2026-11-19T01:33:02.960Z",
   "method": "Actual native achievement storage, offline browser replays. Route evidence counts independent Chinese seed fixtures once. Browser run totals also include earlier bilingual checks and failed candidates. Simulations are excluded.",
   "actualUnlocks": 31,
   "total": 31,
-  "actualGames": 908,
+  "actualGames": 1172,
   "rows": [
     {
       "id": "destiny",
       "name": "殊途同归",
       "actualUnlock": true,
-      "routes": 12,
-      "testedRoutes": 12,
+      "routes": 14,
+      "testedRoutes": 14,
       "verifiedRoutes": [
         {
           "id": "destiny-destiny2016-community",
@@ -41,8 +41,8 @@
           "scope": "2000_Gore_Graham",
           "mode": "2",
           "difficulty": 0.97,
-          "success": 3,
-          "total": 17
+          "success": 6,
+          "total": 29
         },
         {
           "id": "destiny-1964_Johnson_Humphrey-2-0.97-search",
@@ -73,8 +73,8 @@
           "scope": "2016_Clinton_Kaine",
           "mode": "2",
           "difficulty": 0.9,
-          "success": 3,
-          "total": 11
+          "success": 8,
+          "total": 23
         },
         {
           "id": "destiny-2012_Obama_Biden-2-0.97-stress-v1",
@@ -91,6 +91,22 @@
           "difficulty": 0.97,
           "success": 4,
           "total": 11
+        },
+        {
+          "id": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+          "scope": "2016_Clinton_Warren",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 6,
+          "total": 12
+        },
+        {
+          "id": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+          "scope": "2000_Gore_Lieberman",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 10,
+          "total": 12
         }
       ],
       "procedureEvidence": "tests/procedural-achievement-results.json"
@@ -187,8 +203,8 @@
       "id": "whatbelt",
       "name": "我依然屹立",
       "actualUnlock": true,
-      "routes": 55,
-      "testedRoutes": 18,
+      "routes": 56,
+      "testedRoutes": 19,
       "verifiedRoutes": [
         {
           "id": "whatbelt-Kaine-FL6-NH6",
@@ -203,8 +219,16 @@
           "scope": "2016_Clinton_Kaine",
           "mode": "2",
           "difficulty": 0.97,
-          "success": 2,
-          "total": 11
+          "success": 4,
+          "total": 23
+        },
+        {
+          "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+          "scope": "2016_Clinton_Kaine",
+          "mode": "2",
+          "difficulty": 0.97,
+          "success": 3,
+          "total": 12
         }
       ],
       "procedureEvidence": null

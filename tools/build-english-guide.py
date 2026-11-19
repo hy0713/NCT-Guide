@@ -63,15 +63,28 @@ def main():
     coach_report = 'tests/optimizer-coach-results.json'
     optimizer = read(ROOT / coach_report)
     assert optimizer['status'] == 'passed'
-    preferred = set()
+    preferred = {}
     for run in optimizer['runs']:
         if run['unlocked'] and run['language'] == 'en-US':
             records[run['route']] = (run, coach_report)
-            preferred.add(run['route'])
+            preferred[run['route']] = 1
     destiny = next(c for c in procedural['cases'] if c.get('achievement') == 'destiny' and c.get('language') == 'en-US')
     assert destiny['unlocked'] and len(destiny['games']) == 7
     for game in destiny['games']:
         records[game['route']] = ({**game['played'], 'seed': game['seed']}, 'tests/procedural-achievement-results.json')
+    ensemble_report = 'tests/ensemble-coach-results.json'
+    ensemble = read(ROOT / ensemble_report)
+    assert ensemble['status'] == 'passed'
+    for run in ensemble['runs']:
+        if run['unlocked'] and run['language'] == 'en-US':
+            records[run['route']] = (run, ensemble_report)
+            preferred[run['route']] = 0
+    new_destiny = next(case for case in ensemble['cumulative'] if case['language'] == 'en-US')
+    assert new_destiny['unlocked']
+    for game in new_destiny['years']:
+        if game['updated']:
+            records[game['route']] = ({**game['played'], 'seed': game['seed']}, ensemble_report)
+            preferred[game['route']] = 0
 
     outputs = {}
     manifest = []
@@ -81,8 +94,14 @@ def main():
     for rule in rules:
         aid = rule['id']
         eligible = [r for r in rows[aid]['verifiedRoutes'] if r['id'] in records and not routes[r['id']].get('supersededBy')]
-        eligible.sort(key=lambda r: r['id'] not in preferred)
-        selected = eligible if aid == 'destiny' else eligible[:1]
+        if aid == 'destiny':
+            year_order = dict.fromkeys(scenarios[row['scope']]['year'] for row in eligible)
+            selected_by_year = {}
+            for row in sorted(eligible, key=lambda r: preferred.get(r['id'], 2)):
+                selected_by_year.setdefault(scenarios[row['scope']]['year'], row)
+            selected = [selected_by_year[year] for year in year_order]
+        else:
+            selected = sorted(eligible, key=lambda r: preferred.get(r['id'], 2))[:1]
         links[aid] = []
         for selected_route in selected:
             rid = selected_route['id']

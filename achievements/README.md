@@ -15,12 +15,12 @@ All 31 native achievements, with the actual source conditions and tested setups.
 
 | Achievement | Exact goal | Walkthrough / procedure |
 | --- | --- | --- |
-| [Destiny Arrives All the Same](#destiny) | Record exactly 232 or 306 of your own electoral votes in each of 1964, 1976, 1988, 2000, 2012, 2016 and 2020, using the same browser save. The entire state map need not match history. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/destiny-destiny2016-community.md)<br>[1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)<br>[2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)<br>[2000 — Al Gore / Bob Graham; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md)<br>[1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)<br>[2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)<br>[1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md) |
+| [Destiny Arrives All the Same](#destiny) | Record exactly 232 or 306 of your own electoral votes in each of 1964, 1976, 1988, 2000, 2012, 2016 and 2020, using the same browser save. The entire state map need not match history. | [2016 — Hillary Clinton / Elizabeth Warren; Proportional; Normal (0.97)](walkthroughs/destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232.md)<br>[1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)<br>[2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)<br>[2000 — Al Gore / Joe Lieberman; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232.md)<br>[1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)<br>[2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)<br>[1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md) |
 | [The Dark Brandon Rises](#ridingbiden) | Win at least 406 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931.md) |
 | [MAGA... Again](#magaa) | Win at least 322 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-2020_Trump_Haley-1-0.97-stress-robust-15877.md) |
 | [Not My President!](#nmpr) | Finish with exactly 269 electoral votes as Donald Trump in 2020. | [2020 — Donald Trump / Mike Pence; Default; Normal (0.97)](walkthroughs/nmpr-community.md) |
 | [Civility Prevails...?](#nomalarkey) | Finish with exactly 306 electoral votes as Joe Biden in 2020. | [2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/nomalarkey-community.md) |
-| [I'm Still Standing](#whatbelt) | Win at least 270 electoral votes in 2016 while finishing second in Wisconsin, Michigan and Pennsylvania. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md) |
+| [I'm Still Standing](#whatbelt) | Win at least 270 electoral votes in 2016 while finishing second in Wisconsin, Michigan and Pennsylvania. | [2016 — Hillary Clinton / Tim Kaine; Proportional; Normal (0.97)](walkthroughs/whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163.md) |
 | [The Flame Berns Bright](#thebern) | Win at least 351 electoral votes as Hillary Clinton with Bernie Sanders in 2016. | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md) |
 | [Moscow's Musketeers](#moscow) | As Trump/Palin in 2016, beat the main opponent in popular votes and finish with either a win or a loss, rather than a deadlock. | [2016 — Donald Trump / Sarah Palin; Default; Normal (0.97)](walkthroughs/moscow-community.md) |
 | [Why?](#why) | Complete one eligible game of 2016a. | [2016a — Hillary Clinton / Cory Booker; Default; Normal (0.97)](walkthroughs/why-2016a_Clinton_Booker-1-0.97-search.md) |
@@ -57,10 +57,10 @@ All 31 native achievements, with the actual source conditions and tested setups.
 
 Use the seven year-specific walkthroughs below. Proportional mode is allowed. Once a year is recorded, keep that progress and move to another year; 1968 and 2016a do not count.
 
-- [Walkthrough: 2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/destiny-destiny2016-community.md)
+- [Walkthrough: 2016 — Hillary Clinton / Elizabeth Warren; Proportional; Normal (0.97)](walkthroughs/destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232.md)
 - [Walkthrough: 1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)
 - [Walkthrough: 2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)
-- [Walkthrough: 2000 — Al Gore / Bob Graham; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md)
+- [Walkthrough: 2000 — Al Gore / Joe Lieberman; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232.md)
 - [Walkthrough: 1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)
 - [Walkthrough: 2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)
 - [Walkthrough: 1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md)
@@ -123,7 +123,7 @@ Use Biden/Bass. The predicate checks the electoral-vote total, not an exact reco
 
 Use Clinton/Kaine, Proportional mode and Impossible difficulty. Visit Florida six times, then New Hampshire six times. In the game's proportional formula, each candidate's share is rounded down and all leftover electors go to the state leader. The walkthrough combines a partial community route with source-model work.
 
-- [Walkthrough: 2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md)
+- [Walkthrough: 2016 — Hillary Clinton / Tim Kaine; Proportional; Normal (0.97)](walkthroughs/whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163.md)
 
 [Native condition](https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js#L2902) · Stable achievement ID: `whatbelt`.
 
@@ -429,6 +429,6 @@ At the starting menu, type BIGSHOT and press Enter; repeat once and accept the p
 
 [Unlock coverage](COVERAGE.md) · [Live coach](LIVE_COACH.md) · [Sources](SOURCES.md) · [Mechanics](../guide/README.md)
 
-The existing coverage snapshot records 908 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
+The existing coverage snapshot records 1172 browser games and actual unlock evidence for all 31 achievements. The walkthroughs above reuse those recorded games; generating these pages does not add new playthroughs.
 
 English questions and answers are extracted from the preserved original scenario data. Run `python tools/build-english-guide.py <game-directory> --check` to verify the generated pages. Editorial conditions are maintained separately in `english-editorial.json`.

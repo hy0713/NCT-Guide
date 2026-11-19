@@ -1,0 +1,7133 @@
+{
+  "date": "2026-11-19T01:33:02.814Z",
+  "status": "passed",
+  "seedSets": {
+    "discovery": [
+      421,
+      1103,
+      2309,
+      3413
+    ],
+    "holdout": [
+      667,
+      1877,
+      2851,
+      4157,
+      5437,
+      7673,
+      8933,
+      10093
+    ]
+  },
+  "selectionCriteria": "More separate validation successes, more successes across both sets, and at least two overall. Destiny success means the year was recorded in the native save.",
+  "network": "All non-loopback requests blocked. Visits dispatched through native map SVG hit areas.",
+  "modeled": [
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+      "search": {
+        "score": 26.251322388056817,
+        "zeroEV": 270,
+        "zeroPV": 66085696,
+        "simulationSeed": 19163,
+        "modelSuccess": 53,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-ensemble-13313",
+      "search": {
+        "score": 17.927128602975117,
+        "zeroEV": 269,
+        "zeroPV": 65771543,
+        "simulationSeed": 13313,
+        "modelSuccess": 26,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-1-0.97-stress-ensemble-19163",
+      "search": {
+        "score": 12.282899777452462,
+        "zeroEV": 262,
+        "zeroPV": 65804606,
+        "simulationSeed": 19163,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Trump_Carson-2-0.97-stress-ensemble-13313",
+      "search": {
+        "score": 12.193021631887348,
+        "zeroEV": 255,
+        "zeroPV": 60128917,
+        "simulationSeed": 13313,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Trump_Christie-2-0.97-stress-ensemble-19163",
+      "search": {
+        "score": 12.32701459886756,
+        "zeroEV": 258,
+        "zeroPV": 61151605,
+        "simulationSeed": 19163,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Brown-2-0.97-stress-ensemble-13313",
+      "search": {
+        "score": 11.966918715222343,
+        "zeroEV": 231,
+        "zeroPV": 60124570,
+        "simulationSeed": 13313,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Johnson-1-0.9-stress-ensemble-21031",
+      "search": {
+        "score": 8.537367647421245,
+        "zeroEV": 171,
+        "zeroPV": 32514111,
+        "simulationSeed": 21031,
+        "modelSuccess": 2,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Johnson-2-0.9-stress-ensemble-21031",
+      "search": {
+        "score": 8.408868815064421,
+        "zeroEV": 245,
+        "zeroPV": 32539336,
+        "simulationSeed": 21031,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Humphrey-1-0.9-stress-ensemble-21068",
+      "search": {
+        "score": 8.59798975125485,
+        "zeroEV": 200,
+        "zeroPV": 30697910,
+        "simulationSeed": 21068,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Humphrey-2-0.9-stress-ensemble-21068",
+      "search": {
+        "score": 7.507588375423765,
+        "zeroEV": 219,
+        "zeroPV": 30708916,
+        "simulationSeed": 21068,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Symington-1-0.9-stress-ensemble-21105",
+      "search": {
+        "score": 6.684000512456632,
+        "zeroEV": 152,
+        "zeroPV": 31992780,
+        "simulationSeed": 21105,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "BCitsHard-1960_Kennedy_Symington-2-0.9-stress-ensemble-21105",
+      "search": {
+        "score": 7.1121249710090195,
+        "zeroEV": 235,
+        "zeroPV": 31992780,
+        "simulationSeed": 21105,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-13109",
+      "search": {
+        "score": 19.86248895166661,
+        "zeroEV": 321,
+        "zeroPV": 77368557,
+        "simulationSeed": 13109,
+        "modelSuccess": 31,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-21031",
+      "search": {
+        "score": 19.384433237333326,
+        "zeroEV": 321,
+        "zeroPV": 77396106,
+        "simulationSeed": 21031,
+        "modelSuccess": 29,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-44879",
+      "search": {
+        "score": 15.67269805601707,
+        "zeroEV": 321,
+        "zeroPV": 77411698,
+        "simulationSeed": 44879,
+        "modelSuccess": 18,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Pence-1-0.97-stress-ensemble-13109",
+      "search": {
+        "score": 16.75566012776242,
+        "zeroEV": 311,
+        "zeroPV": 77023320,
+        "simulationSeed": 13109,
+        "modelSuccess": 17,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Pence-1-0.97-stress-ensemble-21031",
+      "search": {
+        "score": 13.840902826603507,
+        "zeroEV": 311,
+        "zeroPV": 77104998,
+        "simulationSeed": 21031,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Pence-1-0.97-stress-ensemble-44879",
+      "search": {
+        "score": 13.805189617130404,
+        "zeroEV": 311,
+        "zeroPV": 77084201,
+        "simulationSeed": 44879,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-ensemble-17117-306",
+      "search": {
+        "score": -3.4485347860169053,
+        "zeroEV": 276,
+        "zeroPV": 66883866,
+        "simulationSeed": 17117,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-ensemble-17117-232",
+      "search": {
+        "score": 23.67084908600259,
+        "zeroEV": 232,
+        "zeroPV": 61203990,
+        "simulationSeed": 17117,
+        "modelTarget": 232,
+        "modelSuccess": 87,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Kaine-2-0.97-stress-ensemble-23377-306",
+      "search": {
+        "score": -2.9394546406889646,
+        "zeroEV": 288,
+        "zeroPV": 69305319,
+        "simulationSeed": 23377,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Palin-2-0.97-stress-ensemble-17117-232",
+      "search": {
+        "score": 28.018694180423793,
+        "zeroEV": 232,
+        "zeroPV": 56637146,
+        "simulationSeed": 17117,
+        "modelTarget": 232,
+        "modelSuccess": 83,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Palin-2-0.97-stress-ensemble-17117-306",
+      "search": {
+        "score": -2.539957759767459,
+        "zeroEV": 290,
+        "zeroPV": 66336277,
+        "simulationSeed": 17117,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Carson-2-0.97-stress-ensemble-17117-232",
+      "search": {
+        "score": 0.4395121907722862,
+        "zeroEV": 237,
+        "zeroPV": 57773563,
+        "simulationSeed": 17117,
+        "modelTarget": 232,
+        "modelSuccess": 1,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Carson-2-0.97-stress-ensemble-17117-306",
+      "search": {
+        "score": 0.5304771361278431,
+        "zeroEV": 298,
+        "zeroPV": 67644241,
+        "simulationSeed": 17117,
+        "modelTarget": 306,
+        "modelSuccess": 1,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Graham-2-0.97-stress-ensemble-12749-232",
+      "search": {
+        "score": 16.507693768276223,
+        "zeroEV": 231,
+        "zeroPV": 47703855,
+        "simulationSeed": 12749,
+        "modelTarget": 232,
+        "modelSuccess": 25,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Graham-2-0.97-stress-ensemble-12749-306",
+      "search": {
+        "score": -3.482976468427466,
+        "zeroEV": 276,
+        "zeroPV": 52446471,
+        "simulationSeed": 12749,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Graham-2-0.95-stress-ensemble-20347-232",
+      "search": {
+        "score": 30.646245696307027,
+        "zeroEV": 232,
+        "zeroPV": 47463134,
+        "simulationSeed": 20347,
+        "modelTarget": 232,
+        "modelSuccess": 112,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Graham-2-0.95-stress-ensemble-20347-306",
+      "search": {
+        "score": -3.6551181803766886,
+        "zeroEV": 269,
+        "zeroPV": 51755315,
+        "simulationSeed": 20347,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Cheney-2-0.97-stress-ensemble-12749-232",
+      "search": {
+        "score": 25.010936794280354,
+        "zeroEV": 232,
+        "zeroPV": 46218180,
+        "simulationSeed": 12749,
+        "modelTarget": 232,
+        "modelSuccess": 72,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Cheney-2-0.97-stress-ensemble-12749-306",
+      "search": {
+        "score": -3.53747302938681,
+        "zeroEV": 275,
+        "zeroPV": 51217981,
+        "simulationSeed": 12749,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Booker-2-0.97-stress-ensemble-16931",
+      "search": {
+        "score": 23.040512080633086,
+        "zeroEV": 270,
+        "zeroPV": 66591234,
+        "simulationSeed": 16931,
+        "modelSuccess": 38,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Warren-2-0.97-stress-ensemble-16931",
+      "search": {
+        "score": 11.99860181876222,
+        "zeroEV": 227,
+        "zeroPV": 59333500,
+        "simulationSeed": 16931,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Sanders-2-0.97-stress-ensemble-16931",
+      "search": {
+        "score": 11.927323304952598,
+        "zeroEV": 236,
+        "zeroPV": 61341922,
+        "simulationSeed": 16931,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Trump_Pence-2-0.97-stress-ensemble-16931",
+      "search": {
+        "score": 12.16199882883211,
+        "zeroEV": 252,
+        "zeroPV": 59992241,
+        "simulationSeed": 16931,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Trump_Sessions-2-0.97-stress-ensemble-16931",
+      "search": {
+        "score": 12.186343320660255,
+        "zeroEV": 252,
+        "zeroPV": 59622431,
+        "simulationSeed": 16931,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Brown-2-0.9-stress-ensemble-16931",
+      "search": {
+        "score": 11.999711661713116,
+        "zeroEV": 223,
+        "zeroPV": 58179308,
+        "simulationSeed": 16931,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-25183",
+      "search": {
+        "score": 24.26342535652991,
+        "zeroEV": 270,
+        "zeroPV": 66141517,
+        "simulationSeed": 25183,
+        "modelSuccess": 42,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-ensemble-25183",
+      "search": {
+        "score": 20.872190924295978,
+        "zeroEV": 269,
+        "zeroPV": 65690380,
+        "simulationSeed": 25183,
+        "modelSuccess": 28,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Booker-2-0.97-stress-ensemble-19991-232",
+      "search": {
+        "score": 21.577330838739666,
+        "zeroEV": 232,
+        "zeroPV": 61521653,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 67,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "search": {
+        "score": 24.268948645770088,
+        "zeroEV": 232,
+        "zeroPV": 61242385,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 79,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Clinton_Sanders-2-0.97-stress-ensemble-19991-232",
+      "search": {
+        "score": 19.2800768371872,
+        "zeroEV": 231,
+        "zeroPV": 61389602,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 52,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Pence-2-0.97-stress-ensemble-19991-232",
+      "search": {
+        "score": 2.8787159920970917,
+        "zeroEV": 235,
+        "zeroPV": 57663836,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 8,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2016_Trump_Sessions-2-0.97-stress-ensemble-19991-232",
+      "search": {
+        "score": 24.18675110227888,
+        "zeroEV": 232,
+        "zeroPV": 56482124,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 79,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Danforth-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 24.184137249212913,
+        "zeroEV": 232,
+        "zeroPV": 46222760,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 82,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Ridge-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 32.432909016600725,
+        "zeroEV": 232,
+        "zeroPV": 46190606,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 124,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Powell-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 27.910015525254703,
+        "zeroEV": 232,
+        "zeroPV": 46228248,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 102,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 36.426934652340634,
+        "zeroEV": 232,
+        "zeroPV": 47324724,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 136,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Kerry-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 33.45608934627042,
+        "zeroEV": 232,
+        "zeroPV": 47499958,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 118,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Bayh-2-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 28.24865205030512,
+        "zeroEV": 232,
+        "zeroPV": 47276572,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 98,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Bush_Powell-1-0.97-stress-ensemble-17539-306",
+      "search": {
+        "score": -1.0696018872064164,
+        "zeroEV": 301,
+        "zeroPV": 51212015,
+        "simulationSeed": 17539,
+        "modelTarget": 306,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "destiny-2000_Gore_Bayh-1-0.97-stress-ensemble-17539-232",
+      "search": {
+        "score": 2.8925034107486667,
+        "zeroEV": 255,
+        "zeroPV": 50068671,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 26,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-28081-N2-NH",
+      "search": {
+        "score": 23.186540957910115,
+        "zeroEV": 321,
+        "zeroPV": 77345610,
+        "simulationSeed": 28081,
+        "modelSuccess": 30,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Pence-1-0.97-stress-ensemble-28081-N2-NH",
+      "search": {
+        "score": 17.799807155303128,
+        "zeroEV": 311,
+        "zeroPV": 76995020,
+        "simulationSeed": 28081,
+        "modelSuccess": 0,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-14963-N2",
+      "search": {
+        "score": 21.355947782637983,
+        "zeroEV": 321,
+        "zeroPV": 77368557,
+        "simulationSeed": 14963,
+        "modelSuccess": 35,
+        "modelTotal": 192
+      }
+    },
+    {
+      "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-29033-N2",
+      "search": {
+        "score": 20.07826380184345,
+        "zeroEV": 321,
+        "zeroPV": 77403546,
+        "simulationSeed": 29033,
+        "modelSuccess": 25,
+        "modelTotal": 192
+      }
+    }
+  ],
+  "played": 264,
+  "comparisons": [
+    {
+      "objective": "whatbelt",
+      "previous": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "candidate": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+      "old": {
+        "discovery": 0,
+        "holdout": 2
+      },
+      "next": {
+        "discovery": 0,
+        "holdout": 3
+      },
+      "improved": true
+    },
+    {
+      "objective": "whatbelt",
+      "previous": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "candidate": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-ensemble-13313",
+      "old": {
+        "discovery": 0,
+        "holdout": 2
+      },
+      "next": {
+        "discovery": 0,
+        "holdout": 0
+      },
+      "improved": false
+    },
+    {
+      "objective": "whatbelt",
+      "previous": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "candidate": "whatbelt-2016_Clinton_Booker-2-0.97-stress-ensemble-16931",
+      "old": {
+        "discovery": 0,
+        "holdout": 2
+      },
+      "next": {
+        "discovery": 1,
+        "holdout": 0
+      },
+      "improved": false
+    },
+    {
+      "objective": "BCitsHard",
+      "previous": "BCitsHard-community",
+      "candidate": "BCitsHard-1960_Kennedy_Johnson-1-0.9-stress-ensemble-21031",
+      "old": {
+        "discovery": 0,
+        "holdout": 0
+      },
+      "next": {
+        "discovery": 0,
+        "holdout": 0
+      },
+      "improved": false
+    },
+    {
+      "objective": "magaa",
+      "previous": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+      "candidate": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-13109",
+      "old": {
+        "discovery": 0,
+        "holdout": 0
+      },
+      "next": {
+        "discovery": 0,
+        "holdout": 1
+      },
+      "improved": false
+    },
+    {
+      "objective": "magaa",
+      "previous": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+      "candidate": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-14963-N2",
+      "old": {
+        "discovery": 0,
+        "holdout": 0
+      },
+      "next": {
+        "discovery": 0,
+        "holdout": 1
+      },
+      "improved": false
+    },
+    {
+      "objective": "destiny-2016",
+      "previous": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "candidate": "destiny-2016_Clinton_Kaine-2-0.9-stress-ensemble-17117-232",
+      "old": {
+        "discovery": 2,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 1,
+        "holdout": 3
+      },
+      "improved": false
+    },
+    {
+      "objective": "destiny-2016",
+      "previous": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "candidate": "destiny-2016_Trump_Palin-2-0.97-stress-ensemble-17117-232",
+      "old": {
+        "discovery": 2,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 1,
+        "holdout": 4
+      },
+      "improved": false
+    },
+    {
+      "objective": "destiny-2016",
+      "previous": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "candidate": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "old": {
+        "discovery": 2,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 1,
+        "holdout": 5
+      },
+      "improved": true
+    },
+    {
+      "objective": "destiny-2016",
+      "previous": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "candidate": "destiny-2016_Trump_Sessions-2-0.97-stress-ensemble-19991-232",
+      "old": {
+        "discovery": 2,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 1,
+        "holdout": 3
+      },
+      "improved": false
+    },
+    {
+      "objective": "destiny-2000",
+      "previous": "destiny-2000_Gore_Graham-2-0.97-search",
+      "candidate": "destiny-2000_Gore_Graham-2-0.95-stress-ensemble-20347-232",
+      "old": {
+        "discovery": 0,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 2,
+        "holdout": 4
+      },
+      "improved": true
+    },
+    {
+      "objective": "destiny-2000",
+      "previous": "destiny-2000_Gore_Graham-2-0.97-search",
+      "candidate": "destiny-2000_Bush_Cheney-2-0.97-stress-ensemble-12749-232",
+      "old": {
+        "discovery": 0,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 2,
+        "holdout": 1
+      },
+      "improved": false
+    },
+    {
+      "objective": "destiny-2000",
+      "previous": "destiny-2000_Gore_Graham-2-0.97-search",
+      "candidate": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "old": {
+        "discovery": 0,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 3,
+        "holdout": 7
+      },
+      "improved": true
+    },
+    {
+      "objective": "destiny-2000",
+      "previous": "destiny-2000_Gore_Graham-2-0.97-search",
+      "candidate": "destiny-2000_Bush_Powell-2-0.97-stress-ensemble-17539-232",
+      "old": {
+        "discovery": 0,
+        "holdout": 3
+      },
+      "next": {
+        "discovery": 2,
+        "holdout": 6
+      },
+      "improved": true
+    }
+  ],
+  "selection": [
+    {
+      "previous": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "promoted": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "promoted": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "reason": "better-replays"
+    },
+    {
+      "previous": "destiny-2000_Gore_Graham-2-0.97-search",
+      "promoted": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "reason": "better-replays"
+    }
+  ],
+  "trials": [
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NM"
+          ]
+        },
+        "search": {
+          "score": 39.8296507592588,
+          "zeroEV": 270,
+          "zeroPV": 66157104
+        }
+      },
+      "routeSHA256": "d3611e38d8821ba42ce500c91b23e57aba1637600bad9499321a48656023a586",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 268,
+          "popular": 66802307,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 263,
+          "popular": 65065180,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 272,
+          "popular": 66687431,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 268,
+          "popular": 65534343,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 270,
+          "popular": 66679657,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 1877,
+          "electoral": 269,
+          "popular": 66643970,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 270,
+          "popular": 65617987,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 4157,
+          "electoral": 269,
+          "popular": 65566154,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 267,
+          "popular": 65209717,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 269,
+          "popular": 66020684,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 274,
+          "popular": 66809880,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 266,
+          "popular": 65734794,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5153
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5179
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5191
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5206
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "OH",
+            "OH",
+            "OH",
+            "OH"
+          ]
+        },
+        "search": {
+          "score": 26.251322388056817,
+          "zeroEV": 270,
+          "zeroPV": 66085696,
+          "simulationSeed": 19163,
+          "modelSuccess": 53,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "2665e7780e21629f4d265624c6b06fff7eaa5d4a7a85bcfb4608dee558c2f226",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 269,
+          "popular": 66726195,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 261,
+          "popular": 64994994,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 273,
+          "popular": 66615547,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 268,
+          "popular": 65464370,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 271,
+          "popular": 66605379,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 1877,
+          "electoral": 270,
+          "popular": 66574091,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 2851,
+          "electoral": 271,
+          "popular": 65545149,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 4157,
+          "electoral": 269,
+          "popular": 65493057,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 267,
+          "popular": 65140792,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 269,
+          "popular": 65952597,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 275,
+          "popular": 66738168,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 266,
+          "popular": 65663494,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-ensemble-13313",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5175
+          ],
+          "1053": [
+            5176
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5190
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5206
+          ],
+          "1065": [
+            5223
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1069": [
+            5236
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5249
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NH",
+            "OH",
+            "OK"
+          ]
+        },
+        "search": {
+          "score": 17.927128602975117,
+          "zeroEV": 269,
+          "zeroPV": 65771543,
+          "simulationSeed": 13313,
+          "modelSuccess": 26,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "e28c139b85550311a75fb7f2adcc8672508829dd5e15156b1867e8dfc86a884c",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 268,
+          "popular": 66408953,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 261,
+          "popular": 64683969,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 268,
+          "popular": 66297598,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 268,
+          "popular": 65150083,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 267,
+          "popular": 66290470,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 269,
+          "popular": 66254327,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 267,
+          "popular": 65235133,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 267,
+          "popular": 65181765,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 264,
+          "popular": 64831436,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 269,
+          "popular": 65637799,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 272,
+          "popular": 66425364,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 265,
+          "popular": 65351839,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Johnson-1-0.9-stress-ensemble-21031",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "mode": "1",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "477": [
+            3742
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "IL",
+            "IL",
+            "IL",
+            "IL",
+            "MI",
+            "MI",
+            "NJ",
+            "NJ",
+            "PA",
+            "PA",
+            "PA",
+            "PA"
+          ]
+        },
+        "search": {
+          "score": 8.537367647421245,
+          "zeroEV": 171,
+          "zeroPV": 32514111,
+          "simulationSeed": 21031,
+          "modelSuccess": 2,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "bf6a923e5a3eb0b45b9e5440d09c9e61eadbb7709ed68976164c0013702beb53",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 179,
+          "popular": 32653267,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 133,
+          "popular": 32713864,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 173,
+          "popular": 32607143,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 171,
+          "popular": 32407961,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 190,
+          "popular": 32846937,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 199,
+          "popular": 33088471,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 187,
+          "popular": 32450885,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 225,
+          "popular": 32893652,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 199,
+          "popular": 32778829,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 171,
+          "popular": 32331497,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 187,
+          "popular": 32632348,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 139,
+          "popular": 32665379,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Johnson-2-0.9-stress-ensemble-21031",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "mode": "2",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "477": [
+            3742
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3801
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NY",
+            "NY",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA",
+            "PA"
+          ]
+        },
+        "search": {
+          "score": 8.408868815064421,
+          "zeroEV": 245,
+          "zeroPV": 32539336,
+          "simulationSeed": 21031,
+          "modelSuccess": 0,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "a37348d78a5da41e824fd7b84b0a8546d50fdb32aa5a9a63181a2d0dfe190d26",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 246,
+          "popular": 32678393,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 245,
+          "popular": 32740448,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 253,
+          "popular": 32632632,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 244,
+          "popular": 32434534,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "BCitsHard-1960_Kennedy_Humphrey-1-0.9-stress-ensemble-21068",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Humphrey",
+        "mode": "1",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "452": [
+            3668
+          ],
+          "453": [
+            3670
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3687
+          ],
+          "476": [
+            3739
+          ],
+          "478": [
+            3747
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "481": [
+            3755
+          ],
+          "483": [
+            3761
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3784
+          ],
+          "491": [
+            3786
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ],
+          "495": [
+            3802
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "WI",
+            "WI"
+          ]
+        },
+        "search": {
+          "score": 8.59798975125485,
+          "zeroEV": 200,
+          "zeroPV": 30697910,
+          "simulationSeed": 21068,
+          "modelSuccess": 0,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "5b2d64f42678ff25d7081ae9054b94a9698b2aeb6643988931918fd61f03e3c6",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 200,
+          "popular": 30813505,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 172,
+          "popular": 30096910,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 200,
+          "popular": 30373763,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 171,
+          "popular": 30281271,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-robust-15877",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "mode": "1",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "search": {
+          "score": 17.15431038061315,
+          "zeroEV": 321,
+          "zeroPV": 77411698,
+          "simulationSeed": 15877
+        }
+      },
+      "routeSHA256": "2a0175015397188402a445d10b5186ffdf378607b8e77f989b0dc0779b115408",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 305,
+          "popular": 76841487,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 321,
+          "popular": 76216099,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 321,
+          "popular": 76751139,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 311,
+          "popular": 76952840,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 321,
+          "popular": 77563721,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 311,
+          "popular": 77003967,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 311,
+          "popular": 76748865,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 321,
+          "popular": 77672041,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 311,
+          "popular": 77943731,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 311,
+          "popular": 77107874,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 311,
+          "popular": 77607548,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 321,
+          "popular": 77169492,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-13109",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "mode": "1",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6169
+          ],
+          "1316": [
+            6173
+          ],
+          "1317": [
+            6179
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "search": {
+          "score": 19.86248895166661,
+          "zeroEV": 321,
+          "zeroPV": 77368557,
+          "simulationSeed": 13109,
+          "modelSuccess": 31,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "260fd11107a783a004a5eaba135ae7597265b0de67a403f68559457616ed7a67",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 305,
+          "popular": 76799199,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 321,
+          "popular": 76173434,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 321,
+          "popular": 76707700,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 311,
+          "popular": 76910106,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 321,
+          "popular": 77520636,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 311,
+          "popular": 76960776,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 311,
+          "popular": 76705344,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 322,
+          "popular": 77628824,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 5437,
+          "electoral": 311,
+          "popular": 77900494,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 311,
+          "popular": 77064365,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 311,
+          "popular": 77565380,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 321,
+          "popular": 77126165,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-21031",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "mode": "1",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6169
+          ],
+          "1316": [
+            6173
+          ],
+          "1317": [
+            6179
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6203
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "search": {
+          "score": 19.384433237333326,
+          "zeroEV": 321,
+          "zeroPV": 77396106,
+          "simulationSeed": 21031,
+          "modelSuccess": 29,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "27815808d1e8588a113f4543d29dedfb96e6f8232f804188880638331c016555",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 305,
+          "popular": 76825471,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 321,
+          "popular": 76200432,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 321,
+          "popular": 76734572,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 311,
+          "popular": 76937399,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-44879",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "mode": "1",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6171
+          ],
+          "1316": [
+            6175
+          ],
+          "1317": [
+            6178
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "search": {
+          "score": 15.67269805601707,
+          "zeroEV": 321,
+          "zeroPV": 77411698,
+          "simulationSeed": 44879,
+          "modelSuccess": 18,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "2a0175015397188402a445d10b5186ffdf378607b8e77f989b0dc0779b115408",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 305,
+          "popular": 76841487,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 321,
+          "popular": 76216099,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 321,
+          "popular": 76751139,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 311,
+          "popular": 76952840,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+        "achievement": "destiny",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5148
+          ],
+          "1045": [
+            5151
+          ],
+          "1046": [
+            5155
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5178
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5199
+          ],
+          "1061": [
+            5206
+          ],
+          "1065": [
+            5222
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5230
+          ],
+          "1068": [
+            5231
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5245
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "PA"
+          ]
+        },
+        "search": {
+          "score": 5.044394949745038,
+          "zeroEV": 232,
+          "zeroPV": 61521226
+        }
+      },
+      "routeSHA256": "71b03b3374d1ae7e45e9b6203b3668bd6aff47222b2df8f386b9b8f685bf6490",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 232,
+          "popular": 62127873,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 231,
+          "popular": 60478103,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 232,
+          "popular": 62017021,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 230,
+          "popular": 60923657,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 233,
+          "popular": 62009495,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 233,
+          "popular": 62006750,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 233,
+          "popular": 60996280,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 232,
+          "popular": 60952072,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 60601315,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 61386572,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 234,
+          "popular": 62142278,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 231,
+          "popular": 61073394,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Clinton_Kaine-2-0.9-stress-ensemble-17117-232",
+        "achievement": "destiny",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5139
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5148
+          ],
+          "1045": [
+            5151
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5175
+          ],
+          "1053": [
+            5178
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5205
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5226
+          ],
+          "1067": [
+            5230
+          ],
+          "1068": [
+            5234
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5243
+          ],
+          "1072": [
+            5246
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5259
+          ],
+          "1077": [
+            5263
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NM",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "search": {
+          "score": 23.67084908600259,
+          "zeroEV": 232,
+          "zeroPV": 61203990,
+          "simulationSeed": 17117,
+          "modelTarget": 232,
+          "modelSuccess": 87,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "2a2a73c6df20c51f85624136b26aacd20f5235f7068b666b385574eddaa30b07",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 231,
+          "popular": 61798080,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 227,
+          "popular": 60170011,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 232,
+          "popular": 61700758,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 229,
+          "popular": 60608017,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 232,
+          "popular": 61691271,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 231,
+          "popular": 61681652,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 231,
+          "popular": 60682933,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 230,
+          "popular": 60634171,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 60296503,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 61072192,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 231,
+          "popular": 61824625,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 230,
+          "popular": 60765770,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Trump_Palin-2-0.97-stress-ensemble-17117-232",
+        "achievement": "destiny",
+        "scope": "2016_Trump_Palin",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5000
+          ],
+          "1005": [
+            5012
+          ],
+          "1006": [
+            5015
+          ],
+          "1007": [
+            5017
+          ],
+          "1008": [
+            5023
+          ],
+          "1009": [
+            5024
+          ],
+          "1010": [
+            5027
+          ],
+          "1011": [
+            5030
+          ],
+          "1013": [
+            5039
+          ],
+          "1014": [
+            5043
+          ],
+          "1015": [
+            5047
+          ],
+          "1017": [
+            5052
+          ],
+          "1018": [
+            5056
+          ],
+          "1022": [
+            5074
+          ],
+          "1023": [
+            5075
+          ],
+          "1024": [
+            5079
+          ],
+          "1025": [
+            5083
+          ],
+          "1026": [
+            5086
+          ],
+          "1028": [
+            5096
+          ],
+          "1033": [
+            5112
+          ],
+          "1034": [
+            5117
+          ],
+          "1035": [
+            5120
+          ],
+          "1036": [
+            5122
+          ],
+          "1037": [
+            5123
+          ],
+          "1041": [
+            5136
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "HI",
+            "HI",
+            "MA",
+            "NJ",
+            "NJ",
+            "NJ",
+            "NJ",
+            "NJ",
+            "NY",
+            "NY",
+            "NY",
+            "TX"
+          ]
+        },
+        "search": {
+          "score": 28.018694180423793,
+          "zeroEV": 232,
+          "zeroPV": 56637146,
+          "simulationSeed": 17117,
+          "modelTarget": 232,
+          "modelSuccess": 83,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "4d13144cb52f049761b3a4e542c0dbff1e88530776869773d19f835d53028df9",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 228,
+          "popular": 56357203,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 56721748,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 231,
+          "popular": 55771375,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 233,
+          "popular": 57341198,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 232,
+          "popular": 56872675,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 233,
+          "popular": 56285867,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 232,
+          "popular": 56653337,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 230,
+          "popular": 56501695,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 227,
+          "popular": 55455416,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 56247037,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 233,
+          "popular": 57188801,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 232,
+          "popular": 56408248,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Graham-2-0.97-search",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Graham",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3311
+          ],
+          "344": [
+            3317
+          ],
+          "345": [
+            3321
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3329
+          ],
+          "348": [
+            3332
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3345
+          ],
+          "359": [
+            3371
+          ],
+          "362": [
+            3381
+          ],
+          "363": [
+            3385
+          ],
+          "364": [
+            3388
+          ],
+          "367": [
+            3398
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3431
+          ],
+          "376": [
+            3435
+          ],
+          "377": [
+            3439
+          ],
+          "382": [
+            3460
+          ],
+          "385": [
+            3468
+          ],
+          "390": [
+            3486
+          ],
+          "391": [
+            3487
+          ],
+          "392": [
+            3490
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC",
+            "DC"
+          ]
+        }
+      },
+      "routeSHA256": "511fda642bc512a747234e98821da6eb3077eacd016594f3844613ca9609b715",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 234,
+          "popular": 48009215,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 231,
+          "popular": 48052440,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 234,
+          "popular": 48222766,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 234,
+          "popular": 47556430,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 228,
+          "popular": 47376288,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 233,
+          "popular": 47808518,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 232,
+          "popular": 47408932,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 227,
+          "popular": 46668053,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 47653741,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 234,
+          "popular": 48097977,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 231,
+          "popular": 47661334,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 232,
+          "popular": 47426623,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Graham-2-0.95-stress-ensemble-20347-232",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Graham",
+        "mode": "2",
+        "difficulty": 0.95,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3310
+          ],
+          "344": [
+            3317
+          ],
+          "345": [
+            3321
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3326
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3336
+          ],
+          "350": [
+            3340
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3344
+          ],
+          "359": [
+            3373
+          ],
+          "362": [
+            3384
+          ],
+          "363": [
+            3387
+          ],
+          "364": [
+            3389
+          ],
+          "367": [
+            3399
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3432
+          ],
+          "376": [
+            3436
+          ],
+          "377": [
+            3439
+          ],
+          "382": [
+            3457
+          ],
+          "385": [
+            3470
+          ],
+          "390": [
+            3484
+          ],
+          "391": [
+            3488
+          ],
+          "392": [
+            3490
+          ],
+          "398": [
+            3503
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "IL",
+            "KY",
+            "KY",
+            "NJ",
+            "NJ",
+            "WV",
+            "WV",
+            "WV",
+            "WV",
+            "WV",
+            "WV"
+          ]
+        },
+        "search": {
+          "score": 30.646245696307027,
+          "zeroEV": 232,
+          "zeroPV": 47463134,
+          "simulationSeed": 20347,
+          "modelTarget": 232,
+          "modelSuccess": 112,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "f2eb03ea452c903292ab90c5209fb17c5bca2706fabb76fe5d93f9ad7383d676",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 234,
+          "popular": 48028221,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 48036040,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 48230881,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 232,
+          "popular": 47557638,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 232,
+          "popular": 47370684,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 234,
+          "popular": 47824084,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 233,
+          "popular": 47400824,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 232,
+          "popular": 46652235,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 233,
+          "popular": 47659709,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 233,
+          "popular": 48107902,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 232,
+          "popular": 47651964,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 232,
+          "popular": 47419337,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Bush_Cheney-2-0.97-stress-ensemble-12749-232",
+        "achievement": "destiny",
+        "scope": "2000_Bush_Cheney",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3312
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3318
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3326
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3339
+          ],
+          "351": [
+            3342
+          ],
+          "352": [
+            3345
+          ],
+          "355": [
+            3355
+          ],
+          "358": [
+            3367
+          ],
+          "359": [
+            3371
+          ],
+          "362": [
+            3381
+          ],
+          "364": [
+            3388
+          ],
+          "365": [
+            3391
+          ],
+          "366": [
+            3395
+          ],
+          "369": [
+            3405
+          ],
+          "372": [
+            3417
+          ],
+          "374": [
+            3427
+          ],
+          "381": [
+            3455
+          ],
+          "384": [
+            3466
+          ],
+          "388": [
+            3480
+          ],
+          "389": [
+            3482
+          ],
+          "393": [
+            3493
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AK",
+            "AK",
+            "IA",
+            "IA",
+            "IA",
+            "IA",
+            "MN",
+            "WV",
+            "WV",
+            "WV",
+            "WV",
+            "WV"
+          ]
+        },
+        "search": {
+          "score": 25.010936794280354,
+          "zeroEV": 232,
+          "zeroPV": 46218180,
+          "simulationSeed": 12749,
+          "modelTarget": 232,
+          "modelSuccess": 72,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "fb76ccf082162ff837bce25e567983b5bb5cb6d410983bf2255c9a2ccdc83d70",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 233,
+          "popular": 46581770,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 46776650,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 47037850,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 232,
+          "popular": 45978213,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 233,
+          "popular": 46167497,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 233,
+          "popular": 46772849,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 231,
+          "popular": 45969464,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 229,
+          "popular": 45446372,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 224,
+          "popular": 45568285,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 46233761,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 230,
+          "popular": 45840934,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 233,
+          "popular": 46265172,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Graham-2-0.97-stress-ensemble-12749-232",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Graham",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3312
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3320
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3328
+          ],
+          "348": [
+            3331
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3339
+          ],
+          "351": [
+            3341
+          ],
+          "352": [
+            3344
+          ],
+          "359": [
+            3371
+          ],
+          "362": [
+            3383
+          ],
+          "363": [
+            3385
+          ],
+          "364": [
+            3388
+          ],
+          "367": [
+            3397
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3431
+          ],
+          "376": [
+            3435
+          ],
+          "377": [
+            3439
+          ],
+          "382": [
+            3458
+          ],
+          "385": [
+            3468
+          ],
+          "390": [
+            3484
+          ],
+          "391": [
+            3487
+          ],
+          "392": [
+            3490
+          ],
+          "398": [
+            3504
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "CA",
+            "CA",
+            "IL",
+            "NJ",
+            "NY",
+            "SC",
+            "SC",
+            "SC",
+            "SC",
+            "TN"
+          ]
+        },
+        "search": {
+          "score": 16.507693768276223,
+          "zeroEV": 231,
+          "zeroPV": 47703855,
+          "simulationSeed": 12749,
+          "modelTarget": 232,
+          "modelSuccess": 25,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "2dbe60d1562e7837929295545fea6e24336931a7bdc66f9b3b2e2411be137b8c",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 236,
+          "popular": 48241983,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 233,
+          "popular": 48294220,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 236,
+          "popular": 48459281,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 234,
+          "popular": 47788911,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-25183",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5140
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5176
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5184
+          ],
+          "1057": [
+            5190
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5204
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5235
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5260
+          ],
+          "1077": [
+            5263
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "AR",
+            "AR",
+            "CA",
+            "CA",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NC"
+          ]
+        },
+        "search": {
+          "score": 24.26342535652991,
+          "zeroEV": 270,
+          "zeroPV": 66141517,
+          "simulationSeed": 25183,
+          "modelSuccess": 42,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "52882f6799326d168b854177a543a271edb328277f46edf287b405fd96a4081a",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 269,
+          "popular": 66794692,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 262,
+          "popular": 65060921,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 271,
+          "popular": 66677362,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 268,
+          "popular": 65525139,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Booker-2-0.97-stress-ensemble-16931",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Booker",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5150
+          ],
+          "1045": [
+            5152
+          ],
+          "1048": [
+            5161
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1055": [
+            5185
+          ],
+          "1058": [
+            5195
+          ],
+          "1059": [
+            5196
+          ],
+          "1060": [
+            5202
+          ],
+          "1063": [
+            5213
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5233
+          ],
+          "1069": [
+            5235
+          ],
+          "1070": [
+            5239
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5248
+          ],
+          "1073": [
+            5252
+          ],
+          "1074": [
+            5255
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1079": [
+            5267
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AR",
+            "CA",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NC",
+            "OH",
+            "OH",
+            "OH"
+          ]
+        },
+        "search": {
+          "score": 23.040512080633086,
+          "zeroEV": 270,
+          "zeroPV": 66591234,
+          "simulationSeed": 16931,
+          "modelSuccess": 38,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "db67be74ca87165b4e937c055aefe5471bc21c82f77af12b2ea90e7b89dcbc8e",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 269,
+          "popular": 66575875,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 271,
+          "popular": 67217704,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 269,
+          "popular": 66743326,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 270,
+          "popular": 67358596,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 268,
+          "popular": 66273196,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 275,
+          "popular": 67061114,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 264,
+          "popular": 65665018,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 277,
+          "popular": 67324955,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 278,
+          "popular": 67654129,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。",
+            "密歇根州实际第 1 名，需要第 2 名。",
+            "宾夕法尼亚州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 271,
+          "popular": 66704602,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 268,
+          "popular": 65606335,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。",
+            "宾夕法尼亚州实际第 1 名，需要第 2 名。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 271,
+          "popular": 66784972,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "威斯康星州实际第 1 名，需要第 2 名。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "whatbelt-2016_Clinton_Kaine-2-0.9-stress-ensemble-25183",
+        "achievement": "whatbelt",
+        "scope": "2016_Clinton_Kaine",
+        "mode": "2",
+        "difficulty": 0.9,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5141
+          ],
+          "1043": [
+            5144
+          ],
+          "1044": [
+            5149
+          ],
+          "1045": [
+            5152
+          ],
+          "1046": [
+            5157
+          ],
+          "1051": [
+            5171
+          ],
+          "1052": [
+            5174
+          ],
+          "1053": [
+            5177
+          ],
+          "1054": [
+            5180
+          ],
+          "1055": [
+            5185
+          ],
+          "1057": [
+            5189
+          ],
+          "1059": [
+            5196
+          ],
+          "1061": [
+            5207
+          ],
+          "1065": [
+            5220
+          ],
+          "1066": [
+            5224
+          ],
+          "1067": [
+            5228
+          ],
+          "1068": [
+            5234
+          ],
+          "1069": [
+            5237
+          ],
+          "1071": [
+            5244
+          ],
+          "1072": [
+            5249
+          ],
+          "1073": [
+            5250
+          ],
+          "1074": [
+            5254
+          ],
+          "1075": [
+            5256
+          ],
+          "1076": [
+            5258
+          ],
+          "1077": [
+            5262
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "NH",
+            "NM",
+            "NM",
+            "OK",
+            "OK"
+          ]
+        },
+        "search": {
+          "score": 20.872190924295978,
+          "zeroEV": 269,
+          "zeroPV": 65690380,
+          "simulationSeed": 25183,
+          "modelSuccess": 28,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "5a809703837ba874de3f6f4a35758b8d15ccc2f558778913879c005108f4f48b",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 268,
+          "popular": 66331703,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 256,
+          "popular": 64608225,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 267,
+          "popular": 66218317,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 267,
+          "popular": 65071640,
+          "outcome": "tie",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+        "achievement": "destiny",
+        "scope": "2016_Clinton_Warren",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1042": [
+            5139
+          ],
+          "1043": [
+            5145
+          ],
+          "1044": [
+            5147
+          ],
+          "1045": [
+            5152
+          ],
+          "1049": [
+            5166
+          ],
+          "1051": [
+            5172
+          ],
+          "1052": [
+            5175
+          ],
+          "1054": [
+            5183
+          ],
+          "1055": [
+            5184
+          ],
+          "1057": [
+            5191
+          ],
+          "1058": [
+            5195
+          ],
+          "1059": [
+            5199
+          ],
+          "1061": [
+            5207
+          ],
+          "1063": [
+            5215
+          ],
+          "1066": [
+            5225
+          ],
+          "1067": [
+            5229
+          ],
+          "1069": [
+            5237
+          ],
+          "1070": [
+            5241
+          ],
+          "1071": [
+            5242
+          ],
+          "1072": [
+            5249
+          ],
+          "1073": [
+            5251
+          ],
+          "1074": [
+            5253
+          ],
+          "1075": [
+            5257
+          ],
+          "1076": [
+            5261
+          ],
+          "1080": [
+            5269
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "IL",
+            "IL",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "NY",
+            "OR",
+            "OR"
+          ]
+        },
+        "search": {
+          "score": 24.268948645770088,
+          "zeroEV": 232,
+          "zeroPV": 61242385,
+          "simulationSeed": 19991,
+          "modelTarget": 232,
+          "modelSuccess": 79,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "0b2b2d9b1d0b644121775c3688380020694b73891b3f9f8a0caa04fba05a8a74",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 229,
+          "popular": 60088760,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 227,
+          "popular": 60448452,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 232,
+          "popular": 61740637,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 231,
+          "popular": 60644056,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 231,
+          "popular": 61724818,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 232,
+          "popular": 61727781,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 232,
+          "popular": 61188728,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 232,
+          "popular": 60669043,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 61473030,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 233,
+          "popular": 61761117,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 232,
+          "popular": 61858976,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 233,
+          "popular": 61125731,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2016_Trump_Sessions-2-0.97-stress-ensemble-19991-232",
+        "achievement": "destiny",
+        "scope": "2016_Trump_Sessions",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1000": [
+            5001
+          ],
+          "1002": [
+            5006
+          ],
+          "1006": [
+            5015
+          ],
+          "1007": [
+            5018
+          ],
+          "1008": [
+            5023
+          ],
+          "1009": [
+            5024
+          ],
+          "1011": [
+            5030
+          ],
+          "1012": [
+            5035
+          ],
+          "1013": [
+            5039
+          ],
+          "1014": [
+            5043
+          ],
+          "1015": [
+            5046
+          ],
+          "1016": [
+            5049
+          ],
+          "1018": [
+            5056
+          ],
+          "1021": [
+            5070
+          ],
+          "1022": [
+            5074
+          ],
+          "1025": [
+            5084
+          ],
+          "1026": [
+            5086
+          ],
+          "1027": [
+            5091
+          ],
+          "1028": [
+            5093
+          ],
+          "1029": [
+            5100
+          ],
+          "1033": [
+            5112
+          ],
+          "1034": [
+            5116
+          ],
+          "1035": [
+            5120
+          ],
+          "1036": [
+            5121
+          ],
+          "1037": [
+            5125
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "NJ",
+            "NJ",
+            "NJ",
+            "NJ",
+            "NY",
+            "NY",
+            "NY",
+            "OH",
+            "SC",
+            "SC",
+            "TX",
+            "TX"
+          ]
+        },
+        "search": {
+          "score": 24.18675110227888,
+          "zeroEV": 232,
+          "zeroPV": 56482124,
+          "simulationSeed": 19991,
+          "modelTarget": 232,
+          "modelSuccess": 79,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "83d4cdac8d8a5c6d0760631b6ba4953f51ff1a90dd4dc793b81687dfcc9fd9bc",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 227,
+          "popular": 56201217,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 56568129,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 230,
+          "popular": 55618373,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 233,
+          "popular": 57187043,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 232,
+          "popular": 56717148,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 222,
+          "popular": 55414862,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 231,
+          "popular": 56498123,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 231,
+          "popular": 56306252,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 220,
+          "popular": 55305052,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 229,
+          "popular": 56175101,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 232,
+          "popular": 57032631,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 232,
+          "popular": 56254038,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Lieberman",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3310
+          ],
+          "344": [
+            3315
+          ],
+          "345": [
+            3320
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3329
+          ],
+          "348": [
+            3332
+          ],
+          "349": [
+            3334
+          ],
+          "350": [
+            3340
+          ],
+          "351": [
+            3341
+          ],
+          "352": [
+            3345
+          ],
+          "353": [
+            3349
+          ],
+          "355": [
+            3358
+          ],
+          "356": [
+            3362
+          ],
+          "358": [
+            3366
+          ],
+          "361": [
+            3380
+          ],
+          "363": [
+            3387
+          ],
+          "365": [
+            3390
+          ],
+          "367": [
+            3399
+          ],
+          "370": [
+            3411
+          ],
+          "375": [
+            3432
+          ],
+          "377": [
+            3439
+          ],
+          "382": [
+            3457
+          ],
+          "385": [
+            3470
+          ],
+          "390": [
+            3486
+          ],
+          "397": [
+            3501
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL"
+          ]
+        },
+        "search": {
+          "score": 36.426934652340634,
+          "zeroEV": 232,
+          "zeroPV": 47324724,
+          "simulationSeed": 17539,
+          "modelTarget": 232,
+          "modelSuccess": 136,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "540121130b9800a58f517fe8654d02801ef23cec2025f38cda877bdae9122d7b",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 232,
+          "popular": 47944594,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 47476787,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 48020836,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 232,
+          "popular": 47063242,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 232,
+          "popular": 47191325,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 232,
+          "popular": 46941342,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 232,
+          "popular": 46978049,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 230,
+          "popular": 46516505,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 46440938,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 47518806,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 232,
+          "popular": 47306861,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 232,
+          "popular": 47571899,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Bush_Ridge-2-0.97-stress-ensemble-17539-232",
+        "achievement": "destiny",
+        "scope": "2000_Bush_Ridge",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3310
+          ],
+          "344": [
+            3315
+          ],
+          "345": [
+            3321
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3327
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3336
+          ],
+          "350": [
+            3338
+          ],
+          "351": [
+            3341
+          ],
+          "353": [
+            3347
+          ],
+          "354": [
+            3353
+          ],
+          "357": [
+            3365
+          ],
+          "360": [
+            3374
+          ],
+          "361": [
+            3379
+          ],
+          "363": [
+            3385
+          ],
+          "364": [
+            3389
+          ],
+          "365": [
+            3390
+          ],
+          "366": [
+            3394
+          ],
+          "369": [
+            3405
+          ],
+          "372": [
+            3419
+          ],
+          "374": [
+            3426
+          ],
+          "381": [
+            3453
+          ],
+          "384": [
+            3465
+          ],
+          "387": [
+            3476
+          ],
+          "395": [
+            3498
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "AK",
+            "AK",
+            "AK",
+            "AK",
+            "AK",
+            "AK",
+            "AK",
+            "AK",
+            "FL",
+            "TX",
+            "TX",
+            "TX"
+          ]
+        },
+        "search": {
+          "score": 32.432909016600725,
+          "zeroEV": 232,
+          "zeroPV": 46190606,
+          "simulationSeed": 17539,
+          "modelTarget": 232,
+          "modelSuccess": 124,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "ae1e7eb475ad134e4c91b3987a3c63840d41eb0212edcf9f7b3efceb74a050e2",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 229,
+          "popular": 45369366,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 231,
+          "popular": 45985270,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 46729350,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 232,
+          "popular": 46363777,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Gore_Kerry-2-0.97-stress-ensemble-17539-232",
+        "achievement": "destiny",
+        "scope": "2000_Gore_Kerry",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3310
+          ],
+          "344": [
+            3315
+          ],
+          "345": [
+            3320
+          ],
+          "346": [
+            3322
+          ],
+          "347": [
+            3329
+          ],
+          "348": [
+            3332
+          ],
+          "349": [
+            3336
+          ],
+          "350": [
+            3340
+          ],
+          "351": [
+            3341
+          ],
+          "352": [
+            3345
+          ],
+          "353": [
+            3348
+          ],
+          "355": [
+            3356
+          ],
+          "356": [
+            3362
+          ],
+          "362": [
+            3383
+          ],
+          "363": [
+            3387
+          ],
+          "364": [
+            3388
+          ],
+          "365": [
+            3392
+          ],
+          "367": [
+            3399
+          ],
+          "370": [
+            3412
+          ],
+          "375": [
+            3429
+          ],
+          "382": [
+            3457
+          ],
+          "385": [
+            3469
+          ],
+          "391": [
+            3487
+          ],
+          "392": [
+            3492
+          ],
+          "399": [
+            3506
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "CA",
+            "CA",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "FL",
+            "IL",
+            "IL",
+            "NJ"
+          ]
+        },
+        "search": {
+          "score": 33.45608934627042,
+          "zeroEV": 232,
+          "zeroPV": 47499958,
+          "simulationSeed": 17539,
+          "modelTarget": 232,
+          "modelSuccess": 118,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "bd47dd6af76667b484a1abe6d8492005b390696f3c9ab5df80a62cc869415621",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 232,
+          "popular": 48120990,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 231,
+          "popular": 47456463,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 48195972,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 233,
+          "popular": 48444414,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": []
+    },
+    {
+      "route": {
+        "id": "destiny-2000_Bush_Powell-2-0.97-stress-ensemble-17539-232",
+        "achievement": "destiny",
+        "scope": "2000_Bush_Powell",
+        "mode": "2",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "343": [
+            3313
+          ],
+          "344": [
+            3316
+          ],
+          "345": [
+            3318
+          ],
+          "346": [
+            3323
+          ],
+          "347": [
+            3326
+          ],
+          "348": [
+            3330
+          ],
+          "349": [
+            3335
+          ],
+          "350": [
+            3337
+          ],
+          "351": [
+            3342
+          ],
+          "355": [
+            3355
+          ],
+          "357": [
+            3364
+          ],
+          "359": [
+            3372
+          ],
+          "360": [
+            3374
+          ],
+          "361": [
+            3378
+          ],
+          "362": [
+            3381
+          ],
+          "363": [
+            3385
+          ],
+          "364": [
+            3388
+          ],
+          "366": [
+            3394
+          ],
+          "369": [
+            3405
+          ],
+          "372": [
+            3419
+          ],
+          "374": [
+            3427
+          ],
+          "381": [
+            3455
+          ],
+          "384": [
+            3465
+          ],
+          "389": [
+            3482
+          ],
+          "396": [
+            3499
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "FL",
+            "FL",
+            "FL",
+            "IA",
+            "IA",
+            "VA",
+            "VA",
+            "VA",
+            "VA",
+            "VA",
+            "VA",
+            "VA"
+          ]
+        },
+        "search": {
+          "score": 27.910015525254703,
+          "zeroEV": 232,
+          "zeroPV": 46228248,
+          "simulationSeed": 17539,
+          "modelTarget": 232,
+          "modelSuccess": 102,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "41a2352f0ff037ed9f245e28c1fcf72ae3b4d8994260da2146f89684b9008697",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 230,
+          "popular": 45408019,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 232,
+          "popular": 46120896,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 233,
+          "popular": 47044212,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 232,
+          "popular": 46629238,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 233,
+          "popular": 46180928,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 232,
+          "popular": 45890210,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 232,
+          "popular": 45778145,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 232,
+          "popular": 45460005,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 232,
+          "popular": 46450463,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 232,
+          "popular": 45546347,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 232,
+          "popular": 45713625,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": true,
+          "reasons": [
+            "尚未记录的年份：2020 / 2016 / 2012 / 1988 / 1976 / 1964。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 234,
+          "popular": 46267766,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "需要本人恰好取得 306 / 232 票。",
+            "尚未记录的年份：2020 / 2016 / 2012 / 2000 / 1988 / 1976 / 1964。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "magaa-2020_Trump_Haley-1-0.97-stress-ensemble-14963-N2",
+        "achievement": "magaa",
+        "scope": "2020_Trump_Haley",
+        "mode": "1",
+        "difficulty": 0.97,
+        "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+        "origin": "model-search",
+        "answers": {
+          "1300": [
+            6109
+          ],
+          "1301": [
+            6114
+          ],
+          "1302": [
+            6120
+          ],
+          "1303": [
+            6124
+          ],
+          "1304": [
+            6127
+          ],
+          "1305": [
+            6132
+          ],
+          "1306": [
+            6136
+          ],
+          "1307": [
+            6139
+          ],
+          "1308": [
+            6142
+          ],
+          "1309": [
+            6147
+          ],
+          "1310": [
+            6148
+          ],
+          "1311": [
+            6152
+          ],
+          "1313": [
+            6161
+          ],
+          "1314": [
+            6167
+          ],
+          "1315": [
+            6169
+          ],
+          "1316": [
+            6173
+          ],
+          "1317": [
+            6179
+          ],
+          "1318": [
+            6182
+          ],
+          "1319": [
+            6184
+          ],
+          "1320": [
+            6189
+          ],
+          "1321": [
+            6194
+          ],
+          "1322": [
+            6199
+          ],
+          "1323": [
+            6202
+          ],
+          "1324": [
+            6205
+          ],
+          "1326": [
+            6211
+          ]
+        },
+        "visits": {
+          "sequence": [
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN",
+            "MN"
+          ]
+        },
+        "search": {
+          "score": 21.355947782637983,
+          "zeroEV": 321,
+          "zeroPV": 77368557,
+          "simulationSeed": 14963,
+          "modelSuccess": 35,
+          "modelTotal": 192
+        }
+      },
+      "routeSHA256": "260fd11107a783a004a5eaba135ae7597265b0de67a403f68559457616ed7a67",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 305,
+          "popular": 76799199,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 17 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 321,
+          "popular": 76173434,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 321,
+          "popular": 76707700,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 311,
+          "popular": 76910106,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 321,
+          "popular": 77520636,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 311,
+          "popular": 76960776,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 311,
+          "popular": 76705344,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 322,
+          "popular": 77628824,
+          "outcome": "win",
+          "unlocked": true,
+          "yearRecorded": false,
+          "reasons": []
+        },
+        {
+          "seed": 5437,
+          "electoral": 311,
+          "popular": 77900494,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 311,
+          "popular": 77064365,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 311,
+          "popular": 77565380,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 11 张选举人票。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 321,
+          "popular": 77126165,
+          "outcome": "win",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "距离门槛还差 1 张选举人票。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": {
+        "id": "BCitsHard-community",
+        "achievement": "BCitsHard",
+        "scope": "1960_Kennedy_Johnson",
+        "mode": "1",
+        "difficulty": 0.9,
+        "source": "https://www.reddit.com/r/thecampaigntrail/comments/10lbu98/not_because_it_is_easy_but_because_it_is_hard_is/",
+        "origin": "community",
+        "answers": {
+          "448": [
+            3659
+          ],
+          "449": [
+            3664
+          ],
+          "450": [
+            3665
+          ],
+          "454": [
+            3675
+          ],
+          "455": [
+            3679
+          ],
+          "456": [
+            3680
+          ],
+          "457": [
+            3683
+          ],
+          "458": [
+            3688,
+            3687
+          ],
+          "476": [
+            3737,
+            3739
+          ],
+          "477": [
+            3742,
+            3743
+          ],
+          "479": [
+            3750
+          ],
+          "480": [
+            3753
+          ],
+          "482": [
+            3758
+          ],
+          "483": [
+            3760
+          ],
+          "484": [
+            3764
+          ],
+          "485": [
+            3768
+          ],
+          "486": [
+            3771
+          ],
+          "487": [
+            3775
+          ],
+          "488": [
+            3779
+          ],
+          "489": [
+            3782
+          ],
+          "490": [
+            3783,
+            3784
+          ],
+          "492": [
+            3792
+          ],
+          "493": [
+            3795
+          ],
+          "494": [
+            3798
+          ]
+        },
+        "visits": {
+          "weakest": [
+            "IL",
+            "TX",
+            "MI",
+            "PA"
+          ]
+        }
+      },
+      "routeSHA256": "391cd07c910ad6705f74c54306ec39b1e151be1b263e9777db1f670567c674a5",
+      "clickable": true,
+      "discovery": [
+        {
+          "seed": 421,
+          "electoral": 125,
+          "popular": 32447280,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1103,
+          "electoral": 125,
+          "popular": 32505383,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2309,
+          "electoral": 161,
+          "popular": 32402915,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 3413,
+          "electoral": 80,
+          "popular": 32201325,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ],
+      "holdout": [
+        {
+          "seed": 667,
+          "electoral": 139,
+          "popular": 32640654,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 1877,
+          "electoral": 175,
+          "popular": 32880262,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 2851,
+          "electoral": 125,
+          "popular": 32246359,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 4157,
+          "electoral": 217,
+          "popular": 32688560,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 5437,
+          "electoral": 139,
+          "popular": 32571342,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 7673,
+          "electoral": 125,
+          "popular": 32125693,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 8933,
+          "electoral": 125,
+          "popular": 32426992,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        },
+        {
+          "seed": 10093,
+          "electoral": 139,
+          "popular": 32459128,
+          "outcome": "loss",
+          "unlocked": false,
+          "yearRecorded": false,
+          "reasons": [
+            "这一项还要求赢得全国选举。"
+          ]
+        }
+      ]
+    }
+  ]
+}

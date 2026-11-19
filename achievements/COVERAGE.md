@@ -2,18 +2,18 @@
 
 [Achievement guide](README.md) · [简体中文](COVERAGE_ZH.md)
 
-Coverage snapshot: `2026-11-19T01:12:01.598Z`. **31/31 native achievements have actual unlock evidence**, across 908 recorded browser games.
+Coverage snapshot: `2026-11-19T01:33:02.960Z`. **31/31 native achievements have actual unlock evidence**, across 1172 recorded browser games.
 
 Games used the original answer/visit controls, with non-loopback requests blocked. Unlocks were read from the native save. Replay counts include deliberate search, failures and bilingual fixtures; they are not estimated success probabilities.
 
 | Achievement | Unlock evidence | Tested setup(s) |
 | --- | --- | --- |
-| Destiny Arrives All the Same | Recorded | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/destiny-destiny2016-community.md)<br>[1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)<br>[2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)<br>[2000 — Al Gore / Bob Graham; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Graham-2-0.97-search.md)<br>[1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)<br>[2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)<br>[1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md) |
+| Destiny Arrives All the Same | Recorded | [2016 — Hillary Clinton / Elizabeth Warren; Proportional; Normal (0.97)](walkthroughs/destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232.md)<br>[1976 — Jimmy Carter / Scoop Jackson; Default; Normal (0.97)](walkthroughs/destiny-destiny1976-community.md)<br>[2012 — Barack Obama / Joe Biden; Proportional; Normal (0.97)](walkthroughs/destiny-2012_Obama_Biden-2-0.97-search.md)<br>[2000 — Al Gore / Joe Lieberman; Proportional; Normal (0.97)](walkthroughs/destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232.md)<br>[1964 — Lyndon B. Johnson / Hubert H. Humphrey; Proportional; Normal (0.97)](walkthroughs/destiny-1964_Johnson_Humphrey-2-0.97-search.md)<br>[2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/destiny-2020-Bass-community.md)<br>[1988 — Michael Dukakis / Jesse Jackson; Default; Normal (0.97)](walkthroughs/destiny-1988-Jackson-community.md) |
 | The Dark Brandon Rises | Recorded | [2020 — Joe Biden / Val Demings; Default; Normal (0.97)](walkthroughs/ridingBiden-2020_Biden_Demings-1-0.97-stress-robust-14931.md) |
 | MAGA... Again | Recorded | [2020 — Donald Trump / Nikki Haley; Default; Normal (0.97)](walkthroughs/magaa-2020_Trump_Haley-1-0.97-stress-robust-15877.md) |
 | Not My President! | Recorded | [2020 — Donald Trump / Mike Pence; Default; Normal (0.97)](walkthroughs/nmpr-community.md) |
 | Civility Prevails...? | Recorded | [2020 — Joe Biden / Karen Bass; Default; Normal (0.97)](walkthroughs/nomalarkey-community.md) |
-| I'm Still Standing | Recorded | [2016 — Hillary Clinton / Tim Kaine; Proportional; Impossible (0.9)](walkthroughs/whatbelt-Kaine-FL6-NH6.md) |
+| I'm Still Standing | Recorded | [2016 — Hillary Clinton / Tim Kaine; Proportional; Normal (0.97)](walkthroughs/whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163.md) |
 | The Flame Berns Bright | Recorded | [2016 — Hillary Clinton / Bernie Sanders; Default; Normal (0.97)](walkthroughs/thebern-2016_Clinton_Sanders-1-0.97-margin-review.md) |
 | Moscow's Musketeers | Recorded | [2016 — Donald Trump / Sarah Palin; Default; Normal (0.97)](walkthroughs/moscow-community.md) |
 | Why? | Recorded | [2016a — Hillary Clinton / Cory Booker; Default; Normal (0.97)](walkthroughs/why-2016a_Clinton_Booker-1-0.97-search.md) |

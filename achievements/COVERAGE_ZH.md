@@ -1,17 +1,17 @@
 # 原生成就路线与实际解锁覆盖
 
-统计时间：2026-11-19T01:12:01.598Z。实际解锁 **31/31** 项；当前报告包含 **908** 局实际浏览器游戏。
+统计时间：2026-11-19T01:33:02.960Z。实际解锁 **31/31** 项；当前报告包含 **1172** 局实际浏览器游戏。
 
 每局通过原版按钮完成，读取原版存档判定。测试种子只用于隔离浏览器回归，不进入插件。中英文重复回放不当作独立成功样本；以下次数不是胜率。未注明实际解锁的搜索候选不能当作成功攻略。
 
 | 成就 | 实际解锁 | 路线／已测试 | 已验证组合与配置 |
 | --- | --- | --- | --- |
-| 殊途同归 (destiny) | 是 | 12 / 12 | 2016_Clinton_Kaine，模式2，系数0.9（1/13）<br>1976_Carter_Jackson，模式1，系数0.97（1/1）<br>2012_Obama_Biden，模式2，系数0.97（3/19）<br>2000_Gore_Graham，模式2，系数0.97（3/17）<br>1964_Johnson_Humphrey，模式2，系数0.97（1/38）<br>2020_Biden_Bass，模式1，系数0.97（1/1）<br>1988_Dukakis_Jackson，模式1，系数0.97（7/11）<br>2016_Clinton_Kaine，模式2，系数0.9（3/11）<br>2012_Obama_Biden，模式2，系数0.97（8/11）<br>1964_Johnson_Humphrey，模式2，系数0.97（4/11） |
+| 殊途同归 (destiny) | 是 | 14 / 14 | 2016_Clinton_Kaine，模式2，系数0.9（1/13）<br>1976_Carter_Jackson，模式1，系数0.97（1/1）<br>2012_Obama_Biden，模式2，系数0.97（3/19）<br>2000_Gore_Graham，模式2，系数0.97（6/29）<br>1964_Johnson_Humphrey，模式2，系数0.97（1/38）<br>2020_Biden_Bass，模式1，系数0.97（1/1）<br>1988_Dukakis_Jackson，模式1，系数0.97（7/11）<br>2016_Clinton_Kaine，模式2，系数0.9（8/23）<br>2012_Obama_Biden，模式2，系数0.97（8/11）<br>1964_Johnson_Humphrey，模式2，系数0.97（4/11）<br>2016_Clinton_Warren，模式2，系数0.97（6/12）<br>2000_Gore_Lieberman，模式2，系数0.97（10/12） |
 | 黑暗布兰登崛起 (ridingBiden) | 是 | 2 / 2 | 2020_Biden_Demings，模式1，系数0.97（4/14）<br>2020_Biden_Demings，模式1，系数0.97（4/11） |
 | 让美国再次伟大……再来一次 (magaa) | 是 | 4 / 4 | 2020_Trump_Haley，模式1，系数0.97（1/27）<br>2020_Trump_Haley，模式1，系数0.97（2/11） |
 | 他不是我的总统！ (nmpr) | 是 | 1 / 1 | 2020_Trump_Pence，模式1，系数0.97（1/3） |
 | 文明获胜……？ (nomalarkey) | 是 | 1 / 1 | 2020_Biden_Bass，模式1，系数0.97（2/3） |
-| 我依然屹立 (whatbelt) | 是 | 55 / 18 | 2016_Clinton_Kaine，模式2，系数0.9（1/12）<br>2016_Clinton_Kaine，模式2，系数0.97（2/11） |
+| 我依然屹立 (whatbelt) | 是 | 56 / 19 | 2016_Clinton_Kaine，模式2，系数0.9（1/12）<br>2016_Clinton_Kaine，模式2，系数0.97（4/23）<br>2016_Clinton_Kaine，模式2，系数0.97（3/12） |
 | 伯尼之火 (thebern) | 是 | 3 / 3 | 2016_Clinton_Sanders，模式1，系数0.97（8/8） |
 | 莫斯科的火枪手 (moscow) | 是 | 1 / 1 | 2016_Trump_Palin，模式1，系数0.97（2/3） |
 | 为什么？ (why) | 是 | 1 / 1 | 2016a_Clinton_Booker，模式1，系数0.97（2/2） |
@@ -44,6 +44,7 @@
 - [后续困难目标与失败记录](../tests/remaining-route-results.json)
 - [普通攻略路线提取](../tests/baseline-route-results.json)
 - [原版彩蛋、百局计数、跨年累计](../tests/procedural-achievement-results.json)
-- [新旧路线逐局对照](../tests/optimizer-route-comparison.json)
+- [新旧路线逐局对照 optimizer-route-comparison.json](../tests/optimizer-route-comparison.json)
+- [新旧路线逐局对照 ensemble-route-comparison.json](../tests/ensemble-route-comparison.json)
 
 固定路线按开局配置、已选答案、已访问州与原文指纹匹配。偏离后优先接入仍符合当前进度的实测路线，再使用模型建议。

@@ -6058,8 +6058,8 @@
       "totalQuestions": 25,
       "unmappedQuestions": [],
       "replays": {
-        "total": 17,
-        "success": 3,
+        "total": 29,
+        "success": 6,
         "samples": [
           {
             "seed": 1776,
@@ -6196,11 +6196,107 @@
             "yearRecorded": false,
             "report": "stress-route-comparison.json",
             "phase": "holdout"
+          },
+          {
+            "seed": 421,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 228,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 227,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
           }
         ],
         "holdout": {
-          "total": 6,
-          "success": 2
+          "total": 8,
+          "success": 3
         }
       }
     },
@@ -25458,8 +25554,8 @@
         "zeroPV": 66157104
       },
       "replays": {
-        "total": 11,
-        "success": 2,
+        "total": 23,
+        "success": 4,
         "samples": [
           {
             "seed": 1,
@@ -25548,11 +25644,107 @@
             "yearRecorded": false,
             "report": "stress-route-comparison.json",
             "phase": "holdout"
+          },
+          {
+            "seed": 421,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 263,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 272,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 270,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 270,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 274,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 266,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
           }
         ],
         "holdout": {
-          "total": 6,
-          "success": 1
+          "total": 8,
+          "success": 2
         }
       },
       "verification": "actual-unlock",
@@ -25940,8 +26132,8 @@
         "zeroPV": 61521226
       },
       "replays": {
-        "total": 11,
-        "success": 3,
+        "total": 23,
+        "success": 8,
         "samples": [
           {
             "seed": 1,
@@ -26030,11 +26222,107 @@
             "yearRecorded": false,
             "report": "stress-route-comparison.json",
             "phase": "holdout"
+          },
+          {
+            "seed": 421,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 234,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
           }
         ],
         "holdout": {
-          "total": 6,
-          "success": 1
+          "total": 8,
+          "success": 3
         }
       },
       "verification": "actual-year-record",
@@ -28338,6 +28626,767 @@
         "3797": "e4c22846",
         "3800": "d5fe3879",
         "3804": "62df9fb0"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-ensemble-19163",
+      "achievement": "whatbelt",
+      "scope": "2016_Clinton_Kaine",
+      "mode": "2",
+      "difficulty": 0.97,
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1042": [
+          5141
+        ],
+        "1043": [
+          5145
+        ],
+        "1044": [
+          5149
+        ],
+        "1045": [
+          5153
+        ],
+        "1046": [
+          5157
+        ],
+        "1051": [
+          5171
+        ],
+        "1052": [
+          5174
+        ],
+        "1053": [
+          5179
+        ],
+        "1054": [
+          5183
+        ],
+        "1055": [
+          5185
+        ],
+        "1057": [
+          5191
+        ],
+        "1059": [
+          5196
+        ],
+        "1061": [
+          5206
+        ],
+        "1065": [
+          5223
+        ],
+        "1066": [
+          5226
+        ],
+        "1067": [
+          5228
+        ],
+        "1068": [
+          5233
+        ],
+        "1069": [
+          5237
+        ],
+        "1071": [
+          5242
+        ],
+        "1072": [
+          5248
+        ],
+        "1073": [
+          5251
+        ],
+        "1074": [
+          5253
+        ],
+        "1075": [
+          5257
+        ],
+        "1076": [
+          5258
+        ],
+        "1077": [
+          5262
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "OH",
+          "OH",
+          "OH",
+          "OH"
+        ]
+      },
+      "search": {
+        "score": 26.251322388056817,
+        "zeroEV": 270,
+        "zeroPV": 66085696,
+        "simulationSeed": 19163,
+        "modelSuccess": 53,
+        "modelTotal": 192
+      },
+      "improves": "whatbelt-2016_Clinton_Kaine-2-0.97-stress-v1",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 12,
+        "success": 3,
+        "samples": [
+          {
+            "seed": 421,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 261,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 273,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 268,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 271,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 270,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 271,
+            "unlocked": true,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 267,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 269,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 275,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 266,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 3
+        }
+      },
+      "verification": "actual-unlock",
+      "sourceSHA256": "ec730b4ee58e9b3f3e84942f925e95e1ae31e34bee0c54a5aa18d09123851151",
+      "fingerprints": {
+        "5141": "7d4f5704",
+        "5145": "be6587fd",
+        "5149": "468bf375",
+        "5153": "cc34f6ae",
+        "5157": "a5d66925",
+        "5171": "859b0371",
+        "5174": "9f04e59c",
+        "5179": "b39a5263",
+        "5183": "b8d7c87f",
+        "5185": "7bb2e6dc",
+        "5191": "8d1c56ff",
+        "5196": "757016e",
+        "5206": "c56cb8bf",
+        "5223": "caafadbe",
+        "5226": "ef3e0309",
+        "5228": "1a9f4951",
+        "5233": "8566449e",
+        "5237": "799ae204",
+        "5242": "44d93667",
+        "5248": "d328ad5f",
+        "5251": "51079a22",
+        "5253": "833c82f7",
+        "5257": "1b6d796d",
+        "5258": "ef54e0c1",
+        "5262": "688bb999"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "destiny-2016_Clinton_Warren-2-0.97-stress-ensemble-19991-232",
+      "achievement": "destiny",
+      "scope": "2016_Clinton_Warren",
+      "mode": "2",
+      "difficulty": 0.97,
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "1042": [
+          5139
+        ],
+        "1043": [
+          5145
+        ],
+        "1044": [
+          5147
+        ],
+        "1045": [
+          5152
+        ],
+        "1049": [
+          5166
+        ],
+        "1051": [
+          5172
+        ],
+        "1052": [
+          5175
+        ],
+        "1054": [
+          5183
+        ],
+        "1055": [
+          5184
+        ],
+        "1057": [
+          5191
+        ],
+        "1058": [
+          5195
+        ],
+        "1059": [
+          5199
+        ],
+        "1061": [
+          5207
+        ],
+        "1063": [
+          5215
+        ],
+        "1066": [
+          5225
+        ],
+        "1067": [
+          5229
+        ],
+        "1069": [
+          5237
+        ],
+        "1070": [
+          5241
+        ],
+        "1071": [
+          5242
+        ],
+        "1072": [
+          5249
+        ],
+        "1073": [
+          5251
+        ],
+        "1074": [
+          5253
+        ],
+        "1075": [
+          5257
+        ],
+        "1076": [
+          5261
+        ],
+        "1080": [
+          5269
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "IL",
+          "IL",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "NY",
+          "OR",
+          "OR"
+        ]
+      },
+      "search": {
+        "score": 24.268948645770088,
+        "zeroEV": 232,
+        "zeroPV": 61242385,
+        "simulationSeed": 19991,
+        "modelTarget": 232,
+        "modelSuccess": 79,
+        "modelTotal": 192
+      },
+      "improves": "destiny-2016_Clinton_Kaine-2-0.9-stress-v1",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 12,
+        "success": 6,
+        "samples": [
+          {
+            "seed": 421,
+            "electoral": 229,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 227,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 231,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 5
+        }
+      },
+      "verification": "actual-year-record",
+      "sourceSHA256": "abc7af6327e8a9f8071296f4451a414c39fe9c011d8609dc15220e9823d86f9f",
+      "fingerprints": {
+        "5139": "cf3a5ae7",
+        "5145": "be6587fd",
+        "5147": "875ccf60",
+        "5152": "6b32305c",
+        "5166": "1bc0349f",
+        "5172": "5ef3bf2b",
+        "5175": "4719f40a",
+        "5183": "b8d7c87f",
+        "5184": "ad43e8cb",
+        "5191": "8d1c56ff",
+        "5195": "2598581f",
+        "5199": "2b56ef63",
+        "5207": "7dc1cb7b",
+        "5215": "3f274e2c",
+        "5225": "3264ae37",
+        "5229": "1a9f4951",
+        "5237": "799ae204",
+        "5241": "9049d8b1",
+        "5242": "44d93667",
+        "5249": "ed87987b",
+        "5251": "51079a22",
+        "5253": "833c82f7",
+        "5257": "1b6d796d",
+        "5261": "a4520463",
+        "5269": "8b9c83d7"
+      },
+      "mappedQuestions": 25,
+      "totalQuestions": 25,
+      "unmappedQuestions": []
+    },
+    {
+      "id": "destiny-2000_Gore_Lieberman-2-0.97-stress-ensemble-17539-232",
+      "achievement": "destiny",
+      "scope": "2000_Gore_Lieberman",
+      "mode": "2",
+      "difficulty": 0.97,
+      "source": "https://github.com/newcampaigntrail/newcampaigntrail.github.io/blob/d6655ef6ad80ab9a8fe5510d0fd43874e57dacbf/static/js/campaign_trail.js",
+      "origin": "model-search",
+      "answers": {
+        "343": [
+          3310
+        ],
+        "344": [
+          3315
+        ],
+        "345": [
+          3320
+        ],
+        "346": [
+          3322
+        ],
+        "347": [
+          3329
+        ],
+        "348": [
+          3332
+        ],
+        "349": [
+          3334
+        ],
+        "350": [
+          3340
+        ],
+        "351": [
+          3341
+        ],
+        "352": [
+          3345
+        ],
+        "353": [
+          3349
+        ],
+        "355": [
+          3358
+        ],
+        "356": [
+          3362
+        ],
+        "358": [
+          3366
+        ],
+        "361": [
+          3380
+        ],
+        "363": [
+          3387
+        ],
+        "365": [
+          3390
+        ],
+        "367": [
+          3399
+        ],
+        "370": [
+          3411
+        ],
+        "375": [
+          3432
+        ],
+        "377": [
+          3439
+        ],
+        "382": [
+          3457
+        ],
+        "385": [
+          3470
+        ],
+        "390": [
+          3486
+        ],
+        "397": [
+          3501
+        ]
+      },
+      "visits": {
+        "sequence": [
+          "CA",
+          "CA",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL",
+          "FL"
+        ]
+      },
+      "search": {
+        "score": 36.426934652340634,
+        "zeroEV": 232,
+        "zeroPV": 47324724,
+        "simulationSeed": 17539,
+        "modelTarget": 232,
+        "modelSuccess": 136,
+        "modelTotal": 192
+      },
+      "improves": "destiny-2000_Gore_Graham-2-0.97-search",
+      "notes": {
+        "zh-CN": "按原版解锁条件搜索，并在另选的随机序列中回放验证。",
+        "en-US": "Searched against the native unlock conditions and replayed on separate validation sequences."
+      },
+      "replays": {
+        "total": 12,
+        "success": 10,
+        "samples": [
+          {
+            "seed": 421,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 1103,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 2309,
+            "electoral": 233,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 3413,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "discovery"
+          },
+          {
+            "seed": 667,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 1877,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 2851,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 4157,
+            "electoral": 230,
+            "unlocked": false,
+            "yearRecorded": false,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 5437,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 7673,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 8933,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          },
+          {
+            "seed": 10093,
+            "electoral": 232,
+            "unlocked": false,
+            "yearRecorded": true,
+            "report": "ensemble-route-comparison.json",
+            "phase": "holdout"
+          }
+        ],
+        "holdout": {
+          "total": 8,
+          "success": 7
+        }
+      },
+      "verification": "actual-year-record",
+      "sourceSHA256": "2ad401b4e7a192283bfc2ed0f64f916be8c515f3ce7ff218bb8ea21ecd9596be",
+      "fingerprints": {
+        "3310": "e2be4322",
+        "3315": "e650faa8",
+        "3320": "796b71d2",
+        "3322": "f892922b",
+        "3329": "afce4be0",
+        "3332": "2b4dd7a",
+        "3334": "25706acd",
+        "3340": "e0ecb139",
+        "3341": "80740a83",
+        "3345": "c9b3b77",
+        "3349": "c093e4fa",
+        "3358": "deb6b0e0",
+        "3362": "20068766",
+        "3366": "fb779c1a",
+        "3380": "bda02eb9",
+        "3387": "59faf117",
+        "3390": "584a9f89",
+        "3399": "858352c5",
+        "3411": "d255fda6",
+        "3432": "506a10d9",
+        "3439": "c32c2974",
+        "3457": "3f9b938e",
+        "3470": "fc66b92c",
+        "3486": "2b3cb78e",
+        "3501": "ec51ed4b"
       },
       "mappedQuestions": 25,
       "totalQuestions": 25,

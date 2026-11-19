@@ -6,7 +6,9 @@ An offline campaign and achievement guide for **The New Campaign Trail**. Read t
 
 **All 31 achievements checked (report 2026-11-18):** 300 recorded games. Of 27 single-game objectives tested in five fixtures each, 8 unlocked in all five, 17 had mixed results and 2 unlocked in none. Counter, seven-year cumulative and special procedures were checked separately. [Every result and its evidence](ALL_ACHIEVEMENTS_AUDIT.md).
 
-The November 19 update adds six improved routes, checks that visits can be made on the map, and switches to another tested route when it still matches your progress. [New setups and head-to-head replay results](ACHIEVEMENT_OPTIMIZER.md)
+The newest routes improve I'm Still Standing and the 2016 and 2000 legs of Destiny. The coach confirms when each year is recorded and recommends tested pairings for the current year. [Head-to-head replay results](ACHIEVEMENT_ENSEMBLE.md)
+
+The coach can switch to another tested route when it still matches your progress. [Previous route improvements](ACHIEVEMENT_OPTIMIZER.md)
 
 ## Start reading
 
